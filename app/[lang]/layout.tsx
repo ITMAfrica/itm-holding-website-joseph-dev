@@ -13,7 +13,7 @@ export default function Root({
 }) {
   return (
     <html lang={params.lang}>
-      <body>{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }
