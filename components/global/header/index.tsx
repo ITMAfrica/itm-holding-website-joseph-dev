@@ -5,6 +5,7 @@ import { getDictionary } from '@/get-dictionary';
 import { dictionary, propsPage } from '@/types';
 import logo from '@/public/logos/logo_rdc.png';
 import NavLinkCard from '../navLinkCard';
+import CardLang from '../cardLang';
 import Link from 'next/link';
 import React from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
@@ -22,7 +23,7 @@ export default function HomeHeader({ params }: propsPage) {
   const data: any = dictionary?.global?.header;
 
   return (
-    <header className="sticky z-50 top-0 w-full h-fit py-3 md:py-4 flex justify-center bg-white">
+    <header className="sticky z-50 top-0 w-full h-fit py-3 md:py-4 flex justify-center bg-white shadow-headerShadow">
       <div className="w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
           <Link href={`/${lang}`} className="block w-fit h-fit md:pr-5 mr-1">
@@ -44,6 +45,7 @@ export default function HomeHeader({ params }: propsPage) {
             <NavLinkCard {...item} key={index} />
           ))}
         </nav>
+        <CardLang params={params} links={data?.links} />
       </div>
     </header>
   );

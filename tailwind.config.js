@@ -25,6 +25,9 @@ module.exports = {
         gray_800: '#454545',
         yelloweItm: '#F2B61D',
       },
+      boxShadow: {
+        headerShadow: '0 5px 18px -15px rgba(0, 0, 0, 0.3)',
+      },
     },
   },
   darkMode: 'class',

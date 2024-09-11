@@ -3,6 +3,7 @@ import { Locale } from '@/i18n-config';
 import { cookies } from 'next/headers';
 import { permanentRedirect } from 'next/navigation';
 import Btn from '@/components/counter';
+import HomePage from '@/components/pages/home';
 
 export default async function IndexPage({
   params: { lang },
@@ -20,13 +21,8 @@ export default async function IndexPage({
   console.log('Country exist', isCountryDefined);
 
   return (
-    <div>
-      <h1>Welcome to the ITM Africa web site</h1>
-      <div>
-        <p>Current locale: {lang}</p>
-        <p>This is the home page of the site</p>
-        <Btn />
-      </div>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
