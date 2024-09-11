@@ -2,7 +2,6 @@ import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
 import { cookies } from 'next/headers';
 import { permanentRedirect } from 'next/navigation';
-import Btn from '@/components/counter';
 import HomePage from '@/components/pages/home';
 
 export default async function IndexPage({
@@ -22,7 +21,7 @@ export default async function IndexPage({
 
   return (
     <>
-      <HomePage />
+      <HomePage params={lang} />
     </>
   );
 }

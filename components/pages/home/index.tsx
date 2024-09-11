@@ -1,9 +1,9 @@
 import HomePageBanner from '@/components/global/home/banner';
 
-export default function HomePage() {
+export default function HomePage({ params }: { params: any }) {
   return (
-    <div>
-      <HomePageBanner />
-    </div>
+    <main className="w-full">
+      <HomePageBanner params={params} />
+    </main>
   );
 }
