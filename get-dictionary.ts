@@ -1,13 +1,13 @@
 import type { Locale } from './i18n-config';
-import { dictionaries } from './types';
+import { dictionary } from './types';
 import en from '@/dictionaries/en.json';
 import fr from '@/dictionaries/fr.json';
 // We enumerate all dictionaries here for better linting and typescript support
 // We also get the default import for cleaner types
-const dictionaries: dictionaries = {
+const dictionaries: dictionary = {
   en,
   fr,
 };
 
 export const getDictionary = (locale: Locale = 'en') =>
-  dictionaries[locale as keyof dictionaries] ?? dictionaries.en;
+  dictionaries[locale as keyof dictionary] ?? dictionaries.en;

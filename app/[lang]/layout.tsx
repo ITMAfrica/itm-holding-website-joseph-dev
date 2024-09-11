@@ -1,5 +1,7 @@
+import HomeHeader from '@/components/global/header';
 import { i18n, type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
+import '@/styles/global.css';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
@@ -35,6 +37,7 @@ export default function Root({
   return (
     <html lang={params.lang}>
       <body suppressHydrationWarning={true} className={candara.className}>
+        <HomeHeader params={params} />
         {children}
       </body>
     </html>

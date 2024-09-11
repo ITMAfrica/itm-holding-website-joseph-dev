@@ -1,9 +1,104 @@
 {
-  "server-component": {
-    "welcome": "Welcome"
-  },
-  "counter": {
-    "increment": "Increment",
-    "decrement": "Decrement"
+  "global": {
+    "header": {
+      "links": [
+        {
+          "href": "/en/about-us",
+          "name": "ABOUT US",
+          "current": "about-us",
+          "type": "link",
+          "langs": [
+            {
+              "href": "/en/about-us",
+              "name": "En"
+            },
+            {
+              "href": "/fr/a-propos-de-nous",
+              "name": "Fr"
+            }
+          ]
+        },
+        {
+          "href": "/en/services",
+          "name": "SERVICES",
+          "current": "services",
+          "type": "link",
+          "langs": [
+            {
+              "href": "/en/services",
+              "name": "En"
+            },
+            {
+              "href": "/fr/services",
+              "name": "Fr"
+            }
+          ]
+        },
+        {
+          "href": "/en/training",
+          "name": "TRAINING",
+          "type": "link",
+          "current": "training",
+          "langs": [
+            {
+              "href": "/en/training",
+              "name": "En"
+            },
+            {
+              "href": "/fr/formations",
+              "name": "Fr"
+            }
+          ]
+        },
+        {
+          "href": "https://talentpro.itmafrica.com/",
+          "name": "JOB OFFERS",
+          "current": "offers",
+          "type": "link",
+          "langs": [
+            {
+              "href": "https://talentpro.itmafrica.com/",
+              "name": "En"
+            },
+            {
+              "href": "https://talentpro.itmafrica.com/",
+              "name": "Fr"
+            }
+          ]
+        },
+        {
+          "href": "/en/news",
+          "name": "NEWS",
+          "type": "link",
+          "current": "news",
+          "langs": [
+            {
+              "href": "/en/news",
+              "name": "En"
+            },
+            {
+              "href": "/fr/actualites",
+              "name": "Fr"
+            }
+          ]
+        },
+        {
+          "href": "/en/contact-us",
+          "name": "CONTACTS",
+          "type": "link",
+          "current": "contact-us",
+          "langs": [
+            {
+              "href": "/en/contact-us",
+              "name": "En"
+            },
+            {
+              "href": "/fr/contactez-nous",
+              "name": "Fr"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

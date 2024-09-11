@@ -24,10 +24,7 @@ export default async function IndexPage({
       <h1>Welcome to the ITM Africa web site</h1>
       <div>
         <p>Current locale: {lang}</p>
-        <p>
-          This text is rendered on the server:{' '}
-          {dictionary['server-component']['welcome']}
-        </p>
+        <p>This is the home page of the site</p>
         <Btn />
       </div>
     </div>
