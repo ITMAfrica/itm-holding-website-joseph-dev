@@ -5,7 +5,14 @@ import Link from 'next/link';
 export default function Btn() {
   return (
     <div>
-      <Link href={'/fr/cd'}>Test Link</Link>
+      <Link
+        href={'/fr/cd'}
+        onClick={() => {
+          localStorage.setItem('country', 'cd');
+        }}
+      >
+        Test Link
+      </Link>
     </div>
   );
 }
