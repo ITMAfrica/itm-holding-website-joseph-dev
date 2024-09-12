@@ -1,24 +1,18 @@
 'use client';
 
-import { useState } from 'react';
-import { type getDictionary } from '../get-dictionary';
+import Link from 'next/link';
 
-export default function Counter({
-  dictionary,
-}: {
-  dictionary: Awaited<ReturnType<typeof getDictionary>>['counter'];
-}) {
-  const [count, setCount] = useState(0);
+export default function Btn() {
   return (
-    <p>
-      This component is rendered on client:
-      <button onClick={() => setCount((n) => n - 1)}>
-        {dictionary.decrement}
-      </button>
-      {count}
-      <button onClick={() => setCount((n) => n + 1)}>
-        {dictionary.increment}
-      </button>
-    </p>
+    <div>
+      <Link
+        href={'/fr/cd'}
+        onClick={() => {
+          localStorage.setItem('country', 'cd');
+        }}
+      >
+        Test Link
+      </Link>
+    </div>
   );
 }

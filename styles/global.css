@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara.ttf');
+}
+
+@font-face {
+  font-family: 'Candara_bold';
+  src: url('../fonts/Candara_Bold.ttf');
+  font-weight: bold;
+}
+
+* ~ * {
+  transition: all;
+  transition-duration: 400ms;
+  box-sizing: border-box;
+}
+
+.z-1000 {
+  z-index: 100000;
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.skeleton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  bottom: 0;
+  background-image: linear-gradient(60deg, transparent, #6b6b6b4f);
+  transform: skewX(-30deg);
+  animation: skeleton;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes skeleton {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}

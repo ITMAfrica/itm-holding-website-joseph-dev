@@ -1,26 +1,20 @@
-import { getDictionary } from '../../get-dictionary';
-import { Locale } from '../../i18n-config';
-import Counter from '../../components/counter';
-import LocaleSwitcher from '../../components/locale-switcher';
+import { cookies } from 'next/headers';
+import { permanentRedirect } from 'next/navigation';
+import HomePage from '@/components/pages/home';
 
-export default async function IndexPage({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
-  const dictionary = await getDictionary(lang);
+export default async function IndexPage({ params }: { params: any }) {
+  const cookieStore = cookies();
+  const isCountryDefined = cookieStore.has('country');
+
+  if (isCountryDefined) {
+    const countryName = cookieStore.get('country');
+    permanentRedirect(`/${countryName}`);
+  }
+  console.log('Country exist', isCountryDefined);
 
   return (
-    <div>
-      <LocaleSwitcher />
-      <div>
-        <p>Current locale: {lang}</p>
-        <p>
-          This text is rendered on the server:{' '}
-          {dictionary['server-component']['welcome']}
-        </p>
-        <Counter dictionary={dictionary.counter} />
-      </div>
-    </div>
+    <>
+      <HomePage params={params} />
+    </>
   );
 }
