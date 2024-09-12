@@ -5,7 +5,7 @@ export default function HomePage({ params }: { params: any }) {
   return (
     <main className="w-full">
       <HomePageBanner params={params} />
-      <HomeAbout />
+      <HomeAbout params={params} />
     </main>
   );
 }

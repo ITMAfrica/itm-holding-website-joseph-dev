@@ -1,104 +1,123 @@
 {
   "global": {
     "header": {
-      "links": [
-        {
-          "href": "/fr/a-propos-de-nous",
-          "name": "A PROPOS DE NOUS",
-          "current": "a-propos-de-nous",
-          "type": "link",
-          "langs": [
-            {
-              "href": "/en/about-us",
-              "name": "En"
-            },
-            {
-              "href": "/fr/a-propos-de-nous",
-              "name": "Fr"
-            }
-          ]
-        },
-        {
-          "href": "/fr/services",
-          "name": "SERVICES",
-          "current": "services",
-          "type": "link",
-          "langs": [
-            {
-              "href": "/en/services",
-              "name": "En"
-            },
-            {
-              "href": "/fr/services",
-              "name": "Fr"
-            }
-          ]
-        },
-        {
-          "href": "/fr/formations",
-          "name": "FORMATIONS",
-          "type": "link",
-          "current": "formations",
-          "langs": [
-            {
-              "href": "/en/training",
-              "name": "En"
-            },
-            {
-              "href": "/fr/formations",
-              "name": "Fr"
-            }
-          ]
-        },
-        {
-          "href": "https://talentpro.itmafrica.com/",
-          "name": "OFFRES D'EMPLOIS",
-          "current": "offers",
-          "type": "link",
-          "langs": [
-            {
-              "href": "https://talentpro.itmafrica.com/",
-              "name": "En"
-            },
-            {
-              "href": "https://talentpro.itmafrica.com/",
-              "name": "Fr"
-            }
-          ]
-        },
-        {
-          "href": "/fr/actualites",
-          "name": "ACTUALITÉS",
-          "type": "link",
-          "current": "actualites",
-          "langs": [
-            {
-              "href": "/en/news",
-              "name": "En"
-            },
-            {
-              "href": "/fr/actualites",
-              "name": "Fr"
-            }
-          ]
-        },
-        {
-          "href": "/en/contact-us",
-          "name": "CONTACTS",
-          "type": "link",
-          "current": "contact-us",
-          "langs": [
-            {
-              "href": "/en/contact-us",
-              "name": "En"
-            },
-            {
-              "href": "/fr/contactez-nous",
-              "name": "Fr"
-            }
-          ]
+      "cd": {
+        "links": [
+          {
+            "href": "/fr/a-propos-de-nous",
+            "name": "A PROPOS DE NOUS",
+            "current": "a-propos-de-nous",
+            "type": "link",
+            "langs": [
+              {
+                "href": "/en/about-us",
+                "name": "En"
+              },
+              {
+                "href": "/fr/a-propos-de-nous",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "/fr/services",
+            "name": "SERVICES",
+            "current": "services",
+            "type": "link",
+            "langs": [
+              {
+                "href": "/en/services",
+                "name": "En"
+              },
+              {
+                "href": "/fr/services",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "/fr/formations",
+            "name": "FORMATIONS",
+            "type": "link",
+            "current": "formations",
+            "langs": [
+              {
+                "href": "/en/training",
+                "name": "En"
+              },
+              {
+                "href": "/fr/formations",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "https://talentpro.itmafrica.com/",
+            "name": "OFFRES D'EMPLOIS",
+            "current": "offers",
+            "type": "link",
+            "langs": [
+              {
+                "href": "https://talentpro.itmafrica.com/",
+                "name": "En"
+              },
+              {
+                "href": "https://talentpro.itmafrica.com/",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "/fr/actualites",
+            "name": "ACTUALITÉS",
+            "type": "link",
+            "current": "actualites",
+            "langs": [
+              {
+                "href": "/en/news",
+                "name": "En"
+              },
+              {
+                "href": "/fr/actualites",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "/en/contact-us",
+            "name": "CONTACTS",
+            "type": "link",
+            "current": "contact-us",
+            "langs": [
+              {
+                "href": "/en/contact-us",
+                "name": "En"
+              },
+              {
+                "href": "/fr/contactez-nous",
+                "name": "Fr"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "cd": {
+    "pages": {
+      "home": {
+        "banner": {},
+        "about": {
+          "title": "QUI SOMMES-NOUS ?",
+          "subtitle": "ITM SARL",
+          "paragraph": "ITM SARL, votre partenaire stratégique pour le développement de vos ressources humaines. Spécialisés dans le recrutement, la formation et le développement organisationnel, nous vous accompagnons dans toutes les étapes de la gestion de vos talents. Grâce à notre expertise et à notre réseau étendu, nous vous proposons des solutions sur mesure pour répondre à vos besoins spécifiques.  Nous ne vous proposons pas de formules toutes faites. Nous travaillons main dans la main avec vous pour concevoir des solutions sur-mesure, adaptées à vos besoins spécifiques et vos enjeux du moment. Chez ITM SARL, nous croyons que le capital humain est la clé de la réussite. C'est pourquoi nous accordons une importance particulière à la qualité de vie au travail et au développement des compétences de vos collaborateurs. Notre approche personnalisée vous permet de créer un environnement de travail stimulant et motivant.",
+          "btnMore": {
+            "text": "LIRE D'AVANTAGE",
+            "link": "/fr/a-propos-de-nous"
+          }
         }
-      ]
+      },
+      "about": {}
     }
   }
 }

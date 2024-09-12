@@ -1,15 +1,8 @@
-import { getDictionary } from '@/get-dictionary';
-import { Locale } from '@/i18n-config';
 import { cookies } from 'next/headers';
 import { permanentRedirect } from 'next/navigation';
 import HomePage from '@/components/pages/home';
 
-export default async function IndexPage({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
-  const dictionary = await getDictionary(lang);
+export default async function IndexPage({ params }: { params: any }) {
   const cookieStore = cookies();
   const isCountryDefined = cookieStore.has('country');
 
@@ -21,7 +14,7 @@ export default async function IndexPage({
 
   return (
     <>
-      <HomePage params={lang} />
+      <HomePage params={params} />
     </>
   );
 }

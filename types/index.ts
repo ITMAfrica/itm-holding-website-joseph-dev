@@ -2,6 +2,7 @@ export type dictionary = {
   en: any;
   fr: any;
   global: any;
+  cd: any;
 };
 
 export type propsPage = {

@@ -20,7 +20,7 @@ type linkHeader = {
 export default function HomeHeader({ params }: propsPage) {
   const lang: string = params.lang;
   const dictionary: dictionary = getDictionary(lang);
-  const data: any = dictionary?.global?.header;
+  const data: any = dictionary?.global?.header.cd;
 
   return (
     <header className="sticky z-50 top-0 w-full h-fit py-3 md:py-4 flex justify-center bg-white shadow-headerShadow">
