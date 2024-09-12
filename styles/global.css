@@ -19,7 +19,8 @@
 
 * ~ * {
   transition: all;
-  transition-duration: 350ms;
+  transition-duration: 400ms;
+  box-sizing: border-box;
 }
 
 .z-1000 {
