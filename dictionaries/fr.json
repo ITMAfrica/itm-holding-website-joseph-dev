@@ -7,7 +7,7 @@
             "href": "/fr/a-propos-de-nous",
             "name": "A PROPOS DE NOUS",
             "current": "a-propos-de-nous",
-            "type": "link",
+            "external": "false",
             "langs": [
               {
                 "href": "/en/about-us",
@@ -23,7 +23,7 @@
             "href": "/fr/services",
             "name": "SERVICES",
             "current": "services",
-            "type": "link",
+            "external": "false",
             "langs": [
               {
                 "href": "/en/services",
@@ -38,7 +38,7 @@
           {
             "href": "/fr/formations",
             "name": "FORMATIONS",
-            "type": "link",
+            "external": "false",
             "current": "formations",
             "langs": [
               {
@@ -55,7 +55,7 @@
             "href": "https://talentpro.itmafrica.com/",
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
-            "type": "link",
+            "external": "true",
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com/",
@@ -70,7 +70,7 @@
           {
             "href": "/fr/actualites",
             "name": "ACTUALITÉS",
-            "type": "link",
+            "external": "false",
             "current": "actualites",
             "langs": [
               {
@@ -86,7 +86,7 @@
           {
             "href": "/en/contact-us",
             "name": "CONTACTS",
-            "type": "link",
+            "external": "false",
             "current": "contact-us",
             "langs": [
               {
@@ -106,7 +106,37 @@
   "cd": {
     "pages": {
       "home": {
-        "banner": {},
+        "banner": {
+          "items": [
+            {
+              "title": "Bienvenue à ITM Africa",
+              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous"
+              }
+            },
+            {
+              "title": "Nous vous aidons à trouvez votre équipe de rêve",
+              "paragraph": "Vous cherchez à remplacer un employé, à élargir la structure de votre équipe ou à pourvoir un poste vacant ? ITM talent pro vous aidera à atteindre votre objectif sans effort.",
+              "bgWhite": true,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous"
+              }
+            },
+            {
+              "title": "Bienvenue à ITM Africa",
+              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous"
+              }
+            }
+          ]
+        },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM SARL",
