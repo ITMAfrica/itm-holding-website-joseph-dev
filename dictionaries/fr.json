@@ -7,7 +7,7 @@
             "href": "/fr/a-propos-de-nous",
             "name": "A PROPOS DE NOUS",
             "current": "a-propos-de-nous",
-            "type": "link",
+            "external": false,
             "langs": [
               {
                 "href": "/en/about-us",
@@ -23,7 +23,7 @@
             "href": "/fr/services",
             "name": "SERVICES",
             "current": "services",
-            "type": "link",
+            "external": false,
             "langs": [
               {
                 "href": "/en/services",
@@ -38,7 +38,7 @@
           {
             "href": "/fr/formations",
             "name": "FORMATIONS",
-            "type": "link",
+            "external": false,
             "current": "formations",
             "langs": [
               {
@@ -55,7 +55,7 @@
             "href": "https://talentpro.itmafrica.com/",
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
-            "type": "link",
+            "external": true,
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com/",
@@ -70,7 +70,7 @@
           {
             "href": "/fr/actualites",
             "name": "ACTUALITÉS",
-            "type": "link",
+            "external": false,
             "current": "actualites",
             "langs": [
               {
@@ -86,7 +86,7 @@
           {
             "href": "/en/contact-us",
             "name": "CONTACTS",
-            "type": "link",
+            "external": false,
             "current": "contact-us",
             "langs": [
               {
@@ -106,15 +106,85 @@
   "cd": {
     "pages": {
       "home": {
-        "banner": {},
+        "banner": {
+          "items": [
+            {
+              "title": "Bienvenue à ITM Africa",
+              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
+              }
+            },
+            {
+              "title": "Nous vous aidons à trouvez votre équipe de rêve",
+              "paragraph": "Vous cherchez à remplacer un employé, à élargir la structure de votre équipe ou à pourvoir un poste vacant ? ITM talent pro vous aidera à atteindre votre objectif sans effort.",
+              "bgWhite": true,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
+              }
+            },
+            {
+              "title": "Bienvenue à ITM Africa",
+              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
+              }
+            }
+          ]
+        },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM SARL",
           "paragraph": "ITM SARL, votre partenaire stratégique pour le développement de vos ressources humaines. Spécialisés dans le recrutement, la formation et le développement organisationnel, nous vous accompagnons dans toutes les étapes de la gestion de vos talents. Grâce à notre expertise et à notre réseau étendu, nous vous proposons des solutions sur mesure pour répondre à vos besoins spécifiques.  Nous ne vous proposons pas de formules toutes faites. Nous travaillons main dans la main avec vous pour concevoir des solutions sur-mesure, adaptées à vos besoins spécifiques et vos enjeux du moment. Chez ITM SARL, nous croyons que le capital humain est la clé de la réussite. C'est pourquoi nous accordons une importance particulière à la qualité de vie au travail et au développement des compétences de vos collaborateurs. Notre approche personnalisée vous permet de créer un environnement de travail stimulant et motivant.",
           "btnMore": {
             "text": "LIRE D'AVANTAGE",
-            "link": "/fr/a-propos-de-nous"
+            "link": "/fr/a-propos-de-nous",
+            "title": "Voir les détails sur l'histoire de ITM"
           }
+        },
+        "services": {
+          "title": "NOS SERVICES",
+          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",
+          "services": [
+            {
+              "name": "Recrutement",
+              "paragraph": "Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de recrutement",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Placement du personnel",
+              "paragraph": "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Placement du personnel",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Suivie et évaluation des projets",
+              "paragraph": "Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Suivie et évaluation des projets",
+                "arrow": true
+              }
+            }
+          ]
         }
       },
       "about": {}

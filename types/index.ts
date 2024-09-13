@@ -23,4 +23,5 @@ export type link = {
   href: string;
   name: string;
   current: string;
+  external: boolean;
 };

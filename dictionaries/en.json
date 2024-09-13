@@ -7,7 +7,7 @@
             "href": "/en/about-us",
             "name": "ABOUT US",
             "current": "about-us",
-            "type": "link",
+            "external": false,
             "langs": [
               {
                 "href": "/en/about-us",
@@ -23,7 +23,7 @@
             "href": "/en/services",
             "name": "SERVICES",
             "current": "services",
-            "type": "link",
+            "external": false,
             "langs": [
               {
                 "href": "/en/services",
@@ -38,7 +38,7 @@
           {
             "href": "/en/training",
             "name": "TRAINING",
-            "type": "link",
+            "external": false,
             "current": "training",
             "langs": [
               {
@@ -55,7 +55,7 @@
             "href": "https://talentpro.itmafrica.com/",
             "name": "JOB OFFERS",
             "current": "offers",
-            "type": "link",
+            "external": true,
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com/",
@@ -70,7 +70,7 @@
           {
             "href": "/en/news",
             "name": "NEWS",
-            "type": "link",
+            "external": false,
             "current": "news",
             "langs": [
               {
@@ -86,7 +86,7 @@
           {
             "href": "/en/contact-us",
             "name": "CONTACTS",
-            "type": "link",
+            "external": false,
             "current": "contact-us",
             "langs": [
               {
@@ -106,14 +106,48 @@
   "cd": {
     "pages": {
       "home": {
-        "banner": {},
+        "banner": {
+          "items": [
+            {
+              "title": "Welcome to ITM Africa",
+              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Read more",
+                "link": "/en/about-us",
+                "title": "See details of services offered by ITM"
+              }
+            },
+            {
+              "title": "We help you find your dream team",
+              "paragraph": "Are you looking to replace an employee, expand your team structure or fill a vacancy? ITM talent pro will help you achieve your goal effortlessly.",
+              "bgWhite": true,
+              "btnMore": {
+                "text": "Read more",
+                "link": "/en/about-us",
+                "title": "We help you find your dream team"
+              }
+            },
+            {
+              "title": "Welcome to ITM Africa",
+              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Read more",
+                "link": "/en/about-us",
+                "title": "See details of services offered by ITM"
+              }
+            }
+          ]
+        },
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM LTD.",
           "paragraph": "ITM SARL, your strategic partner for human resources development. Specializing in recruitment, training and organizational development, we support you at every stage of talent management. Thanks to our expertise and extensive network, we can offer you tailor-made solutions to meet your specific needs.  We don't offer ready-made packages. We work hand in hand with you to design tailor-made solutions, adapted to your specific needs and current challenges. At ITM SARL, we believe that human capital is the key to success. That's why we attach particular importance to the quality of working life and the development of your employees' skills. Our personalized approach enables you to create a stimulating and motivating work environment.",
           "btnMore": {
             "text": "READ MORE",
-            "link": "/en/about-us"
+            "link": "/en/about-us",
+            "title": "Learn more about ITM history"
           }
         }
       },
