@@ -38,7 +38,7 @@ export default function HomeBannerCarousel({
         centerMode
       >
         {data.map((item: any, index: number) => (
-          <CarouselItem {...item} indexImage={index} />
+          <CarouselItem {...item} indexImage={index} key={index} />
         ))}
       </Carousel>
     </div>
