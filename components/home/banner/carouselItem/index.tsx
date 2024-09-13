@@ -26,7 +26,7 @@ export default function CarouselItem({
       <article className="flex items-center w-1/2 absolute z-10 top-0 right-0 left-0 bottom-0">
         {bgWhite ? (
           <div className="ml-14 h-fit">
-            <h1 className="text-blue_itm_primary text-5xl font-bold mb-4">
+            <h1 className="text-blue_itm_good text-5xl font-bold mb-4">
               {title}
             </h1>
             <p className="mb-8">{paragraph}</p>

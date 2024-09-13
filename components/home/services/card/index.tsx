@@ -4,7 +4,7 @@ export default function HomeServiceCard() {
   return (
     <div className="shadow-md hover:shadow-2xl rounded-lg px-10 py-20 w-[32%]">
       <div>Icon</div>
-      <h1 className="mb-5 text-center text-3xl text-blue_itm_primary font-bold">
+      <h1 className="mb-5 text-center text-3xl text-blue_itm_good font-bold">
         Recrutement
       </h1>
       <p className="mb-10 text-center">
@@ -12,7 +12,12 @@ export default function HomeServiceCard() {
         qui feront la différence
       </p>
       <div className="flex justify-center">
-        <ButtonOulined text="EN SAVOIR PLUS" link="/fr" arrow={true} />
+        <ButtonOulined
+          text="EN SAVOIR PLUS"
+          link="/fr"
+          arrow={true}
+          title="Title"
+        />
       </div>
     </div>
   );
