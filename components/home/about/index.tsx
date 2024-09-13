@@ -1,6 +1,7 @@
 import { getDictionary } from '@/get-dictionary';
 import { dictionary } from '@/types';
-import ButtonOulined from '../../buttons/btn_outlined';
+import ButtonOulined from '@/components/global/buttons/btn_outlined';
+import SectionTitle from '@/components/global/section_title';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
@@ -11,9 +12,7 @@ export default function HomeAbout({ params }: { params: any }) {
       <div className="w-1/2"></div>
       <div className="w-1/2">
         <div className="border-l-2 pl-10 mr-20">
-          <h1 className="font-bold text-blue_itm_aqua_marine mb-2">
-            {data.title}
-          </h1>
+          <SectionTitle text={data.title} />
           <h2 className="text-blue_itm_primary text-5xl font-bold mb-2">
             {data.subtitle}
           </h2>

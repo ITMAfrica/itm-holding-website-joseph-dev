@@ -17,7 +17,7 @@ export default function NavLinkCard({ href, name, current, external }: link) {
       <span className="flex items-center">
         {name}{' '}
         {external ? (
-          <span className="ml-2">
+          <span className="ml-1 text-xs">
             <FaExternalLinkAlt />
           </span>
         ) : (
