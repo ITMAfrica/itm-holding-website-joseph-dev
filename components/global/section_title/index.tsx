@@ -6,12 +6,12 @@ export default function SectionTitle({
   center?: boolean;
 }) {
   return (
-    <h1
+    <h2
       className={`font-bold text-blue_itm_aqua_marine ${
         center ? 'text-center' : ''
       } mb-2`}
     >
       {text}
-    </h1>
+    </h2>
   );
 }

@@ -4,15 +4,18 @@ import { BsArrowRight } from 'react-icons/bs';
 export default function ButtonOulined({
   text,
   link,
+  title,
   arrow = false,
 }: {
   text: string;
   link: string;
+  title: string;
   arrow: boolean;
 }) {
   return (
     <Link
       href={link}
+      title={title}
       className="block w-44 py-4 text-xs font-semibold text-center text-blue_itm_primary hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_primary hover:border-blue_itm_aqua_marine"
     >
       <span className="flex justify-center items-center">

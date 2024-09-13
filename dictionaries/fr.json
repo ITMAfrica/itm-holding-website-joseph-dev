@@ -114,7 +114,8 @@
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous"
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
               }
             },
             {
@@ -123,7 +124,8 @@
               "bgWhite": true,
               "btnMore": {
                 "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous"
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
               }
             },
             {
@@ -132,7 +134,8 @@
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous"
+                "link": "/fr/a-propos-de-nous",
+                "title": "Voir les détails des services qu'offre ITM"
               }
             }
           ]
@@ -143,8 +146,45 @@
           "paragraph": "ITM SARL, votre partenaire stratégique pour le développement de vos ressources humaines. Spécialisés dans le recrutement, la formation et le développement organisationnel, nous vous accompagnons dans toutes les étapes de la gestion de vos talents. Grâce à notre expertise et à notre réseau étendu, nous vous proposons des solutions sur mesure pour répondre à vos besoins spécifiques.  Nous ne vous proposons pas de formules toutes faites. Nous travaillons main dans la main avec vous pour concevoir des solutions sur-mesure, adaptées à vos besoins spécifiques et vos enjeux du moment. Chez ITM SARL, nous croyons que le capital humain est la clé de la réussite. C'est pourquoi nous accordons une importance particulière à la qualité de vie au travail et au développement des compétences de vos collaborateurs. Notre approche personnalisée vous permet de créer un environnement de travail stimulant et motivant.",
           "btnMore": {
             "text": "LIRE D'AVANTAGE",
-            "link": "/fr/a-propos-de-nous"
+            "link": "/fr/a-propos-de-nous",
+            "title": "Voir les détails sur l'histoire de ITM"
           }
+        },
+        "services": {
+          "title": "NOS SERVICES",
+          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",
+          "services": [
+            {
+              "name": "Recrutement",
+              "paragraph": "Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de recrutement",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Placement du personnel",
+              "paragraph": "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Placement du personnel",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Suivie et évaluation des projets",
+              "paragraph": "Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Suivie et évaluation des projets",
+                "arrow": true
+              }
+            }
+          ]
         }
       },
       "about": {}
