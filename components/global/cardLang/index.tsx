@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import en from '@/public/icons/lang/en.png';
 import fr from '@/public/icons/lang/fr.png';
+import { GoTriangleDown } from 'react-icons/go';
 
 const defaultRoutes = [
   { href: '/en', name: 'En' },
@@ -106,17 +107,17 @@ export default function CardLang({
           </Link>
         ))}
       </div> */}
-      <div>
+      <div className="flex justify-center items-center">
         <Image
-          src={images[1]}
+          src={fr}
           height={12 * 0.2}
           width={16 * 0.2}
-          className="h-fit w-fit md:hidden block"
+          className="h-fit w-fit block mr-1"
           alt="drapeau"
         />
-        <span className="md:text-sm text-xs pt-0.5 align-middle uppercase mr-1 font-bold">
-          Français
-        </span>
+        <span className="text-sm align-middle mr-1 font-bold">Fr</span>
+
+        <GoTriangleDown />
       </div>
     </>
   );
