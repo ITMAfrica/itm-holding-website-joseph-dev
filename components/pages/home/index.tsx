@@ -1,6 +1,7 @@
 import HomeAbout from '@/components/home/about';
 import HomePageBanner from '@/components/home/banner';
 import HomeMetrics from '@/components/home/metrics';
+import HomePartners from '@/components/home/partners';
 import HomeServicesSection from '@/components/home/services';
 
 export default function HomePage({ params }: { params: any }) {
@@ -10,6 +11,7 @@ export default function HomePage({ params }: { params: any }) {
       <HomeAbout params={params} />
       <HomeServicesSection params={params} />
       <HomeMetrics params={params} />
+      <HomePartners params={params} />
     </main>
   );
 }
