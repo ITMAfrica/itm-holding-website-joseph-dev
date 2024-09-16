@@ -39,7 +39,7 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client8} alt="Client" width={130} height={130} />
             </li>
           </ul>
-          <ul className="flex justify-evenly mt-10 px-20">
+          <ul className="flex justify-evenly mt-14 px-20">
             <li>
               <Image src={client6} alt="Client" width={130} height={130} />
             </li>
@@ -50,7 +50,7 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client9} alt="Client" width={130} height={130} />
             </li>
           </ul>
-          <ul className="flex justify-evenly mt-10 px-20">
+          <ul className="flex justify-evenly mt-14 px-20">
             <li>
               <Image src={client9} alt="Client" width={100} height={100} />
             </li>
