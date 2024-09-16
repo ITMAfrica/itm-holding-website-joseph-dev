@@ -221,6 +221,13 @@
               }
             }
           ]
+        },
+        "partners": {
+          "title": "Nos partenaires",
+          "subtitle": "Nous sommes le choix de plus de 500 entreprises satisfaites; rejoignez-nous et bénéficiez de notre expertise"
+        },
+        "testimonies": {
+          "title": "Ce que nos clients disent de nous"
         }
       },
       "about": {}

@@ -3,6 +3,7 @@ import HomePageBanner from '@/components/home/banner';
 import HomeMetrics from '@/components/home/metrics';
 import HomePartners from '@/components/home/partners';
 import HomeServicesSection from '@/components/home/services';
+import HomeTestimonies from '@/components/home/testimonies';
 
 export default function HomePage({ params }: { params: any }) {
   return (
@@ -12,6 +13,7 @@ export default function HomePage({ params }: { params: any }) {
       <HomeServicesSection params={params} />
       <HomeMetrics params={params} />
       <HomePartners params={params} />
+      <HomeTestimonies params={params} />
     </main>
   );
 }

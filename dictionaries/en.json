@@ -149,6 +149,13 @@
             "link": "/en/about-us",
             "title": "Learn more about ITM history"
           }
+        },
+        "partners": {
+          "title": "Our partners",
+          "subtitle": "We are the choice of over 500 satisfied companies; join us and benefit from our expertise."
+        },
+        "testimonies": {
+          "title": "What our customers say about us"
         }
       },
       "about": {}

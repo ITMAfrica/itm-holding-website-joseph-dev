@@ -7,19 +7,20 @@ import client6 from '@/public/pages/home/partners/client6.png';
 import client7 from '@/public/pages/home/partners/client7.png';
 import client9 from '@/public/pages/home/partners/client9.png';
 import Image from 'next/image';
+import { getDictionary } from '@/get-dictionary';
 
 export default function HomePartners({ params }: { params: any }) {
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.cd.pages.home.partners;
   return (
     <section className="flex items-center min-h-screen bg-blue_itm_aqua_marine/10">
       <div className="w-full">
         <div className="w-10/12 mx-auto py-16">
           <h1 className="text-5xl font-bold text-blue_itm_primary text-center mb-4">
-            Nos partenaires
+            {data.title}
           </h1>
-          <h3 className="text-xl text-center w-3/5 mx-auto">
-            Nous sommes le choix de plus de 500 entreprises satisfaites;
-            rejoignez-nous et bénéficiez de notre expertise
-          </h3>
+          <h3 className="text-xl text-center w-3/5 mx-auto">{data.subtitle}</h3>
         </div>
         <div className="w-8/12 mx-auto mt-10">
           <ul className="flex justify-between">
