@@ -222,6 +222,36 @@
             }
           ]
         },
+        "metrics": {
+          "title": "Pourquoi nous faire confiance?",
+          "paragraph": "Parce que nous sommes un acteur mondial des ressources humaines, présent dans plus de 18 pays avec plus de 10 000 agents sous notre gestion. En choisissant nos services, vous bénéficiez d'un accès privilégié à un vivier de talents mondial et d'une expertise éprouvée pour vous accompagner dans tous vos projets.",
+          "metricsItems": [
+            {
+              "number": "+500",
+              "title": "Recrutement par mois",
+              "description": "Nous faisons preuve d'expertise dans la recherche de talents.",
+              "bg": true
+            },
+            {
+              "number": "+10 500",
+              "title": "Agents sous notre gestion",
+              "description": "Nous démontrons notre aptitude à vous accompagner dans tous vos projets.",
+              "bg": false
+            },
+            {
+              "number": "+18",
+              "title": "Pays dans le monde",
+              "description": "Nous sommes capable de adapter aux spécificités de chaque marché.",
+              "bg": true
+            },
+            {
+              "number": "+300",
+              "title": "Entreprises partenaires",
+              "description": "La fidélité de ces partenaires témoigne de notre engagement à fournir des services de qualité.",
+              "bg": false
+            }
+          ]
+        },
         "partners": {
           "title": "Nos partenaires",
           "subtitle": "Nous sommes le choix de plus de 500 entreprises satisfaites; rejoignez-nous et bénéficiez de notre expertise"
