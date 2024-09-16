@@ -1,5 +1,6 @@
 import HomeAbout from '@/components/home/about';
 import HomePageBanner from '@/components/home/banner';
+import HomeCallToAction from '@/components/home/callToAction';
 import HomeMetrics from '@/components/home/metrics';
 import HomePartners from '@/components/home/partners';
 import HomeServicesSection from '@/components/home/services';
@@ -14,6 +15,7 @@ export default function HomePage({ params }: { params: any }) {
       <HomeMetrics params={params} />
       <HomePartners params={params} />
       <HomeTestimonies params={params} />
+      <HomeCallToAction params={params} />
     </main>
   );
 }

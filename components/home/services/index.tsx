@@ -10,9 +10,9 @@ export default function HomeServicesSection({ params }: { params: any }) {
   return (
     <section className="min-h-screen w-9/12 mx-auto">
       <div className="mb-20">
-        <SectionTitle text="NOS SERVICES" center={true} />
+        <SectionTitle text={data.title} center={true} />
         <h2 className="text-blue_itm_good text-5xl font-bold text-center w-3/4 mt-4 mb-8 mx-auto">
-          Nous fournissons des services exclusifs pour votre entreprise
+          {data.subtitle}
         </h2>
       </div>
       <section className="flex justify-between flex-wrap">
