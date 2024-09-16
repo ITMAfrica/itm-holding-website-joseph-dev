@@ -156,6 +156,7 @@
           "services": [
             {
               "name": "Recrutement",
+              "icon": "@/public/pages/home/services/recruitment.png",
               "paragraph": "Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence",
               "btnMore": {
                 "text": "LIRE D'AVANTAGE",
@@ -166,6 +167,7 @@
             },
             {
               "name": "Placement du personnel",
+              "icon": "@/public/pages/home/services/recruitment.png",
               "paragraph": "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
               "btnMore": {
                 "text": "LIRE D'AVANTAGE",
@@ -176,11 +178,45 @@
             },
             {
               "name": "Suivie et évaluation des projets",
+              "icon": "@/public/pages/home/services/recruitment.png",
               "paragraph": "Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.",
               "btnMore": {
                 "text": "LIRE D'AVANTAGE",
                 "link": "/fr/service-detail",
                 "title": "Détails du service de Suivie et évaluation des projets",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Team building",
+              "icon": "@/public/pages/home/services/recruitment.png",
+              "paragraph": "Un esprit d'équipe solide, c'est la clé de la réussite. Nous vous proposons des expériences uniques pour renforcer la cohésion de vos collaborateurs.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Team building",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Hr consulting",
+              "icon": "@/public/pages/home/services/recruitment.png",
+              "paragraph": "Nous vous écoutons pour vous proposer des solutions adaptées.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Hr consulting",
+                "arrow": true
+              }
+            },
+            {
+              "name": "Formation",
+              "icon": "@/public/pages/home/services/recruitment.png",
+              "paragraph": "Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.",
+              "btnMore": {
+                "text": "LIRE D'AVANTAGE",
+                "link": "/fr/service-detail",
+                "title": "Détails du service de Formation",
                 "arrow": true
               }
             }
