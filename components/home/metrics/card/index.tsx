@@ -15,15 +15,15 @@ export default function HomeMetricsCard({
         {number}
       </h2>
       <h4 className="text-xl font-bold">{name}</h4>
-      <p>{paragraph}</p>
+      <p className="text-sm">{paragraph}</p>
     </div>
   ) : (
-    <div className="rounded-lg w-[23%] py-4 px-5 group hover:bg-blue_itm_aqua_marine hover:text-white">
-      <h2 className="text-3xl font-bold mb-2 text-blue_itm_aqua_marine group-hover:text-white">
+    <div className="rounded-lg w-[23%] py-4 px-5 group hover:bg-blue_itm_aqua_marine hover:text-white duration-50">
+      <h2 className="text-3xl font-bold mb-2 text-blue_itm_aqua_marine group-hover:text-white duration-0">
         {number}
       </h2>
-      <h4 className="text-xl font-bold">{name}</h4>
-      <p>{paragraph}</p>
+      <h4 className="text-xl font-bold duration-0">{name}</h4>
+      <p className="text-sm duration-0">{paragraph}</p>
     </div>
   );
 }
