@@ -8,8 +8,8 @@ module.exports = {
       colors: {
         blue_side_bar: '#56CCF2',
         blue_itm_2: '#20C4F4',
-        blue_itm_good: '#2E5DF8',
-        blue_itm_primary: '#25408F',
+        blue_itm_good: '#1238B9',
+        blue_itm_primary: '#1238B9',
         blue_itm_secondary: '#00AEEF',
         blue_itm_aqua_marine: '#29BDBC',
         blue_itm_title_blue: '#1238B9',

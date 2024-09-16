@@ -8,10 +8,10 @@ export default function HomeServicesSection({ params }: { params: any }) {
   const data = dictionary.cd.pages.home.services;
 
   return (
-    <section className="h-screen w-10/12 mx-auto">
+    <section className="min-h-screen w-9/12 mx-auto mb-20">
       <div className="mb-20">
         <SectionTitle text="NOS SERVICES" center={true} />
-        <h2 className="text-blue_itm_good text-5xl font-bold text-center w-2/3 mt-4 mb-8 mx-auto">
+        <h2 className="text-blue_itm_good text-5xl font-bold text-center w-3/4 mt-4 mb-8 mx-auto">
           Nous fournissons des services exclusifs pour votre entreprise
         </h2>
       </div>

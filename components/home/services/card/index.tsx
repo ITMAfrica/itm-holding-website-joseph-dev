@@ -14,7 +14,7 @@ export default function HomeServiceCard({
   btnMore: any;
 }) {
   return (
-    <div className="shadow-md hover:shadow-2xl rounded-lg px-10 py-10 w-[32%] mb-8">
+    <div className="shadow-md hover:shadow-2xl rounded-lg px-10 py-10 w-[31%] mb-8">
       <div className="flex justify-center">
         <Image src={logo} alt="Icon" width={150} height={150} />
       </div>
