@@ -1,6 +1,7 @@
 import SectionTitle from '@/components/global/section_title';
 import HomeServiceCard from './card';
 import { getDictionary } from '@/get-dictionary';
+import { servicesHome } from '@/lib/data';
 
 export default function HomeServicesSection({ params }: { params: any }) {
   const lang = params.lang;
@@ -16,7 +17,7 @@ export default function HomeServicesSection({ params }: { params: any }) {
         </h2>
       </div>
       <section className="flex justify-between flex-wrap">
-        {data.services.map((service: any, index: number) => (
+        {servicesHome[lang].map((service: any, index: number) => (
           <HomeServiceCard {...service} key={index} />
         ))}
       </section>

@@ -16,7 +16,7 @@ export default function HomeServiceCard({
   return (
     <article className="shadow-md hover:shadow-xl rounded-lg px-10 py-10 w-[31%] mb-8">
       <div className="flex justify-center">
-        <Image src={logo} alt="Icon" width={150} height={150} />
+        <Image src={icon} alt="Icon" width={140} height={150} />
       </div>
       <h1 className="mb-5 text-center text-3xl text-blue_itm_good font-bold">
         {name}
