@@ -1,4 +1,5 @@
 import SectionTitle from '@/components/global/section_title';
+import HomeNewsCard from './card';
 
 export default function HomeNews({ params }: { params: any }) {
   return (
@@ -9,6 +10,11 @@ export default function HomeNews({ params }: { params: any }) {
           <h3 className="w-2/5 mx-auto text-5xl font-bold text-blue_itm_primary text-center mb-4">
             Découvrez nos dernières actualités
           </h3>
+          <div className="flex justify-between mt-10">
+            <HomeNewsCard />
+            <HomeNewsCard />
+            <HomeNewsCard />
+          </div>
         </div>
       </div>
     </section>
