@@ -27,7 +27,7 @@ export default function HomeNewsCard() {
       </p>
       <div className="flex justify-between text-sm mt-4">
         <aside className="flex items-center">
-          <span className="block w-10 h-10 rounded-full bg-blue_itm_primary mr-2"></span>
+          <span className="block w-10 h-10 rounded-full bg-blue_itm_aqua_marine mr-2"></span>
           <span>ITM Africa</span>
         </aside>
         <button className="flex items-center hover:text-blue_itm_primary">

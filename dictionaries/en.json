@@ -150,6 +150,10 @@
             "title": "Learn more about ITM history"
           }
         },
+        "services": {
+          "title": "OUR SERVICES",
+          "subtitle": "We provide exclusive services for your business"
+        },
         "metrics": {
           "title": "Why should you trust us?",
           "paragraph": "Because we are a global player in human resources, present in over 18 countries with more than 10,000 agents under our management. By choosing our services, you benefit from privileged access to a global talent pool and proven expertise to support you in all your projects.",
@@ -186,6 +190,10 @@
         },
         "testimonies": {
           "title": "What our customers say about us"
+        },
+        "news": {
+          "title": "OUR NEWS",
+          "subtitle": "Discover our latest news"
         }
       },
       "about": {}
