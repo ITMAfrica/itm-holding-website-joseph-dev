@@ -4,7 +4,7 @@ import image from '@/public/pages/home/news/news.png';
 
 export default function HomeNewsCard() {
   return (
-    <article className="w-[31%]">
+    <article className="lg:w-[31%] md:w-[48%] w-full lg:mb-0 mb-7">
       <div className="mb-5 w-full h-fit">
         <Image
           src={image}
