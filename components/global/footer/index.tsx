@@ -9,8 +9,8 @@ export default function Footer({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   return (
     <footer className="bg-black_footer text-white">
-      <div className="flex w-11/12 mx-auto py-20 border-b border-b-black">
-        <section className="w-2/5">
+      <div className="flex md:flex-nowrap flex-wrap w-11/12 mx-auto md:py-20 py-10 border-b border-b-black">
+        <section className="md:w-2/5 w-full mb-6 md:mb-0">
           <div>
             <Link href={`/${lang}`} className="block w-fit h-fit md:pr-5 mr-1">
               <Image
@@ -26,7 +26,7 @@ export default function Footer({ params }: { params: any }) {
               />
             </Link>
           </div>
-          <p className="text-lg py-4 w-10/12">
+          <p className="text-lg py-4 md:w-10/12">
             Restez informé des dernières fonctionnalités et versions en
             rejoignant notre newsletter.
           </p>
@@ -41,7 +41,7 @@ export default function Footer({ params }: { params: any }) {
             </button>
           </nav>
         </section>
-        <section className="flex justify-around ml-10 w-3/5">
+        <section className="flex justify-around md:ml-10 md:w-3/5 w-full">
           <div>
             <h4 className="text-2xl font-bold mb-4">A propos de nous</h4>
             <ul className="mb-2">
