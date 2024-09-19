@@ -17,7 +17,7 @@ export default function HomeAbout({ params }: { params: any }) {
       <div className="w-1/2">
         <div className="flex flex-wrap justify-end">
           <div className="w-1/3 flex justify-end items-end">
-            <div className="w-[200px] h-fit bg-black/75 shadow-xl rounded-md mr-3">
+            <div className="relative w-[200px] h-fit bg-black/75 shadow-xl rounded-md mr-3">
               <Image
                 src={image1}
                 alt="Design"
@@ -26,10 +26,11 @@ export default function HomeAbout({ params }: { params: any }) {
                 style={{ objectFit: 'cover' }}
                 className="w-[200px] h-[200px] rounded-lg"
               />
+              <div className="absolute top-0 bottom-0 left-0 right-0 hover:bg-blue_itm_primary/20 rounded-lg duration-700"></div>
             </div>
           </div>
           <div className="w-2/3">
-            <div className="w-[300px] h-[300px] bg-blue_itm_good rounded-lg">
+            <div className="relative w-[300px] h-[300px] bg-blue_itm_good rounded-lg">
               <Image
                 src={image2}
                 alt="Design"
@@ -38,10 +39,11 @@ export default function HomeAbout({ params }: { params: any }) {
                 style={{ objectFit: 'cover' }}
                 className="w-[300px] h-[300px] rounded-lg"
               />
+              <div className="absolute top-0 bottom-0 left-0 right-0 hover:bg-blue_itm_primary/20 rounded-lg duration-700"></div>
             </div>
           </div>
           <div className="w-1/3 flex justify-end">
-            <div className="w-[150px] h-[150px] bg-red-500 shadow-md rounded-lg mt-3 mr-3">
+            <div className="relative w-[150px] h-[150px] bg-red-500 shadow-md rounded-lg mt-3 mr-3">
               <Image
                 src={image3}
                 alt="Design"
@@ -50,6 +52,7 @@ export default function HomeAbout({ params }: { params: any }) {
                 style={{ objectFit: 'cover' }}
                 className="w-[150px] h-[150px] rounded-lg"
               />
+              <div className="absolute top-0 bottom-0 left-0 right-0 hover:bg-blue_itm_primary/20 rounded-lg duration-700"></div>
             </div>
           </div>
           <div className="w-2/3">

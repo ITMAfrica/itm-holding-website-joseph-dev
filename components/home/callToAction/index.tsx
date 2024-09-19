@@ -6,7 +6,7 @@ export default function HomeCallToAction({ params }: { params: any }) {
           <h1 className="text-center text-2xl md:text-5xl px-3 md:px-0  font-bold">
             Boostez votre
             <span className="text-blue_itm_aqua_marine"> carrière </span>
-            en un clique
+            en un click
           </h1>
           <p className="text-center pt-2 pb-5 text-xl w-11/12 m-auto md:w-full">
             Trouvez les meilleurs offres en RDC et ailleurs
