@@ -16,52 +16,54 @@ export default function HomePartners({ params }: { params: any }) {
   return (
     <section className="flex items-center min-h-screen bg-blue_itm_aqua_marine/10">
       <div className="w-full">
-        <div className="w-10/12 mx-auto py-16">
-          <h1 className="text-5xl font-bold text-blue_itm_primary text-center mb-4">
+        <div className="md:w-10/12 w-full mx-auto md:py-16 py-6">
+          <h1 className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
             {data.title}
           </h1>
-          <h3 className="text-xl text-center w-3/5 mx-auto">{data.subtitle}</h3>
+          <h3 className="text-xl text-center md:w-3/5 w-full mx-auto">
+            {data.subtitle}
+          </h3>
         </div>
-        <div className="w-8/12 mx-auto mt-10">
-          <ul className="flex justify-between">
-            <li>
+        <div className="xl:w-8/12 w-10/12 mx-auto md:mt-10 mt-4">
+          <ul className="flex md:justify-between justify-around items-center flex-wrap">
+            <li className="mb-4 md:mb-0">
               <Image src={client1} alt="Client" width={100} height={100} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client2} alt="Client" width={130} height={130} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client3} alt="Client" width={130} height={130} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client4} alt="Client" width={130} height={130} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client8} alt="Client" width={130} height={130} />
             </li>
           </ul>
-          <ul className="flex justify-evenly mt-14 px-20">
-            <li>
+          <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 lg:px-20">
+            <li className="mb-4 md:mb-0">
               <Image src={client6} alt="Client" width={130} height={130} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client7} alt="Client" width={130} height={130} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client9} alt="Client" width={130} height={130} />
             </li>
           </ul>
-          <ul className="flex justify-evenly mt-14 px-20">
-            <li>
+          <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 md:px-20">
+            <li className="mb-4 md:mb-0">
               <Image src={client9} alt="Client" width={100} height={100} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client6} alt="Client" width={100} height={100} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client7} alt="Client" width={100} height={100} />
             </li>
-            <li>
+            <li className="mb-4 md:mb-0">
               <Image src={client6} alt="Client" width={100} height={100} />
             </li>
           </ul>
