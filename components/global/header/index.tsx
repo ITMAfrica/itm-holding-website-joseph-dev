@@ -60,20 +60,20 @@ export default function HomeHeader({ params }: propsPage) {
           ))}
         </nav>
         <CardLang params={params} links={data?.links} />
-        {
+        {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
             <div className="w-9/12 p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">
               <div className="w-full">
                 <div className="w-full flex items-center justify-between px-4 mb-3">
                   <div
-                    onClick={closeSideBarRoot}
+                    onClick={handleNavigation}
                     className="w-fit md:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
                   >
                     <MdOutlineMenuOpen />
                   </div>
                   <Link
                     href={`/${lang}`}
-                    onClick={closeSideBarRoot}
+                    onClick={handleNavigation}
                     className="block w-fit h-fit md:pr-5 mr-1"
                   >
                     <Image
@@ -81,7 +81,7 @@ export default function HomeHeader({ params }: propsPage) {
                       className="md:h-8 h-4 w-fit"
                       height={50}
                       width={194}
-                      alt="ITM TALENT PRO"
+                      alt="ITM Africa"
                       style={{
                         maxWidth: '100%',
                         height: 'auto',
@@ -90,16 +90,16 @@ export default function HomeHeader({ params }: propsPage) {
                   </Link>
                 </div>
                 <nav className="w-full bg-white items-center justify-evenly">
-                  {data?.links
-                    .filter((item) => item.type === 'link')
-                    .map((item: linkHeader, index: number) => (
-                      <CardLink {...item} key={index} />
-                    ))}
+                  {data?.links.map((item: linkHeader, index: number) => (
+                    <h1>{item.name}</h1>
+                  ))}
                 </nav>
               </div>
             </div>
           </div>
-        }
+        ) : (
+          ''
+        )}
       </div>
     </header>
   );
