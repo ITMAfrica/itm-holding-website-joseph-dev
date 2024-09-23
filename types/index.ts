@@ -2,7 +2,11 @@ export type dictionary = {
   en: any;
   fr: any;
   global: any;
-  cd: any;
+};
+
+export type langType = {
+  en: any;
+  fr: any;
 };
 
 export type propsPage = {

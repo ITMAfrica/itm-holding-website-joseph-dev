@@ -1,6 +1,5 @@
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import Image from 'next/image';
-import logo from '@/public/pages/home/services/recruitment.png';
 
 export default function HomeServiceCard({
   name,

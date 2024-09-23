@@ -10,7 +10,7 @@ import image4 from '@/public/pages/home/about/image4.png';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
-  const dictionary: dictionary = getDictionary(lang);
+  const dictionary: any = getDictionary(lang);
   const data: any = dictionary?.cd?.pages.home.about;
   return (
     <section className="md:flex justify-between xl:w-10/12 w-11/12 mx-auto min-h-screen lg:py-20 py-10">
