@@ -42,7 +42,6 @@ export default function CarouselItem({
           </div>
         )}
       </article>
-
       <Image
         src={images[indexImage]}
         className="h-fit w-full bg-center rounded-lg"

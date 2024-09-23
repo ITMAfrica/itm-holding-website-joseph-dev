@@ -17,7 +17,7 @@ export default function HomeBannerCarousel({
   const data = dictionary.cd.pages.home.banner.items;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <div className="w-full h-full py-10">
+    <div className="w-full h-full py-10 rounded-2xl overflow-hidden">
       <Carousel
         autoplay={true}
         containerProps={{
@@ -26,6 +26,8 @@ export default function HomeBannerCarousel({
             height: '100%',
             justifyContent: 'space-between',
             userSelect: 'none',
+            borderRadius: 20,
+            overflow: 'hidden',
           },
         }}
         preventScrollOnSwipe
@@ -34,7 +36,7 @@ export default function HomeBannerCarousel({
         onRequestChange={setActiveSlide}
         itemsToShow={toShow}
         speed={1000}
-        delay={4000}
+        delay={2000}
         centerMode
       >
         {data.map((item: any, index: number) => (
