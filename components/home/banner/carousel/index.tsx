@@ -27,6 +27,7 @@ export default function HomeBannerCarousel({
             justifyContent: 'space-between',
             userSelect: 'none',
             borderRadius: 20,
+            overflow: 'hidden',
           },
         }}
         preventScrollOnSwipe
@@ -35,7 +36,7 @@ export default function HomeBannerCarousel({
         onRequestChange={setActiveSlide}
         itemsToShow={toShow}
         speed={1000}
-        delay={4000}
+        delay={2000}
         centerMode
       >
         {data.map((item: any, index: number) => (
