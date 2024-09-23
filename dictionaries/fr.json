@@ -101,6 +101,17 @@
           }
         ]
       }
+    },
+    "callToAction": {
+      "paragraph1": "Boostez votre ",
+      "career": "carrière",
+      "click": "en un click",
+      "subtitle": "Trouvez les meilleurs offres en RDC et ailleurs",
+      "btn": {
+        "text": "Inscrivez-vous",
+        "link": "https://talentpro.itmafrica.com/",
+        "title": "Accéder à ITM Talent pro"
+      }
     }
   },
   "cd": {

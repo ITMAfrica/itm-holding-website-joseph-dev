@@ -101,6 +101,17 @@
           }
         ]
       }
+    },
+    "callToAction": {
+      "paragraph1": "Boost your ",
+      "career": "career ",
+      "click": "with a click",
+      "subtitle": "Find the best offers in DRC and elsewhere",
+      "btn": {
+        "text": "Sign up",
+        "link": "https://talentpro.itmafrica.com/",
+        "title": "Access to ITM Talent pro"
+      }
     }
   },
   "cd": {

@@ -1,6 +1,6 @@
 import HomeAbout from '@/components/home/about';
 import HomePageBanner from '@/components/home/banner';
-import HomeCallToAction from '@/components/home/callToAction';
+import HomeCallToAction from '@/components/global/callToAction';
 import HomeMetrics from '@/components/home/metrics';
 import HomeNews from '@/components/home/news';
 import HomePartners from '@/components/home/partners';
