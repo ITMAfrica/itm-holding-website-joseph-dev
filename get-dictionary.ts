@@ -4,7 +4,7 @@ import en from '@/dictionaries/en.json';
 import fr from '@/dictionaries/fr.json';
 // We enumerate all dictionaries here for better linting and typescript support
 // We also get the default import for cleaner types
-const dictionaries: langType = {
+const dictionaries: any = {
   en,
   fr,
 };

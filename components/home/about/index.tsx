@@ -1,5 +1,4 @@
 import { getDictionary } from '@/get-dictionary';
-import { dictionary } from '@/types';
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
 import Image from 'next/image';

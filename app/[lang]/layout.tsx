@@ -4,9 +4,9 @@ import localFont from 'next/font/local';
 import '@/styles/global.css';
 import Footer from '@/components/global/footer';
 
-export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
-}
+// export async function generateStaticParams() {
+//   return i18n.locales.map((locale) => ({ lang: locale }));
+// }
 
 const candara = localFont({
   src: [

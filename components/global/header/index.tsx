@@ -67,7 +67,7 @@ export default function HomeHeader({ params }: propsPage) {
                 <div className="w-full flex items-center justify-between px-4 mb-3">
                   <div
                     onClick={handleNavigation}
-                    className="w-fit md:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
+                    className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
                   >
                     <MdOutlineMenuOpen />
                   </div>
