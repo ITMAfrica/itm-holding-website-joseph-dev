@@ -2,6 +2,7 @@ import HomeHeader from '@/components/global/header';
 import { i18n, type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import '@/styles/global.css';
+import Footer from '@/components/global/footer';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
@@ -13,6 +14,11 @@ const candara = localFont({
       path: '../../fonts/Candara.ttf',
       weight: '400',
       style: 'normal',
+    },
+    {
+      path: '../../fonts/Candara.ttf',
+      weight: '500',
+      style: 'medium',
     },
     {
       path: '../../fonts/Candara_Italic.ttf',
@@ -39,6 +45,7 @@ export default function Root({
       <body suppressHydrationWarning={true} className={candara.className}>
         <HomeHeader params={params} />
         {children}
+        <Footer params={params} />
       </body>
     </html>
   );

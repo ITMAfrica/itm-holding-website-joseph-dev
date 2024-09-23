@@ -1,7 +1,5 @@
-export default function PageCountry() {
-  return (
-    <div>
-      <h1>Welcome to the country home page</h1>
-    </div>
-  );
+import AboutPage from '@/components/pages/about';
+
+export default function PageCountry({ params }: { params: any }) {
+  return <AboutPage params={params} />;
 }

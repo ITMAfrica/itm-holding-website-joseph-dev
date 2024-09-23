@@ -1,19 +1,25 @@
 import SectionTitle from '@/components/global/section_title';
 import HomeServiceCard from './card';
+import { getDictionary } from '@/get-dictionary';
+import { servicesHome } from '@/lib/data';
 
 export default function HomeServicesSection({ params }: { params: any }) {
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.cd.pages.home.services;
+
   return (
-    <section className="h-screen w-10/12 mx-auto">
-      <div className="mb-20">
-        <SectionTitle text="NOS SERVICES" center={true} />
-        <h2 className="text-blue_itm_primary text-5xl font-bold text-center w-2/3 mt-4 mb-8 mx-auto">
-          Nous fournissons des services exclusifs pour votre entreprise
+    <section className="min-h-screen xl:w-9/12 w-11/12 mx-auto">
+      <div className="md:mb-20 mb-10">
+        <SectionTitle text={data.title} center={true} />
+        <h2 className="text-blue_itm_good md:text-5xl text-3xl font-bold text-center md:w-3/4 w-full mt-4 mb-8 mx-auto">
+          {data.subtitle}
         </h2>
       </div>
-      <section className="flex justify-between">
-        <HomeServiceCard />
-        <HomeServiceCard />
-        <HomeServiceCard />
+      <section className="flex justify-between flex-wrap">
+        {servicesHome[lang].map((service: any, index: number) => (
+          <HomeServiceCard {...service} key={index} />
+        ))}
       </section>
     </section>
   );

@@ -6,19 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue_side_bar: '#56CCF2',
-        blue_itm_2: '#20C4F4',
-        blue_itm_good: '#2E5DF8',
-        blue_itm_primary: '#25408F',
+        blue_itm_good: '#1238B9',
+        blue_itm_primary: '#1238B9',
         blue_itm_secondary: '#00AEEF',
         blue_itm_aqua_marine: '#29BDBC',
         blue_itm_title_blue: '#1238B9',
-        blue_itm_contact: '#2E5DF8',
         blue_itm_linear: '#2A4296',
-        light_blue_gray: '#EFF2FC',
-        rose_itm: '#FF5789',
         black_itm: '#353535',
-        gray_itm: '#CCCCCC',
+        black_footer: '#262626',
         bg_itm: '#F2F2F2',
         white_itm: '#FAF9FF',
         gray_itm_bg: '#C2C0FF',

@@ -23,18 +23,20 @@ export default function CarouselItem({
       className="w-[90vw] rounded-2xl mx-auto relative overflow-hidden"
       key={2}
     >
-      <article className="flex items-center w-1/2 absolute z-10 top-0 right-0 left-0 bottom-0">
+      <article className="flex items-center sm:w-1/2 w-full absolute z-10 top-0 right-0 left-0 bottom-0">
         {bgWhite ? (
-          <div className="ml-14 h-fit">
-            <h1 className="text-blue_itm_primary text-5xl font-bold mb-4">
+          <div className="sm:ml-14 ml-4 h-fit">
+            <h1 className="text-blue_itm_good md:text-5xl text-3xl font-bold mb-4">
               {title}
             </h1>
             <p className="mb-8">{paragraph}</p>
             <ButtonBg {...btnMore} />
           </div>
         ) : (
-          <div className="ml-14 h-fit">
-            <h1 className="text-white text-5xl font-bold mb-4">{title}</h1>
+          <div className="sm:ml-14 ml-4 h-fit">
+            <h1 className="text-white md:text-5xl text-3xl font-bold mb-4">
+              {title}
+            </h1>
             <p className="text-white mb-8">{paragraph}</p>
             <ButtonBg {...btnMore} />
           </div>
