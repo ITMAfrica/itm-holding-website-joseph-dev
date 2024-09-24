@@ -26,8 +26,6 @@ export default function TestimoniesCarousel({ params }: { params: any }) {
         activeSlideProps={{
           style: {
             background: 'red',
-            position: 'absolute',
-            top: 20,
           },
         }}
         onRequestChange={setActiveSlide}
