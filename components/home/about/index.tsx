@@ -12,7 +12,7 @@ export default function HomeAbout({ params }: { params: any }) {
   const dictionary: any = getDictionary(lang);
   const data: any = dictionary?.cd?.pages.home.about;
   return (
-    <section className="md:flex justify-between xl:w-10/12 w-11/12 mx-auto min-h-screen lg:py-20 py-10">
+    <section className="md:flex justify-between xl:w-10/12 w-11/12 mx-auto lg:py-20 py-10">
       <div className="w-9/12 sm:mx-auto mx-0 md:w-3/5 lg:w-1/2">
         <div className="flex flex-wrap justify-end">
           <div className="w-1/2 md:w-1/3 flex justify-end items-end">

@@ -84,10 +84,10 @@
             ]
           },
           {
-            "href": "/en/contact-us",
+            "href": "/fr/contactez-nous",
             "name": "CONTACTS",
             "external": false,
-            "current": "contact-us",
+            "current": "contactez-nous",
             "langs": [
               {
                 "href": "/en/contact-us",
