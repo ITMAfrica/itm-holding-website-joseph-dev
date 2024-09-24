@@ -2,7 +2,7 @@ import SectionTitle from '@/components/global/section_title';
 
 export default function AboutMainGreatness({ params }: { params: any }) {
   return (
-    <section className="w-full transition-all  overflow-hidden bg-white">
+    <section className="w-full transition-all overflow-hidden bg-white">
       <div className="w-full h-full md:flex items-center justify-center ">
         <div className="md:w-1/2 w-full h-[450px] overflow-hidden">
           <div className="w-full h-full transition-all duration-1000 hover:scale-110 bg-cover bg-center bg-[url('../public/pages/about/about2.png')]"></div>
