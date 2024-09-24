@@ -6,7 +6,7 @@ export default function HomeMetrics({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.home.metrics;
   return (
-    <section className="flex items-center md:w-10/12 w-11/12 mx-auto min-h-screen">
+    <section className="flex items-center md:w-10/12 w-11/12 mx-auto py-20">
       <div className="m-auto">
         <div className="md:flex justify-between md:mb-16 mb-10">
           <h3 className="text-4xl font-bold md:w-1/4 w-4/5 mx-auto md:mx-0 text-blue_itm_primary">
