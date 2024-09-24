@@ -3,17 +3,17 @@ import { BiSolidQuoteAltRight } from 'react-icons/bi';
 
 export default function TestimonyItem({ item }: any) {
   return (
-    <article className="relative mx-2 w-[350px] h-[350px] border shadow-lg">
-      <div className="p-6">
-        {item}
-        <div>Image</div>
-
-        <div>
-          <main>
+    <article className="md:w-[350px] w-[300px] min-h-[400px]">
+      <div className="h-full relative  mx-3  ">
+        <div className="border p-6 rounded-xl shadow-lg mt-16">
+          <div className="absolute -top-14 left-28 flex justify-center">
+            <div className="w-24 h-24 shadow-lg rounded-full bg-gray-300"></div>
+          </div>
+          <main className="py-6">
             <span className="text-gray-300 text-3xl">
               <BiSolidQuoteAltLeft />
             </span>
-            <p className="text-sm py-4">
+            <p className="text-sm py-4 text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
               debitis iure id deleniti molestias reprehenderit voluptas cumque
               fugiat.
@@ -21,11 +21,11 @@ export default function TestimonyItem({ item }: any) {
             <span className="flex w-full justify-end text-gray-300 text-3xl">
               <BiSolidQuoteAltRight />
             </span>
+            <h3 className="text-center font-bold text-blue_itm_aqua_marine mt-2">
+              Amos BAFUNA
+            </h3>
+            <h6 className="text-center">Web developer</h6>
           </main>
-          <h3 className="text-center font-bold text-blue_itm_aqua_marine">
-            Amos BAFUNA
-          </h3>
-          <h6 className="text-center">Web developer</h6>
         </div>
       </div>
     </article>

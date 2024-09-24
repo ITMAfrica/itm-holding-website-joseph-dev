@@ -15,8 +15,8 @@ export default function TestimoniesCarousel({ params }: { params: any }) {
       <Carousel
         containerProps={{
           style: {
-            width: '100%',
-            justifyContent: 'space-between',
+            width: 'fit',
+            justifyContent: 'space-around',
             userSelect: 'none',
           },
         }}
@@ -26,31 +26,29 @@ export default function TestimoniesCarousel({ params }: { params: any }) {
         activeSlideProps={{
           style: {
             background: 'red',
-            position: 'absolute',
-            top: 20,
           },
         }}
         onRequestChange={setActiveSlide}
         forwardBtnProps={{
           children: '>',
           style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
+            width: 40,
+            height: 40,
+            minWidth: 40,
             alignSelf: 'center',
           },
         }}
         backwardBtnProps={{
           children: '<',
           style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
+            width: 40,
+            height: 40,
+            minWidth: 40,
             alignSelf: 'center',
           },
         }}
         itemsToShow={3}
-        speed={400}
+        speed={200}
         centerMode
       >
         {Array.from({ length: 10 }).map((item: any, index: number) => (
