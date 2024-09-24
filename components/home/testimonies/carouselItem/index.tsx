@@ -3,7 +3,7 @@ import { BiSolidQuoteAltRight } from 'react-icons/bi';
 
 export default function TestimonyItem({ item }: any) {
   return (
-    <article className="w-[350px] h-[400px]">
+    <article className="md:w-[350px] w-[300px] min-h-[400px]">
       <div className="h-full relative  mx-3  ">
         <div className="border p-6 rounded-xl shadow-lg mt-16">
           <div className="absolute -top-14 left-28 flex justify-center">
