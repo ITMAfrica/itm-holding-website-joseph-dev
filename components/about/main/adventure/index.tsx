@@ -2,7 +2,7 @@ import SectionTitle from '@/components/global/section_title';
 
 export default function AboutMainAdventure({ params }: { params: any }) {
   return (
-    <section className="w-full transition-all  overflow-hidden bg-white">
+    <section className="w-full transition-all overflow-hidden bg-white">
       <div className="w-full h-full md:flex items-center justify-center ">
         <div className="md:w-1/2 w-full py-10 flex">
           <div className="w-1/12 md:w-2/12"></div>
