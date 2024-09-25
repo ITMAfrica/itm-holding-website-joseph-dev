@@ -1,41 +1,56 @@
 import AboutPage from '@/components/pages/about';
-import HomePage from '@/components/pages/home';
+import FormationsPage from '@/components/pages/formations';
+import ServicesPage from '@/components/pages/services';
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
     case "tz":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "tg":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "ao":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "bn":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "bu":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "cg":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "cm":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "de":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "gb":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "ke":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "ng":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "ug":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "za":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "zm":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "rw":
-      return <HomePage params={params} />;
+      return getComponent({ params })
     case "about-us":
       return <AboutPage params={params} />;
     case "a-propos-de-nous":
       return <AboutPage params={params} />;
+  }
+}
+function getComponent({ params }: any) {
+  switch (params.page) {
+    case "about-us":
+      return <AboutPage params={params} />;
+    case "a-propos-de-nous":
+      return <AboutPage params={params} />;
+    case "services":
+      return <ServicesPage params={params} />;
+    case "training":
+      return <FormationsPage params={params} />;
+    case "formations":
+      return <FormationsPage params={params} />;
   }
 }

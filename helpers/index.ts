@@ -26,3 +26,4 @@ export function getCookie(cname: string, doc: any): string {
 }
 
 export const CODE: string = "cd"
+export const TALENTPRO_HREF: string = "https://talentpro.itmafrica.com"

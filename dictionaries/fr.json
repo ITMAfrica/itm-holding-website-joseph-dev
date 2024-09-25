@@ -52,17 +52,17 @@
             ]
           },
           {
-            "href": "https://talentpro.itmafrica.com/",
+            "href": "https://talentpro.itmafrica.com",
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
             "external": true,
             "langs": [
               {
-                "href": "https://talentpro.itmafrica.com/",
+                "href": "https://talentpro.itmafrica.com",
                 "name": "En"
               },
               {
-                "href": "https://talentpro.itmafrica.com/",
+                "href": "https://talentpro.itmafrica.com",
                 "name": "Fr"
               }
             ]
@@ -109,7 +109,7 @@
       "subtitle": "Trouvez les meilleurs offres en RDC et ailleurs",
       "btn": {
         "text": "Inscrivez-vous",
-        "link": "https://talentpro.itmafrica.com/",
+        "link": "https://talentpro.itmafrica.com",
         "title": "Accéder à ITM Talent pro"
       }
     },

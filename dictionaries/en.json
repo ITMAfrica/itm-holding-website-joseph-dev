@@ -52,17 +52,17 @@
             ]
           },
           {
-            "href": "https://talentpro.itmafrica.com/",
+            "href": "https://talentpro.itmafrica.com",
             "name": "JOB OFFERS",
             "current": "offers",
             "external": true,
             "langs": [
               {
-                "href": "https://talentpro.itmafrica.com/",
+                "href": "https://talentpro.itmafrica.com",
                 "name": "En"
               },
               {
-                "href": "https://talentpro.itmafrica.com/",
+                "href": "https://talentpro.itmafrica.com",
                 "name": "Fr"
               }
             ]
@@ -109,7 +109,7 @@
       "subtitle": "Find the best offers in DRC and elsewhere",
       "btn": {
         "text": "Sign up",
-        "link": "https://talentpro.itmafrica.com/",
+        "link": "https://talentpro.itmafrica.com",
         "title": "Access to ITM Talent pro"
       }
     },
