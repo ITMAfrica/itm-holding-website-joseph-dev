@@ -14,7 +14,7 @@ export default function HomePartners({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.home.partners;
   return (
-    <section className="flex items-center py-20 bg-blue_itm_aqua_marine/10">
+    <section className="flex items-center py-20">
       <div className="w-full">
         <div className="md:w-10/12 w-full mx-auto md:pb-12 pb-6">
           <h1 className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
