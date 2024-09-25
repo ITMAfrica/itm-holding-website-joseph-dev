@@ -1,5 +1,7 @@
 import AboutPage from '@/components/pages/about';
+import FormationsPage from '@/components/pages/formations';
 import HomePage from '@/components/pages/home';
+import ServicesPage from '@/components/pages/services';
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
@@ -37,5 +39,11 @@ export default function PageCountry({ params }: { params: any }) {
       return <AboutPage params={params} />;
     case "a-propos-de-nous":
       return <AboutPage params={params} />;
+    case "services":
+      return <ServicesPage params={params} />;
+    case "training":
+      return <FormationsPage params={params} />;
+    case "formations":
+      return <FormationsPage params={params} />;
   }
 }

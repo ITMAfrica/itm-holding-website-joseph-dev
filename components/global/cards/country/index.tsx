@@ -14,10 +14,10 @@ export default function CardCountry() {
   const pathname = usePathname()
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState('')
   const [CURRENT_IMAGE, SET_CURRENT_IMAGE] = useState(null)
-  const [modal, setModal] = useState(false)
+  const [modal, setModal] = useState(0)
 
   function openModal() {
-    setModal(true)
+    setModal(modal + 1)
   }
 
   useEffect(() => {
