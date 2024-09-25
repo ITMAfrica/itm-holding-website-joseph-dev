@@ -21,12 +21,9 @@ export default function CardCountry() {
   }
 
   useEffect(() => {
-    SET_CURRENT_CODE(getCookie("country", document?.cookie || CODE))
-  },
-    [
-      paramsHooks,
-      pathname
-    ]);
+    SET_CURRENT_CODE(getCookie("country", document?.cookie) || CODE)
+  }, [paramsHooks, pathname]
+  );
 
   useEffect(function () {
     const find: any = entities.find(function (item: any) {
@@ -56,5 +53,5 @@ export default function CardCountry() {
         <ModalCountryChoice init={modal} />
       </>
     );
-  return
+  return <div className="w-fit"></div>
 }

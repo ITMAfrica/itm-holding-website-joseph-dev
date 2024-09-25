@@ -51,7 +51,13 @@ export default function ModalCountryChoice({ init = false }: any) {
                         {data?.title}
                     </h1>
                     <div className="w-full h-fit flex justify-between flex-wrap">
-                        {entities.map(function (item: any, index: number) {
+                        {entities?.sort(function (a: any, b: any) {
+                            const first: string = a[lang];
+                            const last: string = b[lang];
+                            return first?.localeCompare(last, undefined, {
+                                sensitivity: "base",
+                            });
+                        }).map(function (item: any, index: number) {
                             return <CardCountryChoice {...item} key={index} />
                         })}
                     </div>
