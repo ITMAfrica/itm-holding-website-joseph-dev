@@ -1,5 +1,5 @@
 "use client"
-import { CODE, getCookie } from "@/helpers";
+import { CODE, getCookie, setCookie } from "@/helpers";
 import { entities } from "@/lib/data";
 import { useEffect, useState } from "react";
 import { MdOutlineCancel } from "react-icons/md";
@@ -24,7 +24,7 @@ export default function ModalCountryChoice() {
 
     useEffect(function () {
         const cookie: string = getCookie("country", document.cookie)
-        if (cookie) {
+        if (!cookie) {
             openModal()
         } else {
             closeModal()
