@@ -26,7 +26,7 @@ export default function NavLinkCard({ href, name, current, external }: link) {
   return (
     <Link
       href={getHref()}
-      className={`${params.page == current ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold' : ''} block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+      className={`${params.page == current ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold' : ''} block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
     >
       <span className="flex items-center">
         {name}{' '}
