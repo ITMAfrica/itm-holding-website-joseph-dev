@@ -5,11 +5,12 @@ import { getDictionary } from '@/get-dictionary';
 import { dictionary, propsPage } from '@/types';
 import logo from '@/public/logos/logo_rdc.png';
 import NavLinkCard from '../navLinkCard';
-import CardLang from '../cardLang';
+import CardLang from '@/components/global/cards/lang';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 import { CODE, getCookie } from '@/helpers';
+import CardCountry from '@/components/global/cards/country';
 
 type linkHeader = {
   href: string;
@@ -64,7 +65,11 @@ export default function HomeHeader({ params }: propsPage) {
             <NavLinkCard {...item} key={index} />
           ))}
         </nav>
-        <CardLang params={params} links={data?.links} />
+        <div className="w-fit flex">
+          <CardLang params={params} links={data?.links} />
+          <div className="w-1"></div>
+          <CardCountry />
+        </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
             <div className="w-9/12 p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">

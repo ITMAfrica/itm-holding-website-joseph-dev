@@ -50,7 +50,7 @@ export default function HomeBannerCarousel({
           <CarouselItem {...item} indexImage={index} key={index} />
         ))}
       </Carousel>
-      <div className="w-fit cursor-pointer h-5 z-50 absolute flex items-center m-auto left-0 right-0 bottom-12">
+      <div className="w-fit cursor-pointer h-5 z-10 absolute flex items-center m-auto left-0 right-0 bottom-12">
         {data.map((item: any, index: number) =>
           index === activeSlide ? (
             <div
