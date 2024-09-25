@@ -33,7 +33,7 @@ export default function CardCountry() {
   }, [CURRENT_CODE])
 
   useEffect(function () {
-    setModal(false)
+    setModal(0)
   }, [pathname])
 
   if (CURRENT_IMAGE)
