@@ -11,14 +11,14 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
   const data = dictionary.cd.pages.home.banner.items;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <div className="w-full relative relative ">
+    <div className="w-full relative h-fit">
       <Carousel
         activeSlideIndex={activeSlide}
         containerProps={{
           style: {
             flex: "1",
             alignItems: "center",
-            alignContent: "center", 
+            alignContent: "center",
             padding: 20
           }
         }}
