@@ -78,35 +78,6 @@ export default function CardLang({
 
   return (
     <>
-      {/* <div className="w-fit flex items-center font-bold overflow-hidden bg-gray_itm_bg/40 border-2 border-gray_itm_bg/40 ">
-        {currentPage?.map((item, i: number) => (
-          <Link
-            key={i}
-            href={item.href}
-            className={`w-fit flex items-center align-middle p-1 ${
-              !splitHref(item?.href) ? 'bg-gray_itm_bg/40' : 'bg-white'
-            }`}
-          >
-            <Image
-              src={images[i]}
-              height={12 * 0.6}
-              width={16 * 0.6}
-              className="h-fit w-fit md:block hidden"
-              alt="drapeau"
-            />
-            <Image
-              src={images[i]}
-              height={12 * 0.2}
-              width={16 * 0.2}
-              className="h-fit w-fit md:hidden block"
-              alt="drapeau"
-            />
-            <span className="text-blue_itm_title_blue md:text-sm text-xs pt-0.5 align-middle uppercase mr-1">
-              {item.name}
-            </span>
-          </Link>
-        ))}
-      </div> */}
       <div className="flex justify-center items-center">
         <Image
           src={fr}
