@@ -30,7 +30,7 @@ export default function HomeAbout({ params }: { params: any }) {
               </div>
             </div>
             <div className="w-1/2 md:w-1/2">
-              <div className="relative md:w-[300px] w-[225px] md:h-[300px] h-[225px] bg-blue_itm_good rounded-lg">
+              <div className="relative md:w-[300px] w-[225px] md:h-[300px] h-[225px] rounded-lg">
                 <Image
                   src={image2}
                   alt="Design"
@@ -43,7 +43,7 @@ export default function HomeAbout({ params }: { params: any }) {
               </div>
             </div>
             <div className="w-1/2 md:w-1/2 flex justify-end">
-              <div className="relative md:w-[155px] w-[80px] md:h-[155px] h-[80px] bg-red-500 shadow-md rounded-lg mt-3 mr-3">
+              <div className="relative md:w-[155px] w-[80px] md:h-[155px] h-[80px] shadow-md rounded-lg mt-3 mr-3">
                 <Image
                   src={image3}
                   alt="Design"
@@ -56,7 +56,7 @@ export default function HomeAbout({ params }: { params: any }) {
               </div>
             </div>
             <div className="w-1/2 md:w-1/2">
-              <div className="md:w-[225px] relative w-[200px] md:h-[225px] h-[200px] bg-green-500 rounded-lg mt-3">
+              <div className="md:w-[225px] relative w-[200px] md:h-[225px] h-[200px] rounded-lg mt-3">
                 <Image
                   src={image4}
                   alt="Design"
