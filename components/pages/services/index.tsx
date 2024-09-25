@@ -1,4 +1,9 @@
+import CallToAction from "@/components/global/callToAction"
+import ServicesPageBanner from "@/components/services/banner"
+
 export default function ServicesPage({ params }: any) {
-    console.log(params)
-    return <main className="w-full"></main>
+    return <main className="w-full">
+        <ServicesPageBanner params={params} />
+        <CallToAction params={params} />
+    </main>
 }

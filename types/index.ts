@@ -14,7 +14,7 @@ export type propsPage = {
   params: {
     lang: string;
     page?: string;
-    page1?: string;
+    country?: string;
     step?: string;
   };
   searchParams?: {
@@ -26,6 +26,7 @@ export type propsPage = {
 export type link = {
   href: string;
   name: string;
-  current: string;
+  current?: string;
   external: boolean;
+  full?: boolean
 };
