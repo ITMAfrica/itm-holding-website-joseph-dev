@@ -17,7 +17,7 @@ export default function HomeBannerCarousel({
   const data = dictionary.cd.pages.home.banner.items;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <div className="w-full h-full py-10 rounded-2xl overflow-hidden">
+    <div className="w-full h-full relative py-10 rounded-2xl overflow-hidden">
       <Carousel
         autoplay={true}
         containerProps={{
@@ -25,24 +25,49 @@ export default function HomeBannerCarousel({
             width: '100%',
             height: '100%',
             justifyContent: 'space-between',
-            userSelect: 'none',
             borderRadius: 20,
             overflow: 'hidden',
           },
         }}
-        preventScrollOnSwipe
-        swipeTreshold={60}
-        activeSlideIndex={activeSlide}
-        onRequestChange={setActiveSlide}
+
         itemsToShow={toShow}
-        speed={1000}
+        onRequestChange={setActiveSlide}
+        easing="linear"
+        responsiveProps={[
+          {
+            itemsToShow: toShow,
+            itemsToScroll: 1,
+            minWidth: 768,
+          },
+        ]}
+        preventScrollOnSwipe
+        activeSlideIndex={activeSlide}
         delay={2000}
+        speed={500}
         centerMode
       >
         {data.map((item: any, index: number) => (
           <CarouselItem {...item} indexImage={index} key={index} />
         ))}
       </Carousel>
+      <div className="w-fit cursor-pointer h-5 z-50 absolute flex items-center m-auto left-0 right-0 bottom-12">
+        {data.map((item: any, index: number) =>
+          index === activeSlide ? (
+            <div
+              key={index}
+              onClick={() => setActiveSlide(index)}
+              className="mr-1 md:w-14 w-10 h-2 rounded-full bg-white"
+            ></div>
+          ) : (
+            <div
+              key={index}
+              onClick={() => setActiveSlide(index)}
+              className="mr-1 w-2 h-2 rounded-full bg-white hover:bg-blue_itm_good"
+            ></div>
+          ),
+        )}
+      </div>
+
     </div>
   );
 }
