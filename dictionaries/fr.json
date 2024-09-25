@@ -112,6 +112,11 @@
         "link": "https://talentpro.itmafrica.com/",
         "title": "Accéder à ITM Talent pro"
       }
+    },
+    "modal": {
+      "cd": {
+        "title": "Selectionne ta position"
+      }
     }
   },
   "cd": {
