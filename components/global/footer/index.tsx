@@ -41,7 +41,7 @@ export default function Footer({ params }: { params: any }) {
             </button>
           </nav>
         </section>
-        <section className="flex justify-around md:ml-10 md:w-3/5 w-full">
+        <section className="sm:flex justify-around md:ml-10 md:w-3/5 w-full">
           <div>
             <h4 className="text-2xl font-bold mb-4">A propos de nous</h4>
             <ul className="mb-2">
@@ -57,14 +57,14 @@ export default function Footer({ params }: { params: any }) {
               </span>
             </Link>
           </div>
-          <div>
+          <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>
             <ul className="mb-2">
               <li className="mb-3">Talent pro</li>
               <li className="mb-3">Kazi pro</li>
             </ul>
           </div>
-          <div>
+          <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Suivez-nous</h4>
             <ul className="mb-2">
               <li className="mb-3">Talent pro</li>

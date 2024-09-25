@@ -91,7 +91,13 @@ export default function HomeHeader({ params }: propsPage) {
                 </div>
                 <nav className="w-full bg-white items-center justify-evenly">
                   {data?.links.map((item: linkHeader, index: number) => (
-                    <h1>{item.name}</h1>
+                    <Link
+                      href={item.href}
+                      key={index}
+                      className="block mb-2 hover:text-blue_itm_good"
+                    >
+                      {item.name}
+                    </Link>
                   ))}
                 </nav>
               </div>
