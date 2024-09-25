@@ -9,7 +9,7 @@ export default function Footer({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   return (
     <footer className="bg-black_footer text-white">
-      <div className="flex md:flex-nowrap flex-wrap w-11/12 mx-auto md:py-20 py-10 border-b border-b-black">
+      <div className="flex md:flex-nowrap flex-wrap md:w-10/12 w-11/12 mx-auto md:py-20 py-10 border-b border-b-black">
         <section className="md:w-2/5 w-full mb-6 md:mb-0">
           <div>
             <Link href={`/${lang}`} className="block w-fit h-fit md:pr-5 mr-1">
@@ -73,7 +73,7 @@ export default function Footer({ params }: { params: any }) {
           </div>
         </section>
       </div>
-      <section className="sm:flex justify-between w-11/12 mx-auto py-4">
+      <section className="flex justify-between md:w-10/12 w-11/12 mx-auto py-4">
         <div className="w-fit font-bold">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>

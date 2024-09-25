@@ -14,9 +14,9 @@ export default function HomePartners({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.home.partners;
   return (
-    <section className="flex items-center py-20 bg-blue_itm_aqua_marine/10">
+    <section className="flex items-center py-20">
       <div className="w-full">
-        <div className="md:w-10/12 w-full mx-auto md:pb-12 pb-6">
+        <div className="md:w-9/12 w-11/12 mx-auto md:pb-12 pb-6">
           <h1 className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
             {data.title}
           </h1>
@@ -24,7 +24,7 @@ export default function HomePartners({ params }: { params: any }) {
             {data.subtitle}
           </h3>
         </div>
-        <div className="xl:w-8/12 w-10/12 mx-auto md:mt-10 mt-4">
+        <div className="md:w-9/12 w-11/12 mx-auto md:mt-10 mt-4">
           <ul className="flex md:justify-between justify-around items-center flex-wrap">
             <li className="mb-4 md:mb-0">
               <Image src={client1} alt="Client" width={100} height={100} />

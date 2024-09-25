@@ -13,7 +13,7 @@ export default function HomeServiceCard({
   btnMore: any;
 }) {
   return (
-    <article className="shadow-md hover:shadow-xl rounded-lg md:p-10 p-8 lg:w-[31%] sm:w-[48%] w-full  mb-8">
+    <article className="shadow-xl hover:shadow-2xl rounded-xl md:p-10 p-8 lg:w-[31%] group sm:w-[48%] w-full mb-8">
       <div className="flex justify-center">
         <Image src={icon} alt="Icon" width={140} height={150} />
       </div>

@@ -30,7 +30,7 @@ export default function HomeHeader({ params }: propsPage) {
 
   return (
     <header className="sticky z-50 top-0 w-full h-fit py-3 md:py-4 flex justify-center bg-white shadow-headerShadow">
-      <div className="w-11/12 h-fit flex items-center justify-between ">
+      <div className="md:w-10/12 w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
           <div className="flex items-center">
             <div

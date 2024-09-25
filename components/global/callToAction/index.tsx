@@ -6,7 +6,7 @@ export default function CallToAction({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.global.callToAction;
   return (
-    <section className="md:py-16 py-8 flex justify-center rounded-md overflow-hidden">
+    <section className="md:py-16 py-8 flex justify-center bg-white rounded-md overflow-hidden">
       <div className="md:w-9/12 w-11/12 md:h-[350px] h-[300px] flex flex-wrap items-center justify-center bg-cover rounded-3xl overflow-hidden bg-no-repeat bg-[url('../public/bg.png')] bg-black/40">
         <div className="w-full text-white">
           <h1 className="text-center text-3xl md:text-5xl px-3 md:px-0 font-bold">
