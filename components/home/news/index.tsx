@@ -7,7 +7,7 @@ export default function HomeNews({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.home.news;
   return (
-    <section className="flex items-center bg-blue_itm_aqua_marine/10">
+    <section className="flex items-center ">
       <div className="w-full">
         <div className="md:w-9/12 w-11/12 mx-auto md:py-16 py-6">
           <SectionTitle text={data.title} center={true} />
