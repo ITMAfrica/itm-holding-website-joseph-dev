@@ -40,7 +40,7 @@ export default function ModalCountryChoice({ init = false }: any) {
 
     if (modal)
         return <section className="w-full z-50 fixed bg-black/30 backdrop-blur-sm flex items-center flex-wrap justify-center top-0 left-0 right-0 bottom-0">
-            <div className="w-11/12 lg:w-8/12">
+            <div className="w-11/12 lg:w-7/12">
                 <div className="rounded-xl w-full h-fit filter-none mb-3 w-full flex justify-end">
                     <div onClick={closeModal} className="w-10 flex  cursor-pointer scale-125 text-white justify-center items-center h-10 rounded-full">
                         <MdOutlineCancel size={24} />
