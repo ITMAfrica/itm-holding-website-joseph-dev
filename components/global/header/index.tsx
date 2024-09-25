@@ -7,8 +7,9 @@ import logo from '@/public/logos/logo_rdc.png';
 import NavLinkCard from '../navLinkCard';
 import CardLang from '../cardLang';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
+import { CODE, getCookie } from '@/helpers';
 
 type linkHeader = {
   href: string;
@@ -20,10 +21,14 @@ type linkHeader = {
 export default function HomeHeader({ params }: propsPage) {
   const lang: string = params.lang;
   const dictionary: dictionary = getDictionary(lang);
-  const data: any = dictionary?.global?.header.cd;
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState('')
+  const data: any = dictionary?.global?.header[CURRENT_CODE] ? dictionary?.global?.header[CURRENT_CODE] : dictionary?.global?.header[CODE]
 
   const [openNavigation, setOpenNavigation] = useState(false);
 
+  useEffect(function () {
+    SET_CURRENT_CODE(getCookie("country", document?.cookie))
+  }, [])
   const handleNavigation = () => {
     setOpenNavigation((state: any) => !state);
   };

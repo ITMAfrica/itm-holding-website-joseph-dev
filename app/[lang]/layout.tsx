@@ -1,12 +1,10 @@
 import HomeHeader from '@/components/global/header';
-import { i18n, type Locale } from '@/i18n-config';
+import {  type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import Footer from '@/components/global/footer';
+import ModalCountryChoice from '@/components/global/modal/countryChoice';
 import '@/styles/global.css';
 
-// export async function generateStaticParams() {
-//   return i18n.locales.map((locale) => ({ lang: locale }));
-// }
 
 const candara = localFont({
   src: [
@@ -47,6 +45,7 @@ export default function Root({
         <main className="w-full bg-gray_itm_bg/40">
           {children}
         </main>
+        <ModalCountryChoice />
         <Footer params={params} />
       </body>
     </html>
