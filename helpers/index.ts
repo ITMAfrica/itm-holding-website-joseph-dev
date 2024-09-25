@@ -1,3 +1,12 @@
+import moment from 'moment';
+import { Expertise } from '@/types';
+
+interface ExperienceData {
+  expertise: Expertise[];
+  startTime: Date;
+  endTime: Date;
+}
+
 export function setCookie(cname: string, cvalue: any, exdays: number = 1) {
   if (typeof window !== 'undefined') {
     const d = new Date();
@@ -6,3 +15,114 @@ export function setCookie(cname: string, cvalue: any, exdays: number = 1) {
     document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
   }
 }
+
+export function getMonthDifference(date1: Date, date2: Date) {
+  const moment1 = moment(date1);
+  const moment2 = moment(date2);
+
+  const diffDuration = moment.duration(moment2.diff(moment1));
+  const diff = diffDuration.as('months');
+  return Number(diff.toFixed(0));
+}
+
+export function formatMonthYear(date: Date) {
+  const momentDate = moment(date);
+  return momentDate.format('MMM YYYY');
+}
+
+// format date (...) for <time datetime={...}>Certain time</time>
+export function formatDateTimeAttribute(date: Date) {
+  const momentDate = moment(date);
+  return momentDate.format('YYYY-MM-DD hh:mm:ss');
+}
+
+const expertise: Expertise[] = [
+  {
+    logo: '/assets/logo_rdc.png',
+    showcaseImage: '/public/experience/kadea.png',
+    title: 'Kadea Academy',
+    subTitle: 'Full stack web and mobile developer',
+    details:
+      'Developed skills in programming using, JavaScript, GitHub, industry-standard git-flow, and daily standups. Mastered algorithms, data structures, and full-stack development.',
+    timeRange: [new Date(2020, 4), new Date(2023, 1)],
+    certificate:
+      'https://drive.google.com/file/d/19LZZbAm49bWgB1QCTKgTlnkZU9Q5gjJC/view?usp=sharing',
+  },
+  {
+    logo: '/assets/logo_rdc.png',
+    showcaseImage: '/assets/experience/coursera1.png',
+    title: 'IBM coursera training',
+    subTitle: 'Online training',
+    details:
+      'Developed skills in programming methodologies, Software development life cycle, GitHub, industry-standard git-flow, and daily standups. Mastered algorithms.',
+    timeRange: [new Date(2024, 6), new Date(2024, 8)],
+    certificate:
+      'https://drive.google.com/file/d/1mvLTsZSM36k8We-IPjDebHCCLzQcrA9i/view?usp=sharing',
+  },
+  {
+    logo: '/assets/logo_rdc.png',
+    showcaseImage: '/assets/experience/JavaScript2.png',
+    title: 'Open Classroom',
+    subTitle: 'Online training',
+    details:
+      'Developed skills in programming using, JavaScript, GitHub, industry-standard git-flow, and daily standups. Mastered algorithms, data structures, and full-stack development.',
+    timeRange: [new Date(2023, 1), new Date(2023, 8)],
+    certificate:
+      'https://drive.google.com/file/d/1nL8HLgSaQHLmCAhCwe-xenQOBqklNxCw/view?usp=sharing',
+  },
+  {
+    logo: '/assets/logo_rdc.png',
+    showcaseImage: '/assets/experience/React.png',
+    title: 'Open Classroom',
+    subTitle: 'Débutez avec React',
+    details:
+      "Open Classroom's online course on the basics of ReactJS, the popular JavaScript framework",
+    timeRange: [new Date(2022, 8), new Date(2023, 1)],
+    certificate:
+      'https://drive.google.com/file/d/1k1J5jkZzaHGvR5O-rEgeMP25bbUb71e5/view?usp=sharing',
+  },
+];
+
+const experienceData: ExperienceData = {
+  expertise,
+  startTime: new Date(2021, 0),
+  endTime: new Date(2025, 0),
+};
+
+export function experienceTimelineCalculator(expertise: Expertise) {
+  const MONTH_HEIGHT = 32;
+  const YEAR_HEIGHT = MONTH_HEIGHT * 12;
+  const MONTH_DIFFERENCE = getMonthDifference(
+    experienceData.startTime,
+    experienceData.endTime
+  );
+  const YEAR_DIFFERENCE = Math.ceil(MONTH_DIFFERENCE / 12);
+
+  const ACTIVE_EXPERTISE_MONTH_DIFFERENCE = getMonthDifference(
+    expertise.timeRange[0],
+    expertise.timeRange[1]
+  );
+  const MONTH_TIMELINE_HEIGHT =
+    MONTH_HEIGHT * ACTIVE_EXPERTISE_MONTH_DIFFERENCE;
+  const MONTH_TIMELINE_POS =
+    getMonthDifference(experienceData.startTime, expertise.timeRange[0]) *
+    MONTH_HEIGHT;
+
+  const YEAR_TIMELINE_HEIGHT = MONTH_HEIGHT * MONTH_DIFFERENCE;
+  const YEAR_TIMELINE_POS = MONTH_TIMELINE_POS + MONTH_TIMELINE_HEIGHT / 2;
+
+  const FIRST_YEAR = experienceData.startTime.getFullYear();
+
+  return {
+    YEAR_TIMELINE_POS,
+    MONTH_TIMELINE_HEIGHT,
+    YEAR_TIMELINE_HEIGHT,
+    MONTH_DIFFERENCE,
+    MONTH_HEIGHT,
+    YEAR_HEIGHT,
+    YEAR_DIFFERENCE,
+    FIRST_YEAR,
+  };
+}
+
+export default experienceData;
