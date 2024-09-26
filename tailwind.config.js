@@ -48,5 +48,40 @@ module.exports = {
     },
   },
   darkMode: 'class',
-  plugins: [nextui()],
+  plugins: [nextui(), function ({ addUtilities }) {
+    const newUtilities = {
+      ".scrollbar-thin": {
+        scrollbarWidth: "thin",
+        scrollbarColor: "#2E5DF8 transparent",
+      },
+      ".scrollbar-webkit": {
+        "&::-webkit-scrollbar": {
+          width: "3px",
+        },
+        "&::-webkit-scrollbar-track": {
+          background: "#C2C0FF",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          backgroundColor: "#2E5DF8",
+          borderRadius: "20px",
+          border: "1px solid white",
+        },
+      },
+      ".scrollbar-webkit-md": {
+        "&::-webkit-scrollbar": {
+          width: "7px",
+          marginLeft: "5px",
+        },
+        "&::-webkit-scrollbar-track": {
+          background: "white",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          backgroundColor: "#2E5DF8",
+          borderRadius: "20px",
+          border: "1px solid white",
+        },
+      },
+    };
+    addUtilities(newUtilities, ["responsive", "hover"]);
+  },],
 };
