@@ -14,7 +14,7 @@ export default function Faqs({ faqs = Array.from({ length: 10 }) }) {
                     Nous sommes là pour vous
                 </p>
             </div>
-            <div className="w-full lg:w-2/3 h-full overflow-y-scroll">
+            <div className="w-full lg:w-2/3 h-full overflow-y-scroll scrollbar-thin">
                 {faqs.map(function (item: any, index: number) {
                     return <CardFaq {...item} key={index} />
                 })}
