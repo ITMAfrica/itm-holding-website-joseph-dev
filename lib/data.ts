@@ -32,14 +32,16 @@ import tgLogo from "@/public/assets/logo/tg.png"
 import ugLogo from "@/public/assets/logo/ug.png"
 import zmLogo from "@/public/assets/logo/zm.png"
 import zaLogo from "@/public/assets/logo/za.png"
+import projetService from "@/public/assets/services/projet.png"
 
 export const servicesHome: any = {
   fr: [
     {
       name: 'Recrutement',
-      icon: recrutement,
-      paragraph:
-        'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
+      icon: recrutement, 
+      image: projetService,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      paragraph: 'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
       btnMore: {
         text: "LIRE D'AVANTAGE",
         link: '/fr/service-detail',
@@ -50,6 +52,9 @@ export const servicesHome: any = {
     {
       name: 'Placement du personnel',
       icon: placement,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+     
+      image: projetService,
       paragraph:
         "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
       btnMore: {
@@ -62,6 +67,9 @@ export const servicesHome: any = {
     {
       name: 'Suivie et évaluation des projets',
       icon: suivi,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      
+      image: projetService,
       paragraph:
         'Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.',
       btnMore: {
@@ -74,6 +82,9 @@ export const servicesHome: any = {
     {
       name: 'Team building',
       icon: team,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+     
+      image: projetService,
       paragraph:
         "Un esprit d'équipe solide, c'est la clé de la réussite. Nous vous proposons des expériences uniques pour renforcer la cohésion de vos collaborateurs.",
       btnMore: {
@@ -86,6 +97,9 @@ export const servicesHome: any = {
     {
       name: 'Hr consulting',
       icon: hr,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         'Nous vous écoutons pour vous proposer des solutions adaptées.',
       btnMore: {
@@ -98,6 +112,9 @@ export const servicesHome: any = {
     {
       name: 'Formation',
       icon: formation,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
       btnMore: {
@@ -112,6 +129,9 @@ export const servicesHome: any = {
     {
       name: 'Recrutement',
       icon: recrutement,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
       btnMore: {
@@ -124,6 +144,9 @@ export const servicesHome: any = {
     {
       name: 'Placement du personnel',
       icon: placement,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
       btnMore: {
@@ -136,6 +159,9 @@ export const servicesHome: any = {
     {
       name: 'Suivie et évaluation des projets',
       icon: suivi,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         'Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.',
       btnMore: {
@@ -148,6 +174,9 @@ export const servicesHome: any = {
     {
       name: 'Team building',
       icon: team,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         "Un esprit d'équipe solide, c'est la clé de la réussite. Nous vous proposons des expériences uniques pour renforcer la cohésion de vos collaborateurs.",
       btnMore: {
@@ -160,6 +189,9 @@ export const servicesHome: any = {
     {
       name: 'Hr consulting',
       icon: hr,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
+    
       paragraph:
         'Nous vous écoutons pour vous proposer des solutions adaptées.',
       btnMore: {
@@ -172,6 +204,8 @@ export const servicesHome: any = {
     {
       name: 'Formation',
       icon: formation,
+      description: "Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis",
+      image: projetService,
       paragraph:
         'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
       btnMore: {

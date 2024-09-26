@@ -1,0 +1,70 @@
+"use client"
+import SectionTitle from "@/components/global/section_title"
+import { useState } from "react";
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Carousel from 'react-simply-carousel';
+import CardTeam from "../cards/team"
+
+export default function Teams({ toShow = 5 }: any) {
+    const [activeSlide, setActiveSlide] = useState(0);
+    return <section className="w-full py-20 bg-white">
+        <div className="w-11/12 mx-auto">
+            <div className="w-fit mx-auto">
+                <SectionTitle text={"Notre Equipe"} />
+            </div>
+            <h1 className="font-bold  text-4xl text-center text-blue_itm_primary pb-5">
+                Rencontrez notre équipe
+            </h1>
+            <main className="w-full flex justify-between relative">
+                <Carousel
+                    activeSlideIndex={activeSlide}
+                    containerProps={{
+                        style: {
+                            flex: "1",
+                            alignItems: "center",
+                            alignContent: "center",
+                            padding: 20,
+                        }
+                    }}
+                    onRequestChange={setActiveSlide}
+                    easing="linear"
+                   
+                    responsiveProps={[
+                        {
+                            itemsToShow: toShow,
+                            itemsToScroll: 1,
+                            minWidth: 768,
+                        },
+                    ]}
+                    itemsToShow={toShow}
+                    infinite={true}
+                    autoplay={true}
+                    autoplayDelay={2000}
+                    itemsToScroll={1}
+                    speed={1000}
+                >
+                    {Array.from({ length: 10 }).map((item: any, index: number) => (
+                        <CardTeam key={index} />
+                    ))}
+                </Carousel>
+                <div className="w-fit cursor-pointer h-5 z-10 absolute flex items-center m-auto left-0 right-0 -bottom-5">
+                    {Array.from({ length: 10 }).map((item: any, index: number) =>
+                        index === activeSlide ? (
+                            <div
+                                key={index}
+                                onClick={() => setActiveSlide(index)}
+                                className="mr-1 md:w-14 w-10 h-2 rounded-full bg-blue_itm_good"
+                            ></div>
+                        ) : (
+                            <div
+                                key={index}
+                                onClick={() => setActiveSlide(index)}
+                                className="mr-1 w-2 h-2 rounded-full bg-blue_itm_good"
+                            ></div>
+                        ),
+                    )}
+                </div>
+            </main>
+        </div>
+    </section>
+}
