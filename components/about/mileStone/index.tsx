@@ -104,8 +104,8 @@ export default function AboutPageMileStone({ params }: { params: any }) {
     opacity: 0,
   }));
   return (
-    <section className="bg-white">
-      <div className="w-11/12 mx-auto py-10">
+    <section ref={ref} className="bg-white">
+      <div className="w-10/12 mx-auto pt-10">
         <SectionTitle text="NOTRE HISTOIRE" center={true} />
         <h4 className="text-5xl text-blue_itm_primary font-bold text-center mb-3">
           L'épopée de ITM Holding
@@ -120,7 +120,7 @@ export default function AboutPageMileStone({ params }: { params: any }) {
               className="relative flex experience-content"
               id={`experience-item-${expertiseIndex + 1}`}
               role="tabpanel"
-              style={{ perspective: '800px' }}
+              style={{ perspective: '700px' }}
             >
               <Timeline
                 expertise={expertise}

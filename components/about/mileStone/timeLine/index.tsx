@@ -14,7 +14,7 @@ export default function Timeline({
     experienceTimelineCalculator(expertise);
 
   return (
-    <div className="relative h-[550px] w-[34px] md:w-[96px] flex overflow-hidden">
+    <div className="relative h-[500px] w-[34px] md:w-[96px] flex overflow-hidden">
       <a.div
         className="absolute w-[34px] top-1/2 h-full"
         style={yearTimeLineScroll}
