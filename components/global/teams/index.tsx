@@ -1,7 +1,6 @@
 "use client"
 import SectionTitle from "@/components/global/section_title"
 import { useState } from "react";
-import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Carousel from 'react-simply-carousel';
 import CardTeam from "../cards/team"
 
