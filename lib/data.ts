@@ -19,6 +19,19 @@ import cmFlag from "@/public/assets/flag/cm.png"
 import zmFlag from "@/public/assets/flag/zm.png"
 import zaFlag from "@/public/assets/flag/za.png"
 import deFlag from "@/public/assets/flag/de.png"
+import cdLogo from "@/public/assets/logo/cd.png"
+import hrLogo from "@/public/assets/logo/hr.png"
+import aoLogo from "@/public/assets/logo/ao.png"
+import bnLogo from "@/public/assets/logo/bn.png"
+import cgLogo from "@/public/assets/logo/cg.png"
+import keLogo from "@/public/assets/logo/ke.png"
+import ngLogo from "@/public/assets/logo/ng.png"
+import rwLogo from "@/public/assets/logo/rw.png"
+import tzLogo from "@/public/assets/logo/tz.png"
+import tgLogo from "@/public/assets/logo/tg.png"
+import ugLogo from "@/public/assets/logo/ug.png"
+import zmLogo from "@/public/assets/logo/zm.png"
+import zaLogo from "@/public/assets/logo/za.png"
 
 export const servicesHome: any = {
   fr: [
@@ -172,20 +185,20 @@ export const servicesHome: any = {
 };
 
 export const entities = [
-  { fr: "Congo Kinshasa", en: "Congo Kinshasa", href: "/", code: "cd", flag: cdFlag },
-  { fr: "Rwanda", en: "Rwanda", href: "/en/rw", code: "rw", flag: rwFlag },
-  { fr: "Tanzanie", en: "Tanzania", href: "/en/tz", code: "tz", flag: tzFlag },
-  { fr: "Togo", en: "Togo", href: "/en/tg", code: "tg", flag: tgFlag },
-  { fr: "Nigéria", en: "Nigeria", href: "/en/ng", code: "ng", flag: ngFlag },
-  { fr: "Gabon", en: "Gabon", href: "/en/gb", code: "gb", flag: gbFlag },
-  { fr: "Uganda", en: "Uganda", href: "/en/ug", code: "ug", flag: ugFlag },
-  { fr: "Bénin", en: "Benin", href: "/fr/bn", code: "bn", flag: bnFlag },
-  { fr: "Angola", en: "Angola", href: "/en/ao", code: "ao", flag: aoFlag },
-  { fr: "Kenya", en: "Kenya", href: "/en/ke", code: "ke", flag: keFlag },
-  { fr: "Congo Brazza", en: "Congo Brazza", href: "/fr/cg", code: "cg", flag: cgFlag },
-  { fr: "Cameroun", en: "Cameroun", href: "/fr/cm", code: "cm", flag: cmFlag },
-  { fr: "Zambie", en: "Zambia", href: "/en/zm", code: "zm", flag: zmFlag },
-  { fr: "Afrique du sud", en: "South Africa", href: "/en/za", code: "za", flag: zaFlag },
-  { fr: "Allemagne", en: "Allemagne", href: "/en/de", code: "de", flag: deFlag },
+  { fr: "Congo Kinshasa", en: "Congo Kinshasa", href: "/", code: "cd", flag: cdFlag, logo: cdLogo },
+  { fr: "Rwanda", en: "Rwanda", href: "/en/rw", code: "rw", flag: rwFlag, logo: rwLogo },
+  { fr: "Tanzanie", en: "Tanzania", href: "/en/tz", code: "tz", flag: tzFlag, logo: tzLogo },
+  { fr: "Togo", en: "Togo", href: "/en/tg", code: "tg", flag: tgFlag, logo: tgLogo },
+  { fr: "Nigéria", en: "Nigeria", href: "/en/ng", code: "ng", flag: ngFlag, logo: ngLogo },
+  { fr: "Gabon", en: "Gabon", href: "/en/gb", code: "gb", flag: gbFlag, logo: hrLogo },
+  { fr: "Uganda", en: "Uganda", href: "/en/ug", code: "ug", flag: ugFlag, logo: ugLogo },
+  { fr: "Bénin", en: "Benin", href: "/fr/bn", code: "bn", flag: bnFlag, logo: bnLogo },
+  { fr: "Angola", en: "Angola", href: "/en/ao", code: "ao", flag: aoFlag, logo: aoLogo },
+  { fr: "Kenya", en: "Kenya", href: "/en/ke", code: "ke", flag: keFlag, logo: keLogo },
+  { fr: "Congo Brazza", en: "Congo Brazza", href: "/fr/cg", code: "cg", flag: cgFlag, logo: cgLogo },
+  { fr: "Cameroun", en: "Cameroun", href: "/fr/cm", code: "cm", flag: cmFlag, logo: hrLogo },
+  { fr: "Zambie", en: "Zambia", href: "/en/zm", code: "zm", flag: zmFlag, logo: zmLogo },
+  { fr: "Afrique du sud", en: "South Africa", href: "/en/za", code: "za", flag: zaFlag, logo: zaLogo },
+  { fr: "Allemagne", en: "Allemagne", href: "/en/de", code: "de", flag: deFlag, logo: hrLogo },
 ]
 export const langs = [{ fr: "Français", en: "French", tag: "" }, { fr: "RDC", en: "RDC", tag: "", code: "CD" }]

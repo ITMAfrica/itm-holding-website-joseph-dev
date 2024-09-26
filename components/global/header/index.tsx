@@ -10,7 +10,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 import { CODE, getCookie } from '@/helpers';
-import CardCountry from '@/components/global/cards/country';
+import CardLogo from '@/components/global/cards/logo';
 
 type linkHeader = {
   href: string;
@@ -52,19 +52,7 @@ export default function HomeHeader({ params }: propsPage) {
             >
               <MdOutlineMenu />
             </div>
-            <Link href={getHref()} className="block w-fit h-fit md:pr-5 mr-1">
-              <Image
-                src={logo.src}
-                className="md:h-8 h-4 w-fit"
-                height={60}
-                width={100}
-                alt="ITM Africa logo"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                }}
-              />
-            </Link>
+            <CardLogo />
           </div>
         </div>
         <nav className="w-fit lg:flex hidden items-center justify-evenly">
@@ -74,8 +62,6 @@ export default function HomeHeader({ params }: propsPage) {
         </nav>
         <div className="w-fit flex">
           <CardLang params={params} links={data?.links} />
-          <div className="w-1"></div>
-          <CardCountry />
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
