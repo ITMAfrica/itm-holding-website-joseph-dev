@@ -20,7 +20,7 @@ export default function CallToAction({ params }: { params: any }) {
           <div className="flex justify-center">
             <Link
               href={data.btn.link}
-              className="px-6 py-2 bg-blue_itm_aqua_marine rounded-2xl"
+              className="px-6 py-2 bg-blue_itm_aqua_marine rounded-full"
               title={data.btn.title}
             >
               {data.btn.text}
