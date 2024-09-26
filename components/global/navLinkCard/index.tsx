@@ -12,7 +12,7 @@ export default function NavLinkCard({ href, name, full = false, external }: link
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState('')
 
   useEffect(function () {
-    SET_CURRENT_CODE(getCookie("country", document?.cookie))
+    SET_CURRENT_CODE(getCookie("country", document?.cookie) || CODE)
   }, [])
 
   function getHref() {
