@@ -4,6 +4,11 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        'semi-lg': '1024px',
+        lg: '1280px',
+        xl: '1440px',
+      },
       colors: {
         blue_itm_good: '#1238B9',
         blue_itm_primary: '#1238B9',
