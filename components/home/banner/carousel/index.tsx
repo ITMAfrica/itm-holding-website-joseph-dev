@@ -1,5 +1,4 @@
 'use client';
-
 import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import Carousel from 'react-simply-carousel';
@@ -17,9 +16,9 @@ export default function HomeBannerCarousel({
   const data = dictionary.cd.pages.home.banner.items;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <div className="w-full h-full relative py-10 rounded-2xl overflow-hidden">
+    <div className="w-[90vw] mx-auto overflow-hidden h-full relative py-10 rounded-2xl">
       <Carousel
-        autoplay={true}
+        infinite={true}
         containerProps={{
           style: {
             width: '100%',
@@ -29,7 +28,6 @@ export default function HomeBannerCarousel({
             overflow: 'hidden',
           },
         }}
-
         itemsToShow={toShow}
         onRequestChange={setActiveSlide}
         easing="linear"
@@ -42,8 +40,7 @@ export default function HomeBannerCarousel({
         ]}
         preventScrollOnSwipe
         activeSlideIndex={activeSlide}
-        delay={2000}
-        speed={500}
+        speed={1000}
         centerMode
       >
         {data.map((item: any, index: number) => (
@@ -62,7 +59,7 @@ export default function HomeBannerCarousel({
             <div
               key={index}
               onClick={() => setActiveSlide(index)}
-              className="mr-1 w-2 h-2 rounded-full bg-white hover:bg-blue_itm_good"
+              className="mr-1 w-2 h-2 rounded-full bg-white"
             ></div>
           ),
         )}

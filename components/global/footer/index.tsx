@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import CardCountry from '@/components/global/cards/country';
 
 export default function Footer({ params }: { params: any }) {
   const lang = params.lang;
@@ -73,7 +74,7 @@ export default function Footer({ params }: { params: any }) {
           </div>
         </section>
       </div>
-      <section className="flex justify-between md:w-10/12 w-11/12 mx-auto py-4">
+      <section className="flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
         <div className="w-fit font-bold">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>
@@ -96,6 +97,8 @@ export default function Footer({ params }: { params: any }) {
           >
             Condition d'utilisation
           </Link>
+          <div className="md:ml-4"></div>
+          <CardCountry />
         </div>
       </section>
     </footer>

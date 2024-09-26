@@ -20,7 +20,7 @@ export default function CardCountryChoice(props: any) {
             return e
         }}
         title={props[lang]}
-        className="lg:w-[200px] w-[48%] group block relative relative h-[100px] mb-5 relative overflow-hidden rounded-2xl shadow-2xl"
+        className="lg:w-[200px] text-black w-[48%] group block relative relative h-[100px] mb-5 relative overflow-hidden rounded-2xl shadow-2xl"
     >
         <div className="w-full h-full shadow-2xl absolute bottom-0 z-10 right-0 p-4">
             <h3 className={`group-hover:font-bold lg:text-sm text-xs w-1/2 group-hover:text-blue_itm_aqua_marine ${props.code == CURRENT_CODE ? "text-blue_itm_aqua_marine font-bold" : "font-medium "}`}>

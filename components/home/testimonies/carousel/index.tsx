@@ -63,7 +63,7 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
         ]}
         itemsToShow={toShow}
         itemsToScroll={1}
-        speed={500}
+        speed={1000}
         centerMode
       >
         {Array.from({ length: 10 }).map((item: any, index: number) => (
