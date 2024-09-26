@@ -5,6 +5,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        sm: '480px',
+        md: '768px',
         'semi-lg': '1024px',
         lg: '1280px',
         xl: '1440px',
@@ -48,40 +50,43 @@ module.exports = {
     },
   },
   darkMode: 'class',
-  plugins: [nextui(), function ({ addUtilities }) {
-    const newUtilities = {
-      ".scrollbar-thin": {
-        scrollbarWidth: "thin",
-        scrollbarColor: "#2E5DF8 transparent",
-      },
-      ".scrollbar-webkit": {
-        "&::-webkit-scrollbar": {
-          width: "3px",
+  plugins: [
+    nextui(),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.scrollbar-thin': {
+          scrollbarWidth: 'thin',
+          scrollbarColor: '#2E5DF8 transparent',
         },
-        "&::-webkit-scrollbar-track": {
-          background: "#C2C0FF",
+        '.scrollbar-webkit': {
+          '&::-webkit-scrollbar': {
+            width: '3px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: '#C2C0FF',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#2E5DF8',
+            borderRadius: '20px',
+            border: '1px solid white',
+          },
         },
-        "&::-webkit-scrollbar-thumb": {
-          backgroundColor: "#2E5DF8",
-          borderRadius: "20px",
-          border: "1px solid white",
+        '.scrollbar-webkit-md': {
+          '&::-webkit-scrollbar': {
+            width: '7px',
+            marginLeft: '5px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: 'white',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#2E5DF8',
+            borderRadius: '20px',
+            border: '1px solid white',
+          },
         },
-      },
-      ".scrollbar-webkit-md": {
-        "&::-webkit-scrollbar": {
-          width: "7px",
-          marginLeft: "5px",
-        },
-        "&::-webkit-scrollbar-track": {
-          background: "white",
-        },
-        "&::-webkit-scrollbar-thumb": {
-          backgroundColor: "#2E5DF8",
-          borderRadius: "20px",
-          border: "1px solid white",
-        },
-      },
-    };
-    addUtilities(newUtilities, ["responsive", "hover"]);
-  },],
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };

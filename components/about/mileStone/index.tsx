@@ -105,7 +105,7 @@ export default function AboutPageMileStone({ params }: { params: any }) {
   }));
   return (
     <section ref={ref} className="bg-white">
-      <div className="w-10/12 mx-auto pt-10">
+      <div className="w-10/12 mx-auto py-10">
         <SectionTitle text="NOTRE HISTOIRE" center={true} />
         <h4 className="text-5xl text-blue_itm_primary font-bold text-center mb-3">
           L'épopée de ITM Holding
