@@ -1,5 +1,6 @@
 import AboutPage from '@/components/pages/about';
 import FormationsPage from '@/components/pages/formations';
+import NewsPage from '@/components/pages/news';
 import ServicesPage from '@/components/pages/services';
 
 export default function PageCountry({ params }: { params: any }) {
@@ -52,5 +53,9 @@ function getComponent({ params }: any) {
       return <FormationsPage params={params} />;
     case "formations":
       return <FormationsPage params={params} />;
+    case "news":
+      return <NewsPage params={params} />;
+    case "actualites":
+      return <NewsPage params={params} />;
   }
 }
