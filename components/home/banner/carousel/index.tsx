@@ -2,7 +2,7 @@
 import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import Carousel from 'react-simply-carousel';
-import CarouselItem from '../carouselItem';
+import CarouselItem from '@/components/home/banner/carouselItem';
 
 export default function HomeBannerCarousel({
   params,
