@@ -17,14 +17,12 @@ export default function HomeServiceCard({
 }) {
   return (
     <article className="border h-[400px] mx-3 bg-black/70 lg:w-[31%] group sm:w-[48%] w-full mb-8">
-      <div className="w-[18rem]">
-        <h1 className="mb-5 text-xl text-center text-white font-bold">
-          Gestion du personnel
-        </h1>
-        <div className="flex justify-center">
-          <Link className="border-white py-2 px-3 rounded-foull" href={'/'}>
-            Lire plus
-          </Link>
+      <div className="flex items-end w-[18rem]">
+        <div className="h-fit">
+          <h6 className="text-xxs text-white">NOS SERVICES</h6>
+          <h1 className="mb-5 text-xl text-white font-bold">
+            Gestion du personnel
+          </h1>
         </div>
       </div>
     </article>

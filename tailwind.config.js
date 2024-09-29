@@ -47,6 +47,9 @@ module.exports = {
       boxShadow: {
         headerShadow: '0 5px 18px -15px rgba(0, 0, 0, 0.3)',
       },
+      fontSize: {
+        xxs: '10px',
+      },
     },
   },
   darkMode: 'class',
