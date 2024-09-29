@@ -6,21 +6,20 @@ export default function HomeServiceCard({
   icon,
   paragraph,
   btnMore,
+  activeSlide,
 }: {
   name: string;
   icon: string;
   paragraph: string;
   btnMore: any;
+  activeSlide: any;
 }) {
   return (
-    <article className="shadow-xl hover:shadow-2xl rounded-xl md:p-10 p-8 lg:w-[31%] group sm:w-[48%] w-full mb-8">
-      <div className="flex justify-center">
-        <Image src={icon} alt="Icon" width={140} height={150} />
-      </div>
+    <article className="border h-[400px] mx-3 bg-black/70 md:p-10 p-8 lg:w-[31%] group sm:w-[48%] w-full mb-8">
       <h1 className="mb-5 text-center text-3xl text-blue_itm_good font-bold">
-        {name}
+        Gestion du personnel
       </h1>
-      <p className="md:mb-10 mb-5 text-center font-medium">{paragraph}</p>
+
       <div className="flex justify-center">
         <ButtonOulined {...btnMore} />
       </div>
