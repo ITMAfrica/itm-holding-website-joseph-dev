@@ -4,12 +4,12 @@ import Image from "next/image"
 export default function CardNews({ full = false }: any) {
     if (full) {
         return <article className="w-full h-[80px] group cursor-pointer flex items-center justify-start mb-3">
-            <div className="w-[80px] h-[80px] relative">
+            <div className="w-[100px] h-[80px] relative">
                 <Image src={bg} alt="" fill objectFit="fill" />
             </div>
             <div className="w-fit h-full pl-3">
                 <div className="w-full flex items-center justify-between mb-2 font-bold">
-                    <CiCalendar className="text-blue_itm_aqua_marine" />
+                    <CiCalendar className="text-blue_itm_aqua_marine group-hover:text-blue_itm_good" />
                     <h1 className="text-gray group-hover:text-blue_itm_good font-thin text-left w-full pl-2">
                         vendredi 5 decembre 2024
                     </h1>
@@ -30,7 +30,7 @@ export default function CardNews({ full = false }: any) {
         </div>
         <div className="w-fit h-full pl-3">
             <div className="w-full flex items-center justify-between mb-2 font-bold">
-                <CiCalendar className="text-blue_itm_aqua_marine" />
+                <CiCalendar className="text-blue_itm_aqua_marine group-hover:text-blue_itm_good" />
                 <h1 className="text-gray group-hover:text-blue_itm_good font-thin text-left w-full pl-2">
                     vendredi 5 decembre 2024
                 </h1>
