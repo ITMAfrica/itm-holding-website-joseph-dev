@@ -22,7 +22,7 @@ module.exports = {
         black_footer: '#262626',
         bg_itm: '#F2F2F2',
         white_itm: '#FAF9FF',
-        gray: '#8492A7',
+        gray_itm: '#8492A7',
         gray_itm_bg: '#C2C0FF',
         gray_800: '#454545',
         yelloweItm: '#F2B61D',
