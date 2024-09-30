@@ -46,11 +46,11 @@ export default function ModalCountryChoice({ init = false }: any) {
                         <MdOutlineCancel size={24} />
                     </div>
                 </div>
-                <div className="bg-white rounded-xl w-full  overflow-y-scroll p-5 h-[70vh] filter-none">
+                <div className="bg-white rounded-xl text-black w-full p-2 py-5 max-h-[70vh] filter-none">
                     <h1 className="font-medium text-xl text-center w-full pb-10">
                         {data?.title}
                     </h1>
-                    <div className="w-full h-fit flex justify-between flex-wrap">
+                    <div className="w-full h-fit flex justify-between  pb-5 px-3 overflow-y-scroll flex-wrap">
                         {entities?.sort(function (a: any, b: any) {
                             const first: string = a[lang];
                             const last: string = b[lang];
