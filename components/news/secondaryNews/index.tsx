@@ -62,7 +62,7 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                 >
                     {data.map((item: any, index: number) => (
 
-                        <div className="w-[90vw] h-[80vh] pt-5 relative">
+                        <div className="w-[90vw] h-[65vh] pt-5 relative">
                             <div className="absolute z-10 bg-green-500 top-3 left-3 text-base  px-4 py-2 text-white ">
                                 review
                             </div>
@@ -74,10 +74,10 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
             </main>
             <aside className="h-full w-full pt-5 overflow-y-scroll scrollbar-thin">
                 <div className="W-full flex flex-wrap justify-between">
-                    <CardNews />
-                    <CardNews />
-                    <CardNews />
-                    <CardNews />
+                    <CardNews index={0} />
+                    <CardNews index={1} />
+                    <CardNews index={2} />
+                    <CardNews index={3} />
                 </div>
             </aside>
         </div>
