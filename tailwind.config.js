@@ -4,6 +4,13 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        sm: '480px',
+        md: '768px',
+        'semi-lg': '990px',
+        lg: '1280px',
+        xl: '1440px',
+      },
       colors: {
         blue_itm_good: '#1238B9',
         blue_itm_primary: '#1238B9',
@@ -15,6 +22,7 @@ module.exports = {
         black_footer: '#262626',
         bg_itm: '#F2F2F2',
         white_itm: '#FAF9FF',
+        gray: '#8492A7',
         gray_itm_bg: '#C2C0FF',
         gray_800: '#454545',
         yelloweItm: '#F2B61D',
@@ -40,43 +48,49 @@ module.exports = {
       boxShadow: {
         headerShadow: '0 5px 18px -15px rgba(0, 0, 0, 0.3)',
       },
+      fontSize: {
+        xxs: '10px',
+      },
     },
   },
   darkMode: 'class',
-  plugins: [nextui(), function ({ addUtilities }) {
-    const newUtilities = {
-      ".scrollbar-thin": {
-        scrollbarWidth: "thin",
-        scrollbarColor: "#2E5DF8 transparent",
-      },
-      ".scrollbar-webkit": {
-        "&::-webkit-scrollbar": {
-          width: "3px",
+  plugins: [
+    nextui(),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.scrollbar-thin': {
+          scrollbarWidth: 'thin',
+          scrollbarColor: '#2E5DF8 transparent',
         },
-        "&::-webkit-scrollbar-track": {
-          background: "#C2C0FF",
+        '.scrollbar-webkit': {
+          '&::-webkit-scrollbar': {
+            width: '3px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: '#C2C0FF',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#2E5DF8',
+            borderRadius: '20px',
+            border: '1px solid white',
+          },
         },
-        "&::-webkit-scrollbar-thumb": {
-          backgroundColor: "#2E5DF8",
-          borderRadius: "20px",
-          border: "1px solid white",
+        '.scrollbar-webkit-md': {
+          '&::-webkit-scrollbar': {
+            width: '7px',
+            marginLeft: '5px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: 'white',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#2E5DF8',
+            borderRadius: '20px',
+            border: '1px solid white',
+          },
         },
-      },
-      ".scrollbar-webkit-md": {
-        "&::-webkit-scrollbar": {
-          width: "7px",
-          marginLeft: "5px",
-        },
-        "&::-webkit-scrollbar-track": {
-          background: "white",
-        },
-        "&::-webkit-scrollbar-thumb": {
-          backgroundColor: "#2E5DF8",
-          borderRadius: "20px",
-          border: "1px solid white",
-        },
-      },
-    };
-    addUtilities(newUtilities, ["responsive", "hover"]);
-  },],
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };

@@ -14,7 +14,7 @@ export default function Timeline({
     experienceTimelineCalculator(expertise);
 
   return (
-    <div className="relative h-[550px] w-[34px] md:w-[96px] flex overflow-hidden">
+    <div className="relative h-[500px] w-[34px] md:w-[96px] flex overflow-hidden">
       <a.div
         className="absolute w-[34px] top-1/2 h-full"
         style={yearTimeLineScroll}
@@ -25,7 +25,7 @@ export default function Timeline({
             <span
               key={currentYear}
               className={`
-                absolute -left-[8px] top-0 -translate-y-1/2 -rotate-[.25turn] text-sm text-grey-6 leading-[1] select-none font-bold
+                absolute -left-[8px] top-0 -translate-y-1/2 -rotate-[.25turn] text-medium text-blue_itm_aqua_marine leading-[1] select-none font-bold
               `}
               style={{ top: currentYear * YEAR_HEIGHT }}
             >
@@ -40,18 +40,18 @@ export default function Timeline({
       <div className="h-full hidden md:block flex-1" aria-hidden>
         <div className="relative h-full month-timeline-container ml-[34px]">
           <a.div
-            className={`w-[2px] bg-blue-100 dark:bg-blue-d-200 md:bg-grey-ea dark:md:bg-grey-3 absolute left-[18px] top-1/2 -translate-y-1/2`}
+            className={`w-[2px] bg-blue-100 md:bg-grey-ea absolute left-[18px] top-1/2 -translate-y-1/2`}
             style={monthTimeLineHeight}
           >
             <div className="relative h-full text-[14px] text-grey-9">
               <a.span
-                className="text-grey-6 dark:text-grey-9 absolute top-0 -translate-y-1/2 left-[calc(100%+16px)] hidden md:inline"
+                className="text-grey-9 absolute top-0 -translate-y-1/2 left-[calc(100%+16px)] hidden md:inline"
                 style={monthTimeLineMarker}
               >
                 {moment(expertise.timeRange[0]).format('MMM')}
               </a.span>
               <a.span
-                className="text-grey-6 dark:text-grey-9 absolute bottom-0 translate-y-1/2 left-[calc(100%+16px)] hidden md:inline"
+                className="text-grey-6 absolute bottom-0 translate-y-1/2 left-[calc(100%+16px)] hidden md:inline"
                 style={monthTimeLineMarker}
               >
                 {moment(expertise.timeRange[1]).format('MMM')}
