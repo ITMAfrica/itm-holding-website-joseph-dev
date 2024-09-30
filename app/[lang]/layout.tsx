@@ -2,7 +2,6 @@ import HomeHeader from '@/components/global/header';
 import {  type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import Footer from '@/components/global/footer';
-import ModalCountryChoice from '@/components/global/modal/countryChoice';
 import '@/styles/global.css';
 
 
@@ -45,7 +44,6 @@ export default function Root({
         <main className="w-full bg-gray_itm_bg/40">
           {children}
         </main>
-        <ModalCountryChoice />
         <Footer params={params} />
       </body>
     </html>

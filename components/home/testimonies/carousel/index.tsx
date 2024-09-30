@@ -1,5 +1,6 @@
 'use client';
 import { getDictionary } from '@/get-dictionary';
+import { testimonies } from '@/lib/data';
 import { useState } from 'react';
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import Carousel from 'react-simply-carousel';
@@ -31,7 +32,7 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
           },
           //here you can also pass className, or any other button element attributes
           children:
-            Array.from({ length: 10 }).length > 1 ? (
+            testimonies.length > 1 ? (
               <div className={`absolute right-0  z-30 -translate-y-1/2 h-10 w-10 ${activeSlide == 0 ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'}  text-white flex items-center justify-center rounded-full`}>
                 <MdOutlineKeyboardArrowRight />
               </div>
@@ -41,12 +42,12 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
         }}
         backwardBtnProps={{
           onClick() {
-            if (activeSlide != Array.from({ length: 10 }).length - 1)
+            if (activeSlide != testimonies.length - 1)
               setActiveSlide(activeSlide + 1);
           },
           //here you can also pass className, or any other button element attributes
           children:
-            Array.from({ length: 10 }).length > 1 ? (
+            testimonies.length > 1 ? (
               <div className={`absolute z-30 left-0 -translate-y-1/2  h-10 w-10 ${activeSlide == Array.from({ length: 10 }).length ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'} text-white flex items-center justify-center rounded-full`}>
                 <MdOutlineKeyboardArrowLeft />
               </div>
@@ -66,8 +67,8 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
         speed={1000}
         centerMode
       >
-        {Array.from({ length: 10 }).map((item: any, index: number) => (
-          <TestimonyItem item={index} activeSlide={activeSlide} key={index} />
+        {testimonies.map((item: any, index: number) => (
+          <TestimonyItem item={item} setActiveSlide={setActiveSlide} index={index} activeSlide={activeSlide} key={index} />
         ))}
       </Carousel>
     </div>
