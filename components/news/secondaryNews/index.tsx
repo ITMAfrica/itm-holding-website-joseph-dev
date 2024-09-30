@@ -17,8 +17,8 @@ export default function NewsPageSecondary() {
                     <Image src={bg} alt="" fill />
                 </div>
             </main>
-            <aside className="h-full w-full lg:pt-0 pt-5 overflow-y-scroll scrollbar-thin">
-                <div className="W-full flex lg:flex-nowrap flex-wrap justify-between">
+            <aside className="h-full w-full pt-5 overflow-y-scroll scrollbar-thin">
+                <div className="W-full flex flex-wrap justify-between">
                     <CardNews />
                     <CardNews />
                     <CardNews />

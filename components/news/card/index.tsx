@@ -21,9 +21,12 @@ export default function CardNews({ full = false }: any) {
             </div>
         </article>
     }
-    return <article className="w-full lg:w-[20vw] h-[100px] mb-5 flex items-center justify-start">
-        <div className="w-[80px] h-[80px] relative">
+    return <article className="w-full lg:w-[25vw] cursor-pointer group h-[120px] mb-5 flex items-center justify-start">
+        <div className="w-[200px] h-[120px] relative">
             <Image src={bg} alt="" fill objectFit="fill" />
+            <div className="absolute bg-green-500 top-3 left-3 text-xs px-2 text-white ">
+                review
+            </div>
         </div>
         <div className="w-fit h-full pl-3">
             <div className="w-full flex items-center justify-between mb-2 font-bold">
