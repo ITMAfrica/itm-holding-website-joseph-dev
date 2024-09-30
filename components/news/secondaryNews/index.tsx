@@ -14,7 +14,7 @@ export default function NewsPageSecondary() {
                     <div className="w-1/12 border-blue_itm_good border-b-2 mb-5"></div>
                 </header>
                 <div className="w-full h-[80vh] pt-5 relative">
-                    <Image src={bg} alt="" fill />
+                <Image src={bg} alt="" fill objectFit="cover" />
                 </div>
             </main>
             <aside className="h-full w-full pt-5 overflow-y-scroll scrollbar-thin">

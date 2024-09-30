@@ -13,7 +13,7 @@ export default function NewsPageMain() {
                     <div className="w-1/12  border-blue_itm_good border-b-2 mb-5"></div>
                 </header>
                 <div className="w-full h-[50vh] relative">
-                    <Image src={bg} alt="" fill />
+                    <Image src={bg} alt="" fill objectFit="cover" />
                     <div className="absolute bg-green-500 top-3 left-3 text-xs px-2 text-white ">
                         entreprise
                     </div>

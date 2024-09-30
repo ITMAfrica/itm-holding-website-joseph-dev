@@ -1,6 +1,7 @@
 import bg from "@/public/assets/bg/bg.news.card.png"
 import { CiCalendar } from "react-icons/ci";
 import Image from "next/image"
+
 export default function CardNews({ full = false }: any) {
     if (full) {
         return <article className="w-full h-[80px] group cursor-pointer flex items-center justify-start mb-3">
