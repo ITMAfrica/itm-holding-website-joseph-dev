@@ -23,10 +23,14 @@ export default function HomeServiceCard({
         </div>
         <div className="absolute z-20 bg-gradient-to-t from-black h-full w-full"></div>
         <div className="px-4 h-fit z-50 text-white pb-6">
-          <h6 className="text-xxs text-white">NOS SERVICES</h6>
-          <h1 className="mb-2 text-xl text-white font-bold">{name}</h1>
+          <h6 className="text-xxs text-white group-hover:animate-slow-display">
+            NOS SERVICES
+          </h6>
+          <h1 className="mb-2 text-xl group-hover:animate-slow-display text-white font-bold">
+            {name}
+          </h1>
           <div className="hidden group-hover:block transition animate-slow-display ease-in-out duration-700">
-            <p className="opacity-0 text-xs mb-6  group-hover:opacity-100 transition ease-in-out duration-700">
+            <p className="opacity-0 text-xs mb-6 group-hover:opacity-100 transition ease-in-out duration-700">
               {paragraph}
             </p>
             <Link
