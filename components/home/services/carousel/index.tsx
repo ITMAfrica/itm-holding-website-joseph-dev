@@ -27,9 +27,9 @@ export default function HomeServicesCarousel({
         containerProps={{
           style: {
             flex: '1',
-            alignItems: 'center',
-            alignContent: 'right',
-            padding: 5,
+            alignItems: 'end',
+            alignContent: 'end',
+            paddingLeft: 20,
           },
         }}
         onRequestChange={setActiveSlide}
