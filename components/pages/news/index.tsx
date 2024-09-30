@@ -1,3 +1,4 @@
+import CallToAction from "@/components/global/callToAction"
 import Faqs from "@/components/global/faqs"
 import Teams from "@/components/global/teams"
 import NewsPageBanner from "@/components/news/banner"
@@ -11,5 +12,6 @@ export default function NewsPage({ params }: any) {
         <NewsPageSecondary />
         <Teams />
         <Faqs />
+        <CallToAction params={params} />
     </main>
 }
