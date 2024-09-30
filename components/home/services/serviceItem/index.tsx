@@ -22,7 +22,7 @@ export default function HomeServiceCard({
           <Image src={icon} alt="Image service" className="h-full w-full" />
         </div>
         <div className="absolute z-20 bg-gradient-to-t from-black h-full w-full"></div>
-        <div className="px-4 h-fit z-50 text-white pb-6">
+        <div className="px-4 h-fit z-50 text-white pb-10">
           <h6 className="text-xxs text-white group-hover:animate-slow-display">
             NOS SERVICES
           </h6>
