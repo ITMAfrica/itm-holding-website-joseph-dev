@@ -23,14 +23,14 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                         <div onClick={function () {
                             if (activeSlide != data.length - 1)
                                 setActiveSlide(activeSlide + 1);
-                        }} className=" h-10 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50 text-white flex items-center justify-center rounded-full">
+                        }} className={`h-10 w-10 ${activeSlide == data.length - 1 ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'} text-white flex items-center justify-center rounded-full`}>
                             <MdOutlineKeyboardArrowLeft />
                         </div>
                         <div onClick={function () {
                             if (activeSlide != 0) {
                                 setActiveSlide(activeSlide - 1);
                             }
-                        }} className="ml-2 h-10 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50  text-white flex items-center justify-center rounded-full">
+                        }} className={`ml-2 h-10 w-10 ${activeSlide == 0 ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'}  text-white flex items-center justify-center rounded-full`}>
                             <MdOutlineKeyboardArrowRight />
                         </div>
 
