@@ -25,16 +25,18 @@ export default function HomeServiceCard({
         <div className="px-4 h-fit z-50 text-white pb-6">
           <h6 className="text-xxs text-white">NOS SERVICES</h6>
           <h1 className="mb-2 text-xl text-white font-bold">{name}</h1>
-          <p className="hidden opacity-0 text-xs mb-6 group-hover:block group-hover:opacity-100 transition ease-in-out duration-700">
-            {paragraph}
-          </p>
-          <Link
-            href={'/'}
-            title={name}
-            className="hidden group-hover:inline text-xs border border-white p-2 hover:bg-white hover:text-blue_itm_primary"
-          >
-            LIRE D'AVANTAGE
-          </Link>
+          <div className="hidden group-hover:block transition animate-slow-display ease-in-out duration-700">
+            <p className="opacity-0 text-xs mb-6  group-hover:opacity-100 transition ease-in-out duration-700">
+              {paragraph}
+            </p>
+            <Link
+              href={btnMore.link}
+              title={btnMore.title}
+              className="group-hover:inline text-xs border border-white p-2 hover:bg-white hover:text-blue_itm_primary"
+            >
+              {btnMore.text}
+            </Link>
+          </div>
         </div>
       </div>
     </article>
