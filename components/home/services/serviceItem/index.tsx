@@ -16,7 +16,7 @@ export default function HomeServiceCard({
   activeSlide: any;
 }) {
   return (
-    <article className="border h-[450px] mx-3 lg:w-[31%] group sm:w-[48%] w-full mb-8">
+    <article className="border h-[500px] mx-3 lg:w-[31%] group sm:w-[48%] w-full mb-8">
       <div className="flex items-end h-full w-[21rem] relative">
         <div className="absolute h-full w-full">
           <Image src={icon} alt="Image service" className="h-full w-full" />
