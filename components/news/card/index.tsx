@@ -15,12 +15,12 @@ export default function CardNews({ full = false, index }: any) {
                 <div className="w-full flex items-center justify-between mb-2 font-bold">
                     <CiCalendar className="text-blue_itm_aqua_marine group-hover:text-blue_itm_good" />
                     <h1 className="text-gray_itm group-hover:text-blue_itm_good font-thin group-hover:font-bold text-left w-full pl-2">
-                        Vendredi 5 decembre 2024
+                         5 decembre 2024
                     </h1>
                 </div>
                 <p className="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi vero laboriosam sapiente illo accusantium culpa
+                    Eligendi vero laboriosam sapiente 
                 </p>
             </div>
         </article>
@@ -35,12 +35,12 @@ export default function CardNews({ full = false, index }: any) {
             <div className="w-full flex items-center justify-between mb-2 font-bold">
                 <CiCalendar className="text-blue_itm_aqua_marine group-hover:text-blue_itm_good" />
                 <h1 className="text-gray_itm group-hover:text-blue_itm_good font-thin text-left w-full pl-2">
-                    vendredi 5 decembre 2024
+                     5 decembre 2024
                 </h1>
             </div>
             <p className="text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi vero laboriosam sapiente illo accusantium culpa
+                Eligendi vero laboriosam sa
             </p>
         </div>
     </article>
