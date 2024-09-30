@@ -9,7 +9,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 export default function NavLinkCard({ href, name, full = false, external }: link) {
   const params = useParams();
   const pathname = usePathname()
-  const [CURRENT_CODE, SET_CURRENT_CODE] = useState('')
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE)
 
   useEffect(function () {
     SET_CURRENT_CODE(getCookie("country", document?.cookie) || CODE)
@@ -20,7 +20,7 @@ export default function NavLinkCard({ href, name, full = false, external }: link
     if (href == TALENTPRO_HREF) {
       return href
     }
-    else if (CURRENT_CODE && (CURRENT_CODE != CODE) && current) {
+    else if (CURRENT_CODE && (CURRENT_CODE != CODE) && (current != "undefined")) {
       return `/${params.lang}/${params.country}/${current}`
     } else {
       return href
