@@ -1,25 +1,41 @@
-import bg from "@/public/assets/bg/bg.news.png"
+import bg from "@/public/assets/bg/bg.news.card.png"
+import { CiCalendar } from "react-icons/ci";
 import Image from "next/image"
-export default function CardNews({ full = true }: any) {
+export default function CardNews({ full = false }: any) {
     if (full) {
-        return <article className="w-full h-[100px] flex items-center justify-start mb-3">
-            <div className="w-[100px] h-[100px] relative">
-                <Image src={bg} alt="" fill />
+        return <article className="w-full h-[80px] group cursor-pointer flex items-center justify-start mb-3">
+            <div className="w-[80px] h-[80px] relative">
+                <Image src={bg} alt="" fill objectFit="fill" />
             </div>
-            <div className="w-full">
-                <h1 className="font-bold">
-
-                </h1>
-                <p className="pl-3 text-xs">
+            <div className="w-fit h-full pl-3">
+                <div className="w-full flex items-center justify-between mb-2 font-bold">
+                    <CiCalendar className="text-blue_itm_aqua_marine" />
+                    <h1 className="text-gray group-hover:text-blue_itm_good font-thin text-left w-full pl-2">
+                        vendredi 5 decembre 2024
+                    </h1>
+                </div>
+                <p className="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Eligendi vero laboriosam sapiente illo accusantium culpa
                 </p>
             </div>
         </article>
     }
-    return <article className="w-[20vw] h-[100px] mb-5">
-        <div className="w-[100px] h-[100px] relative">
-            <Image src={bg} alt="" fill />
+    return <article className="w-full lg:w-[20vw] h-[100px] mb-5 flex items-center justify-start">
+        <div className="w-[80px] h-[80px] relative">
+            <Image src={bg} alt="" fill objectFit="fill" />
+        </div>
+        <div className="w-fit h-full pl-3">
+            <div className="w-full flex items-center justify-between mb-2 font-bold">
+                <CiCalendar className="text-blue_itm_aqua_marine" />
+                <h1 className="text-gray group-hover:text-blue_itm_good font-thin text-left w-full pl-2">
+                    vendredi 5 decembre 2024
+                </h1>
+            </div>
+            <p className="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi vero laboriosam sapiente illo accusantium culpa
+            </p>
         </div>
     </article>
 }
