@@ -85,7 +85,6 @@ export default function HomeServicesCarousel({
       <div className="flex pl-10 z-20">
         <button
           onClick={() => {
-            console.log('Active slide: ', activeSlide);
             if (activeSlide < servicesHome[lang].length - 1 && activeSlide > 0)
               setActiveSlide(activeSlide - 1);
           }}
@@ -95,7 +94,6 @@ export default function HomeServicesCarousel({
         </button>
         <button
           onClick={() => {
-            console.log('Active slide: ', activeSlide);
             if (activeSlide < servicesHome[lang].length)
               setActiveSlide(activeSlide + 1);
           }}
