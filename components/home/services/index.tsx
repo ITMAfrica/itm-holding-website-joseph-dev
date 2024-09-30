@@ -9,9 +9,9 @@ export default function HomeServicesSection({ params }: { params: any }) {
   const data = dictionary.cd.pages.home.services;
 
   return (
-    <section className="bg-white">
-      <div className="flex py-20 xl:w-9/12 w-11/12 mx-auto">
-        <div className="w-2/6">
+    <section className="bg-white flex justify-end">
+      <div className="flex py-20 w-11/12">
+        <div className="w-3/12">
           <div className="md:mb-20 mb-10">
             <SectionTitle text={data.title} />
             <h2 className="text-blue_itm_good md:text-5xl text-3xl font-bold mt-4 mb-4">
@@ -20,7 +20,7 @@ export default function HomeServicesSection({ params }: { params: any }) {
             <p className="text-2xl text-blue_itm_primary">{data.paragraph}</p>
           </div>
         </div>
-        <div className="w-4/6">
+        <div className="w-9/12">
           <HomeServicesCarousel params={params} />
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function HomeServicesCarousel({
             flex: '1',
             alignItems: 'center',
             alignContent: 'right',
-            padding: 20,
+            padding: 5,
           },
         }}
         onRequestChange={setActiveSlide}
