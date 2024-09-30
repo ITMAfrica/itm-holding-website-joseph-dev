@@ -48,7 +48,6 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                     itemsToShow={toShow}
                     onRequestChange={setActiveSlide}
                     easing="linear"
-
                     responsiveProps={[
                         {
                             itemsToShow: toShow,
@@ -72,12 +71,14 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                 </Carousel>
 
             </main>
-            <aside className="h-full w-full pt-5 overflow-y-scroll scrollbar-thin">
+            <aside className="h-fit w-full pt-5">
                 <div className="W-full flex flex-wrap justify-between">
                     <CardNews index={0} />
                     <CardNews index={1} />
                     <CardNews index={2} />
                     <CardNews index={3} />
+                    <CardNews index={4} />
+                    <CardNews index={5} />
                 </div>
             </aside>
         </div>
