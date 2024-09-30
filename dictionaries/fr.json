@@ -167,8 +167,9 @@
           }
         },
         "services": {
-          "title": "NOS SERVICES",
-          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise"
+          "title": "CE QUE NOUS FAISONS",
+          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph": "Nous démontrons notre aptitude à vous accompagner dans tous vos projets."
         },
         "metrics": {
           "title": "Pourquoi nous faire confiance?",

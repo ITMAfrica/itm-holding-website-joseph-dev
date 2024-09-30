@@ -167,8 +167,9 @@
           }
         },
         "services": {
-          "title": "OUR SERVICES",
-          "subtitle": "We provide exclusive services for your business"
+          "title": "WHAT WE DO",
+          "subtitle": "We provide exclusive services for your business",
+          "paragraph": "We demonstrate our ability to support you in all your projects."
         },
         "metrics": {
           "title": "Why should you trust us?",

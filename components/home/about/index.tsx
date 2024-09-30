@@ -12,10 +12,10 @@ export default function HomeAbout({ params }: { params: any }) {
   const dictionary: any = getDictionary(lang);
   const data: any = dictionary?.cd?.pages.home.about;
   return (
-    <section className="md:flex bg-white justify-center w-full mx-auto lg:py-20 py-10">
+    <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10">
       <div className="w-11/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
         <div className="w-fit mx-auto md:w-3/5 lg:w-1/2">
-          <div className="w-fit lg:w-full hidden lg:flex w-fit mx-auto flex-wrap justify-center">
+          <div className="w-fit lg:w-full hidden semi-lg:flex mx-auto flex-wrap justify-center">
             <div className="w-1/2 md:w-1/2 flex justify-end items-end">
               <div className="relative md:w-[205px] w-[120px] h-fit shadow-xl rounded-md mr-3">
                 <Image
@@ -71,8 +71,8 @@ export default function HomeAbout({ params }: { params: any }) {
           </div>
         </div>
         <div className="w-fit h-full md:px-5 px-3"></div>
-        <div className="w-full md:w-2/5 lg:w-1/2 group">
-          <div className=" pt-10 md:pt-0 md:mr-14">
+        <div className="w-full semi-lg:w-2/5 lg:w-1/2 group">
+          <div className="pt-10 md:pt-0 md:mr-14">
             <SectionTitle text={data.title} />
             <h1 className="text-blue_itm_good text-5xl text-center lg:text-left font-bold mb-2">
               {data.subtitle}

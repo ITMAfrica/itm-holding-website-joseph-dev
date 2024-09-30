@@ -48,7 +48,7 @@ export default function MileStoneControl({
                   aria-selected={index === expertiseIndex}
                   className={`w-[12px] aspect-square rounded-[50%] ring-grey-b ${
                     isActiveButton
-                      ? 'bg-blue_itm_primary'
+                      ? 'bg-blue_itm_aqua_marine'
                       : 'bg-grey-d hover:ring-1'
                   }`}
                   onClick={() => setExpertiseIndex(index)}
