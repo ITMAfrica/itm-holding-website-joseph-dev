@@ -4,7 +4,7 @@ import { BiSolidQuoteAltRight } from 'react-icons/bi';
 
 export default function TestimonyItem({ item, index, activeSlide, setActiveSlide }: any) {
   const centerClass = "w-fit ease-linear h-fit relative z-20 scale-125 pt-[48px] flex items-center justify-center mx-3 my-24"
-  const asideClass = "w-fit h-[467.5px] z-10 ease-linear flex items-center justify-center pt-[12px] my-24 mx-5"
+  const asideClass = "w-fit h-[450.5px] z-10 ease-linear flex items-center justify-center pt-[12px] my-24 mx-5"
 
   return (
     <article
