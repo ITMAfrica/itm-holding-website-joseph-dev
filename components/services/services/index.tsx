@@ -54,7 +54,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         return <CardServices {...item} index={index} activeSlide={activeSlide} setActiveSlide={setActiveSlide} left={index % 2 == 0} key={index} />
                     })}
                 </Carousel>
-                <div className="w-full absolute z-20 bottom-0 left-0 h-fit p-5 flex items-center justify-start translate-y-full">
+                <div className="w-full absolute z-20 bottom-0 left-0 h-fit py-5 flex items-center justify-start translate-y-full">
                     <div
                         onClick={() => {
                             if (activeSlide != 0) {
@@ -80,7 +80,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                     </div>
                 </div>
             </div>
-            <div className="w-full absolute z-20 bottom-0 left-0 h-fit p-5 flex lg:hidden items-center justify-center">
+            <div className="w-full absolute z-20 bottom-0 left-0 h-fit py-5 flex lg:hidden items-center justify-center">
                 <div
                     onClick={() => {
                         if (activeSlide != 0) {
