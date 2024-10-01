@@ -2,7 +2,7 @@
 import { servicesHome } from "@/lib/data";
 import Image from "next/image";
 import { useState } from "react";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Carousel from 'react-simply-carousel';
 import CardServices from "./card";
 
@@ -23,10 +23,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         {servicesHome[lang][activeSlide]?.description}
                     </p>
                     <div className="w-full pt-5 flex">
-                        <div className="w-fit py-2 px-4 rounded-lg bg-white text-black mr-2">
+                        <div className="w-fit py-2 px-4 rounded-md bg-white text-black mr-2">
                             Nous contacter
                         </div>
-                        <div className="w-fit py-2 px-4 rounded-lg bg-white text-black">
+                        <div className="w-fit py-2 px-4 rounded-md bg-white text-black">
                             Nous contacter
                         </div>
                     </div>
@@ -62,10 +62,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(servicesHome[lang].length - 1)
                             }
-                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-lg hover:scale-125"
+                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:text-blue_itm_aqua_marine hover:scale-125"
                     >
 
-                        <FaArrowLeft />
+                        <MdOutlineKeyboardArrowLeft />
                     </div>
                     <div
                         onClick={() => {
@@ -74,9 +74,9 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(0)
                             }
-                        }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black rounded-lg"
+                        }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-md"
                     >
-                        <FaArrowRight />
+                        <MdOutlineKeyboardArrowRight />
                     </div>
                 </div>
             </div>
@@ -88,10 +88,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(servicesHome[lang].length - 1)
                         }
-                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-lg hover:scale-125"
+                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:scale-125"
                 >
 
-                    <FaArrowLeft />
+                    <MdOutlineKeyboardArrowLeft />
                 </div>
                 <div
                     onClick={() => {
@@ -100,19 +100,12 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(0)
                         }
-                    }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black rounded-lg"
+                    }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black hover:text-blue_itm_aqua_marine rounded-md"
                 >
-                    <FaArrowRight />
+                    <MdOutlineKeyboardArrowRight />
                 </div>
             </div>
         </div>
 
     </section>
-    return (
-        <section className="w-full h-fit  bg-white">
-            {servicesHome[lang].map(function (item: any, index: number) {
-                return <CardServices {...item} left={index % 2 == 0} key={index} />
-            })}
-        </section>
-    );
 }
