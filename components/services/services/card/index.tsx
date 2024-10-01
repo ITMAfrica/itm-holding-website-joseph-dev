@@ -10,7 +10,7 @@ export default function CardServices({ name, index, image, activeSlide, setActiv
     return <article onClick={function () {
         setActiveSlide(index)
     }} className={`h-full w-[20vw] shadow rounded-2xl overflow-hidden ml-5 ${index == activeSlide ? '' : ''} relative`}>
-        <Image src={servicesHome[lang][index].image} alt="" fill />
+        <Image src={servicesHome[lang][index].image} alt="" fill objectFit="cover" />
         <div className="absolute top-0 text-white bg-gradient-to-b from-transparent to-black left-0 right-0 bottom-0 p-5 flex items-end justifty-center">
             <div className="w-full">
                 <h1 className="font-bold text-xl">

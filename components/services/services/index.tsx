@@ -73,8 +73,8 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(servicesHome[lang].length - 1)
                             }
-                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-lg hover:scale-125">
-
+                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-lg hover:scale-125"
+                    >
 
                         <FaArrowLeft />
                     </div>
@@ -85,7 +85,8 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(0)
                             }
-                        }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black rounded-lg">
+                        }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black rounded-lg"
+                    >
                         <FaArrowRight />
                     </div>
                 </div>
