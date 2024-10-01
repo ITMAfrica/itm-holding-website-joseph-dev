@@ -1,7 +1,28 @@
 import SectionTitle from "@/components/global/section_title"
+import { servicesHome } from "@/lib/data"
 import Image from "next/image"
+import { useParams } from "next/navigation"
 
-export default function CardServices({ name, image, description, left = true }: any) {
+export default function CardServices({ name, index, image, activeSlide, setActiveSlide, description, left = true }: any) {
+    const params: any = useParams()
+    const lang: string = params.lang
+
+    return <article onClick={function () {
+        setActiveSlide(index)
+    }} className={`h-full w-[20vw] shadow rounded-2xl overflow-hidden ml-5 ${index == activeSlide ? '' : ''} relative`}>
+        <Image src={servicesHome[lang][index].image} alt="" fill />
+        <div className="absolute top-0 text-white bg-gradient-to-b from-transparent to-black left-0 right-0 bottom-0 p-5 flex items-end justifty-center">
+            <div className="w-full">
+                <h1 className="font-bold text-xl">
+                    {servicesHome[lang][index]?.name}
+                </h1>
+                
+                <p className="pt-5 text-xs">
+                    {servicesHome[lang][index]?.description.slice(0, 50)}...
+                </p>
+            </div>
+        </div>
+    </article>
     if (left) {
         return <article className="w-full min-h-[400px] group  flex justify-center ease-linear">
             <div className="w-full flex">

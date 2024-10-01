@@ -107,7 +107,6 @@ export const servicesHome: any = {
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
-
       paragraph:
         'Nous vous écoutons pour vous proposer des solutions adaptées.',
       btnMore: {

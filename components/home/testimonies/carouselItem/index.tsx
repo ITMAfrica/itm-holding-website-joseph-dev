@@ -16,17 +16,17 @@ export default function TestimonyItem({ item, index, activeSlide, setActiveSlide
     >
       <div className="w-[325px] min-h-[325px] bg-white shadow-xl rounded-2xl border pt-0 p-3 relative">
         <div className="-translate-y-1/2 flex justify-center">
-          <div className="w-24 h-24 p-2 relative shadow-lg overflow-hidden rounded-full border-4 border-white bg-gray-300">
+          <div className="w-24 h-24 p-2 relative shadow-lg overflow-hidden rounded-full border-4 border-white bg-gray-200">
             <Image src={item?.image} fill alt='avatar' />
           </div>
         </div>
-        <span className="text-gray-300 text-3xl">
+        <span className="text-gray-300 text-2xl">
           <BiSolidQuoteAltLeft />
         </span>
         <p className="py-4 text-center text-xs">
           {item?.description}
         </p>
-        <span className="flex w-full justify-end text-gray-300 text-3xl">
+        <span className="flex w-full justify-end text-gray-300 text-2xl">
           <BiSolidQuoteAltRight />
         </span>
         <h3 className="text-center font-bold text-blue_itm_aqua_marine mt-2">
