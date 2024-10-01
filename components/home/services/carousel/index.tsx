@@ -57,7 +57,7 @@ export default function HomeServicesCarousel({
       <div className="flex items-center pl-3 z-20">
         <button
           onClick={() => {
-            if (activeSlide + 1 < servicesHome[lang].length && activeSlide > 0)
+            if (activeSlide != 0)
               setActiveSlide(activeSlide - 1);
           }}
           className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
@@ -70,7 +70,7 @@ export default function HomeServicesCarousel({
         </div>
         <button
           onClick={() => {
-            if (activeSlide + 1 < servicesHome[lang].length)
+            if (activeSlide != servicesHome[lang].length - 1)
               setActiveSlide(activeSlide + 1);
           }}
           className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
