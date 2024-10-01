@@ -61,7 +61,7 @@ export default function HomeBannerCarousel({
               onClick={() => setActiveSlide(index)}
               className="mr-1 w-2 h-2 rounded-full bg-white"
             ></div>
-          ),
+          )
         )}
       </div>
     </div>
