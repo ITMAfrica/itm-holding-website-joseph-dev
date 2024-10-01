@@ -30,42 +30,11 @@ export default function HomeServicesCarousel({
               flex: '1',
               alignItems: 'end',
               alignContent: 'end',
-              paddingLeft: 20,
+              paddingLeft: 2,
             },
           }}
           onRequestChange={setActiveSlide}
           easing="linear"
-          forwardBtnProps={{
-            onClick() {
-              if (activeSlide != 0) setActiveSlide(activeSlide - 1);
-            },
-            //here you can also pass className, or any other button element attributes
-            children:
-              Array.from({ length: 10 }).length > 1 ? (
-                <></>
-              ) : (
-                //   <div className="absolute right-0  z-30 -translate-y-1/2 md:h-14 h-10 md:w-14 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50  text-white flex items-center justify-center rounded-full">
-                //     <MdOutlineKeyboardArrowRight />
-                //   </div>
-                <></>
-              ),
-          }}
-          backwardBtnProps={{
-            onClick() {
-              if (activeSlide != Array.from({ length: 10 }).length - 1)
-                setActiveSlide(activeSlide + 1);
-            },
-            //here you can also pass className, or any other button element attributes
-            children:
-              Array.from({ length: 10 }).length > 1 ? (
-                <></>
-              ) : (
-                //   <div className="absolute z-30 left-0 -translate-y-1/2  md:h-14 h-10 md:w-14 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50 text-white flex items-center justify-center rounded-full">
-                //     <MdOutlineKeyboardArrowLeft />
-                //   </div>
-                <></>
-              ),
-          }}
           responsiveProps={[
             {
               itemsToShow: toShow,
@@ -76,6 +45,7 @@ export default function HomeServicesCarousel({
           itemsToShow={toShow}
           itemsToScroll={1}
           speed={1000}
+          preventScrollOnSwipe={true}
         >
           {servicesHome[lang].map((item: any, index: number) => (
             <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
