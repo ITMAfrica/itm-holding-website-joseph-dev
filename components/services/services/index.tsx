@@ -10,29 +10,34 @@ export default function ServicesPageServices({ params }: { params: any }) {
     const lang = params.lang
     const [toShow] = useState(3)
     const [activeSlide, setActiveSlide] = useState(0);
-    return <section className="w-full min-h-[80vh] lg:py-20 py-10 flex items-center bg-white relative">
-        <Image alt="" src={servicesHome[lang][activeSlide]?.image} fill objectFit="cover" />
-        <div className="w-full bg-gradient-to-l from-transparent to-black absolute z-10 top-0 left-0 right-0 bottom-0 lg:flex  items-center justify-center">
-            <article className="w-full lg:w-1/2 h-full flex items-center justify-center text-white">
-                <div className="w-10/12 h-10/12 lg:w-8/12 h-8/12">
-                    <h1 className="font-bold text-5xl">
-                        {servicesHome[lang][activeSlide]?.name}
-                    </h1>
-                   
-                    <p className="pt-3">
-                        {servicesHome[lang][activeSlide]?.description}
-                    </p>
-                    <div className="w-full pt-5 flex">
-                        <div className="w-fit py-2 px-4 rounded-md bg-white text-black mr-2">
-                            Nous contacter
-                        </div>
-                        <div className="w-fit py-2 px-4 rounded-md bg-white text-black">
-                            Nous contacter
+    return <section className="w-full min-h-[80vh] flex items-center relative">
+        <div className="w-10/12 shadow-2xl shadow-black rounded-2xl my-20 overflow-hidden mx-auto relative top-0 min-h-[80vh] left-0 right-0 bottom-0">
+            <Image alt="" src={servicesHome[lang][activeSlide]?.image} fill objectFit="cover" className="" />
+            <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-transparent to-black/70">
+                <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">
+                    <div className="w-10/12 h-10/12 lg:w-8/12 h-8/12">
+                        <h1 className="font-bold text-5xl">
+                            {servicesHome[lang][activeSlide]?.name}
+                        </h1>
+                        <p className="pt-3">
+                            {servicesHome[lang][activeSlide]?.description}
+                        </p>
+                        <div className="w-full pt-5 flex">
+                            <div className="w-fit py-2 px-4 rounded-md bg-white text-black mr-2">
+                                Nous contacter
+                            </div>
+                            <div className="w-fit py-2 px-4 rounded-md bg-white text-black">
+                                Nous contacter
+                            </div>
                         </div>
                     </div>
-                </div>
+                </article>
+            </div>
+        </div>
+        <div className="w-full absolute z-10 top-0 left-0 right-0 bottom-0 lg:flex  items-center justify-center">
+            <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">
             </article>
-            <div className="relative lg:w-1/2 w-full lg:flex hidden h-fit flex-row">
+            <div className="relative lg:w-3/5 w-full lg:flex hidden h-fit flex-row">
                 <Carousel
                     infinite={true}
                     itemsToShow={toShow}
@@ -54,7 +59,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         return <CardServices {...item} index={index} activeSlide={activeSlide} setActiveSlide={setActiveSlide} left={index % 2 == 0} key={index} />
                     })}
                 </Carousel>
-                <div className="w-full absolute z-20 bottom-0 left-0 h-fit py-5 flex items-center justify-start translate-y-full">
+                <div className="w-full absolute z-20 bottom-0 left-0 h-fit pb-5 flex items-center justify-start translate-y-full">
                     <div
                         onClick={() => {
                             if (activeSlide != 0) {
@@ -80,7 +85,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                     </div>
                 </div>
             </div>
-            <div className="w-full lg:absolute lg:z-20 bottom-0 left-0 h-fit py-5 flex lg:hidden items-center justify-center">
+            <div className="w-full lg:absolute lg:z-20 bottom-0 left-0 h-fit p-5 flex lg:hidden items-center justify-center">
                 <div
                     onClick={() => {
                         if (activeSlide != 0) {
@@ -106,6 +111,5 @@ export default function ServicesPageServices({ params }: { params: any }) {
                 </div>
             </div>
         </div>
-
     </section>
 }
