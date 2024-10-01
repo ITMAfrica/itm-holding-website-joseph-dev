@@ -33,6 +33,9 @@ import ugLogo from '@/public/assets/logo/ug.png';
 import zmLogo from '@/public/assets/logo/zm.png';
 import zaLogo from '@/public/assets/logo/za.png';
 import projetService from '@/public/assets/services/projet.png';
+import recruitmentService from '@/public/assets/services/recruitment.png';
+import personnelService from '@/public/assets/services/personnel.png';
+import formationService from '@/public/assets/services/formation.png';
 import avatar from '@/public/assets/bg/bg.avatar.png';
 import avatarWomen from "@/public/assets/bg/bg.avatar.women.png"
 
@@ -40,8 +43,8 @@ export const servicesHome: any = {
   fr: [
     {
       name: 'Recrutement',
-      icon: service1,
-      image: projetService,
+      icon: recrutement,
+      image: recruitmentService,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       paragraph:
@@ -59,7 +62,7 @@ export const servicesHome: any = {
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
 
-      image: projetService,
+      image: personnelService,
       paragraph:
         "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
       btnMore: {
@@ -107,7 +110,6 @@ export const servicesHome: any = {
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
-
       paragraph:
         'Nous vous écoutons pour vous proposer des solutions adaptées.',
       btnMore: {
@@ -122,8 +124,7 @@ export const servicesHome: any = {
       icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: projetService,
-
+      image: formationService,
       paragraph:
         'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
       btnMore: {
@@ -140,8 +141,7 @@ export const servicesHome: any = {
       icon: service1,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: projetService,
-
+      image: recruitmentService,
       paragraph:
         'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
       btnMore: {
@@ -156,8 +156,7 @@ export const servicesHome: any = {
       icon: service2,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: projetService,
-
+      image: personnelService,
       paragraph:
         "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
       btnMore: {
@@ -220,7 +219,7 @@ export const servicesHome: any = {
       icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: projetService,
+      image: formationService,
       paragraph:
         'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
       btnMore: {
