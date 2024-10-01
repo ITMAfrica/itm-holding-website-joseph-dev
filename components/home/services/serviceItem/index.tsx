@@ -17,7 +17,7 @@ export default function HomeServiceCard({
 }) {
   return (
     <article className="border h-[500px] mx-3 lg:w-[33%] group sm:w-[48%] w-full mb-8 transition ease-in-out duration-700">
-      <div className="flex items-end h-full w-[23rem] relative">
+      <div className="flex items-end h-full w-[21rem] relative">
         <div className="absolute h-full w-full">
           <Image src={icon} alt="Image service" className="h-full w-full" />
         </div>

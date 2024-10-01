@@ -52,16 +52,20 @@ export default function HomeServicesCarousel({
           ))}
         </Carousel>
       </div>
-      <div className="flex pl-10 z-20">
+      <div className="flex items-center pl-10 z-20">
         <button
           onClick={() => {
             if (activeSlide < servicesHome[lang].length - 1 && activeSlide > 0)
               setActiveSlide(activeSlide - 1);
           }}
-          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300 mr-2"
+          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
         >
           <MdOutlineKeyboardArrowLeft />
         </button>
+        <div className="px-2">
+          <span>{activeSlide + 1} - </span>
+          <span>{servicesHome[lang].length}</span>
+        </div>
         <button
           onClick={() => {
             if (activeSlide < servicesHome[lang].length)
