@@ -12,7 +12,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
     const [activeSlide, setActiveSlide] = useState(0);
     return <section className="w-full min-h-[80vh] lg:py-20 py-10 flex items-center bg-white relative">
         <Image alt="" src={servicesHome[lang][activeSlide]?.image} fill objectFit="cover" />
-        <div className="w-full bg-gradient-to-l from-transparent to-black absolute z-10 top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+        <div className="w-full bg-gradient-to-l from-transparent to-black absolute z-10 top-0 left-0 right-0 bottom-0 lg:flex  items-center justify-center">
             <article className="w-full lg:w-1/2 h-full flex items-center justify-center text-white">
                 <div className="w-10/12 h-10/12 lg:w-8/12 h-8/12">
                     <h1 className="font-bold text-5xl">
@@ -80,7 +80,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                     </div>
                 </div>
             </div>
-            <div className="w-full absolute z-20 bottom-0 left-0 h-fit py-5 flex lg:hidden items-center justify-center">
+            <div className="w-full lg:absolute lg:z-20 bottom-0 left-0 h-fit py-5 flex lg:hidden items-center justify-center">
                 <div
                     onClick={() => {
                         if (activeSlide != 0) {
@@ -88,7 +88,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(servicesHome[lang].length - 1)
                         }
-                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:scale-125"
+                    }} className="cursor-pointer p-3 bg-blue_itm_aqua_marine text-white mr-4 rounded-md hover:scale-125"
                 >
 
                     <MdOutlineKeyboardArrowLeft />
@@ -100,7 +100,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(0)
                         }
-                    }} className="cursor-pointer p-3 hover:scale-125 bg-white text-black hover:text-blue_itm_aqua_marine rounded-md"
+                    }} className="cursor-pointer p-3 hover:scale-125 bg-blue_itm_aqua_marine text-white hover:text-white rounded-md"
                 >
                     <MdOutlineKeyboardArrowRight />
                 </div>
