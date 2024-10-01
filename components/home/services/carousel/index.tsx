@@ -39,23 +39,25 @@ export default function HomeServicesCarousel({
             {
               itemsToShow: toShow,
               itemsToScroll: 1,
-              minWidth: 768,
+              minWidth: 760,
             },
           ]}
           itemsToShow={toShow}
           itemsToScroll={1}
-          speed={1000}
+          speed={700}
           preventScrollOnSwipe={true}
+          disableSwipeByMouse={false}
+          disableSwipeByTouch={false}
         >
           {servicesHome[lang].map((item: any, index: number) => (
             <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
           ))}
         </Carousel>
       </div>
-      <div className="flex items-center pl-10 z-20">
+      <div className="flex items-center pl-3 z-20">
         <button
           onClick={() => {
-            if (activeSlide < servicesHome[lang].length - 1 && activeSlide > 0)
+            if (activeSlide + 1 < servicesHome[lang].length && activeSlide > 0)
               setActiveSlide(activeSlide - 1);
           }}
           className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
@@ -68,7 +70,7 @@ export default function HomeServicesCarousel({
         </div>
         <button
           onClick={() => {
-            if (activeSlide < servicesHome[lang].length)
+            if (activeSlide + 1 < servicesHome[lang].length)
               setActiveSlide(activeSlide + 1);
           }}
           className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
