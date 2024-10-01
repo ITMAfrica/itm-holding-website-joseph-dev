@@ -1,5 +1,6 @@
 import moment from 'moment';
 import { Expertise } from '@/types';
+import image1 from '@/public/milestone.png';
 
 interface ExperienceData {
   expertise: Expertise[];
@@ -39,7 +40,7 @@ export function formatDateTimeAttribute(date: Date) {
 const expertise: Expertise[] = [
   {
     logo: '/assets/logo_rdc.png',
-    showcaseImage: '/public/experience/kadea.png',
+    showcaseImage: image1,
     title: 'Kadea Academy',
     subTitle: 'Full stack web and mobile developer',
     details:
@@ -50,7 +51,7 @@ const expertise: Expertise[] = [
   },
   {
     logo: '/assets/logo_rdc.png',
-    showcaseImage: '/assets/experience/coursera1.png',
+    showcaseImage: image1,
     title: 'IBM coursera training',
     subTitle: 'Online training',
     details:
@@ -61,7 +62,7 @@ const expertise: Expertise[] = [
   },
   {
     logo: '/assets/logo_rdc.png',
-    showcaseImage: '/assets/experience/JavaScript2.png',
+    showcaseImage: image1,
     title: 'Open Classroom',
     subTitle: 'Online training',
     details:
@@ -72,7 +73,7 @@ const expertise: Expertise[] = [
   },
   {
     logo: '/assets/logo_rdc.png',
-    showcaseImage: '/assets/experience/React.png',
+    showcaseImage: image1,
     title: 'Open Classroom',
     subTitle: 'Débutez avec React',
     details:
@@ -128,13 +129,13 @@ export function experienceTimelineCalculator(expertise: Expertise) {
 export default experienceData;
 
 export function getCookie(cname: string, doc: any): string {
-  if (typeof doc !== "undefined") {
-    const name = cname + "=";
+  if (typeof doc !== 'undefined') {
+    const name = cname + '=';
     const decodedCookie = decodeURIComponent(doc);
-    const ca = decodedCookie.split(";");
+    const ca = decodedCookie.split(';');
     for (let i = 0; i < ca.length; i++) {
       let c = ca[i];
-      while (c.charAt(0) == " ") {
+      while (c.charAt(0) == ' ') {
         c = c.substring(1);
       }
       if (c.indexOf(name) == 0) {
@@ -142,8 +143,8 @@ export function getCookie(cname: string, doc: any): string {
       }
     }
   }
-  return "";
+  return '';
 }
 
-export const CODE: string = "cd"
-export const TALENTPRO_HREF: string = "https://talentpro.itmafrica.com"
+export const CODE: string = 'cd';
+export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';

@@ -21,65 +21,63 @@ export default function HomeServicesCarousel({
   const data = dictionary.cd.pages.home.services;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <div className="w-full relative h-fit">
-      <Carousel
-        activeSlideIndex={activeSlide}
-        containerProps={{
-          style: {
-            flex: '1',
-            alignItems: 'center',
-            alignContent: 'right',
-            padding: 5,
-          },
-        }}
-        onRequestChange={setActiveSlide}
-        easing="linear"
-        forwardBtnProps={{
-          onClick() {
-            if (activeSlide != 0) setActiveSlide(activeSlide - 1);
-          },
-          //here you can also pass className, or any other button element attributes
-          children:
-            Array.from({ length: 10 }).length > 1 ? (
-              <></>
-            ) : (
-              //   <div className="absolute right-0  z-30 -translate-y-1/2 md:h-14 h-10 md:w-14 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50  text-white flex items-center justify-center rounded-full">
-              //     <MdOutlineKeyboardArrowRight />
-              //   </div>
-              <></>
-            ),
-        }}
-        backwardBtnProps={{
-          onClick() {
-            if (activeSlide != Array.from({ length: 10 }).length - 1)
+    <>
+      <div className="w-full relative h-fit">
+        <Carousel
+          activeSlideIndex={activeSlide}
+          containerProps={{
+            style: {
+              flex: '1',
+              alignItems: 'end',
+              alignContent: 'end',
+              paddingLeft: 2,
+            },
+          }}
+          onRequestChange={setActiveSlide}
+          easing="linear"
+          responsiveProps={[
+            {
+              itemsToShow: toShow,
+              itemsToScroll: 1,
+              minWidth: 760,
+            },
+          ]}
+          itemsToShow={toShow}
+          itemsToScroll={1}
+          speed={700}
+          preventScrollOnSwipe={true}
+          disableSwipeByMouse={false}
+          disableSwipeByTouch={false}
+        >
+          {servicesHome[lang].map((item: any, index: number) => (
+            <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
+          ))}
+        </Carousel>
+      </div>
+      <div className="flex items-center pl-3 z-20">
+        <button
+          onClick={() => {
+            if (activeSlide + 1 < servicesHome[lang].length && activeSlide > 0)
+              setActiveSlide(activeSlide - 1);
+          }}
+          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+        >
+          <MdOutlineKeyboardArrowLeft />
+        </button>
+        <div className="px-2">
+          <span>{activeSlide + 1} - </span>
+          <span>{servicesHome[lang].length}</span>
+        </div>
+        <button
+          onClick={() => {
+            if (activeSlide + 1 < servicesHome[lang].length)
               setActiveSlide(activeSlide + 1);
-          },
-          //here you can also pass className, or any other button element attributes
-          children:
-            Array.from({ length: 10 }).length > 1 ? (
-              <></>
-            ) : (
-              //   <div className="absolute z-30 left-0 -translate-y-1/2  md:h-14 h-10 md:w-14 w-10 hover:bg-blue_itm_good bg-blue_itm_good/50 text-white flex items-center justify-center rounded-full">
-              //     <MdOutlineKeyboardArrowLeft />
-              //   </div>
-              <></>
-            ),
-        }}
-        responsiveProps={[
-          {
-            itemsToShow: toShow,
-            itemsToScroll: 1,
-            minWidth: 768,
-          },
-        ]}
-        itemsToShow={toShow}
-        itemsToScroll={1}
-        speed={1000}
-      >
-        {servicesHome[lang].map((item: any, index: number) => (
-          <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
-        ))}
-      </Carousel>
-    </div>
+          }}
+          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+        >
+          <MdOutlineKeyboardArrowRight />
+        </button>
+      </div>
+    </>
   );
 }
