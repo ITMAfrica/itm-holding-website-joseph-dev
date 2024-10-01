@@ -85,7 +85,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                     </div>
                 </div>
             </div>
-            <div className="w-full lg:absolute lg:z-20 bottom-0 left-0 h-fit p-5 flex lg:hidden items-center justify-center">
+            <div className="w-full lg:absolute lg:z-20 bottom-0 left-0 h-fit p-5 flex lg:hidden items-center justify-center -translate-y-full">
                 <div
                     onClick={() => {
                         if (activeSlide != 0) {
@@ -93,7 +93,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(servicesHome[lang].length - 1)
                         }
-                    }} className="cursor-pointer p-3 bg-blue_itm_aqua_marine text-white mr-4 rounded-md hover:scale-125"
+                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:text-blue_itm_aqua_marine hover:scale-125"
                 >
 
                     <MdOutlineKeyboardArrowLeft />
@@ -105,7 +105,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(0)
                         }
-                    }} className="cursor-pointer p-3 hover:scale-125 bg-blue_itm_aqua_marine text-white hover:text-white rounded-md"
+                    }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-md"
                 >
                     <MdOutlineKeyboardArrowRight />
                 </div>
