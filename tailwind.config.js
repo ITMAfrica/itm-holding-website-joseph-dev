@@ -51,6 +51,15 @@ module.exports = {
       fontSize: {
         xxs: '10px',
       },
+      animation: {
+        'slow-display': 'trans 2s linear',
+      },
+      keyframes: {
+        trans: {
+          '0%': { opacity: '0%' },
+          '100%': { opacity: '100%' },
+        },
+      },
     },
   },
   darkMode: 'class',

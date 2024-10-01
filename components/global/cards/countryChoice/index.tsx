@@ -17,6 +17,7 @@ export default function CardCountryChoice(props: any) {
         href={props.href}
         onClick={function (e: any) {
             setCookie("country", props.code)
+            props.closeModal()
             return e
         }}
         title={props[lang]}

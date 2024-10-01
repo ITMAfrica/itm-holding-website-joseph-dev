@@ -1,7 +1,7 @@
 import recrutement from '@/public/pages/home/services/service1.png';
-import placement from '@/public/pages/home/services/placement.png';
-import suivi from '@/public/pages/home/services/evaluating.png';
-import team from '@/public/pages/home/services/teambuilding.png';
+import service1 from '@/public/pages/home/services/service1.png';
+import service2 from '@/public/pages/home/services/service2.png';
+import service3 from '@/public/pages/home/services/service3.png';
 import hr from '@/public/pages/home/services/hrconsulting.png';
 import formation from '@/public/pages/home/services/training.png';
 import cdFlag from '@/public/assets/flag/cd.png';
@@ -40,7 +40,7 @@ export const servicesHome: any = {
   fr: [
     {
       name: 'Recrutement',
-      icon: recrutement,
+      icon: service1,
       image: projetService,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
@@ -55,7 +55,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Placement du personnel',
-      icon: recrutement,
+      icon: service2,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
 
@@ -71,7 +71,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Suivie et évaluation des projets',
-      icon: recrutement,
+      icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
 
@@ -87,7 +87,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Team building',
-      icon: recrutement,
+      icon: service1,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
 
@@ -103,7 +103,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Hr consulting',
-      icon: recrutement,
+      icon: service2,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -119,7 +119,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Formation',
-      icon: recrutement,
+      icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -137,7 +137,7 @@ export const servicesHome: any = {
   en: [
     {
       name: 'Recrutement',
-      icon: recrutement,
+      icon: service1,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -153,7 +153,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Placement du personnel',
-      icon: recrutement,
+      icon: service2,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -169,7 +169,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Suivie et évaluation des projets',
-      icon: recrutement,
+      icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -185,7 +185,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Team building',
-      icon: recrutement,
+      icon: service1,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -201,7 +201,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Hr consulting',
-      icon: recrutement,
+      icon: service2,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -217,7 +217,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Formation',
-      icon: recrutement,
+      icon: service3,
       description:
         'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
       image: projetService,
@@ -367,25 +367,29 @@ export const testimonies = [
     name: "Grace Memeta",
     description: "ITM Africa a été notre sauveur pour trouver un profil très spécifique en Afrique. Leur réseau étendu et leur compréhension du marché local nous ont permis de recruter rapidement le candidat idéal. Je recommande vivement leurs services.",
     image: avatarWomen
-  }, {
+  },
+  {
     poste: "Web developpeur ",
     name: "Jeereq minganda",
-    description: "Les formations dispensées par ITM Africa ont été un véritable tournant pour notre entreprise. Les programmes étaient parfaitement adaptés à nos besoins et ont permis d'améliorer significativement les compétences de nos équipes.",
+    description: "Les formations dispensées par ITM Africa ont été un véritable tournant pour notre entreprise. Les programmes étaient parfaitement adaptés à nos besoins et ont permis d'améliorer significativement les compétences de nos équipes dev.",
     image: avatar
-  }, {
-    poste: "Web developpeur ",
-    name: "Jeereq minganda",
+  },
+  {
+    poste: "Chargé de paie",
+    name: "Eric beya",
     description: "ITM Africa nous a simplifié la gestion de notre paie en Afrique. Leur plateforme en ligne est intuitive et leur équipe est toujours disponible pour répondre à nos questions. Nous avons gagné en efficacité et en conformité.",
-    image: avatarWomen
-  }, {
-    poste: "Web developpeur ",
-    name: "Jeereq minganda",
+    image: avatar
+  },
+  {
+    poste: "Drh ",
+    name: "Jean René Mukala",
     description: "ITM Africa est un partenaire de confiance qui nous accompagne dans tous nos projets RH. Leur expertise, leur réactivité et leur approche personnalisée font la différence.",
     image: avatar
-  }, {
-    poste: "Web developpeur ",
-    name: "Jeereq minganda",
+  },
+  {
+    poste: "Country Manager ",
+    name: "Marcel ilunga",
     description: "Grâce à ITM Africa, nous avons mieux compris la culture d'entreprise africaine et avons pu améliorer nos relations avec nos collaborateurs locaux.",
-    image: avatarWomen
+    image: avatar
   }
 ]

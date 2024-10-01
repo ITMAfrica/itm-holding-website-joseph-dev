@@ -120,7 +120,7 @@ export default function AboutPageMileStone({ params }: { params: any }) {
               className="relative flex experience-content"
               id={`experience-item-${expertiseIndex + 1}`}
               role="tabpanel"
-              style={{ perspective: '700px' }}
+              style={{ perspective: '900px' }}
             >
               <Timeline
                 expertise={expertise}

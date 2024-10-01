@@ -30,7 +30,7 @@ export type link = {
   name: string;
   current?: string;
   external: boolean;
-  full?: boolean
+  full?: boolean;
 };
 
 export interface Expertise {
@@ -40,7 +40,7 @@ export interface Expertise {
   details: string;
   timeRange: [Date, Date];
   certificate: string;
-  showcaseImage: string;
+  showcaseImage: any;
 }
 
 export interface TimelineProps {
