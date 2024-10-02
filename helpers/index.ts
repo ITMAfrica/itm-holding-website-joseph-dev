@@ -8,7 +8,7 @@ interface ExperienceData {
   endTime: Date;
 }
 
-export function setCookie(cname: string, cvalue: any, exdays: number = 1) {
+export function setCookie(cname: string, cvalue: any, exdays: number = 7) {
   if (typeof window !== 'undefined') {
     const d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
