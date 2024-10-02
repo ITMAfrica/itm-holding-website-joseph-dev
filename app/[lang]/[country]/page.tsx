@@ -1,4 +1,5 @@
 import AboutPage from '@/components/pages/about';
+import ContactPage from '@/components/pages/contact';
 import FormationsPage from '@/components/pages/formations';
 import HomePage from '@/components/pages/home';
 import NewsPage from '@/components/pages/news';
@@ -6,49 +7,53 @@ import ServicesPage from '@/components/pages/services';
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
-    case "tz":
+    case 'tz':
       return <HomePage params={params} />;
-    case "tg":
+    case 'tg':
       return <HomePage params={params} />;
-    case "ao":
+    case 'ao':
       return <HomePage params={params} />;
-    case "bn":
+    case 'bn':
       return <HomePage params={params} />;
-    case "bu":
+    case 'bu':
       return <HomePage params={params} />;
-    case "cg":
+    case 'cg':
       return <HomePage params={params} />;
-    case "cm":
+    case 'cm':
       return <HomePage params={params} />;
-    case "de":
+    case 'de':
       return <HomePage params={params} />;
-    case "gb":
+    case 'gb':
       return <HomePage params={params} />;
-    case "ke":
+    case 'ke':
       return <HomePage params={params} />;
-    case "ng":
+    case 'ng':
       return <HomePage params={params} />;
-    case "ug":
+    case 'ug':
       return <HomePage params={params} />;
-    case "za":
+    case 'za':
       return <HomePage params={params} />;
-    case "zm":
+    case 'zm':
       return <HomePage params={params} />;
-    case "rw":
+    case 'rw':
       return <HomePage params={params} />;
-    case "about-us":
+    case 'about-us':
       return <AboutPage params={params} />;
-    case "a-propos-de-nous":
+    case 'a-propos-de-nous':
       return <AboutPage params={params} />;
-    case "services":
+    case 'services':
       return <ServicesPage params={params} />;
-    case "training":
+    case 'training':
       return <FormationsPage params={params} />;
-    case "formations":
+    case 'formations':
       return <FormationsPage params={params} />;
-    case "news":
+    case 'news':
       return <NewsPage params={params} />;
-    case "actualites":
+    case 'actualites':
       return <NewsPage params={params} />;
+    case 'contact-us':
+      return <ContactPage params={params} />;
+    case 'contactez-nous':
+      return <ContactPage params={params} />;
   }
 }
