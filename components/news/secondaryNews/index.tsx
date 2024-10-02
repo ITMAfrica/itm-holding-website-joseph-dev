@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Carousel from 'react-simply-carousel';
 import bg from "@/public/assets/bg/bg.news.png"
+import bgHover from "@/public/assets/bg/bg.hover.png"
 import CardNews from "../card";
 import { useRef, useState } from "react";
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -60,9 +61,11 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                     speed={1000}
                 >
                     {data.map((item: any, index: number) => (
-
-                        <div className="w-[90vw] h-[65vh] pt-5 relative">
-                            <div className="absolute z-10 bg-green-500 top-3 left-3 text-base  px-4 py-2 text-white ">
+                        <div className="w-[90vw]  h-[65vh] pt-5 relative">
+                            <div className="absolute z-20 top-0 left-0 right-0 bottom-0 ">
+                                <Image src={bgHover} alt="" fill objectFit="cover" />
+                            </div>
+                            <div className="absolute rounded-sm overflow-hidden z-10 bg-green-500 top-3 left-3 text-base  px-4 py-2 text-white ">
                                 review
                             </div>
                             <Image src={bg} alt="" fill objectFit="cover" />
@@ -71,7 +74,7 @@ export default function NewsPageSecondary({ toShow = 1, data = Array.from({ leng
                 </Carousel>
 
             </main>
-            <aside className="h-fit w-full pt-5">
+            <aside className="h-fit w-full pt-10">
                 <div className="W-full flex flex-wrap justify-between">
                     <CardNews index={0} />
                     <CardNews index={1} />
