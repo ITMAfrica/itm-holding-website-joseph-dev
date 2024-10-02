@@ -19,6 +19,7 @@ export default function HomeMetricsCard({
       <h2 className="md:text-7xl text-5xl font-bold mb-2 group-hover:text-blue_itm_aqua_marine">
         <CountUp
           enableScrollSpy
+          scrollSpyOnce
           duration={3}
           start={0}
           prefix="+ "
