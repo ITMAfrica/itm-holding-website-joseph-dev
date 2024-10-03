@@ -10,8 +10,8 @@ export default function ServicesPageServices({ params }: { params: any }) {
     const lang = params.lang
     const [toShow] = useState(3)
     const [activeSlide, setActiveSlide] = useState(0);
-    return <section className="w-full min-h-[80vh] flex items-center relative">
-        <div className="w-10/12 shadow-2xl shadow-black rounded-2xl my-20 overflow-hidden mx-auto relative top-0 min-h-[80vh] left-0 right-0 bottom-0">
+    return <section className="w-full  lg:min-h-[70vh] lg:min-h-[80vh] flex items-center relative">
+        <div className="w-10/12 shadow-2xl shadow-black rounded-2xl my-20 overflow-hidden mx-auto relative top-0 min-h-[65vh] lg:min-h-[80vh] left-0 right-0 bottom-0">
             <Image alt="" src={servicesHome[lang][activeSlide]?.image} fill objectFit="cover" className="" />
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-transparent to-black/70">
                 <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">
@@ -19,10 +19,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         <h1 className="font-bold text-5xl">
                             {servicesHome[lang][activeSlide]?.name}
                         </h1>
-                        <p className="pt-3">
+                        <p className="pt-3 lg:text-sm text-xs">
                             {servicesHome[lang][activeSlide]?.description}
                         </p>
-                        <div className="w-full pt-5 flex">
+                        <div className="w-full pt-5 flex lg:text-sm text-xs">
                             <div className="w-fit py-2 px-4 rounded-full bg-white text-black mr-2">
                                 Nous contacter
                             </div>
