@@ -1,3 +1,4 @@
+import AboutPageAbout from '@/components/about/about';
 import AboutPageBanner from '@/components/about/banner';
 import AboutPageHoldingSection from '@/components/about/main';
 import AboutPageMetrics from '@/components/about/metrics';
@@ -11,6 +12,7 @@ export default function AboutPage({ params }: { params: any }) {
     <main className="w-full">
       <AboutPageBanner params={params} />
       <AboutPageHoldingSection params={params} />
+      <AboutPageAbout params={params} />
       <AboutPageMetrics params={params} />
       <AboutPageMileStone params={params} />
       <Teams />
