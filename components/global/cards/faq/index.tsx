@@ -7,7 +7,7 @@ export default function CardFaq({ about = false }) {
     function showUs() {
         setShow(!show)
     }
-    if (about) return <article className="w-full group bg-white flex flex-wrap items-center justify-between text-black p-5 pl-0 mb-5 border-b rounded-lg">
+    if (about) return <article className="w-full group bg-white flex flex-wrap items-center justify-between text-black p-5 pl-0 mb-5 border-b ">
         <p onClick={showUs} className={`text-blue_itm_aqua_marine text-xl font-bold cursor-pointer ${!show ? "text-black" : "text-blue_itm_aqua_marine"}`}>
             Comment puis je suivre l'etat d'une offre ?
         </p>
