@@ -12,17 +12,20 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
                         <Image src={bgEntity} fill alt="" objectFit="cover" className="fromToImage" />
                     </div>
                     <div className="absolute z-20 h-[90px] left-0 flex items-center justify-between px-5 right-0 bottom-0 bg-entityBar/30">
-                        <div className="w-fit flex text-white text-3xl lg:hidden">
+                        <div className="w-fit flex items-center text-blue_itm_aqua_marine text-2xl lg:hidden">
                             <div onClick={function () {
-                                if (activeSlide != 0)
+                                if (activeSlide != 0) {
                                     setActiveSlide(activeSlide - 1);
-                            }} className="w-fit cursor-pointer">
+                                }
+                            }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                                 <MdOutlineKeyboardArrowLeft />
                             </div>
+                            <div className="W-fit pr-2"></div>
                             <div onClick={function () {
-                                if (activeSlide != total - 1)
+                                if (activeSlide != total - 1) {
                                     setActiveSlide(activeSlide + 1);
-                            }} className="w-fit cursor-pointer">
+                                }
+                            }} className="w-fit cursor-pointer p-2 rounded-full bg-white">
                                 <MdOutlineKeyboardArrowRight />
                             </div>
                         </div>
@@ -44,17 +47,18 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
             </div>
             <div className="lg:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
                 <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
-                    <div className="absolute lg:flex hidden z-20 text-white text-4xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
+                    <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
                         <div onClick={function () {
                             if (activeSlide != 0)
                                 setActiveSlide(activeSlide - 1);
-                        }} className="w-fit cursor-pointer">
+                        }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                             <MdOutlineKeyboardArrowLeft />
                         </div>
+                        <div className="w-fit pr-2"></div>
                         <div onClick={function () {
                             if (activeSlide != total - 1)
                                 setActiveSlide(activeSlide + 1);
-                        }} className="w-fit cursor-pointer">
+                        }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                             <MdOutlineKeyboardArrowRight />
                         </div>
                     </div>
