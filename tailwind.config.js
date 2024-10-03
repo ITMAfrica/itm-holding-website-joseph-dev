@@ -11,6 +11,10 @@ module.exports = {
         lg: '1280px',
         xl: '1440px',
       },
+      rotate: {
+        '17': '17deg',
+        '24': '24deg',
+      },
       colors: {
         blue_itm_good: '#1238B9',
         blue_itm_primary: '#1238B9',
