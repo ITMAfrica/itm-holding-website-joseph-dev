@@ -7,8 +7,10 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
     if (index == activeSlide) {
         return <article className="w-[100vw] h-fit lg:h-[70vh] lg:flex">
             <div className="lg:w-1/2 h-full relative lg:py-10 pt-10 flex justify-center lg:justify-end">
-                <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative">
-                    <Image src={bgEntity} fill alt="" objectFit="cover" className="fromTo" />
+                <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative ">
+                    <div className="w-full h-full relative overflow-hidden">
+                        <Image src={bgEntity} fill alt="" objectFit="cover" className="fromToImage" />
+                    </div>
                     <div className="absolute z-20 h-[90px] left-0 flex items-center justify-between px-5 right-0 bottom-0 bg-entityBar/30">
                         <div className="w-fit flex text-white text-3xl lg:hidden">
                             <div onClick={function () {

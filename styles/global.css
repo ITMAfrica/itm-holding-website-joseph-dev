@@ -52,14 +52,19 @@
   clip-path: polygon(71% 24%, 83% 7%, 100% 0, 100% 100%, 0 100%, 6% 70%, 21% 59%, 39% 54%, 56% 50%);
 }
 
+.fromToImage {
+  animation: fromTo;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes fromTo {
   from {
-    translate: -100%;
+    top: -100%;
   }
 
   to {
-
-    translate: 0%;
+    top: 0%;
   }
 }
 

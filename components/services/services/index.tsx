@@ -23,10 +23,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             {servicesHome[lang][activeSlide]?.description}
                         </p>
                         <div className="w-full pt-5 flex">
-                            <div className="w-fit py-2 px-4 rounded-md bg-white text-black mr-2">
+                            <div className="w-fit py-2 px-4 rounded-full bg-white text-black mr-2">
                                 Nous contacter
                             </div>
-                            <div className="w-fit py-2 px-4 rounded-md bg-white text-black">
+                            <div className="w-fit py-2 px-4 rounded-full bg-white text-black">
                                 Nous contacter
                             </div>
                         </div>
@@ -67,7 +67,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(servicesHome[lang].length - 1)
                             }
-                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:text-blue_itm_aqua_marine hover:scale-125"
+                        }} className="cursor-pointer p-3 bg-white mr-4 rounded-full hover:text-blue_itm_aqua_marine hover:scale-125"
                     >
 
                         <MdOutlineKeyboardArrowLeft />
@@ -79,7 +79,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                             } else {
                                 setActiveSlide(0)
                             }
-                        }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-md"
+                        }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-full"
                     >
                         <MdOutlineKeyboardArrowRight />
                     </div>
@@ -93,7 +93,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(servicesHome[lang].length - 1)
                         }
-                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-md hover:text-blue_itm_aqua_marine hover:scale-125"
+                    }} className="cursor-pointer p-3 bg-white mr-4 rounded-full hover:text-blue_itm_aqua_marine hover:scale-125"
                 >
 
                     <MdOutlineKeyboardArrowLeft />
@@ -105,7 +105,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         } else {
                             setActiveSlide(0)
                         }
-                    }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-md"
+                    }} className="cursor-pointer p-3 hover:scale-125 bg-white hover:text-blue_itm_aqua_marine text-black rounded-full"
                 >
                     <MdOutlineKeyboardArrowRight />
                 </div>
