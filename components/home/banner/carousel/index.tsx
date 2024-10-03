@@ -33,15 +33,16 @@ export default function HomeBannerCarousel({
         easing="linear"
         responsiveProps={[
           {
-            itemsToShow: toShow,
+            itemsToShow: 1,
             itemsToScroll: 1,
-            minWidth: 768,
+            minWidth: 760,
           },
         ]}
-        preventScrollOnSwipe
         activeSlideIndex={activeSlide}
         speed={1000}
+        delay={1500}
         centerMode
+        autoplay
       >
         {data.map((item: any, index: number) => (
           <CarouselItem {...item} indexImage={index} key={index} />
@@ -61,7 +62,7 @@ export default function HomeBannerCarousel({
               onClick={() => setActiveSlide(index)}
               className="mr-1 w-2 h-2 rounded-full bg-white"
             ></div>
-          ),
+          )
         )}
       </div>
     </div>

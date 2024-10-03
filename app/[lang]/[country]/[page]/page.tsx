@@ -1,61 +1,66 @@
 import AboutPage from '@/components/pages/about';
+import ContactPage from '@/components/pages/contact';
 import FormationsPage from '@/components/pages/formations';
 import NewsPage from '@/components/pages/news';
 import ServicesPage from '@/components/pages/services';
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
-    case "tz":
-      return getComponent({ params })
-    case "tg":
-      return getComponent({ params })
-    case "ao":
-      return getComponent({ params })
-    case "bn":
-      return getComponent({ params })
-    case "bu":
-      return getComponent({ params })
-    case "cg":
-      return getComponent({ params })
-    case "cm":
-      return getComponent({ params })
-    case "de":
-      return getComponent({ params })
-    case "gb":
-      return getComponent({ params })
-    case "ke":
-      return getComponent({ params })
-    case "ng":
-      return getComponent({ params })
-    case "ug":
-      return getComponent({ params })
-    case "za":
-      return getComponent({ params })
-    case "zm":
-      return getComponent({ params })
-    case "rw":
-      return getComponent({ params })
-    case "about-us":
+    case 'tz':
+      return getComponent({ params });
+    case 'tg':
+      return getComponent({ params });
+    case 'ao':
+      return getComponent({ params });
+    case 'bn':
+      return getComponent({ params });
+    case 'bu':
+      return getComponent({ params });
+    case 'cg':
+      return getComponent({ params });
+    case 'cm':
+      return getComponent({ params });
+    case 'de':
+      return getComponent({ params });
+    case 'gb':
+      return getComponent({ params });
+    case 'ke':
+      return getComponent({ params });
+    case 'ng':
+      return getComponent({ params });
+    case 'ug':
+      return getComponent({ params });
+    case 'za':
+      return getComponent({ params });
+    case 'zm':
+      return getComponent({ params });
+    case 'rw':
+      return getComponent({ params });
+    case 'about-us':
       return <AboutPage params={params} />;
-    case "a-propos-de-nous":
+    case 'a-propos-de-nous':
       return <AboutPage params={params} />;
   }
 }
 function getComponent({ params }: any) {
   switch (params.page) {
-    case "about-us":
+    case 'about-us':
       return <AboutPage params={params} />;
-    case "a-propos-de-nous":
+    case 'a-propos-de-nous':
       return <AboutPage params={params} />;
-    case "services":
+    case 'services':
       return <ServicesPage params={params} />;
-    case "training":
+    case 'training':
       return <FormationsPage params={params} />;
-    case "formations":
+    case 'formations':
       return <FormationsPage params={params} />;
-    case "news":
+    case 'news':
       return <NewsPage params={params} />;
-    case "actualites":
+    case 'actualites':
       return <NewsPage params={params} />;
+    case 'contact-us':
+      return <ContactPage params={params} />;
+    case 'contactez-nous':
+      return <ContactPage params={params} />;
   }
 }
