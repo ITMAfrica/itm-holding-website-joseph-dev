@@ -36,7 +36,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
           <div className="w-10/12 lg:w-[400px] h-[300px] md:h-[400px] lg:h-[550px] shadow-2xl shadow-black/60 relative">
             <Image src={imageLeft} fill alt="" objectFit="cover" objectPosition="top" />
             <div className="w-full h-full shadow-2xl shadow-black/60 absolute top-[20%] left-[20%]">
-              <div className="w-full h-full  shadow-xl relative bg-red-500">
+              <div className="w-full h-full  shadow-xl relative">
                 <Image src={imageRight} fill alt="" objectFit="cover" objectPosition="top" />
               </div>
             </div>
