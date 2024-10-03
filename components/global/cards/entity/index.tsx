@@ -63,10 +63,10 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
                         </div>
                     </div>
                     <div className="w-10/12 lg:w-8/12 mx-auto text-sm">
-                        <h2 className="text-4xl w-full mx-auto font-bold text-blue_itm_primary pb-3">
+                        <h2 className="text-4xl hideTitle w-full mx-auto font-bold text-blue_itm_primary pb-3">
                             {name}
                         </h2>
-                        <p className="w-full mx-auto">
+                        <p className="w-full hideDescription mx-auto">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Assumenda asperiores vero reprehenderit dolorem quo, enim et temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.
                             temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.
