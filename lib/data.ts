@@ -355,6 +355,12 @@ export const entities = [
   },
 ];
 
+export const organisations = [
+  { name: "IFS" },
+  { name: "IFS" },
+  { name: "IFS" },
+  { name: "IFS" }
+]
 export const langs = [
   { fr: 'Français', en: 'French', tag: '' },
   { fr: 'RDC', en: 'RDC', tag: '', code: 'CD' },
