@@ -7,20 +7,25 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
     if (index == activeSlide) {
         return <article className="w-[100vw] h-fit lg:h-[70vh] lg:flex">
             <div className="lg:w-1/2 h-full relative lg:py-10 pt-10 flex justify-center lg:justify-end">
-                <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative">
-                    <Image src={bgEntity} fill alt="" objectFit="cover" className="fromTo" />
+                <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative ">
+                    <div className="w-full h-full relative overflow-hidden">
+                        <Image src={bgEntity} fill alt="" objectFit="cover" className="fromToImage" />
+                    </div>
                     <div className="absolute z-20 h-[90px] left-0 flex items-center justify-between px-5 right-0 bottom-0 bg-entityBar/30">
-                        <div className="w-fit flex text-white text-3xl lg:hidden">
+                        <div className="w-fit flex items-center text-blue_itm_aqua_marine text-2xl lg:hidden">
                             <div onClick={function () {
-                                if (activeSlide != 0)
+                                if (activeSlide != 0) {
                                     setActiveSlide(activeSlide - 1);
-                            }} className="w-fit cursor-pointer">
+                                }
+                            }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                                 <MdOutlineKeyboardArrowLeft />
                             </div>
+                            <div className="W-fit pr-2"></div>
                             <div onClick={function () {
-                                if (activeSlide != total - 1)
+                                if (activeSlide != total - 1) {
                                     setActiveSlide(activeSlide + 1);
-                            }} className="w-fit cursor-pointer">
+                                }
+                            }} className="w-fit cursor-pointer p-2 rounded-full bg-white">
                                 <MdOutlineKeyboardArrowRight />
                             </div>
                         </div>
@@ -42,25 +47,26 @@ export default function CardEntity({ name, slogant, total, index, activeSlide, s
             </div>
             <div className="lg:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
                 <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
-                    <div className="absolute lg:flex hidden z-20 text-white text-4xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
+                    <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
                         <div onClick={function () {
                             if (activeSlide != 0)
                                 setActiveSlide(activeSlide - 1);
-                        }} className="w-fit cursor-pointer">
+                        }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                             <MdOutlineKeyboardArrowLeft />
                         </div>
+                        <div className="w-fit pr-2"></div>
                         <div onClick={function () {
                             if (activeSlide != total - 1)
                                 setActiveSlide(activeSlide + 1);
-                        }} className="w-fit cursor-pointer">
+                        }} className="w-fit cursor-pointer bg-white p-2 rounded-full">
                             <MdOutlineKeyboardArrowRight />
                         </div>
                     </div>
                     <div className="w-10/12 lg:w-8/12 mx-auto text-sm">
-                        <h2 className="text-4xl w-full mx-auto font-bold text-blue_itm_primary pb-3">
+                        <h2 className="text-4xl hideTitle w-full mx-auto font-bold text-blue_itm_primary pb-3">
                             {name}
                         </h2>
-                        <p className="w-full mx-auto">
+                        <p className="w-full hideDescription mx-auto">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Assumenda asperiores vero reprehenderit dolorem quo, enim et temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.
                             temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.temporibus dolore. Necessitatibus numquam commodi temporibus sit nam obcaecati laudantium amet explicabo delectus enim.

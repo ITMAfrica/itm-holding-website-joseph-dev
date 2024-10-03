@@ -22,24 +22,43 @@ type linkHeader = {
 export default function HomeHeader({ params }: propsPage) {
   const lang: string = params.lang;
   const dictionary: dictionary = getDictionary(lang);
-  const [CURRENT_CODE, SET_CURRENT_CODE] = useState('')
-  const data: any = dictionary?.global?.header[CURRENT_CODE] ? dictionary?.global?.header[CURRENT_CODE] : dictionary?.global?.header[CODE]
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState('');
+  const data: any = dictionary?.global?.header[CURRENT_CODE]
+    ? dictionary?.global?.header[CURRENT_CODE]
+    : dictionary?.global?.header[CODE];
 
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [scrollToBottom, setScrollToBottom] = useState(0);
+  const [scrollToTop, setScrollToTop] = useState(0);
 
   const handleNavigation = () => {
     setOpenNavigation((state: any) => !state);
   };
   function getHref() {
-    if (CURRENT_CODE && (CURRENT_CODE != CODE)) {
-      return `/${params.lang}/${CURRENT_CODE}`
+    if (CURRENT_CODE && CURRENT_CODE != CODE) {
+      return `/${params.lang}/${CURRENT_CODE}`;
     } else {
-      return `/${params.lang}`
+      return `/${params.lang}`;
     }
   }
   useEffect(function () {
-    SET_CURRENT_CODE(getCookie("country", document?.cookie) || CODE)
-  }, [])
+    SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+  }, []);
+
+  //Header animations
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setScrollToBottom(scrollPosition);
+  };
+
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <header className="sticky z-50 top-0 w-full h-fit py-3 md:py-4 flex justify-center bg-white shadow-headerShadow">
@@ -75,8 +94,8 @@ export default function HomeHeader({ params }: propsPage) {
                     <MdOutlineMenuOpen />
                   </div>
                   <Link
-                    href={getHref()}
                     onClick={handleNavigation}
+                    href={getHref()}
                     className="block w-fit h-fit md:pr-5 mr-1"
                   >
                     <Image
@@ -94,7 +113,12 @@ export default function HomeHeader({ params }: propsPage) {
                 </div>
                 <nav className="w-full bg-white items-center justify-evenly">
                   {data?.links.map((item: linkHeader, index: number) => (
-                    <NavLinkCard {...item} full key={index} />
+                    <NavLinkCard
+                      {...item}
+                      closeModal={handleNavigation}
+                      full
+                      key={index}
+                    />
                   ))}
                 </nav>
               </div>

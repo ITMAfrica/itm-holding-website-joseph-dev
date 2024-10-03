@@ -52,14 +52,43 @@
   clip-path: polygon(71% 24%, 83% 7%, 100% 0, 100% 100%, 0 100%, 6% 70%, 21% 59%, 39% 54%, 56% 50%);
 }
 
-@keyframes fromTo {
+.fromToImage {
+  animation: fromTo;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+}
+
+.hideTitle {
+  animation: hideToShow;
+  animation-delay: 500ms;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+}
+
+.hideDescription {
+  animation: hideToShow;
+  animation-delay: 1000ms;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hideToShow {
   from {
-    translate: -100%;
+    opacity: 0;
   }
 
   to {
+    opacity: 1;
+  }
+}
 
-    translate: 0%;
+@keyframes fromTo {
+  from {
+    top: -100%;
+  }
+
+  to {
+    top: 0%;
   }
 }
 

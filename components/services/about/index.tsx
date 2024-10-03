@@ -6,11 +6,11 @@ export default function ServicesPageAbout({ params }: any) {
         <div className="w-11/12 lg:w-9/12 mx-auto flex lg:flex-nowrap items-center flex-wrap">
             <article className="lg:w-1/2 w-full lg:pr-20 pr-0">
                 <SectionTitle text="QUE RETENIR SUR NOUS?" />
-                <h1 className="font-bold text-5xl pt-3 text-blue_itm_primary">
+                <h1 className="font-bold text-4xl lg:text-5xl pt-3 text-blue_itm_primary">
                     Nous fournissons des services exclusifs pour votre entreprise
                 </h1>
             </article>
-            <article className="lg:w-1/2 w-full">
+            <article className="lg:w-1/2 w-full lg:pt-0 pt-3">
                 <p>
                     De Lubumbashi à la conquête du monde,nous avons écrit une success
                     story exceptionnelle. Résiliente face aux défis, nous savons
