@@ -52,6 +52,17 @@
   clip-path: polygon(71% 24%, 83% 7%, 100% 0, 100% 100%, 0 100%, 6% 70%, 21% 59%, 39% 54%, 56% 50%);
 }
 
+@keyframes fromTo {
+  from {
+    translate: -100%;
+  }
+
+  to {
+
+    translate: 0%;
+  }
+}
+
 @keyframes skeleton {
   from {
     left: 0;
@@ -145,22 +156,16 @@
     --rotating-gradient-border-width: 1.5px;
     --rotating-gradient-border-color: transparent;
 
-    background: linear-gradient(
-          to bottom,
-          var(--background-color),
-          var(--background-color-2)
-        )
-        padding-box,
-      conic-gradient(
-          from var(--rotating-gradient-border-angle) at 50% 50%,
-          transparent 17%,
-          var(--rotating-gradient-border-color) 24%,
-          transparent 32%,
-          transparent 67%,
-          var(--rotating-gradient-border-color) 76%,
-          transparent 84%
-        )
-        border-box,
+    background: linear-gradient(to bottom,
+        var(--background-color),
+        var(--background-color-2)) padding-box,
+      conic-gradient(from var(--rotating-gradient-border-angle) at 50% 50%,
+        transparent 17%,
+        var(--rotating-gradient-border-color) 24%,
+        transparent 32%,
+        transparent 67%,
+        var(--rotating-gradient-border-color) 76%,
+        transparent 84%) border-box,
       linear-gradient(var(--border-color), var(--border-color)) border-box;
     border: var(--rotating-gradient-border-width) solid transparent;
     animation: rotate-gradient-border infinite linear 10s;
@@ -186,12 +191,15 @@
       transform: translate(-6px, -6px) scale(0);
       opacity: 0;
     }
+
     50% {
       opacity: 1;
     }
+
     75% {
       transform: translate(-6px, -6px) scale(3);
     }
+
     to {
       transform: translate(-6px, -6px) scale(4);
       opacity: 0;
@@ -207,6 +215,7 @@
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
