@@ -31,6 +31,7 @@ export type link = {
   current?: string;
   external: boolean;
   full?: boolean;
+  closeModal?: any;
 };
 
 export interface Expertise {
