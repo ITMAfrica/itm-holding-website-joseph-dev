@@ -1,5 +1,4 @@
 'use client';
-
 import CountUp, { useCountUp } from 'react-countup';
 
 export default function HomeMetricsCard({
