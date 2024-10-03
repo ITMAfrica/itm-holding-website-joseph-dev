@@ -28,6 +28,8 @@ export default function HomeHeader({ params }: propsPage) {
     : dictionary?.global?.header[CODE];
 
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [scrollToBottom, setScrollToBottom] = useState(0);
+  const [scrollToTop, setScrollToTop] = useState(0);
 
   const handleNavigation = () => {
     setOpenNavigation((state: any) => !state);
@@ -41,6 +43,21 @@ export default function HomeHeader({ params }: propsPage) {
   }
   useEffect(function () {
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+  }, []);
+
+  //Header animations
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setScrollToBottom(scrollPosition);
+  };
+
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
