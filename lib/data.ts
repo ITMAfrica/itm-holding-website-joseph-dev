@@ -356,10 +356,10 @@ export const entities = [
 ];
 
 export const organisations = [
-  { name: "IFS" },
-  { name: "IFS" },
-  { name: "IFS" },
-  { name: "IFS" }
+  { name: "IFS", slogant: "Your busness Solutions partner" },
+  { name: "ITM SARL", slogant: "Your busness Solutions partner" },
+  { name: "GEOKATANGA", slogant: "Your busness Solutions partner" },
+  { name: "DENDIS WORLD", slogant: "Your busness Solutions partner" }
 ]
 export const langs = [
   { fr: 'Français', en: 'French', tag: '' },
