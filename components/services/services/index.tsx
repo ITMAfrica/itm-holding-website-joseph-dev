@@ -8,7 +8,7 @@ import CardServices from "./card";
 
 export default function ServicesPageServices({ params }: { params: any }) {
     const lang = params.lang
-    const [toShow] = useState(3)
+    const [toShow] = useState(4)
     const [activeSlide, setActiveSlide] = useState(0);
     return <section className="w-full  lg:min-h-[70vh] lg:min-h-[80vh] flex items-center relative">
         <div className="w-10/12 shadow-2xl shadow-black rounded-2xl my-20 overflow-hidden mx-auto relative top-0 min-h-[65vh] lg:min-h-[80vh] left-0 right-0 bottom-0">
@@ -42,7 +42,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                     infinite={true}
                     itemsToShow={toShow}
                     onRequestChange={setActiveSlide}
-                    
+                    autoplayDirection='forward'
                     easing="linear"
                     responsiveProps={[
                         {

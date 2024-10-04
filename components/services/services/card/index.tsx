@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default function CardServices({ name, index, image, activeSlide, setActiveSlide, description }: any) {
-
+    if (index == activeSlide) return null
     return <div className="w-fit py-10 pl-7 pl-0">
         <article
             onClick={function () {
