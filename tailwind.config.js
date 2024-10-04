@@ -59,11 +59,16 @@ module.exports = {
       },
       animation: {
         'slow-display': 'trans 2s linear',
+        'scroll-animation': 'headerAnim 0.4s linear',
       },
       keyframes: {
         trans: {
           '0%': { opacity: '0%' },
           '100%': { opacity: '100%' },
+        },
+        headerAnim: {
+          '0%': { padding: '1rem' },
+          '100%': { padding: '0' },
         },
       },
     },
