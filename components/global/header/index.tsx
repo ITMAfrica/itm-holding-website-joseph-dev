@@ -29,7 +29,6 @@ export default function HomeHeader({ params }: propsPage) {
 
   const [openNavigation, setOpenNavigation] = useState(false);
   const [scrollToBottom, setScrollToBottom] = useState(0);
-  const [scrollToTop, setScrollToTop] = useState(0);
 
   const handleNavigation = () => {
     setOpenNavigation((state: any) => !state);
@@ -63,10 +62,8 @@ export default function HomeHeader({ params }: propsPage) {
   return (
     <header
       className={`sticky z-50 top-0 w-full h-fit ${
-        scrollToBottom >= 5
-          ? 'py-1 transition-all duration-500 ease-linear'
-          : 'md:py-4 py-3'
-      }  flex justify-center bg-white shadow-headerShadow transition duration-1000`}
+        scrollToBottom >= 5 ? 'py-1' : 'md:py-4 py-3'
+      }  flex justify-center bg-white shadow-headerShadow transition-all duration-500 ease-linear`}
     >
       <div className="md:w-10/12 w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
