@@ -11,6 +11,10 @@ module.exports = {
         lg: '1280px',
         xl: '1440px',
       },
+      rotate: {
+        '17': '17deg',
+        '24': '24deg',
+      },
       colors: {
         blue_itm_good: '#1238B9',
         blue_itm_primary: '#1238B9',
@@ -25,6 +29,8 @@ module.exports = {
         gray_itm: '#8492A7',
         gray_itm_bg: '#C2C0FF',
         gray_800: '#454545',
+        entityHover: "#2E4049",
+        entityBar: "#16496A",
         yelloweItm: '#F2B61D',
         grey: {
           '0a': '#0a0a0a',

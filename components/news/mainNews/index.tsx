@@ -1,4 +1,5 @@
 import Image from "next/image";
+import bgHover from "@/public/assets/bg/bg.hover.png"
 import bg from "@/public/assets/bg/bg.news.main.section.png"
 import CardNews from "../card";
 
@@ -13,8 +14,11 @@ export default function NewsPageMain() {
                     <div className="w-1/12  border-blue_itm_good border-b-2 mb-5"></div>
                 </header>
                 <div className="w-full h-[50vh] relative">
+                    <div className="absolute z-20 top-0 left-0 right-0 bottom-0 ">
+                        <Image src={bgHover} alt="" fill objectFit="cover" />
+                    </div>
                     <Image src={bg} alt="" fill objectFit="cover" />
-                    <div className="absolute bg-green-500 top-3 left-3 text-sm px-3 py-2 text-white ">
+                    <div className="absolute rounded-sm overflow-hidden bg-green-500 top-3 left-3 text-sm px-3 py-2 text-white ">
                         entreprise
                     </div>
                 </div>
@@ -27,7 +31,6 @@ export default function NewsPageMain() {
                     </p>
                 </div>
             </main>
-
             <aside className="h-full w-full lg:w-3/12  lg:pt-0 pt-5 overflow-y-scroll scrollbar-thin">
                 <header className="h-fit w-full">
                     <h1 className="font-bold text-blue_itm_good w-full pb-3 text-3xl">
