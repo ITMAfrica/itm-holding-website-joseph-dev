@@ -63,7 +63,7 @@ export default function HomeHeader({ params }: propsPage) {
   return (
     <header
       className={`sticky z-50 top-0 w-full h-fit ${
-        scrollToBottom > 5
+        scrollToBottom >= 5
           ? 'py-1 transition-all duration-500 ease-linear'
           : 'md:py-4 py-3'
       }  flex justify-center bg-white shadow-headerShadow transition duration-1000`}
