@@ -6,7 +6,7 @@ import image4 from '@/public/pages/contact/image4.png';
 
 export default function ContactPageAboutSection({ params }: { params: any }) {
   return (
-    <section className="h-screen bg-white py-16">
+    <section className="h-fit bg-white py-16">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">
         <div className="w-1/2">
           <div className="mr-14">
