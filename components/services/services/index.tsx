@@ -59,7 +59,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
                         return <CardServices {...item} index={index} activeSlide={activeSlide} setActiveSlide={setActiveSlide} left={index % 2 == 0} key={index} />
                     })}
                 </Carousel>
-                <div className="w-full absolute z-20 bottom-0 left-0 h-fit pb-5 flex items-center justify-end translate-y-full">
+                <div className="w-full absolute z-20 bottom-0 left-0 h-fit pb-5 flex items-center justify-start translate-y-full">
                     <div
                         onClick={() => {
                             if (activeSlide != 0) {
