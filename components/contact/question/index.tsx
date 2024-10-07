@@ -11,8 +11,8 @@ export default function ContactPageQuestionsSection({
 }) {
   return (
     <section className="bg-white pb-10">
-      <div className="h-[350px] bg-no-repeat bg-[url('../public/pages/contact/image_bg.png')]"></div>
-      <section className="w-10/12 mx-auto -translate-y-72 text-white">
+      <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.png')]"></div>
+      <section className="w-10/12 mx-auto -translate-y-72 text-white h-[400px]">
         <div className="w-1/2">
           <h2 className="text-5xl font-bold">Got Questions?</h2>
           <h4 className="text-5xl font-bold">We are happy to help</h4>
@@ -80,7 +80,7 @@ export default function ContactPageQuestionsSection({
             </div>
           </div>
         </div>
-        <div></div>
+        <div>Form</div>
       </section>
     </section>
   );
