@@ -5,9 +5,9 @@ export default function ContactFormTextArea() {
       <textarea
         id="txtid"
         name="txtname"
-        rows={6}
+        rows={5}
         cols={20}
-        className="w-full"
+        className="w-full px-3 py-2"
         placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam
         nihil nostrum!"
       ></textarea>

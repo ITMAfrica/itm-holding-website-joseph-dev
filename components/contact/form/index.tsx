@@ -31,6 +31,14 @@ export default function ContactPageForm() {
       <div className="w-full">
         <ContactFormTextArea />
       </div>
+      <p className="text-black mt-2 mb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        nobis illum incidunt voluptate impedit et sunt eligendi nostrum, rem
+        recusandae
+      </p>
+      <button className="bg-blue_itm_primary py-3 px-10 rounded-full">
+        Envoyer
+      </button>
     </form>
   );
 }
