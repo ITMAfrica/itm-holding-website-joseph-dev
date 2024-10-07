@@ -3,6 +3,7 @@ import image1 from '@/public/pages/contact/image1.png';
 import image2 from '@/public/pages/contact/image2.png';
 import image3 from '@/public/pages/contact/image3.png';
 import image4 from '@/public/pages/contact/image4.png';
+import ContactPageForm from '../form';
 
 export default function ContactPageQuestionsSection({
   params,
@@ -12,7 +13,7 @@ export default function ContactPageQuestionsSection({
   return (
     <section className="bg-white pb-10">
       <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.png')]"></div>
-      <section className="w-10/12 mx-auto -translate-y-72 text-white h-[400px]">
+      <section className="flex justify-around w-10/12 mx-auto -translate-y-72 text-white h-[400px]">
         <div className="w-1/2">
           <h2 className="text-5xl font-bold">Got Questions?</h2>
           <h4 className="text-5xl font-bold">We are happy to help</h4>
@@ -80,7 +81,9 @@ export default function ContactPageQuestionsSection({
             </div>
           </div>
         </div>
-        <div>Form</div>
+        <div className="w-1/2 bg-white rounded-xl">
+          <ContactPageForm />
+        </div>
       </section>
     </section>
   );
