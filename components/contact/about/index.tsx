@@ -6,17 +6,17 @@ import image4 from '@/public/pages/contact/image4.png';
 
 export default function ContactPageAboutSection({ params }: { params: any }) {
   return (
-    <section className="h-fit bg-white py-16">
+    <section className="h-fit bg-white md:py-16 py-10">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">
-        <div className="w-1/2">
-          <div className="mr-14">
-            <h1 className="text-6xl text-blue_itm_primary font-bold">
+        <div className="md:w-1/2">
+          <div className="md:mr-14">
+            <h1 className="md:text-6xl text-4xl text-blue_itm_primary font-bold">
               Contact us about
             </h1>
-            <h1 className="text-6xl text-blue_itm_primary font-bold">
+            <h1 className="md:text-6xl text-5xl text-blue_itm_primary font-bold">
               ITM sarl
             </h1>
-            <p className="mt-10 text-lg">
+            <p className="md:mt-10 mt-5 text-lg">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
               quas, omnis placeat fugit asperiores esse et consequatur corrupti
               sunt recusandae vel, similique quod tempore debitis iste eaque.
@@ -24,8 +24,8 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
             </p>
           </div>
         </div>
-        <div className="w-1/2">
-          <div className="w-fit lg:w-full hidden semi-lg:flex mx-auto justify-center">
+        <div className="md:w-1/2">
+          <div className="w-fit md:w-full hidden md:flex mx-auto justify-center">
             <div>
               <div className="flex justify-end items-end">
                 <div className="relative md:w-[205px] w-[120px] h-fit shadow-xl rounded-md mr-3">

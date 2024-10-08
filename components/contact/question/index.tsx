@@ -13,15 +13,17 @@ export default function ContactPageQuestionsSection({
   return (
     <section className="bg-white pb-10">
       <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.png')]"></div>
-      <section className="flex justify-around w-10/12 mx-auto -translate-y-72 text-white h-[400px]">
-        <div className="w-1/2">
-          <h2 className="text-5xl font-bold">Got Questions?</h2>
-          <h4 className="text-5xl font-bold">We are happy to help</h4>
+      <section className="md:flex justify-around lg:w-10/12 w-11/12 mx-auto -translate-y-72 text-white md:h-[400px] h-[650px]">
+        <div className="md:w-1/2">
+          <h2 className="sm:text-5xl text-3xl font-bold">Got Questions?</h2>
+          <h4 className="sm:text-5xl text-3xl font-bold">
+            We are happy to help
+          </h4>
           <p className="w-9/12 pt-5 pb-10 text-lg">
             Contact us and let's help you get started to find your dream job or
             your dream team
           </p>
-          <div className="w-fit hidden semi-lg:flex justify-start">
+          <div className="w-fit hidden md:flex justify-start">
             <div>
               <div className="flex justify-end items-end">
                 <div className="relative md:w-[170px] w-[75px] h-fit shadow-xl rounded-md mr-3">
@@ -81,7 +83,7 @@ export default function ContactPageQuestionsSection({
             </div>
           </div>
         </div>
-        <div className="w-1/2 bg-white rounded-xl">
+        <div className="md:w-1/2 bg-white rounded-xl">
           <ContactPageForm />
         </div>
       </section>
