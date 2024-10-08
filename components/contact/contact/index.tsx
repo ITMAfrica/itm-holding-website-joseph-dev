@@ -4,8 +4,8 @@ import { BsGeoAlt } from 'react-icons/bs';
 
 export default function ContactPageContactSection({ params }: { params: any }) {
   return (
-    <section className="h-fit bg-white pt-5 pb-16">
-      <div className="flex justify-between lg:w-10/12 w-11/12 mx-auto">
+    <section className="h-fit bg-white pt-5 md:pb-16 pb-8">
+      <div className="flex flex-wrap justify-between lg:w-10/12 w-11/12 mx-auto">
         <ContactCard>
           <span className="flex justify-center">
             <IoCallOutline className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
@@ -42,7 +42,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
 
 export function ContactCard({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex items-center justify-center w-[31%] border bg-blue_itm_primary/5 h-[300px]">
+    <div className="flex items-center justify-center lg:w-[31%] md:w-[48%] w-full mb-6 lg:mb-0 border bg-blue_itm_primary/5 h-[300px]">
       <div className="w-full h-fit p-8">{children}</div>
     </div>
   );
