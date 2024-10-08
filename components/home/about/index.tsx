@@ -71,7 +71,7 @@ export default function HomeAbout({ params }: { params: any }) {
           </div>
         </div>
         <div className="w-fit h-full md:px-5 px-3"></div>
-        <div className="w-full semi-lg:w-2/5 lg:w-1/2 group">
+        <div className="w-full semi-lg:w-2/5 lg:w-1/2">
           <div className="pt-10 md:pt-0 md:mr-14">
             <SectionTitle text={data.title} />
             <h1 className="text-blue_itm_good text-5xl text-center lg:text-left font-bold mb-2">
