@@ -11,7 +11,7 @@ export default function NavLinkCard({
   name,
   full = false,
   external,
-  closeModal = () => {},
+  closeModal = () => { },
 }: link) {
   const params = useParams();
   const pathname = usePathname();
@@ -19,7 +19,7 @@ export default function NavLinkCard({
 
   useEffect(function () {
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
-  }, []);
+  }, [params]);
 
   function getHref() {
     const current = href.split('/')[2];
@@ -44,11 +44,10 @@ export default function NavLinkCard({
   return (
     <Link
       href={getHref()}
-      className={`${
-        pathname == getHref()
+      className={`${pathname == getHref()
           ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
           : ''
-      } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+        } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
     >
       <span className="flex items-center">
         {name}
@@ -57,7 +56,7 @@ export default function NavLinkCard({
             <FaExternalLinkAlt />
           </span>
         ) : (
-          ''
+          <span className="w-fit"></span>
         )}
       </span>
     </Link>
