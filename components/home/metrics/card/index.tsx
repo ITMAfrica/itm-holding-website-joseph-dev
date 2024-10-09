@@ -15,14 +15,15 @@ export default function HomeMetricsCard({
       id="counter"
       className="group rounded-lg lg:w-[23%] md:w-[48%] w-full bg-white/20 mb-4 lg:mb-0 text-white py-4 px-5"
     >
-      <h2 className="md:text-7xl text-5xl font-bold mb-2 group-hover:text-blue_itm_aqua_marine">
+      <h2 className="md:text-6xl text-5xl font-bold mb-2 group-hover:text-blue_itm_aqua_marine">
         <CountUp
           enableScrollSpy
           scrollSpyOnce
-          duration={3}
+          duration={2}
           start={0}
           prefix="+ "
           end={number}
+          separator=" "
         />
       </h2>
       <h4 className="text-xl font-bold">{title}</h4>
