@@ -77,7 +77,7 @@ export default function AboutImagesDesign() {
       LCRApi.start({
         x: 0,
         opacity: 1,
-        delay: 400,
+        delay: 200,
         config: { tension: 100, friction: 45 },
       });
     }
