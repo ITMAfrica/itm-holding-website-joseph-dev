@@ -30,6 +30,22 @@ export default function AboutImagesDesign() {
     []
   );
 
+  const [contentRevealLeft, LCRApi] = useTrail(
+    2,
+    {
+      from: { x: 32, opacity: 0 },
+    },
+    []
+  );
+
+  const [contentRevealUp, UCRApi] = useTrail(
+    2,
+    {
+      from: { y: -40, opacity: 0 },
+    },
+    []
+  );
+
   useEffect(() => {
     if (inView && !viewed) {
       setViewed(true);
@@ -43,8 +59,26 @@ export default function AboutImagesDesign() {
       CRApi.start({
         y: 0,
         opacity: 1,
-        delay: 500,
-        config: { tension: 400, friction: 45 },
+        delay: 400,
+        config: { tension: 100, friction: 45 },
+      });
+
+      //Up part animations
+      UCRApi.set({ y: -42, opacity: 0 });
+      UCRApi.start({
+        y: 0,
+        opacity: 1,
+        delay: 400,
+        config: { tension: 100, friction: 45 },
+      });
+
+      //Left part animations
+      LCRApi.set({ x: -42, opacity: 0 });
+      LCRApi.start({
+        x: 0,
+        opacity: 1,
+        delay: 200,
+        config: { tension: 100, friction: 45 },
       });
     }
   }, [viewed]);
@@ -54,7 +88,7 @@ export default function AboutImagesDesign() {
       <div className="w-fit lg:w-full hidden semi-lg:flex mx-auto flex-wrap justify-center">
         <a.div
           className="w-1/2 md:w-1/2 flex justify-end items-end"
-          style={contentReveal[0]}
+          style={contentRevealLeft[0]}
         >
           <div className="relative md:w-[205px] w-[120px] h-fit shadow-xl rounded-md mr-3">
             <Image
@@ -68,7 +102,7 @@ export default function AboutImagesDesign() {
             <div className="absolute top-0 bottom-0 left-0 right-0 hover:bg-blue_itm_primary/20 rounded-lg duration-700"></div>
           </div>
         </a.div>
-        <a.div className="w-1/2 md:w-1/2" style={contentReveal[1]}>
+        <a.div className="w-1/2 md:w-1/2" style={contentRevealUp[0]}>
           <div className="relative md:w-[300px] w-[225px] md:h-[300px] h-[225px] rounded-lg">
             <Image
               src={image2}
@@ -83,7 +117,7 @@ export default function AboutImagesDesign() {
         </a.div>
         <a.div
           className="w-1/2 md:w-1/2 flex justify-end"
-          style={contentReveal[2]}
+          style={contentRevealLeft[1]}
         >
           <div className="relative md:w-[155px] w-[80px] md:h-[155px] h-[80px] shadow-md rounded-lg mt-3 mr-3">
             <Image
