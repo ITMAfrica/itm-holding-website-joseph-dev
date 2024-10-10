@@ -25,7 +25,7 @@ export default function AboutImagesDesign() {
   const [contentReveal, CRApi] = useTrail(
     4,
     {
-      from: { y: 32, opacity: 0 },
+      from: { y: 50, opacity: 0 },
     },
     []
   );
@@ -33,7 +33,7 @@ export default function AboutImagesDesign() {
   const [contentRevealLeft, LCRApi] = useTrail(
     2,
     {
-      from: { x: 32, opacity: 0 },
+      from: { x: 50, opacity: 0 },
     },
     []
   );
