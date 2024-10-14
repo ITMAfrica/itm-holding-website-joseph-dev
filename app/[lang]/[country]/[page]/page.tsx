@@ -1,8 +1,8 @@
 import AboutPage from '@/components/pages/about';
 import ContactPage from '@/components/pages/contact';
-import FormationsPage from '@/components/pages/formations';
 import NewsPage from '@/components/pages/news';
 import ServicesPage from '@/components/pages/services';
+import TrainingPage from '@/components/pages/training';
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
@@ -51,9 +51,9 @@ function getComponent({ params }: any) {
     case 'services':
       return <ServicesPage params={params} />;
     case 'training':
-      return <FormationsPage params={params} />;
+      return <TrainingPage params={params} />;
     case 'formations':
-      return <FormationsPage params={params} />;
+      return <TrainingPage params={params} />;
     case 'news':
       return <NewsPage params={params} />;
     case 'actualites':

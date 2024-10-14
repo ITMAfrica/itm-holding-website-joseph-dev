@@ -19,10 +19,7 @@ export default function CarouselItem({
 }) {
   const images = [image1, image2, image3];
   return (
-    <section
-      className="w-[90vw] mx-auto relative overflow-hidden"
-      key={2}
-    >
+    <section className="w-[90vw] mx-auto relative overflow-hidden" key={2}>
       <article className="flex items-center sm:w-1/2 w-full absolute z-10 top-0 right-0 left-0 bottom-0">
         {bgWhite ? (
           <div className="sm:ml-14 ml-4 h-fit">
