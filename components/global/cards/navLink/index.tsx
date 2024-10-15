@@ -19,14 +19,15 @@ export default function NavLinkCard({
 
   useEffect(function () {
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
-  }, [params]);
+  }, [params.lang, params.country]);
 
   function getHref() {
     const current = href.split('/')[2];
+    console.log(current, params)
     if (href == TALENTPRO_HREF) {
       return href;
-    } else if (CURRENT_CODE && CURRENT_CODE != CODE && current != 'undefined') {
-      return `/${params.lang}/${params.country}/${current}`;
+    } else if (CURRENT_CODE && (CURRENT_CODE != CODE) && (typeof current != 'undefined')) {
+      return `/${params.lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
     } else {
       return href;
     }
@@ -45,8 +46,8 @@ export default function NavLinkCard({
     <Link
       href={getHref()}
       className={`${pathname == getHref()
-          ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
-          : ''
+        ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
+        : ''
         } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
     >
       <span className="flex items-center">
