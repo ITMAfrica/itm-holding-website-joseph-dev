@@ -18,25 +18,36 @@ export default function TrainingageAbout({ params }: { params: any }) {
           </p>
         </div>
         <div className="w-10/12 mx-auto">
-          <article className="bg-red-400 py-10 px-4 w-fit flex">
-            <div>
-              <h5 className="font-bold text-blue_itm_primary text-2xl">
+          <article className="flex justify-between">
+            <div className="w-[68%] py-10 px-8 flex shadow-lg rounded-lg">
+              <div>
+                <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-2">
+                  Lorem Ipsum is simply dummy
+                </h5>
+                <p className="w-3/4">
+                  Chaque séance est conçue pour améliorer des compétences
+                  spécifiques telles que la communication, la résolution de
+                  problèmes et la gestion du temps
+                </p>
+              </div>
+              <div className="w-[400px] h-full ">
+                <Image
+                  src={image1}
+                  alt=""
+                  className=""
+                  width={500}
+                  height={500}
+                />
+              </div>
+            </div>
+            <div className="p-4 bg-green-200 border w-[30%] bg-[url('../public/pages/training/training2.png')] bg-bottom bg-no-repeat">
+              <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-2">
                 Lorem Ipsum is simply dummy
               </h5>
-              <p className="w-2/4">
-                Chaque séance est conçue pour améliorer des compétences
-                spécifiques telles que la communication, la résolution de
-                problèmes et la gestion du temps
+              <p>
+                Nos activités sont conçues pour créer des liens durables entre
+                les membres de votre équipe.
               </p>
-            </div>
-            <div>
-              <Image
-                src={image1}
-                alt=""
-                className=""
-                width={100}
-                height={100}
-              />
             </div>
           </article>
         </div>
