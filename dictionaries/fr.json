@@ -99,6 +99,18 @@
               }
             ]
           }
+        ],
+        "langs": [
+          {
+            "tag": "Français",
+            "href": "/fr",
+            "key": "fr"
+          },
+          {
+            "tag": "Anglais",
+            "href": "/en",
+            "key": "en"
+          }
         ]
       }
     },

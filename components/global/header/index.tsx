@@ -22,7 +22,7 @@ type linkHeader = {
 export default function HomeHeader({ params }: propsPage) {
   const lang: string = params.lang;
   const dictionary: dictionary = getDictionary(lang);
-  const [CURRENT_CODE, SET_CURRENT_CODE] = useState('');
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
   const data: any = dictionary?.global?.header[CURRENT_CODE]
     ? dictionary?.global?.header[CURRENT_CODE]
     : dictionary?.global?.header[CODE];
@@ -42,7 +42,7 @@ export default function HomeHeader({ params }: propsPage) {
   }
   useEffect(function () {
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
-  }, []);
+  }, [lang]);
 
   //Header animations
   const handleScroll = () => {
@@ -61,9 +61,8 @@ export default function HomeHeader({ params }: propsPage) {
 
   return (
     <header
-      className={`sticky z-50 top-0 w-full h-fit ${
-        scrollToBottom >= 5 ? 'py-1' : 'md:py-4 py-3'
-      }  flex justify-center bg-white shadow-headerShadow transition-all duration-500 ease-linear`}
+      className={`sticky z-50 top-0 w-full h-fit ${scrollToBottom >= 5 ? 'py-1' : 'md:py-4 py-3'
+        }  flex justify-center bg-white shadow-headerShadow transition-all duration-500 ease-linear`}
     >
       <div className="md:w-10/12 w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
@@ -83,7 +82,7 @@ export default function HomeHeader({ params }: propsPage) {
           ))}
         </nav>
         <div className="w-fit flex">
-          <CardLang params={params} links={data?.links} />
+          <CardLang links={data?.links} langs={data?.langs} />
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
