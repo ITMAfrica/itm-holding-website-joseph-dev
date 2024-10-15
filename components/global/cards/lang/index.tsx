@@ -1,27 +1,47 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams, usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import en from '@/public/icons/lang/en.png';
 import fr from '@/public/icons/lang/fr.png';
 import { GoTriangleDown } from 'react-icons/go';
 import Link from 'next/link';
+import { CODE, getCookie, TALENTPRO_HREF } from '@/helpers';
 
 
 export default function CardLang({
   langs
-}: { params?: any, links: any[], langs: any[] }) {
+}: { links: any[], langs: any[] }) {
   const [show, setShow] = useState(false)
   const params: any = useParams();
   const lang: string = params?.lang;
   const [flag]: any = useState({ fr, en })
   const searchParams = useSearchParams();
+  const pathname = usePathname();
   const [href, setHref] = useState(`/${lang}`)
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
+
+  useEffect(function () {
+    SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+  }, [params.lang, params.country]);
+
+  function getHref(lang: string = "fr") {
+    const href: string = pathname
+    const current = href.split('/')[3];
+    if (href == TALENTPRO_HREF) {
+      return href;
+    } else if (CURRENT_CODE && (CURRENT_CODE != CODE) && (typeof current != 'undefined')) {
+      return `/${lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
+    } else {
+      return href;
+    }
+  }
 
   function toggleModal() {
     setShow(!show)
   }
+
   useEffect(function () {
     document.body.addEventListener("click", function () {
       if (show) {
@@ -29,9 +49,6 @@ export default function CardLang({
       }
     })
   }, [show])
-  useEffect(function () {
-    console.log(searchParams.get("country"))
-  }, [lang])
 
   return (
     <>
@@ -49,7 +66,7 @@ export default function CardLang({
         </div>
         {show && <div className="w-[150px] top-[110%] absolute rounded-lg bg-white -left-[50%] p-2 shadow-xl shadow-black/20">
           {langs.map(function (item: any) {
-            return <Link href={item.href} className={`w-full p-2 ${item.key == lang && "bg-gray_itm_bg/40"} hover:bg-gray_itm_bg/40 mb-1 p-2 rounded-full flex justify-center items-center block`}>
+            return <Link href={getHref(item.key)} className={`w-full p-2 ${item.key == lang && "bg-gray_itm_bg/40"} hover:bg-gray_itm_bg/40 mb-1 p-2 rounded-full flex justify-center items-center block`}>
               <Image
                 src={flag[item.key]}
                 height={12 * 0.2}

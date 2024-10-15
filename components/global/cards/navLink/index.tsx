@@ -21,13 +21,12 @@ export default function NavLinkCard({
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
   }, [params.lang, params.country]);
 
-  function getHref() {
+  function getHref(lang: string = "fr") {
     const current = href.split('/')[2];
-    console.log(current, params)
     if (href == TALENTPRO_HREF) {
       return href;
     } else if (CURRENT_CODE && (CURRENT_CODE != CODE) && (typeof current != 'undefined')) {
-      return `/${params.lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
+      return `/${lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
     } else {
       return href;
     }
