@@ -1,11 +1,13 @@
-import TrainingageAbout from '@/components/training/about';
+import TrainingPageAbout from '@/components/training/about';
 import TrainingPageBanner from '@/components/training/banner';
+import TrainingpagePopular from '@/components/training/popular';
 
 export default function TrainingPage({ params }: { params: any }) {
   return (
     <main className="w-full">
       <TrainingPageBanner params={params} />
-      <TrainingageAbout params={params} />
+      <TrainingPageAbout params={params} />
+      <TrainingpagePopular params={params} />
     </main>
   );
 }

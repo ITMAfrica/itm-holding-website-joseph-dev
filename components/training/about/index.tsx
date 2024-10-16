@@ -2,7 +2,7 @@ import Image from 'next/image';
 import image1 from '@/public/pages/training/training1.png';
 import image3 from '@/public/pages/training/training3.png';
 
-export default function TrainingageAbout({ params }: { params: any }) {
+export default function TrainingPageAbout({ params }: { params: any }) {
   return (
     <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
       <div className="w-10/12 mx-auto">
