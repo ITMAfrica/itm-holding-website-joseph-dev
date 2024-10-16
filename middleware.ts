@@ -5,6 +5,7 @@ import { i18n } from "./i18n-config";
 
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
+import { CODE, TALENTPRO_HREF } from "./helpers";
 
 function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
@@ -38,14 +39,40 @@ export function middleware(request: NextRequest) {
   // )
   //   return
 
+
+  const countryTag = request.cookies.get("country")
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every(
     (locale) =>
       !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
   );
+  function getHref(lang: string = "fr") {
+    const href: string = pathname
+    const CURRENT_CODE = request.cookies.get("country")
+    const current = href.split('/')[3];
+    if ((CURRENT_CODE) && (CURRENT_CODE.value != CODE) && (current != undefined)) {
+      return `/${lang}/${CURRENT_CODE}/${current}`;
+    } else if (CURRENT_CODE && (CURRENT_CODE.value != CODE)) {
+      return `/${lang}/${CURRENT_CODE.value}`;
+    } else {
+      return `/${lang}`;
+    }
+  }
 
   // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
+  if (countryTag && pathnameIsMissingLocale) {
+    const locale = getLocale(request);
+
+    // e.g. incoming request is /products
+    // The new URL is now /en-US/products
+    return NextResponse.redirect(
+      new URL(
+        getHref(locale),
+        request.url,
+      ),
+    );
+  }
+  else if (pathnameIsMissingLocale) {
     const locale = getLocale(request);
 
     // e.g. incoming request is /products

@@ -1,12 +1,15 @@
+"use client"
 import { getDictionary } from '@/get-dictionary';
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
 import AboutImagesDesign from './aboutImagesDesign';
+import { useState } from 'react';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
   const dictionary: any = getDictionary(lang);
   const data: any = dictionary?.cd?.pages.home.about;
+  const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({})
   return (
     <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10">
       <div className="w-11/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">

@@ -142,21 +142,21 @@
               "bgWhite": false,
               "btnMore": {
                 "text": "En-savoir plus",
-                "link": "/fr/a-propos-de-nous",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails de ITM HR"
+                "title": "Voir les détails sur ITM HR"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM SARL",
-          "paragraph": "ITM SARL, votre partenaire stratégique pour le développement de vos ressources humaines. Spécialisés dans le recrutement, la formation et le développement organisationnel, nous vous accompagnons dans toutes les étapes de la gestion de vos talents. Grâce à notre expertise et à notre réseau étendu, nous vous proposons des solutions sur mesure pour répondre à vos besoins spécifiques.  Nous ne vous proposons pas de formules toutes faites. Nous travaillons main dans la main avec vous pour concevoir des solutions sur-mesure, adaptées à vos besoins spécifiques et vos enjeux du moment. Chez ITM SARL, nous croyons que le capital humain est la clé de la réussite. C'est pourquoi nous accordons une importance particulière à la qualité de vie au travail et au développement des compétences de vos collaborateurs. Notre approche personnalisée vous permet de créer un environnement de travail stimulant et motivant.",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
           "btnMore": {
-            "text": "LIRE D'AVANTAGE",
+            "text": "En-savoir plus",
             "link": "/fr/a-propos-de-nous",
-            "title": "Voir les détails sur l'histoire de ITM"
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM HR"
           }
         },
         "services": {

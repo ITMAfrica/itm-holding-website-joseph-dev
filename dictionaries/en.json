@@ -142,7 +142,6 @@
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
-                "link": "/en/about-us",
                 "key": "about-us",
                 "title": "See details about ITM HR"
               }
@@ -151,11 +150,12 @@
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM LTD.",
-          "paragraph": "ITM SARL, your strategic partner for human resources development. Specializing in recruitment, training and organizational development, we support you at every stage of talent management. Thanks to our expertise and extensive network, we can offer you tailor-made solutions to meet your specific needs.  We don't offer ready-made packages. We work hand in hand with you to design tailor-made solutions, adapted to your specific needs and current challenges. At ITM SARL, we believe that human capital is the key to success. That's why we attach particular importance to the quality of working life and the development of your employees' skills. Our personalized approach enables you to create a stimulating and motivating work environment.",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
           "btnMore": {
-            "text": "READ MORE",
+            "text": "Discover more",
             "link": "/en/about-us",
+            "key": "about-us",
             "title": "Learn more about ITM history"
           }
         },
