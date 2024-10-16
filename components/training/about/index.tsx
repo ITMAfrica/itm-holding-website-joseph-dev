@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import image1 from '@/public/pages/training/training1.png';
+import image3 from '@/public/pages/training/training3.png';
 
 export default function TrainingageAbout({ params }: { params: any }) {
   return (
-    <section className="bg-white h-screen  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
+    <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
       <div className="w-10/12 mx-auto">
         <div className="w-3/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
@@ -18,10 +19,10 @@ export default function TrainingageAbout({ params }: { params: any }) {
           </p>
         </div>
         <div className="w-10/12 mx-auto">
-          <article className="flex justify-between">
+          <article className="flex justify-between mb-10">
             <div className="w-[68%] py-10 px-8 flex shadow-lg rounded-lg">
               <div>
-                <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-2">
+                <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-4">
                   Lorem Ipsum is simply dummy
                 </h5>
                 <p className="w-3/4">
@@ -30,18 +31,55 @@ export default function TrainingageAbout({ params }: { params: any }) {
                   problèmes et la gestion du temps
                 </p>
               </div>
-              <div className="w-[400px] h-full ">
-                <Image
-                  src={image1}
-                  alt=""
-                  className=""
-                  width={500}
-                  height={500}
-                />
+              <div className="w-[400px] h-[220px] ">
+                <div>
+                  <Image
+                    src={image1}
+                    alt=""
+                    className=""
+                    width={500}
+                    height={500}
+                  />
+                </div>
               </div>
             </div>
-            <div className="p-4 bg-green-200 border w-[30%] bg-[url('../public/pages/training/training2.png')] bg-bottom bg-no-repeat">
-              <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-2">
+            <div className="p-4 bg-blue_itm_aqua_marine/10 rounded-lg border w-[30%] bg-[url('../public/pages/training/training2.png')] bg-bottom bg-no-repeat">
+              <h5 className="font-bold text-blue_itm_primary text-2xl mb-2">
+                Lorem Ipsum is simply dummy
+              </h5>
+              <p>
+                Nos activités sont conçues pour créer des liens durables entre
+                les membres de votre équipe.
+              </p>
+            </div>
+          </article>
+
+          <article className="flex justify-between">
+            <div className="w-[68%] py-10 px-8 flex shadow-lg bg-blue_itm_aqua_marine/10 rounded-lg">
+              <div>
+                <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-4">
+                  Lorem Ipsum is simply dummy
+                </h5>
+                <p className="w-3/4">
+                  Chaque séance est conçue pour améliorer des compétences
+                  spécifiques telles que la communication, la résolution de
+                  problèmes et la gestion du temps
+                </p>
+              </div>
+              <div className="w-[400px] h-[220px] ">
+                <div>
+                  <Image
+                    src={image3}
+                    alt=""
+                    className=""
+                    width={500}
+                    height={500}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="p-4 rounded-lg border w-[30%] bg-[url('../public/pages/training/training4.png')] bg-bottom bg-no-repeat">
+              <h5 className="font-bold text-blue_itm_primary text-2xl mb-2">
                 Lorem Ipsum is simply dummy
               </h5>
               <p>
