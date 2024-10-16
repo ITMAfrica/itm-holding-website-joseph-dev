@@ -137,33 +137,14 @@
         "banner": {
           "items": [
             {
-              "title": "Bienvenue à ITM Africa",
-              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "title": "BIENVENUE CHEZ ITM HR ",
+              "paragraph": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
               "bgWhite": false,
               "btnMore": {
-                "text": "En savoir plus",
+                "text": "En-savoir plus",
                 "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
-              }
-            },
-            {
-              "title": "Nous vous aidons à trouvez votre équipe de rêve",
-              "paragraph": "Vous cherchez à remplacer un employé, à élargir la structure de votre équipe ou à pourvoir un poste vacant ? ITM talent pro vous aidera à atteindre votre objectif sans effort.",
-              "bgWhite": true,
-              "btnMore": {
-                "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
-              }
-            },
-            {
-              "title": "Bienvenue à ITM Africa",
-              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails de ITM HR"
               }
             }
           ]

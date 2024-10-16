@@ -137,33 +137,14 @@
         "banner": {
           "items": [
             {
-              "title": "Welcome to ITM Africa",
-              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
+              "title": "WELCOME TO ITM HR ",
+              "paragraph": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
-                "text": "Read more",
+                "text": "Discover more",
                 "link": "/en/about-us",
-                "title": "See details of services offered by ITM"
-              }
-            },
-            {
-              "title": "We help you find your dream team",
-              "paragraph": "Are you looking to replace an employee, expand your team structure or fill a vacancy? ITM talent pro will help you achieve your goal effortlessly.",
-              "bgWhite": true,
-              "btnMore": {
-                "text": "Read more",
-                "link": "/en/about-us",
-                "title": "We help you find your dream team"
-              }
-            },
-            {
-              "title": "Welcome to ITM Africa",
-              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "Read more",
-                "link": "/en/about-us",
-                "title": "See details of services offered by ITM"
+                "key": "about-us",
+                "title": "See details about ITM HR"
               }
             }
           ]
