@@ -137,54 +137,35 @@
         "banner": {
           "items": [
             {
-              "title": "Bienvenue à ITM Africa",
-              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
+              "title": "BIENVENUE CHEZ ITM HR ",
+              "paragraph": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
               "bgWhite": false,
               "btnMore": {
-                "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
-              }
-            },
-            {
-              "title": "Nous vous aidons à trouvez votre équipe de rêve",
-              "paragraph": "Vous cherchez à remplacer un employé, à élargir la structure de votre équipe ou à pourvoir un poste vacant ? ITM talent pro vous aidera à atteindre votre objectif sans effort.",
-              "bgWhite": true,
-              "btnMore": {
-                "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
-              }
-            },
-            {
-              "title": "Bienvenue à ITM Africa",
-              "paragraph": "ITM Holding est actuellement en plein milieu de sa revue à mi-parcours en Tanzanie. L'équipe de direction se réunis pour évaluer les progrès réalisés jusqu'à présent, discuter des défis rencontrés et planifier les étapes suivantes. Cet événement est",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En savoir plus",
-                "link": "/fr/a-propos-de-nous",
-                "title": "Voir les détails des services qu'offre ITM"
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM HR"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM SARL",
-          "paragraph": "ITM SARL, votre partenaire stratégique pour le développement de vos ressources humaines. Spécialisés dans le recrutement, la formation et le développement organisationnel, nous vous accompagnons dans toutes les étapes de la gestion de vos talents. Grâce à notre expertise et à notre réseau étendu, nous vous proposons des solutions sur mesure pour répondre à vos besoins spécifiques.  Nous ne vous proposons pas de formules toutes faites. Nous travaillons main dans la main avec vous pour concevoir des solutions sur-mesure, adaptées à vos besoins spécifiques et vos enjeux du moment. Chez ITM SARL, nous croyons que le capital humain est la clé de la réussite. C'est pourquoi nous accordons une importance particulière à la qualité de vie au travail et au développement des compétences de vos collaborateurs. Notre approche personnalisée vous permet de créer un environnement de travail stimulant et motivant.",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
           "btnMore": {
-            "text": "LIRE D'AVANTAGE",
+            "text": "En-savoir plus",
             "link": "/fr/a-propos-de-nous",
-            "title": "Voir les détails sur l'histoire de ITM"
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM HR"
           }
         },
         "services": {
           "title": "CE QUE NOUS FAISONS",
-          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph": "Nous démontrons notre aptitude à vous accompagner dans tous vos projets."
+          "subtitle": "Des solutions RH conçues pour améliorer votre entreprise ",
+          "paragraph": "Du recrutement au développement de la main-d'œuvre, nous fournissons des services personnalisés qui améliorent les performances et font progresser votre entreprise."
         },
         "metrics": {
-          "title": "Pourquoi nous faire confiance?",
+          "title": "Pourquoi travailler avec nous ?",
           "paragraph": "Parce que nous sommes un acteur mondial des ressources humaines, présent dans plus de 18 pays avec plus de 10 000 agents sous notre gestion. En choisissant nos services, vous bénéficiez d'un accès privilégié à un vivier de talents mondial et d'une expertise éprouvée pour vous accompagner dans tous vos projets.",
           "metricsItems": [
             {
@@ -215,7 +196,7 @@
         },
         "partners": {
           "title": "Nos partenaires",
-          "subtitle": "Nous sommes le choix de plus de 500 entreprises satisfaites; rejoignez-nous et bénéficiez de notre expertise"
+          "subtitle": "Nous sommes le choix de plus de 500 entreprises satisfaites, rejoignez-nous et bénéficiez de notre expertise."
         },
         "testimonies": {
           "title": "Ce que nos clients disent de nous"

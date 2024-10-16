@@ -137,54 +137,35 @@
         "banner": {
           "items": [
             {
-              "title": "Welcome to ITM Africa",
-              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
+              "title": "WELCOME TO ITM HR ",
+              "paragraph": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
-                "text": "Read more",
-                "link": "/en/about-us",
-                "title": "See details of services offered by ITM"
-              }
-            },
-            {
-              "title": "We help you find your dream team",
-              "paragraph": "Are you looking to replace an employee, expand your team structure or fill a vacancy? ITM talent pro will help you achieve your goal effortlessly.",
-              "bgWhite": true,
-              "btnMore": {
-                "text": "Read more",
-                "link": "/en/about-us",
-                "title": "We help you find your dream team"
-              }
-            },
-            {
-              "title": "Welcome to ITM Africa",
-              "paragraph": "ITM Holding is currently in the midst of its mid-term review in Tanzania. The management team is meeting to assess progress to date, discuss challenges and plan next steps.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "Read more",
-                "link": "/en/about-us",
-                "title": "See details of services offered by ITM"
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
               }
             }
           ]
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM LTD.",
-          "paragraph": "ITM SARL, your strategic partner for human resources development. Specializing in recruitment, training and organizational development, we support you at every stage of talent management. Thanks to our expertise and extensive network, we can offer you tailor-made solutions to meet your specific needs.  We don't offer ready-made packages. We work hand in hand with you to design tailor-made solutions, adapted to your specific needs and current challenges. At ITM SARL, we believe that human capital is the key to success. That's why we attach particular importance to the quality of working life and the development of your employees' skills. Our personalized approach enables you to create a stimulating and motivating work environment.",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
           "btnMore": {
-            "text": "READ MORE",
+            "text": "Discover more",
             "link": "/en/about-us",
+            "key": "about-us",
             "title": "Learn more about ITM history"
           }
         },
         "services": {
           "title": "WHAT WE DO",
-          "subtitle": "We provide exclusive services for your business",
-          "paragraph": "We demonstrate our ability to support you in all your projects."
+          "subtitle": "HR Solutions Built to Elevate Your Business ",
+          "paragraph": "From recruitment to workforce development, we deliver customized services that improve performance and drive your business forward."
         },
         "metrics": {
-          "title": "Why should you trust us?",
+          "title": "Why Partner with Us? ",
           "paragraph": "Because we are a global player in human resources, present in over 18 countries with more than 10,000 agents under our management. By choosing our services, you benefit from privileged access to a global talent pool and proven expertise to support you in all your projects.",
           "metricsItems": [
             {

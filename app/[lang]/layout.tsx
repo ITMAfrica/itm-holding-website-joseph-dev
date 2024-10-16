@@ -4,7 +4,6 @@ import localFont from 'next/font/local';
 import Footer from '@/components/global/footer';
 import '@/styles/global.css';
 
-
 const candara = localFont({
   src: [
     {
@@ -30,6 +29,11 @@ const candara = localFont({
   ],
 });
 
+export const metadata = {
+  title: 'ITM Africa | Welcome to the ITM Africa web site',
+  description: 'This is where everything start',
+};
+
 export default function Root({
   children,
   params,
@@ -50,7 +54,3 @@ export default function Root({
   );
 }
 
-export const metadata = {
-  title: 'ITM Africa | Welcome to the ITM Africa web site',
-  description: 'This is where everything start',
-};
