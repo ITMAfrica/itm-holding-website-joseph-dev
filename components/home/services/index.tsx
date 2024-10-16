@@ -1,6 +1,5 @@
 import SectionTitle from '@/components/global/section_title';
 import { getDictionary } from '@/get-dictionary';
-import { servicesHome } from '@/lib/data';
 import HomeServicesCarousel from './carousel';
 
 export default function HomeServicesSection({ params }: { params: any }) {
@@ -9,10 +8,10 @@ export default function HomeServicesSection({ params }: { params: any }) {
   const data = dictionary.cd.pages.home.services;
 
   return (
-    <section className="bg-white md:flex justify-end">
-      <div className="md:flex justify-between md:py-20 py-10 w-11/12 mx-auto md:mx-0">
-        <div className="md:w-3/12 w-11/12 md:mx-auto md:pr-4">
-          <div className="md:mb-20 mb-10">
+    <section className="bg-white lg:flex justify-end">
+      <div className="md:flex justify-between lg:py-20 py-10 w-11/12 mx-auto lg:mx-0">
+        <div className="lg:w-3/12 w-11/12 lg:mx-auto lg:pr-4">
+          <div className="lg:mb-20 mb-10">
             <SectionTitle text={data.title} />
             <h2 className="text-blue_itm_good md:text-5xl text-3xl font-bold mt-4 mb-4">
               {data.subtitle}
@@ -20,7 +19,7 @@ export default function HomeServicesSection({ params }: { params: any }) {
             <p className="sm:text-2xl text-lg text-black">{data.paragraph}</p>
           </div>
         </div>
-        <div className="md:w-8/12">
+        <div className="lg:w-8/12">
           <HomeServicesCarousel params={params} />
         </div>
       </div>

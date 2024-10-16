@@ -55,7 +55,7 @@ export default function HomeServicesCarousel({
           ))}
         </Carousel>
       </div>
-      <div className="flex items-center pl-3 z-20">
+      <div className="flex items-center justify-start pl-3 z-20">
         <button
           onClick={() => {
             if (activeSlide != 0) setActiveSlide(activeSlide - 1);
