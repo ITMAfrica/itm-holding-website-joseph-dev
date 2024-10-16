@@ -1,10 +1,9 @@
-import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 import image from '@/public/pages/home/news/news.png';
 
 export default function TrainingCard() {
   return (
-    <article className="lg:w-[31%] md:w-[48%] shadow-xl hover:shadow-2xl rounded-xl py-3 w-full lg:mb-0 mb-7">
+    <article className="lg:w-[31%] md:w-[48%] shadow-xl hover:shadow-2xl rounded-xl pb-3 w-full lg:mb-0 mb-7 bg-white">
       <div className="mb-5 w-full h-fit">
         <Image
           src={image}
@@ -16,7 +15,7 @@ export default function TrainingCard() {
       </div>
       <div className="w-full p-5 pt-0">
         <h1 className="text-2xl font-bold text-blue_itm_primary py-2">
-          Gestionaire de paie
+          Formation excel avancé
         </h1>
         <p className="text-justify text-gray-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,

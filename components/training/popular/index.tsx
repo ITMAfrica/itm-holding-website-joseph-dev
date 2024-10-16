@@ -12,7 +12,7 @@ export default function TrainingpagePopular({ params }: { params: any }) {
             <button className="w-10 h-10 bg-blue_itm_aqua_marine/40 rounded-full"></button>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between pt-8">
           <TrainingCard />
           <TrainingCard />
           <TrainingCard />
