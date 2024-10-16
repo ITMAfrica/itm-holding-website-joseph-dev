@@ -46,7 +46,7 @@ export function middleware(request: NextRequest) {
     (locale) =>
       !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
   );
-  function getHref(lang: string = "fr") {
+  function getHref(lang: string = "en") {
     const href: string = pathname
     const CURRENT_CODE = request.cookies.get("country")
     const current = href.split('/')[3];

@@ -3,7 +3,7 @@ type i18n = {
   locales: string[];
 };
 export const i18n: i18n = {
-  defaultLocale: 'fr',
+  defaultLocale: 'en',
   locales: ['en', 'fr'],
 };
 
