@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6"
-export default function CardFaq({ title, description, about = false }: any) {
+export default function CardFaq({ title = "Notre Histoire", description = "Notre Histoire", about = false }: any) {
     const [show, setShow] = useState(false)
     function showUs() {
         setShow(!show)
