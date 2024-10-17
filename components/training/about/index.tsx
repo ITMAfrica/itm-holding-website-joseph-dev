@@ -10,7 +10,7 @@ export default function TrainingPageAbout({ params }: { params: any }) {
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
             LOREM IPSUME
           </h2>
-          <h1 className="text-blue_itm_primary font-bold text-5xl mb-3">
+          <h1 className="text-blue_itm_primary font-bold text-4xl mb-3">
             Découvrez nos formations
           </h1>
           <p className="text-lg">
