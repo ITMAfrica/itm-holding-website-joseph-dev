@@ -9,9 +9,9 @@ export default function CardFaq({ title = "Notre Histoire", description = "Notre
     }
     if (about) return <article className="w-full group bg-white flex flex-wrap items-center justify-between text-black p-5 pl-0 mb-3 border-b ">
         <div onClick={showUs} className="w-full cursor-pointer h-fit flex justify-between items-start">
-            <p className={`text-blue_itm_aqua_marine text-xl font-bold cursor-pointer ${!show ? "text-black" : "text-blue_itm_aqua_marine"}`}>
+            <h1 className={`text-blue_itm_aqua_marine text-xl font-bold cursor-pointer ${!show ? "text-black" : "text-blue_itm_aqua_marine"}`}>
                 {title}
-            </p>
+            </h1>
             <div className={`w-fit rounded-full p-3 py-0 group-hover:text-blue_itm_aqua_marine ${!show ? "text-black" : "text-blue_itm_aqua_marine"} text-2xl cursor-pointer`}>
                 {!show ? <FaPlus /> : <FaMinus />}
             </div>
@@ -21,9 +21,9 @@ export default function CardFaq({ title = "Notre Histoire", description = "Notre
         </p>}
     </article>
     return <article className="w-full group bg-white flex flex-wrap items-center justify-between text-black p-5 mb-3 rounded-lg">
-        <p onClick={showUs} className={`group-hover:text-blue_itm_aqua_marine cursor-pointer ${!show ? "text-black" : "text-blue_itm_aqua_marine"}`}>
+        <h1 onClick={showUs} className={`group-hover:text-blue_itm_aqua_marine cursor-pointer ${!show ? "text-black" : "text-blue_itm_aqua_marine"}`}>
             {title}
-        </p>
+        </h1>
         <div onClick={showUs} className={`w-fit rounded-full p-3 group-hover:text-blue_itm_aqua_marine ${!show ? "text-gray_itm_bg" : "text-blue_itm_aqua_marine"} text-2xl cursor-pointer`}>
             {!show ? <FaPlus /> : <FaMinus />}
         </div>
