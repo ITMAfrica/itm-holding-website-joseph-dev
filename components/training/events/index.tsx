@@ -4,7 +4,7 @@ import Image2 from '@/public/assets/images/event2.png';
 
 export default function TrainingPageEvents({ params }: { params: any }) {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white py-16">
       <div className="w-10/12 mx-auto">
         <div className="w-2/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
@@ -35,7 +35,7 @@ export default function TrainingPageEvents({ params }: { params: any }) {
           <div className="w-1/2">
             <article className="w-[400px] h-fit mx-auto">
               <h4 className="text-2xl text-blue_itm_primary font-bold mb-2">
-                Big News
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </h4>
               <p className="text-sm mb-2">
                 We are excited to announce that ITM Holding has partnered with
