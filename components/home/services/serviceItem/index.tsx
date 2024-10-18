@@ -16,16 +16,13 @@ export default function HomeServiceCard({
   activeSlide: any;
 }) {
   return (
-    <article className="border h-[500px] sm:mx-3 mx-1 lg:w-[33%] group sm:w-[48%] w-full mb-8 transition ease-in-out duration-700">
-      <div className="flex items-end h-full w-[21rem] relative">
+    <article className="border h-[500px] sm:mx-3 mx-1 lg:w-[22.5vw] group w-[48vw] w-full mb-8 transition ease-in-out duration-700">
+      <div className="flex items-end h-full w-full relative">
         <div className="absolute h-full w-full">
-          <Image src={icon} alt="Image service" className="h-full w-full" />
+          <Image src={icon} alt="Image service" className="h-full w-full" objectFit='cover' />
         </div>
         <div className="absolute z-20 bg-gradient-to-t from-black h-full w-full"></div>
         <div className="px-4 h-fit z-50 text-white pb-10">
-          <h6 className="text-xxs text-white group-hover:animate-slow-display">
-            NOS SERVICES
-          </h6>
           <h1 className="mb-2 text-xl group-hover:animate-slow-display text-white font-bold">
             {name}
           </h1>
@@ -36,7 +33,7 @@ export default function HomeServiceCard({
             <Link
               href={btnMore.link}
               title={btnMore.title}
-              className="group-hover:inline text-xs border border-white p-2 hover:bg-white hover:text-blue_itm_primary"
+              className="group-hover:inline text-xs border border-white p-3 hover:bg-white hover:text-blue_itm_primary"
             >
               {btnMore.text}
             </Link>

@@ -31,10 +31,12 @@ export default function CardLang({
     const current = href.split('/')[3];
     if (href == TALENTPRO_HREF) {
       return href;
-    } else if (CURRENT_CODE && (CURRENT_CODE != CODE) && (typeof current != 'undefined')) {
+    } else if ((CURRENT_CODE) && (CURRENT_CODE != CODE) && (current != undefined)) {
       return `/${lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
+    } else if (CURRENT_CODE && (CURRENT_CODE != CODE)) {
+      return `/${lang}/${CURRENT_CODE}`;
     } else {
-      return href;
+      return `/${lang}`;
     }
   }
 

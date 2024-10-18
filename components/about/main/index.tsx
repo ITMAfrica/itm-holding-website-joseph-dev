@@ -1,5 +1,6 @@
 'use client';
 import CardFaq from '@/components/global/cards/faq';
+import { getDictionary } from '@/get-dictionary';
 import imageLeft from '@/public/assets/bg/bg.about.itm.left.png';
 import imageRight from '@/public/assets/bg/bg.about.itm.right.png';
 import Image from 'next/image';
@@ -7,6 +8,9 @@ import { useState } from 'react';
 
 export default function AboutPageHoldingSection({ params }: { params: any }) {
   const [faqs] = useState(Array.from({ length: 3 }));
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.cd.pages.about.about;
   return (
     <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
       <div className="w-10/12 lg:w-9/12 flex flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse h-full mx-auto md:pb-20">
@@ -15,21 +19,13 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
             ITM HOLDING
           </h1>
           <h2 className="text-5xl font-bold text-blue_itm_primary pb-4">
-            Notre entreprise
+            {data.title}
           </h2>
           <p className="w-full">
-            Notre histoire est celle d'hommes et de femmes passionnés qui, avec
-            une vision précise, avons reussi à transformer un projet local en
-            une entreprise internationale prospère. Aujourd'hui, ITM Holding est
-            un modèle d'inspiration pour tous ceux qui rêvent de bâtir un avenir
-            meilleur. Notre histoire est celle d'hommes et de femmes passionnés
-            qui, avec une vision précise, avons reussi à transformer un projet
-            local en une entreprise internationale prospère. Aujourd'hui, ITM
-            Holding est un modèle d'inspiration pour tous ceux qui rêvent de
-            bâtir un avenir meilleur.
+            {data.description}
           </p>
           <div className="w-full">
-            {faqs.map(function (item: any, index: number) {
+            {data.items.map(function (item: any, index: number) {
               return <CardFaq {...item} about key={index} />;
             })}
           </div>
