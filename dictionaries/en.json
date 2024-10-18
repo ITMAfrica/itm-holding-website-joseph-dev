@@ -206,7 +206,26 @@
           "subtitle": "Discover our latest news"
         }
       },
-      "about": {}
+      "about": {
+        "about": {
+          "title": "OUR GROUP",
+          "description": "Founded in 2011, ITM Holding is a pan-African conglomerate comprising 9 companies operating across 18 countries, including the Democratic Republic of the Congo, Congo, Zambia, Angola, South Africa, Tanzania, Kenya, Uganda, Rwanda, Burundi, Nigeria, Cameroon, Gabon, Benin, Togo, Côte d'Ivoire, Senegal, and Germany. With investments in sectors such as Human Resources, mining, financial services, logistics, and contact centers, ITM Holding’s mission is to drive economic growth while empowering communities throughout Africa. Our vision is to provide innovative, sustainable solutions that transform industries and create lasting value. Grounded in excellence, integrity, and social responsibility, ITM Holding continues to expand its impact across the continent, shaping a brighter future for businesses and the communities they serve. ",
+          "items": [
+            {
+              "title": "Our history",
+              "description": "Our history"
+            },
+            {
+              "title": "What makes us different",
+              "description": "What makes us different"
+            },
+            {
+              "title": "What defines us",
+              "description": "What defines us"
+            }
+          ]
+        }
+      }
     }
   }
 }

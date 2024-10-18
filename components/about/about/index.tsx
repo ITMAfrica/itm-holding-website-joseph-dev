@@ -1,7 +1,11 @@
 import SectionTitle from '@/components/global/section_title';
+import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 
 export default function AboutPageAbout({ params }: any) {
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.cd.pages.about.about;
   return (
     <section className="w-full bg-white lg:py-20 py-10 pt-0">
       <div className="w-11/12 lg:w-9/12 mx-auto flex lg:flex-nowrap items-start flex-wrap">
