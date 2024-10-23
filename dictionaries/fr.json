@@ -176,30 +176,30 @@
         },
         "metrics": {
           "title": "Pourquoi travailler avec nous ?",
-          "paragraph": "Parce que nous sommes un acteur mondial des ressources humaines, présent dans plus de 18 pays avec plus de 10 000 agents sous notre gestion. En choisissant nos services, vous bénéficiez d'un accès privilégié à un vivier de talents mondial et d'une expertise éprouvée pour vous accompagner dans tous vos projets.",
+          "paragraph": "Parce que nous fournissons des solutions stratégiques en matière de ressources humaines adaptées à votre entreprise, soutenues par une expertise locale approfondie et un engagement d'excellence. Que vous vous développiez au-delà des frontières ou que vous optimisiez vos activités au niveau local, nous sommes votre partenaire de confiance pour faire face à la complexité de la gestion des ressources humaines.",
           "metricsItems": [
             {
               "number": "500",
-              "title": "Recrutement par mois",
-              "description": "Nous faisons preuve d'expertise dans la recherche de talents.",
+              "title": "Placements chaque mois",
+              "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution.",
               "bg": true
             },
             {
-              "number": "10500",
+              "number": "15000",
               "title": "Agents sous notre gestion",
-              "description": "Nous démontrons notre aptitude à vous accompagner dans tous vos projets.",
+              "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance.",
               "bg": false
             },
             {
               "number": "18",
-              "title": "Pays dans le monde",
-              "description": "Nous sommes capable de adapter aux spécificités de chaque marché.",
+              "title": "Pays d'expertise",
+              "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale.",
               "bg": true
             },
             {
-              "number": "300",
+              "number": "700",
               "title": "Entreprises partenaires",
-              "description": "La fidélité de ces partenaires témoigne de notre engagement à fournir des services de qualité.",
+              "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite.",
               "bg": false
             }
           ]
