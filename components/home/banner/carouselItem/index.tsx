@@ -20,26 +20,31 @@ export default function CarouselItem({
   indexImage: number;
   bgWhite: boolean;
 }) {
-  const images = [image1];
-  const params = useParams()
-  const href = usePathname()
+  const images = [image1, image3];
+  const params = useParams();
+  const href = usePathname();
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
 
   function getHref() {
     const current = btnMore.key;
-    if (CURRENT_CODE && (CURRENT_CODE != CODE)) {
-      return `/${params.lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
+    if (CURRENT_CODE && CURRENT_CODE != CODE) {
+      return `/${params.lang}/${
+        params.country ? params.country : CURRENT_CODE
+      }/${current}`;
     } else {
       return href;
     }
   }
 
-  useEffect(function () {
-    SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
-  }, [params.lang, params.country]);
+  useEffect(
+    function () {
+      SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+    },
+    [params.lang, params.country]
+  );
 
   return (
-    <section className="w-[90vw] mx-auto relative overflow-hidden" key={2}>
+    <section className="w-full mx-auto" key={2}>
       <article className="flex items-center sm:w-1/2 w-full absolute z-10 top-0 right-0 left-0 bottom-0">
         {bgWhite ? (
           <div className="sm:ml-14 ml-4 h-fit">
@@ -61,7 +66,7 @@ export default function CarouselItem({
       </article>
       <Image
         src={images[indexImage]}
-        className="h-fit w-full bg-center rounded-lg"
+        className="w-full bg-center rounded-xl"
         fill
         alt="Bg"
         style={{

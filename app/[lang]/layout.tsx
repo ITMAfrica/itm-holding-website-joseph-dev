@@ -1,5 +1,5 @@
 import HomeHeader from '@/components/global/header';
-import {  type Locale } from '@/i18n-config';
+import { type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import Footer from '@/components/global/footer';
 import '@/styles/global.css';
@@ -34,23 +34,21 @@ export const metadata = {
   description: 'This is where everything start',
 };
 
-export default function Root({
+export default async function Root({
   children,
   params,
 }: {
   children: React.ReactNode;
   params: { lang: Locale };
 }) {
+  const lang = await params;
   return (
-    <html lang={params.lang}>
+    <html lang={lang.lang}>
       <body suppressHydrationWarning={true} className={candara.className}>
         <HomeHeader params={params} />
-        <main className="w-full bg-gray_itm_bg/40">
-          {children}
-        </main>
+        <main className="w-full bg-gray_itm_bg/40">{children}</main>
         <Footer params={params} />
       </body>
     </html>
   );
 }
-

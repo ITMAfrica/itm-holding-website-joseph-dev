@@ -1,70 +1,60 @@
 'use client';
-import { getDictionary } from '@/get-dictionary';
-import { useState } from 'react';
-import Carousel from 'react-simply-carousel';
-import CarouselItem from '@/components/home/banner/carouselItem';
 
-export default function HomeBannerCarousel({
+import CarouselItem from '@/components/home/banner/carouselItem';
+import { getDictionary } from '@/get-dictionary';
+
+// import Swiper core and required modules
+import {
+  Navigation,
+  Pagination,
+  Autoplay,
+  A11y,
+  Parallax,
+  EffectFade,
+} from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/bundle';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+import { duration } from 'moment';
+
+export default function HomePageBanner({
   params,
   toShow,
 }: {
-  toShow: number;
   params: any;
+  toShow: number;
 }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.home.banner.items;
-  const [activeSlide, setActiveSlide] = useState(0);
+
   return (
-    <div className="w-[90vw] mx-auto overflow-hidden h-full relative py-10 rounded-2xl">
-      <Carousel
-        infinite={true}
-        containerProps={{
-          style: {
-            width: '100%',
-            height: '100%',
-            justifyContent: 'space-between',
-            borderRadius: 20,
-            overflow: 'hidden',
-          },
-        }}
-        itemsToShow={toShow}
-        onRequestChange={setActiveSlide}
-        easing="linear"
-        responsiveProps={[
-          {
-            itemsToShow: 1,
-            itemsToScroll: 1,
-            minWidth: 760,
-          },
-        ]}
-        activeSlideIndex={activeSlide}
-        speed={1000}
-        delay={1500}
-        centerMode
-        autoplay
+    <section className="h-full py-5">
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Pagination, Autoplay, A11y, Parallax, EffectFade]}
+        spaceBetween={20}
+        slidesPerView={toShow}
+        longSwipesMs={800}
+        navigation
+        autoplay={{ delay: 4000 }}
+        effect="fade"
+        fadeEffect={{ crossFade: true }}
+        pagination={{ clickable: true }}
+        className="h-full w-[95vw] my-auto"
       >
         {data.map((item: any, index: number) => (
-          <CarouselItem {...item} indexImage={index} key={index} />
+          <SwiperSlide className="py-0" key={index}>
+            <CarouselItem {...item} indexImage={index} key={index} />
+          </SwiperSlide>
         ))}
-      </Carousel>
-      <div className="w-fit cursor-pointer h-5 z-10 absolute flex items-center m-auto left-0 right-0 bottom-16">
-        {data.map((item: any, index: number) =>
-          index === activeSlide ? (
-            <div
-              key={index}
-              onClick={() => setActiveSlide(index)}
-              className="mr-1 md:w-14 w-10 h-2 rounded-full bg-white"
-            ></div>
-          ) : (
-            <div
-              key={index}
-              onClick={() => setActiveSlide(index)}
-              className="mr-1 w-2 h-2 rounded-full bg-white"
-            ></div>
-          )
-        )}
-      </div>
-    </div>
+      </Swiper>
+    </section>
   );
 }

@@ -37,7 +37,7 @@ import recruitmentService from '@/public/assets/services/recruitment.png';
 import personnelService from '@/public/assets/services/personnel.png';
 import formationService from '@/public/assets/services/formation.png';
 import avatar from '@/public/assets/bg/bg.avatar.png';
-import avatarWomen from "@/public/assets/bg/bg.avatar.women.png"
+import avatarWomen from '@/public/assets/bg/bg.avatar.women.png';
 
 export const servicesHome: any = {
   fr: [
@@ -356,11 +356,11 @@ export const entities = [
 ];
 
 export const organisations = [
-  { name: "IFS", slogant: "Your busness Solutions partner" },
-  { name: "ITM SARL", slogant: "Your busness Solutions partner" },
-  { name: "GEOKATANGA", slogant: "Your busness Solutions partner" },
-  { name: "DENDIS WORLD", slogant: "Your busness Solutions partner" }
-]
+  { name: 'IFS', slogant: 'Your busness Solutions partner' },
+  { name: 'ITM SARL', slogant: 'Your busness Solutions partner' },
+  { name: 'GEOKATANGA', slogant: 'Your busness Solutions partner' },
+  { name: 'DENDIS WORLD', slogant: 'Your busness Solutions partner' },
+];
 export const langs = [
   { fr: 'Français', en: 'French', tag: '' },
   { fr: 'RDC', en: 'RDC', tag: '', code: 'CD' },
@@ -368,33 +368,38 @@ export const langs = [
 
 export const testimonies = [
   {
-    poste: "Hr supperviseur ",
-    name: "Grace Memeta",
-    description: "ITM Africa a été notre sauveur pour trouver un profil très spécifique en Afrique. Leur réseau étendu et leur compréhension du marché local nous ont permis de recruter rapidement le candidat idéal. Je recommande vivement leurs services.",
-    image: avatarWomen
+    poste: 'Hr supperviseur ',
+    name: 'Grace Memeta',
+    description:
+      'ITM Africa a été notre sauveur pour trouver un profil très spécifique en Afrique. Leur réseau étendu et leur compréhension du marché local nous ont permis de recruter rapidement le candidat idéal. Je recommande vivement leurs services.',
+    image: avatarWomen,
   },
   {
-    poste: "Web developpeur ",
-    name: "Jeereq minganda",
-    description: "Les formations dispensées par ITM Africa ont été un véritable tournant pour notre entreprise. Les programmes étaient parfaitement adaptés à nos besoins et ont permis d'améliorer significativement les compétences de nos équipes dev.",
-    image: avatar
+    poste: 'Web developpeur ',
+    name: 'Jeereq minganda',
+    description:
+      "Les formations dispensées par ITM Africa ont été un véritable tournant pour notre entreprise. Les programmes étaient parfaitement adaptés à nos besoins et ont permis d'améliorer significativement les compétences de nos équipes dev.",
+    image: avatar,
   },
   {
-    poste: "Chargé de paie",
-    name: "Eric beya",
-    description: "ITM Africa nous a simplifié la gestion de notre paie en Afrique. Leur plateforme en ligne est intuitive et leur équipe est toujours disponible pour répondre à nos questions. Nous avons gagné en efficacité et en conformité.",
-    image: avatar
+    poste: 'Chargé de paie',
+    name: 'Eric beya',
+    description:
+      'ITM Africa nous a simplifié la gestion de notre paie en Afrique. Leur plateforme en ligne est intuitive et leur équipe est toujours disponible pour répondre à nos questions. Nous avons gagné en efficacité et en conformité.',
+    image: avatar,
   },
   {
-    poste: "Drh ",
-    name: "Jean René Mukala",
-    description: "ITM Africa est un partenaire de confiance qui nous accompagne dans tous nos projets RH. Leur expertise, leur réactivité et leur approche personnalisée font la différence.",
-    image: avatar
+    poste: 'Drh ',
+    name: 'Jean René Mukala',
+    description:
+      'ITM Africa est un partenaire de confiance qui nous accompagne dans tous nos projets RH. Leur expertise, leur réactivité et leur approche personnalisée font la différence.',
+    image: avatar,
   },
   {
-    poste: "Country Manager ",
-    name: "Marcel ilunga",
-    description: "Grâce à ITM Africa, nous avons mieux compris la culture d'entreprise africaine et avons pu améliorer nos relations avec nos collaborateurs locaux.",
-    image: avatar
-  }
-]
+    poste: 'Country Manager ',
+    name: 'Marcel ilunga',
+    description:
+      "Grâce à ITM Africa, nous avons mieux compris la culture d'entreprise africaine et avons pu améliorer nos relations avec nos collaborateurs locaux.",
+    image: avatar,
+  },
+];
