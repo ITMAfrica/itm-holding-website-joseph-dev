@@ -50,7 +50,7 @@ export default function HomePageBanner({
         className="h-full w-[95vw] my-auto"
       >
         {data.map((item: any, index: number) => (
-          <SwiperSlide className="py-0">
+          <SwiperSlide className="py-0" key={index}>
             <CarouselItem {...item} indexImage={index} key={index} />
           </SwiperSlide>
         ))}
