@@ -166,30 +166,30 @@
         },
         "metrics": {
           "title": "Why Partner with Us? ",
-          "paragraph": "Because we are a global player in human resources, present in over 18 countries with more than 10,000 agents under our management. By choosing our services, you benefit from privileged access to a global talent pool and proven expertise to support you in all your projects.",
+          "paragraph": "Because we provide strategic HR solutions tailored to your business, backed by deep local expertise and a commitment to excellence. Whether you're expanding across borders or optimizing locally, we are your trusted partner for navigating the complexities of people management.",
           "metricsItems": [
             {
               "number": "500",
-              "title": "Recruitment per month",
-              "description": "We're experts at finding the right talent.",
+              "title": "Successful Placements Monthly",
+              "description": "We consistently connect businesses with top talent to meet their evolving needs.",
               "bg": true
             },
             {
-              "number": "10500",
-              "title": "Agents under our management",
-              "description": "We demonstrate our ability to support you in all your projects.",
+              "number": "15000",
+              "title": "Professionals Under Our Care",
+              "description": "From HR management to compliance, we handle your workforce so you can focus on growth.",
               "bg": false
             },
             {
               "number": "18",
-              "title": "Countries in the world",
-              "description": "We are able to adapt to the specific needs of each market.",
+              "title": "Countries of Expertise",
+              "description": "With a strong presence across Africa, we offer deep local insights and a global perspective.",
               "bg": true
             },
             {
-              "number": "300",
-              "title": "Partner companies",
-              "description": "The loyalty of these partners testifies to our commitment to providing quality services.",
+              "number": "700",
+              "title": "Trusted Business Partners",
+              "description": "Companies rely on us for HR solutions that drive performance and success.",
               "bg": false
             }
           ]
