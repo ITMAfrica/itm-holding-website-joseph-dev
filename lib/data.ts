@@ -87,60 +87,63 @@ export const servicesHome: any = {
       },
     },
     {
-      name: 'Payroll Management',
+      name: 'Gestion de payrolls',
       icon: service1,
       description:
-        'Payroll can be tricky, especially when dealing with different regions. We handle payroll management for you, ensuring employees are paid on time and in full compliance with local laws.',
+        "La gestion des salaires peut s'avérer délicate, surtout lorsqu'il s'agit de régions différentes. Nous nous chargeons de la gestion des salaires pour vous, en veillant à ce que les employés soient payés à temps et dans le respect des lois locales.",
       image: projetService,
 
-      paragraph: 'Make payroll stress-free with our expert services.',
+      paragraph:
+        "Grâce à nos services d'experts, la paie devient un jeu d'enfant.",
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Payroll Management',
+        link: '/fr/services',
+        title: 'Gestion de payrolls',
         arrow: true,
       },
     },
     {
-      name: 'HR Advisory Services',
+      name: 'Services de conseil en RH',
       icon: service2,
       description:
-        'Every business has unique HR challenges. Our HR advisory services help you navigate everything from planning your workforce to staying compliant with regulations. We work with you to create HR strategies that meet your company’s needs.',
+        'Chaque entreprise est confrontée à des défis uniques en matière de ressources humaines. Nos services de conseil en ressources humaines vous aident à faire face à toutes les situations, de la planification de vos effectifs au respect des réglementations. Nous travaillons avec vous pour créer des stratégies RH qui répondent aux besoins de votre entreprise.',
       image: projetService,
-      paragraph: 'Let’s solve your HR challenges together.',
+      paragraph:
+        'Résolvons ensemble vos défis en matière de ressources humaines.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'HR Advisory Services',
+        link: '/fr/services',
+        title: 'Services de conseil en RH',
         arrow: true,
       },
     },
     {
-      name: 'KaziPro: Your HR Technology Solution',
+      name: 'KaziPro: Votre solution en RH',
       icon: service3,
       description:
-        'Upgrade your HR processes with our easy-to-use HR software. From managing payroll to tracking performance, our technology solutions help make your HR tasks easier and more efficient.',
+        'Améliorez vos processus RH avec notre logiciel RH facile à utiliser. De la gestion des salaires au suivi des performances, nos solutions technologiques facilitent vos tâches RH et les rendent plus efficaces.',
       image: formationService,
       paragraph:
-        'Take your HR operations to the next level with smart technology.',
+        'Faites passer vos opérations RH à la vitesse supérieure grâce à une technologie intelligente.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'KaziPro: Your HR Technology Solution',
+        link: '/fr/services',
+        title: 'KaziPro: Votre solution en RH',
         arrow: true,
       },
     },
     {
-      name: 'Training and Skills Development',
+      name: 'Formation et développement des compétences',
       icon: service3,
       description:
-        'Investing in your team’s development is the key to long-term success. Our training and skills programs help your employees grow, whether they need to enhance existing skills or develop new ones. We customize programs to fit your needs.',
+        "Investir dans le développement de votre équipe est la clé d'une réussite à long terme. Nos programmes de formation et de développement des compétences aident vos employés à progresser, qu'ils aient besoin d'améliorer leurs compétences existantes ou d'en acquérir de nouvelles. Nous adaptons les programmes à vos besoins.",
       image: formationService,
-      paragraph: 'Help your team grow and succeed with tailored training.',
+      paragraph:
+        'Aidez votre équipe à se développer et à réussir grâce à une formation sur mesure.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Training',
+        link: '/fr/services',
+        title: 'Formation et développement des compétences',
         arrow: true,
       },
     },
@@ -148,97 +151,102 @@ export const servicesHome: any = {
       name: 'Executive Leadership Programs',
       icon: service3,
       description:
-        'Our leadership programs are designed for senior managers and rising stars in your company. These programs help build the skills needed to lead teams and navigate complex challenges, especially in fast-growing markets.',
+        'Nos programmes de leadership sont conçus pour les cadres supérieurs et les étoiles montantes de votre entreprise. Ils permettent de développer les compétences nécessaires pour diriger des équipes et relever des défis complexes, en particulier sur les marchés à croissance rapide.',
       image: formationService,
-      paragraph: 'Prepare your leaders for the future.',
+      paragraph: "Préparez vos dirigeants pour l'avenir.",
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
+        link: '/fr/services',
         title: 'Executive Leadership Programs',
         arrow: true,
       },
     },
     {
-      name: 'Learning and Development Hub',
+      name: "Pôle d'apprentissage et de développement",
       icon: service3,
       description:
-        'With our online Learning and Development Hub, your employees can access training materials and courses anytime, anywhere. It’s a flexible and convenient way to keep your team learning and growing.',
+        "Grâce à notre centre d'apprentissage et de développement en ligne, vos employés peuvent accéder aux supports de formation et aux cours à tout moment et en tout lieu. C'est un moyen souple et pratique d'assurer l'apprentissage et le développement de votre équipe.",
       image: formationService,
-      paragraph: 'Enable continuous learning with our online platform.',
+      paragraph:
+        "Favorisez l'apprentissage continu grâce à notre plateforme en ligne.",
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Learning and Development Hub',
+        link: '/fr/services',
+        title: "Pôle d'apprentissage et de développement",
         arrow: true,
       },
     },
     {
-      name: 'Team Building Solutions',
+      name: 'Solutions Team Building',
       icon: service3,
       description:
-        'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
+        "Des équipes fortes conduisent à des entreprises fortes. Nos activités de consolidation d'équipe sont conçues pour améliorer la communication, le travail d'équipe et la productivité. Elles sont amusantes, engageantes et adaptées aux besoins de votre équipe.",
       image: formationService,
-      paragraph: 'Bring your team together with activities that build trust.',
+      paragraph:
+        'Rassemblez votre équipe grâce à des activités qui renforcent la confiance.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Team Building Solutions',
+        link: '/fr/services',
+        title: 'Solutions Team Building',
         arrow: true,
       },
     },
     {
-      name: 'Employee Benefits and Salary Benchmarking',
+      name: 'Analyse comparative des avantages sociaux et des salaires',
       icon: service3,
       description:
-        'Offering competitive benefits is key to keeping your team happy and productive. We help you design benefits packages and conduct salary surveys across industries, countries, and roles to make sure you stay competitive.',
+        "Offrir des avantages compétitifs est essentiel pour que votre équipe soit heureuse et productive. Nous vous aidons à concevoir des ensembles d'avantages sociaux et menons des enquêtes salariales dans différents secteurs d'activité, pays et fonctions pour vous assurer de rester compétitif.",
       image: formationService,
-      paragraph: 'Retain top talent with great benefits and fair pay.',
+      paragraph:
+        'Fidéliser les meilleurs talents grâce à des avantages sociaux intéressants et à une rémunération équitable.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Employee Benefits and Salary Benchmarking',
+        link: '/fr/services',
+        title: 'Analyse comparative des avantages sociaux et des salaires',
         arrow: true,
       },
     },
     {
-      name: 'Performance Management',
+      name: 'Gestion de Performance',
       icon: service3,
       description:
-        'Keeping track of performance is crucial for a productive team. We help you set up systems to track goals, give feedback, and ensure your team stays motivated. It’s all about keeping people on track to achieve great things.',
+        "Le suivi des performances est essentiel pour une équipe productive. Nous vous aidons à mettre en place des systèmes permettant de suivre les objectifs, de fournir un retour d'information et de veiller à ce que votre équipe reste motivée. Il s'agit de faire en sorte que les gens restent sur la bonne voie pour réaliser de grandes choses.",
       image: formationService,
-      paragraph: 'Boost your team’s performance with simple, effective tools.',
+      paragraph:
+        'Améliorez les performances de votre équipe grâce à des outils simples et efficaces.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Performance Management',
+        link: '/fr/services',
+        title: 'Gestion de Performance',
         arrow: true,
       },
     },
     {
-      name: 'Expatriate Management',
+      name: 'Gestion des expatriés',
       icon: service3,
       description:
-        'When expanding into new regions, managing expatriates can be a challenge. We take care of visas, housing, and all the paperwork, so your employees can settle in smoothly and focus on their work.',
+        "Lorsque l'on s'implante dans de nouvelles régions, la gestion des expatriés peut s'avérer difficile. Nous nous occupons des visas, du logement et de toutes les formalités administratives, afin que vos employés puissent s'installer en douceur et se concentrer sur leur travail.",
       image: formationService,
-      paragraph: 'Make expatriate assignments easy and hassle-free.',
+      paragraph: 'Faciliter les missions des expatriés.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Expatriate Management',
+        link: '/fr/services',
+        title: 'Gestion des expatriés',
         arrow: true,
       },
     },
     {
-      name: 'Workforce Insights and Analytics',
+      name: "Perspectives et analyse de la main-d'œuvre",
       icon: service3,
       description:
-        'Make informed decisions with data-driven insights. Our workforce analytics service helps you understand employee performance, engagement, and turnover, so you can make smarter HR decisions.',
+        "Prenez des décisions éclairées grâce à des informations basées sur des données. Notre service d'analyse des effectifs vous aide à comprendre la performance, l'engagement et la rotation des employés, afin que vous puissiez prendre des décisions plus intelligentes en matière de ressources humaines.",
       image: formationService,
-      paragraph: 'Turn data into actionable insights for better HR decisions.',
+      paragraph:
+        'Transformez les données en informations exploitables pour prendre de meilleures décisions en matière de ressources humaines.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Workforce Insights and Analytics',
+        link: '/fr/services',
+        title: "Perspectives et analyse de la main-d'œuvre",
         arrow: true,
       },
     },
