@@ -42,190 +42,404 @@ import avatarWomen from '@/public/assets/bg/bg.avatar.women.png';
 export const servicesHome: any = {
   fr: [
     {
-      name: 'Recrutement',
-      icon: recrutement,
-      image: recruitmentService,
-      description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      paragraph:
-        'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
-      btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de recrutement',
-        arrow: true,
-      },
-    },
-    {
-      name: 'Placement du personnel',
-      icon: service2,
-      description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-
-      image: personnelService,
-      paragraph:
-        "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
-      btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Placement du personnel',
-        arrow: true,
-      },
-    },
-    {
-      name: 'Suivie et évaluation des projets',
-      icon: service3,
-      description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-
-      image: projetService,
-      paragraph:
-        'Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.',
-      btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Suivie et évaluation des projets',
-        arrow: true,
-      },
-    },
-    {
-      name: 'Team building',
+      name: 'Recrutement et externalisation du personnel',
       icon: service1,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-
-      image: projetService,
+        "La gestion d'une main-d'œuvre flexible et qualifiée dans plusieurs régions peut s'avérer difficile. Nous proposons des services de recrutement et d'externalisation de la main-d'œuvre sur mesure qui s'adaptent aux besoins de votre entreprise. Que vous ayez besoin de personnel temporaire ou d'une gestion du personnel à long terme, nous nous occupons du recrutement, de l'intégration et de la conformité. En outre, nos solutions de gestion des effectifs vous permettent de vous concentrer sur votre cœur de métier, tandis que nous gérons toutes les responsabilités en matière de ressources humaines pour votre personnel. Les employés travaillent sous votre contrôle opérationnel, mais ils sont contractés et gérés par nous, ce qui transfère les risques liés à l'emploi et les charges administratives à notre équipe.",
+      image: recruitmentService,
       paragraph:
-        "Un esprit d'équipe solide, c'est la clé de la réussite. Nous vous proposons des expériences uniques pour renforcer la cohésion de vos collaborateurs.",
+        "Donnez à votre entreprise les moyens de disposer de la main-d'œuvre adéquate, quand vous en avez besoin, et laissez-nous nous occuper du reste.",
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Team building',
+        link: '/fr/services',
+        title: 'Recrutement et externalisation du personnel',
         arrow: true,
       },
     },
     {
-      name: 'Hr consulting',
+      name: 'Recrutement et acquisition de talents',
       icon: service2,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: projetService,
+        "Trouver les bonnes personnes est essentiel pour la croissance. Nos services de recherche de talents vous mettent en relation avec les meilleurs candidats, que vous cherchiez à pourvoir des postes spécialisés ou à embaucher à grande échelle. Nous utilisons une combinaison de technologie et d'expertise locale pour trouver la bonne personne pour votre entreprise.",
+      image: personnelService,
       paragraph:
-        'Nous vous écoutons pour vous proposer des solutions adaptées.',
+        'Découvrez les talents qui feront progresser votre entreprise.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Hr consulting',
+        link: '/fr/services',
+        title: 'Recrutement et acquisition de talents',
         arrow: true,
       },
     },
     {
-      name: 'Formation',
+      name: "TalentPro: Votre carrefour d'opportunités de carrière",
       icon: service3,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
-      image: formationService,
+        "Prêt pour votre prochaine évolution de carrière ? TalentPro met en relation des professionnels qualifiés et des postes à pourvoir dans toute l'Afrique. C'est la plateforme idéale pour que les demandeurs d'emploi et les employeurs se rencontrent.",
+      image: projetService,
       paragraph:
-        'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
+        'Trouvez votre prochaine opportunité ou embauchez les meilleurs talents.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/services',
+        title: "TalentPro: Votre carrefour d'opportunités de carrière",
+        arrow: true,
+      },
+    },
+    {
+      name: 'Payroll Management',
+      icon: service1,
+      description:
+        'Payroll can be tricky, especially when dealing with different regions. We handle payroll management for you, ensuring employees are paid on time and in full compliance with local laws.',
+      image: projetService,
+
+      paragraph: 'Make payroll stress-free with our expert services.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
         link: '/fr/service-detail',
-        title: 'Détails du service de Formation',
+        title: 'Payroll Management',
+        arrow: true,
+      },
+    },
+    {
+      name: 'HR Advisory Services',
+      icon: service2,
+      description:
+        'Every business has unique HR challenges. Our HR advisory services help you navigate everything from planning your workforce to staying compliant with regulations. We work with you to create HR strategies that meet your company’s needs.',
+      image: projetService,
+      paragraph: 'Let’s solve your HR challenges together.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'HR Advisory Services',
+        arrow: true,
+      },
+    },
+    {
+      name: 'KaziPro: Your HR Technology Solution',
+      icon: service3,
+      description:
+        'Upgrade your HR processes with our easy-to-use HR software. From managing payroll to tracking performance, our technology solutions help make your HR tasks easier and more efficient.',
+      image: formationService,
+      paragraph:
+        'Take your HR operations to the next level with smart technology.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'KaziPro: Your HR Technology Solution',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Training and Skills Development',
+      icon: service3,
+      description:
+        'Investing in your team’s development is the key to long-term success. Our training and skills programs help your employees grow, whether they need to enhance existing skills or develop new ones. We customize programs to fit your needs.',
+      image: formationService,
+      paragraph: 'Help your team grow and succeed with tailored training.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Training',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Executive Leadership Programs',
+      icon: service3,
+      description:
+        'Our leadership programs are designed for senior managers and rising stars in your company. These programs help build the skills needed to lead teams and navigate complex challenges, especially in fast-growing markets.',
+      image: formationService,
+      paragraph: 'Prepare your leaders for the future.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Executive Leadership Programs',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Learning and Development Hub',
+      icon: service3,
+      description:
+        'With our online Learning and Development Hub, your employees can access training materials and courses anytime, anywhere. It’s a flexible and convenient way to keep your team learning and growing.',
+      image: formationService,
+      paragraph: 'Enable continuous learning with our online platform.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Learning and Development Hub',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Team Building Solutions',
+      icon: service3,
+      description:
+        'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
+      image: formationService,
+      paragraph: 'Bring your team together with activities that build trust.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Team Building Solutions',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Employee Benefits and Salary Benchmarking',
+      icon: service3,
+      description:
+        'Offering competitive benefits is key to keeping your team happy and productive. We help you design benefits packages and conduct salary surveys across industries, countries, and roles to make sure you stay competitive.',
+      image: formationService,
+      paragraph: 'Retain top talent with great benefits and fair pay.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Employee Benefits and Salary Benchmarking',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Performance Management',
+      icon: service3,
+      description:
+        'Keeping track of performance is crucial for a productive team. We help you set up systems to track goals, give feedback, and ensure your team stays motivated. It’s all about keeping people on track to achieve great things.',
+      image: formationService,
+      paragraph: 'Boost your team’s performance with simple, effective tools.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Performance Management',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Expatriate Management',
+      icon: service3,
+      description:
+        'When expanding into new regions, managing expatriates can be a challenge. We take care of visas, housing, and all the paperwork, so your employees can settle in smoothly and focus on their work.',
+      image: formationService,
+      paragraph: 'Make expatriate assignments easy and hassle-free.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Expatriate Management',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Workforce Insights and Analytics',
+      icon: service3,
+      description:
+        'Make informed decisions with data-driven insights. Our workforce analytics service helps you understand employee performance, engagement, and turnover, so you can make smarter HR decisions.',
+      image: formationService,
+      paragraph: 'Turn data into actionable insights for better HR decisions.',
+      btnMore: {
+        text: "LIRE D'AVANTAGE",
+        link: '/fr/service-detail',
+        title: 'Workforce Insights and Analytics',
         arrow: true,
       },
     },
   ],
   en: [
     {
-      name: 'Recrutement',
+      name: 'Staffing and Workforce Outsourcing',
       icon: service1,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        'Managing a flexible and skilled workforce across multiple regions can be challenging. We provide tailored staffing and workforce outsourcing services that adapt to your business needs. Whether you require temporary staffing or long-term workforce management, we handle recruitment, onboarding, and compliance. Additionally, our Managed Workforce Solutions allow you to focus on your core business while we manage all HR responsibilities for your staff. Employees work under your operational control, but they are contracted and managed by us, shifting employment risks and administrative burdens to our team.',
       image: recruitmentService,
       paragraph:
-        'Nous ne proposons pas seulement des candidats, mais des collaborateurs qui feront la différence',
+        'Empower your business with the right workforce, whenever you need it, and let us handle the rest.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de recrutement',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Staffing and Workforce Outsourcing',
         arrow: true,
       },
     },
     {
-      name: 'Placement du personnel',
+      name: 'Recrutment and Talent Acquisition',
       icon: service2,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        "Finding the right people is essential for growth. Our talent sourcing services connect you with the best candidates, whether you're looking to fill specialized roles or hire at scale. We use a combination of technology and local expertise to find the right fit for your company.",
       image: personnelService,
-      paragraph:
-        "Plus qu'un placement, une expertise pour vous accompagner dans votre croissabce.",
+      paragraph: 'Discover the talent that will drive your business forward.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Placement du personnel',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Recrutment and Talent Acquisition',
         arrow: true,
       },
     },
     {
-      name: 'Suivie et évaluation des projets',
+      name: 'TalentPro: Your Career Opportunities Hub',
       icon: service3,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        'Ready for your next career move? TalentPro connects skilled professionals with the right roles across Africa. It’s the perfect platform for job seekers and employers to meet.',
       image: projetService,
-
-      paragraph:
-        'Nous assurons un suivi rigoureux et des évaluations précises pour garantir la réussite des vos initiatives.',
+      paragraph: 'Find your next opportunity or hire the best talent.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Suivie et évaluation des projets',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'TalentPro: Your Career Opportunities Hub',
         arrow: true,
       },
     },
     {
-      name: 'Team building',
+      name: 'Payroll Management',
       icon: service1,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        'Payroll can be tricky, especially when dealing with different regions. We handle payroll management for you, ensuring employees are paid on time and in full compliance with local laws.',
       image: projetService,
 
-      paragraph:
-        "Un esprit d'équipe solide, c'est la clé de la réussite. Nous vous proposons des expériences uniques pour renforcer la cohésion de vos collaborateurs.",
+      paragraph: 'Make payroll stress-free with our expert services.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Team building',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Payroll Management',
         arrow: true,
       },
     },
     {
-      name: 'Hr consulting',
+      name: 'HR Advisory Services',
       icon: service2,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        'Every business has unique HR challenges. Our HR advisory services help you navigate everything from planning your workforce to staying compliant with regulations. We work with you to create HR strategies that meet your company’s needs.',
       image: projetService,
-
-      paragraph:
-        'Nous vous écoutons pour vous proposer des solutions adaptées.',
+      paragraph: 'Let’s solve your HR challenges together.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Hr consulting',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'HR Advisory Services',
         arrow: true,
       },
     },
     {
-      name: 'Formation',
+      name: 'KaziPro: Your HR Technology Solution',
       icon: service3,
       description:
-        'Lorem ipsum dolor sit amet consectetur. Orci amet feugiat volutpat amet eget tincidunt non cursus orci. Consectetur nec neque imperdiet a sed ornare. Non est purus convallis morbi turpis mauris. Sit sed risus amet consectetur ac senectus faucibus. Lectus cursus purus aliquet sem velit. Platea bibendum vitae luctus purus. Commodo gravida fermentum felis turpis',
+        'Upgrade your HR processes with our easy-to-use HR software. From managing payroll to tracking performance, our technology solutions help make your HR tasks easier and more efficient.',
       image: formationService,
       paragraph:
-        'Développez les compétences de vos équipes et boostez votre compétitivité grâce à nos formations.',
+        'Take your HR operations to the next level with smart technology.',
       btnMore: {
-        text: "LIRE D'AVANTAGE",
-        link: '/fr/service-detail',
-        title: 'Détails du service de Formation',
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'KaziPro: Your HR Technology Solution',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Training and Skills Development',
+      icon: service3,
+      description:
+        'Investing in your team’s development is the key to long-term success. Our training and skills programs help your employees grow, whether they need to enhance existing skills or develop new ones. We customize programs to fit your needs.',
+      image: formationService,
+      paragraph: 'Help your team grow and succeed with tailored training.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Training',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Executive Leadership Programs',
+      icon: service3,
+      description:
+        'Our leadership programs are designed for senior managers and rising stars in your company. These programs help build the skills needed to lead teams and navigate complex challenges, especially in fast-growing markets.',
+      image: formationService,
+      paragraph: 'Prepare your leaders for the future.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Executive Leadership Programs',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Learning and Development Hub',
+      icon: service3,
+      description:
+        'With our online Learning and Development Hub, your employees can access training materials and courses anytime, anywhere. It’s a flexible and convenient way to keep your team learning and growing.',
+      image: formationService,
+      paragraph: 'Enable continuous learning with our online platform.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Learning and Development Hub',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Team Building Solutions',
+      icon: service3,
+      description:
+        'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
+      image: formationService,
+      paragraph: 'Bring your team together with activities that build trust.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Team Building Solutions',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Employee Benefits and Salary Benchmarking',
+      icon: service3,
+      description:
+        'Offering competitive benefits is key to keeping your team happy and productive. We help you design benefits packages and conduct salary surveys across industries, countries, and roles to make sure you stay competitive.',
+      image: formationService,
+      paragraph: 'Retain top talent with great benefits and fair pay.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Employee Benefits and Salary Benchmarking',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Performance Management',
+      icon: service3,
+      description:
+        'Keeping track of performance is crucial for a productive team. We help you set up systems to track goals, give feedback, and ensure your team stays motivated. It’s all about keeping people on track to achieve great things.',
+      image: formationService,
+      paragraph: 'Boost your team’s performance with simple, effective tools.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Performance Management',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Expatriate Management',
+      icon: service3,
+      description:
+        'When expanding into new regions, managing expatriates can be a challenge. We take care of visas, housing, and all the paperwork, so your employees can settle in smoothly and focus on their work.',
+      image: formationService,
+      paragraph: 'Make expatriate assignments easy and hassle-free.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Expatriate Management',
+        arrow: true,
+      },
+    },
+    {
+      name: 'Workforce Insights and Analytics',
+      icon: service3,
+      description:
+        'Make informed decisions with data-driven insights. Our workforce analytics service helps you understand employee performance, engagement, and turnover, so you can make smarter HR decisions.',
+      image: formationService,
+      paragraph: 'Turn data into actionable insights for better HR decisions.',
+      btnMore: {
+        text: 'READ MORE',
+        link: '/en/services',
+        title: 'Workforce Insights and Analytics',
         arrow: true,
       },
     },
