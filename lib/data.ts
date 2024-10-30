@@ -577,7 +577,7 @@ export const entities = [
   },
 ];
 
-export const organisations = {
+export const organisations: any = {
   fr: [
     {
       name: 'ITM RH',

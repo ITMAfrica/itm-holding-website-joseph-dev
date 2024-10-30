@@ -3,7 +3,7 @@ import CardEntity from '@/components/global/cards/entity';
 import { organisations } from '@/lib/data';
 import { useState } from 'react';
 export default function AboutPageEntities({ params }: { params: any }) {
-  const lang: String = params.lang;
+  const lang = params.lang;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <section className="w-full ">
