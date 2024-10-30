@@ -577,12 +577,96 @@ export const entities = [
   },
 ];
 
-export const organisations = [
-  { name: 'IFS', slogant: 'Your busness Solutions partner' },
-  { name: 'ITM SARL', slogant: 'Your busness Solutions partner' },
-  { name: 'GEOKATANGA', slogant: 'Your busness Solutions partner' },
-  { name: 'DENDIS WORLD', slogant: 'Your busness Solutions partner' },
-];
+export const organisations = {
+  fr: [
+    {
+      name: 'ITM RH',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "ITM HR est la filiale d'ITM Holding spécialisée dans les solutions de ressources humaines. Notre expertise du droit du travail local et des meilleures pratiques en matière de ressources humaines garantit à nos clients des solutions sur mesure qui répondent à leurs besoins spécifiques. Avec plus de 15 000 employés sous notre gestion, nous nous attachons à les doter des compétences essentielles pour conduire l'excellence opérationnelle et contribuer au succès de nos clients.",
+    },
+    {
+      name: 'ITM MAINTENANCE',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "ITM Maintenance est spécialisé dans les solutions de maintenance pour les industries telles que l'exploitation minière, la construction, la fabrication et la logistique. Nos techniciens assurent des réparations expertes sur site et en atelier, des programmes de formation personnalisés, ainsi que des mesures de maintenance préventive visant à prolonger la durée de vie des équipements, à minimiser les temps d'arrêt et à assurer la continuité des activités de nos clients.",
+    },
+    {
+      name: 'GEO-INTERNATIONAL',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "Geo-Katanga exploite plusieurs branches d'activité axées sur les services d'appui à l'exploitation minière, les fournitures chimiques et le génie civil. Notre offre de solutions minières est conçue pour aider les sociétés minières à préserver l'intégrité de l'environnement grâce à des produits géosynthétiques, à la protection contre la corrosion, à des systèmes de tuyauterie et à une gestion complète des eaux minières, y compris des services d'entretien.",
+    },
+    {
+      name: 'ITM FINANCIAL SERVICES',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "ITM Financial Services (IFS), se spécialise dans les solutions financières complètes conçues pour soutenir la croissance des revenus des entreprises et des communautés africaines. Parallèlement à notre application fintech innovante, Kitoko Pay, qui simplifie la gestion de l'argent, les paiements et les transferts de fonds, nous fournissons un éventail complet de services financiers, y compris des solutions numériques de gestion de la paie, des services bancaires d'agence maîtresse et des services de transfert d'argent. Notre prestation de services est axée sur l'efficacité et la sécurité, garantissant des opérations financières transparentes pour nos clients.",
+    },
+    {
+      name: 'ITM ENVIRONMENT',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "ITM Environement utilise des technologies avancées et un personnel qualifié pour fournir des services efficaces de gestion des déchets et d'hygiène environnementale. Grâce à notre engagement en faveur de la durabilité et du bien-être de la communauté, nos solutions visent à promouvoir des environnements de vie plus propres et plus sains tout en soutenant le développement urbain durable.",
+    },
+    {
+      name: 'VENDIS',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "Vendis propose des solutions de vente et de distribution aux entreprises de divers secteurs. Avec une expertise dans la distribution B2B et B2C, Vendis excelle dans l'élaboration de stratégies d'accès au marché sur mesure et dans l'exécution de campagnes d'activation de marque et de tournées de présentation percutantes. Spécialisés dans le commerce électronique, la distribution de masse et les services de voyage, y compris les réservations de vols et les forfaits vacances, nous nous engageons à optimiser les performances du marché et la croissance des revenus de nos clients.",
+    },
+    {
+      name: 'JAMON',
+      slogant: "Votre partenaire pour les solutions d'entreprise",
+      description:
+        "JAMON offre une large gamme de solutions de transport et de logistique, depuis les expéditions de marchandises et la location de remorques jusqu'au transport de différents produits. S'appuyant sur des technologies avancées de gestion de flotte et de suivi, nos équipes assurent des livraisons sûres et ponctuelles. Qu'il s'agisse de petits colis ou de projets de grande envergure, notre travail est axé sur la qualité et la fiabilité.",
+    },
+  ],
+  en: [
+    {
+      name: 'ITM HR',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'ITM HR is the subsidiary of ITM Holding that specializes in Human Resource solutions. Our expertise in local labor laws and HR best practices ensures that our clients receive tailored solutions that meet their specific needs. With over 10,000 employees under our management, we we focus on equipping them with essential skills to drive operational excellence and contribute to our clients’ success.',
+    },
+    {
+      name: 'ITM MAINTENANCE',
+      slogant: 'Your busness Solutions partner',
+      description:
+        "ITM Maintenance specialises in maintenance solutions for industries such as mining, construction, manufacturing, and logistics. Our technicians deliver expert on-site and workshop repairs, customized training programs, as well as preventive maintenance measures aimed at extending equipment lifespan, minimizing downtime, and ensuring our clients' business continuity.",
+    },
+    {
+      name: 'GEO INTERNATIONAL',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'Geo-Katanga operates multiple business branches focused on mining support services, chemical supplies, and civil engineering. Our Mining Solutions Package is tailored to help mining companies maintain environmental integrity through geosynthetic products, corrosion protection, piping systems, and comprehensive mining water management, including maintenance services.',
+    },
+    {
+      name: 'ITM FINANCIAL SERVICES',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'ITM Financial Services (IFS), specializes in comprehensive financial solutions designed to support income growth for African businesses and communities. Alongside our innovative fintech application, Kitoko Pay, which simplifies money management, payments, and fund transfers, we provide a full spectrum of financial services including digital payroll solutions, master agency banking,  and money transfer services. Our service delivery focuses on efficiency and security, ensuring seamless financial operations for our clients and customers.',
+    },
+    {
+      name: 'ITM ENVIRONMENT',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'ITM Environment employs advanced technologies and skilled personnel to provide efficient waste management and environmental hygiene services. From our commitment to sustainability and community well-being, our solutions aim to promote cleaner and healthier living environments while supporting sustainable urban development.',
+    },
+    {
+      name: 'VENDIS',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'Vendis offers sales and distribution solutions to businesses in various industries. With expertise in both B2B and B2C distribution, Vendis excels in developing tailored route-to-market strategies and executing impactful brand activation campaigns and road shows. Specializing in e-commerce, mass market distribution, and travel services including flight bookings and holiday packages, we are committed to optimizing market performance and revenue growth for our clients.',
+    },
+    {
+      name: 'JAMON',
+      slogant: 'Your busness Solutions partner',
+      description:
+        'JAMON offers a wide range of transport and logistics solutions from cargo shipments and trailer leasing to the transportation of different products. Supported by advanced fleet management and tracking technologies, our teams ensure safe and punctual deliveries. Whether handling small packages or large-scale projects, the focus of our work lies on quality and reliability.',
+    },
+  ],
+};
 export const langs = [
   { fr: 'Français', en: 'French', tag: '' },
   { fr: 'RDC', en: 'RDC', tag: '', code: 'CD' },
@@ -591,7 +675,7 @@ export const langs = [
 export const testimonies = [
   {
     poste: 'Hr supperviseur ',
-    name: 'Grace Memeta',
+    name: 'Ruth Dumu',
     description:
       'ITM Africa a été notre sauveur pour trouver un profil très spécifique en Afrique. Leur réseau étendu et leur compréhension du marché local nous ont permis de recruter rapidement le candidat idéal. Je recommande vivement leurs services.',
     image: avatarWomen,
