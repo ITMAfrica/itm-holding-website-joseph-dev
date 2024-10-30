@@ -9,6 +9,25 @@ import Carousel from 'react-simply-carousel';
 import HomeServiceCard from '../serviceItem';
 import { servicesHome } from '@/lib/data';
 
+import {
+  Navigation,
+  Mousewheel,
+  Autoplay,
+  A11y,
+  Parallax,
+  EffectFade,
+} from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/bundle';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+import { duration } from 'moment';
+
 export default function HomeServicesCarousel({
   params,
   toShow = 3,
@@ -24,36 +43,27 @@ export default function HomeServicesCarousel({
   return (
     <>
       <div className="w-full relative h-fit">
-        <Carousel
-          activeSlideIndex={activeSlide}
-          containerProps={{
-            style: {
-              flex: '1',
-              alignItems: 'end',
-              alignContent: 'end',
-              paddingLeft: 2,
-            },
-          }}
-          onRequestChange={setActiveSlide}
-          easing="linear"
-          responsiveProps={[
-            {
-              itemsToShow: toShow,
-              itemsToScroll: 1,
-              minWidth: 760,
-            },
-          ]}
-          itemsToShow={toShow}
-          itemsToScroll={1}
-          speed={700}
-          preventScrollOnSwipe={true}
-          disableSwipeByMouse={false}
-          disableSwipeByTouch={false}
+        <Swiper
+          // install Swiper modules
+          direction={'horizontal'}
+          cssMode={true}
+          modules={[Mousewheel, A11y, Parallax]}
+          spaceBetween={50}
+          slidesPerView={3}
+          longSwipesMs={1500}
+          mousewheel={true}
+          className="h-full w-full my-auto"
         >
           {servicesHome[lang].map((item: any, index: number) => (
-            <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
+            <SwiperSlide>
+              <HomeServiceCard
+                {...item}
+                activeSlide={activeSlide}
+                key={index}
+              />
+            </SwiperSlide>
           ))}
-        </Carousel>
+        </Swiper>
       </div>
       <div className="flex items-center justify-start pl-3 z-20">
         <button
