@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import { getDictionary } from '@/get-dictionary';
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
@@ -14,7 +14,7 @@ export default function HomeAbout({ params }: { params: any }) {
     code: CODE,
     fr: 'Congo Kinshasa',
     en: 'Congo Kinshasa',
-  })
+  });
   return (
     <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10">
       <div className="w-11/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
@@ -26,7 +26,7 @@ export default function HomeAbout({ params }: { params: any }) {
             <h1 className="text-blue_itm_good text-5xl text-center lg:text-left font-bold mb-2">
               {data.subtitle}
             </h1>
-            <p className="mb-5 lg:text-left text-center">{data.paragraph}</p>
+            <p className="mb-5">{data.paragraph}</p>
             <div className="mx-auto  w-fit lg:w-full">
               <ButtonOulined {...data.btnMore} />
             </div>

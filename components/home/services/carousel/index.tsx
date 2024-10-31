@@ -10,9 +10,8 @@ import HomeServiceCard from '../serviceItem';
 import { servicesHome } from '@/lib/data';
 
 import {
-  Navigation,
   Mousewheel,
-  Autoplay,
+  Controller,
   A11y,
   Parallax,
   EffectFade,
@@ -47,7 +46,7 @@ export default function HomeServicesCarousel({
           // install Swiper modules
           direction={'horizontal'}
           cssMode={true}
-          modules={[Mousewheel, A11y, Parallax]}
+          modules={[Mousewheel, A11y, Parallax, Controller]}
           spaceBetween={50}
           slidesPerView={3}
           longSwipesMs={1500}
