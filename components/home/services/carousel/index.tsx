@@ -5,27 +5,17 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md';
-import Carousel from 'react-simply-carousel';
 import HomeServiceCard from '../serviceItem';
 import { servicesHome } from '@/lib/data';
 
-import {
-  Mousewheel,
-  Controller,
-  A11y,
-  Parallax,
-  EffectFade,
-} from 'swiper/modules';
+import { Mousewheel, Controller, A11y, FreeMode } from 'swiper/modules';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/bundle';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-import { duration } from 'moment';
+import 'swiper/css/controller';
+import 'swiper/css/mousewheel';
 
 export default function HomeServicesCarousel({
   params,
@@ -46,7 +36,7 @@ export default function HomeServicesCarousel({
           // install Swiper modules
           direction={'horizontal'}
           cssMode={true}
-          modules={[Mousewheel, A11y, Parallax, Controller]}
+          modules={[Mousewheel, A11y, FreeMode, Controller]}
           spaceBetween={50}
           slidesPerView={3}
           longSwipesMs={1500}
@@ -62,31 +52,42 @@ export default function HomeServicesCarousel({
               />
             </SwiperSlide>
           ))}
+          <div className="flex items-center justify-start pl-3 z-20">
+            <SlidePrevButton />
+            <div className="px-2">
+              <span>{activeSlide + 1} - </span>
+              <span>{servicesHome[lang].length}</span>
+            </div>
+            <SlideNextButton />
+          </div>
         </Swiper>
       </div>
-      <div className="flex items-center justify-start pl-3 z-20">
-        <button
-          onClick={() => {
-            if (activeSlide != 0) setActiveSlide(activeSlide - 1);
-          }}
-          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
-        >
-          <MdOutlineKeyboardArrowLeft />
-        </button>
-        <div className="px-2">
-          <span>{activeSlide + 1} - </span>
-          <span>{servicesHome[lang].length}</span>
-        </div>
-        <button
-          onClick={() => {
-            if (activeSlide != servicesHome[lang].length - 1)
-              setActiveSlide(activeSlide + 1);
-          }}
-          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
-        >
-          <MdOutlineKeyboardArrowRight />
-        </button>
-      </div>
     </>
+  );
+}
+
+export function SlideNextButton() {
+  const swiper = useSwiper();
+
+  return (
+    <button
+      onClick={() => swiper.slideNext()}
+      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+    >
+      <MdOutlineKeyboardArrowRight />
+    </button>
+  );
+}
+
+export function SlidePrevButton() {
+  const swiper = useSwiper();
+
+  return (
+    <button
+      onClick={() => swiper.slidePrev()}
+      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+    >
+      <MdOutlineKeyboardArrowLeft />
+    </button>
   );
 }
