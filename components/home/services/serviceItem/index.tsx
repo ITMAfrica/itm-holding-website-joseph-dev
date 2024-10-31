@@ -1,6 +1,9 @@
+'use client';
+
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import Image from 'next/image';
 import Link from 'next/link';
+import { SwiperSlide } from 'swiper/react';
 
 export default function HomeServiceCard({
   name,
@@ -16,10 +19,15 @@ export default function HomeServiceCard({
   activeSlide: any;
 }) {
   return (
-    <article className="border h-[500px] sm:mx-3 mx-1 lg:w-[22.5vw] group w-[48vw] w-full mb-8 transition ease-in-out duration-700">
+    <article className="group border h-[500px] sm:mx-3 mx-1 md:w-[25.5vw] lg:w-[20.5vw] mb-8 transition ease-in-out duration-700">
       <div className="flex items-end h-full w-full relative">
         <div className="absolute h-full w-full">
-          <Image src={icon} alt="Image service" className="h-full w-full" objectFit='cover' />
+          <Image
+            src={icon}
+            alt="Image service"
+            className="h-full w-full"
+            objectFit="cover"
+          />
         </div>
         <div className="absolute z-20 bg-gradient-to-t from-black h-full w-full"></div>
         <div className="px-4 h-fit z-50 text-white pb-10">

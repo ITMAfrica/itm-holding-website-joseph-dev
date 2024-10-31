@@ -5,9 +5,17 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md';
-import Carousel from 'react-simply-carousel';
 import HomeServiceCard from '../serviceItem';
 import { servicesHome } from '@/lib/data';
+
+import { Mousewheel, Controller, A11y, FreeMode } from 'swiper/modules';
+
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/controller';
+import 'swiper/css/mousewheel';
 
 export default function HomeServicesCarousel({
   params,
@@ -24,60 +32,62 @@ export default function HomeServicesCarousel({
   return (
     <>
       <div className="w-full relative h-fit">
-        <Carousel
-          activeSlideIndex={activeSlide}
-          containerProps={{
-            style: {
-              flex: '1',
-              alignItems: 'end',
-              alignContent: 'end',
-              paddingLeft: 2,
-            },
-          }}
-          onRequestChange={setActiveSlide}
-          easing="linear"
-          responsiveProps={[
-            {
-              itemsToShow: toShow,
-              itemsToScroll: 1,
-              minWidth: 760,
-            },
-          ]}
-          itemsToShow={toShow}
-          itemsToScroll={1}
-          speed={700}
-          preventScrollOnSwipe={true}
-          disableSwipeByMouse={false}
-          disableSwipeByTouch={false}
+        <Swiper
+          // install Swiper modules
+          direction={'horizontal'}
+          cssMode={true}
+          modules={[Mousewheel, A11y, FreeMode, Controller]}
+          spaceBetween={50}
+          slidesPerView={3}
+          longSwipesMs={1500}
+          mousewheel={true}
+          className="h-full w-full my-auto"
         >
           {servicesHome[lang].map((item: any, index: number) => (
-            <HomeServiceCard {...item} activeSlide={activeSlide} key={index} />
+            <SwiperSlide>
+              <HomeServiceCard
+                {...item}
+                activeSlide={activeSlide}
+                key={index}
+              />
+            </SwiperSlide>
           ))}
-        </Carousel>
-      </div>
-      <div className="flex items-center justify-start pl-3 z-20">
-        <button
-          onClick={() => {
-            if (activeSlide != 0) setActiveSlide(activeSlide - 1);
-          }}
-          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
-        >
-          <MdOutlineKeyboardArrowLeft />
-        </button>
-        <div className="px-2">
-          <span>{activeSlide + 1} - </span>
-          <span>{servicesHome[lang].length}</span>
-        </div>
-        <button
-          onClick={() => {
-            if (activeSlide != servicesHome[lang].length - 1)
-              setActiveSlide(activeSlide + 1);
-          }}
-          className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
-        >
-          <MdOutlineKeyboardArrowRight />
-        </button>
+          <div className="flex items-center justify-start pl-3 z-20">
+            <SlidePrevButton />
+            <div className="px-2">
+              <span>{activeSlide + 1} - </span>
+              <span>{servicesHome[lang].length}</span>
+            </div>
+            <SlideNextButton />
+          </div>
+        </Swiper>
       </div>
     </>
+  );
+}
+
+export function SlideNextButton() {
+  const swiper = useSwiper();
+
+  return (
+    <button
+      onClick={() => swiper.slideNext()}
+      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+    >
+      <MdOutlineKeyboardArrowRight />
+    </button>
+  );
+}
+
+export function SlidePrevButton() {
+  const swiper = useSwiper();
+
+  return (
+    <button
+      onClick={() => swiper.slidePrev()}
+      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+    >
+      <MdOutlineKeyboardArrowLeft />
+    </button>
   );
 }
