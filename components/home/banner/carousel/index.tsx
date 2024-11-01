@@ -5,7 +5,6 @@ import { getDictionary } from '@/get-dictionary';
 
 // import Swiper core and required modules
 import {
-  Navigation,
   Pagination,
   Autoplay,
   A11y,
@@ -38,11 +37,10 @@ export default function HomePageBanner({
     <section className="h-full py-5">
       <Swiper
         // install Swiper modules
-        modules={[Navigation, Pagination, Autoplay, A11y, Parallax, EffectFade]}
+        modules={[Pagination, Autoplay, A11y, Parallax, EffectFade]}
         spaceBetween={20}
         slidesPerView={toShow}
         longSwipesMs={800}
-        navigation
         autoplay={{ delay: 4000 }}
         effect="fade"
         fadeEffect={{ crossFade: true }}
