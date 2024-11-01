@@ -38,9 +38,15 @@ export default function HomeServicesCarousel({
           cssMode={true}
           modules={[Mousewheel, A11y, FreeMode, Controller]}
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={1}
           longSwipesMs={1500}
           mousewheel={true}
+          breakpoints={{
+            540: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
           className="h-full w-full my-auto"
         >
           {servicesHome[lang].map((item: any, index: number) => (
