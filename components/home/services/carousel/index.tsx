@@ -42,7 +42,11 @@ export default function HomeServicesCarousel({
           longSwipesMs={1500}
           mousewheel={true}
           breakpoints={{
-            540: {
+            450: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1080: {
               slidesPerView: 3,
               spaceBetween: 20,
             },
