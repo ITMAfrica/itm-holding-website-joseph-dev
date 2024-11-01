@@ -234,6 +234,20 @@
               "description": "Ce qui nous définit"
             }
           ]
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Assurer la croissance et la durabilité de la capacité opérationnelle pour nos parties prenantes"
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Assurer la réussite de tous"
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          }
         }
       }
     }
