@@ -12,7 +12,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.cd.pages.about.about;
   return (
-    <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left-top bg-no-repeat lg:py-20 py-10">
+    <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
       <div className="w-10/12 lg:w-9/12 flex flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse h-full mx-auto md:pb-20">
         <div className="w-full lg:pb-0 lg:pt-0 pt-20 lg:w-6/12">
           <h1 className="text-blue_itm_aqua_marine font-bold pb-4">
