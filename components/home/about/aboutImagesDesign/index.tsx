@@ -18,7 +18,7 @@ import {
 export default function AboutImagesDesign() {
   const { ref, inView } = useInView({
     threshold: 0,
-    rootMargin: '0px 0px -480px',
+    rootMargin: '0px 0px -330px',
   });
   const [viewed, setViewed] = useState<boolean>(false);
 
