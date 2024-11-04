@@ -1,10 +1,22 @@
+'use client';
+
 import Image from 'next/image';
 import image1 from '@/public/pages/contact/image1.png';
 import image2 from '@/public/pages/contact/image2.png';
 import image3 from '@/public/pages/contact/image3.png';
 import image4 from '@/public/pages/contact/image4.png';
+import { getDictionary } from '@/get-dictionary';
+import { useState } from 'react';
+import { CODE } from '@/helpers';
+import { dictionary } from '@/types';
 
 export default function ContactPageAboutSection({ params }: { params: any }) {
+  const lang: string = params.lang;
+  const dictionary: any = getDictionary(lang);
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
+  const dynamicContent: any = dictionary?.[CURRENT_CODE]?.pages.contact
+    ? dictionary?.dynamicContent?.header[CURRENT_CODE]
+    : dictionary?.dynamicContent?.header[CODE];
   return (
     <section className="h-fit bg-white md:py-16 py-10">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">

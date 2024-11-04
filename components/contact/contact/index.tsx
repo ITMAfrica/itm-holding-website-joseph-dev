@@ -11,9 +11,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
             <IoCallOutline className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
           <h5 className="text-2xl font-bold text-center">Call us directly</h5>
-          <p className="text-2xl font-bold text-center mt-4">
-            +243 897 548 526
-          </p>
+          <p className="text-xl text-center mt-4">+243 897 548 526</p>
         </ContactCard>
         <ContactCard>
           <span className="flex justify-center">
@@ -22,17 +20,19 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <h5 className="text-2xl font-bold text-center">
             Chat whit our sales team
           </h5>
-          <p className="text-2xl font-bold text-center mt-4">
-            +243 897 548 526
-          </p>
+          <div className="flex justify-center">
+            <button className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded">
+              Send us an e-mail
+            </button>
+          </div>
         </ContactCard>
         <ContactCard>
           <span className="flex justify-center">
             <BsGeoAlt className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
           <h5 className="text-2xl font-bold text-center">Visit our office</h5>
-          <p className="text-2xl font-bold text-center mt-4">
-            +243 897 548 526
+          <p className=" text-center mt-4">
+            ITM AFRICA LTD KG 220 Street, Building No 7, Gasabo, Kigali RW
           </p>
         </ContactCard>
       </div>
