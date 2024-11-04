@@ -37,7 +37,7 @@ export default function HomeServicesCarousel({
           direction={'horizontal'}
           cssMode={true}
           modules={[Mousewheel, A11y, FreeMode, Controller]}
-          spaceBetween={50}
+          spaceBetween={30}
           slidesPerView={1}
           longSwipesMs={1500}
           mousewheel={true}
@@ -48,7 +48,7 @@ export default function HomeServicesCarousel({
             },
             1080: {
               slidesPerView: 3,
-              spaceBetween: 20,
+              spaceBetween: 60,
             },
           }}
           className="h-full w-full my-auto"
