@@ -251,5 +251,15 @@
         }
       }
     }
+  },
+  "cd": {
+    "pages": {
+      "contact": {
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        }
+      }
+    }
   }
 }
