@@ -5,7 +5,7 @@ import HomeServicesCarousel from './carousel';
 export default function HomeServicesSection({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.services;
+  const data = dictionary.globalContent.pages.home.services;
 
   return (
     <section className="bg-white lg:flex justify-end">

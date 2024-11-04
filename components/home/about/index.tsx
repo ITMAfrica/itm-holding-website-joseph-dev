@@ -9,7 +9,7 @@ import { CODE } from '@/helpers';
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
   const dictionary: any = getDictionary(lang);
-  const data: any = dictionary?.cd?.pages.home.about;
+  const data: any = dictionary?.globalContent?.pages.home.about;
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
     fr: 'Congo Kinshasa',

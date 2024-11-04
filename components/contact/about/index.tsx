@@ -11,16 +11,15 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
         <div className="md:w-1/2">
           <div className="md:mr-14">
             <h1 className="md:text-6xl text-4xl text-blue_itm_primary font-bold">
-              Contact us about
+              Contact-nous pour
             </h1>
             <h1 className="md:text-6xl text-5xl text-blue_itm_primary font-bold">
               ITM sarl
             </h1>
             <p className="md:mt-10 mt-5 text-lg">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-              quas, omnis placeat fugit asperiores esse et consequatur corrupti
-              sunt recusandae vel, similique quod tempore debitis iste eaque.
-              Minima, vitae harum?
+              Prêt à franchir le pas ? Contactez-nous pour discuter de votre
+              projet et découvrir comment nous pouvons vous aider à atteindre
+              vos objectifs.
             </p>
           </div>
         </div>
