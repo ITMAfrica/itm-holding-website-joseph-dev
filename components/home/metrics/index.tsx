@@ -4,7 +4,7 @@ import HomeMetricsCard from './card';
 export default function HomeMetrics({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.metrics;
+  const data = dictionary.globalContent.pages.home.metrics;
   return (
     <section className="bg-no-repeat bg-[url('../public/pages/home/bg_metrics.png')] bg-cover bg-black/40 w-full">
       <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-20">

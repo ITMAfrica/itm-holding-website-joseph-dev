@@ -2,14 +2,23 @@
 import { getDictionary } from '@/get-dictionary';
 import { testimonies } from '@/lib/data';
 import { useState } from 'react';
-import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import {
+  MdOutlineKeyboardArrowLeft,
+  MdOutlineKeyboardArrowRight,
+} from 'react-icons/md';
 import Carousel from 'react-simply-carousel';
 import TestimonyItem from '../carouselItem';
 
-export default function TestimoniesCarousel({ params, toShow = 3 }: { params: any, toShow?: any }) {
+export default function TestimoniesCarousel({
+  params,
+  toShow = 3,
+}: {
+  params: any;
+  toShow?: any;
+}) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.banner.items;
+  const data = dictionary.globalContent.pages.home.banner.items;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div className="w-full relative h-fit">
@@ -17,23 +26,28 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
         activeSlideIndex={activeSlide}
         containerProps={{
           style: {
-            flex: "1",
-            alignItems: "center",
-            alignContent: "center",
-            padding: 20
-          }
+            flex: '1',
+            alignItems: 'center',
+            alignContent: 'center',
+            padding: 20,
+          },
         }}
         onRequestChange={setActiveSlide}
         easing="linear"
         forwardBtnProps={{
           onClick() {
-            if (activeSlide != 0)
-              setActiveSlide(activeSlide - 1);
+            if (activeSlide != 0) setActiveSlide(activeSlide - 1);
           },
           //here you can also pass className, or any other button element attributes
           children:
             testimonies.length > 1 ? (
-              <div className={`absolute right-0  z-30 -translate-y-1/2 h-10 w-10 ${activeSlide == 0 ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'}  text-white flex items-center justify-center rounded-full`}>
+              <div
+                className={`absolute right-0  z-30 -translate-y-1/2 h-10 w-10 ${
+                  activeSlide == 0
+                    ? 'bg-blue_itm_good/10'
+                    : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'
+                }  text-white flex items-center justify-center rounded-full`}
+              >
                 <MdOutlineKeyboardArrowRight />
               </div>
             ) : (
@@ -48,7 +62,13 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
           //here you can also pass className, or any other button element attributes
           children:
             testimonies.length > 1 ? (
-              <div className={`absolute z-30 left-0 -translate-y-1/2  h-10 w-10 ${activeSlide == Array.from({ length: 10 }).length ? 'bg-blue_itm_good/10' : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'} text-white flex items-center justify-center rounded-full`}>
+              <div
+                className={`absolute z-30 left-0 -translate-y-1/2  h-10 w-10 ${
+                  activeSlide == Array.from({ length: 10 }).length
+                    ? 'bg-blue_itm_good/10'
+                    : 'bg-blue_itm_good/50  hover:bg-blue_itm_good'
+                } text-white flex items-center justify-center rounded-full`}
+              >
                 <MdOutlineKeyboardArrowLeft />
               </div>
             ) : (
@@ -68,7 +88,13 @@ export default function TestimoniesCarousel({ params, toShow = 3 }: { params: an
         centerMode
       >
         {testimonies.map((item: any, index: number) => (
-          <TestimonyItem item={item} setActiveSlide={setActiveSlide} index={index} activeSlide={activeSlide} key={index} />
+          <TestimonyItem
+            item={item}
+            setActiveSlide={setActiveSlide}
+            index={index}
+            activeSlide={activeSlide}
+            key={index}
+          />
         ))}
       </Carousel>
     </div>

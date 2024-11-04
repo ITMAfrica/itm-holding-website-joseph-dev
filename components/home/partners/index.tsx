@@ -12,7 +12,7 @@ import { getDictionary } from '@/get-dictionary';
 export default function HomePartners({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.partners;
+  const data = dictionary.globalContent.pages.home.partners;
   return (
     <section className="flex items-center py-20">
       <div className="w-full">

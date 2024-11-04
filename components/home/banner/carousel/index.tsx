@@ -31,7 +31,7 @@ export default function HomePageBanner({
 }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.banner.items;
+  const data = dictionary.globalContent.pages.home.banner.items;
 
   return (
     <section className="h-full py-5">

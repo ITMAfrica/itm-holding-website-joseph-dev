@@ -5,7 +5,7 @@ import HomeNewsCard from './card';
 export default function HomeNews({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.news;
+  const data = dictionary.globalContent.pages.home.news;
   return (
     <section className="flex items-center ">
       <div className="w-full">

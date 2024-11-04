@@ -13,8 +13,8 @@ export default function AboutPage({ params }: { params: any }) {
     <main className="w-full">
       <AboutPageBanner params={params} />
       <AboutPageHoldingSection params={params} />
-      <AboutPageAbout params={params} />
       <AboutPageEntities params={params} />
+      <AboutPageAbout params={params} />
       <AboutPageMetrics params={params} />
       <AboutPageMileStone params={params} />
       <Teams />

@@ -26,7 +26,7 @@ export default function HomeServicesCarousel({
 }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.services;
+  const data = dictionary.globalContent.pages.home.services;
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
@@ -42,7 +42,11 @@ export default function HomeServicesCarousel({
           longSwipesMs={1500}
           mousewheel={true}
           breakpoints={{
-            540: {
+            450: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1080: {
               slidesPerView: 3,
               spaceBetween: 20,
             },

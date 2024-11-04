@@ -9,7 +9,7 @@ import { CODE } from '@/helpers';
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
   const dictionary: any = getDictionary(lang);
-  const data: any = dictionary?.cd?.pages.home.about;
+  const data: any = dictionary?.globalContent?.pages.home.about;
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
     fr: 'Congo Kinshasa',
@@ -23,7 +23,7 @@ export default function HomeAbout({ params }: { params: any }) {
         <div className="w-full semi-lg:w-2/5 lg:w-1/2">
           <div className="pt-10 md:pt-0 md:mr-14">
             <SectionTitle text={data.title} />
-            <h1 className="text-blue_itm_good text-5xl text-center lg:text-left font-bold mb-2">
+            <h1 className="text-blue_itm_good text-5xl font-bold mb-2">
               {data.subtitle}
             </h1>
             <p className="mb-5">{data.paragraph}</p>

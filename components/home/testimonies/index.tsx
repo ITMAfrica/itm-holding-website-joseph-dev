@@ -4,7 +4,7 @@ import TestimoniesCarousel from './carousel';
 export default function HomeTestimonies({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.cd.pages.home.testimonies;
+  const data = dictionary.globalContent.pages.home.testimonies;
   return (
     <section className="md:pt-20 bg-white md:pb-10 py-8">
       <div>
