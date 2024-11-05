@@ -1,13 +1,36 @@
+'use client';
+
 import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import CardCountry from '@/components/global/cards/country';
+import { CODE } from '@/helpers';
+import { useState } from 'react';
+import NavLinkFooter from './navLink';
+
+type linkHeader = {
+  href: string;
+  name: string;
+  current: string;
+  external: boolean;
+};
 
 export default function Footer({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
+  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
+  const data: any = dictionary?.global?.header[CURRENT_CODE]
+    ? dictionary?.global?.header[CURRENT_CODE]
+    : dictionary?.global?.header[CODE];
+  function getHref() {
+    if (CURRENT_CODE && CURRENT_CODE != CODE) {
+      return `/${params.lang}/${CURRENT_CODE}`;
+    } else {
+      return `/${params.lang}`;
+    }
+  }
   return (
     <footer className="bg-black_footer text-white">
       <div className="flex md:flex-nowrap flex-wrap md:w-10/12 w-11/12 mx-auto md:py-20 py-10 border-b border-b-black">
@@ -44,19 +67,12 @@ export default function Footer({ params }: { params: any }) {
         </section>
         <section className="sm:flex justify-around md:ml-10 md:w-3/5 w-full">
           <div>
-            <h4 className="text-2xl font-bold mb-4">A propos de nous</h4>
+            <h4 className="text-2xl font-bold mb-4">Liens internes</h4>
             <ul className="mb-2">
-              <li className="mb-3">Services</li>
-              <li className="mb-3">Services</li>
-              <li className="mb-3">Services</li>
-              <li className="mb-3">Services</li>
+              {data?.links.map((item: linkHeader, index: number) => (
+                <NavLinkFooter {...item} key={index} />
+              ))}
             </ul>
-            <Link href={lang} className="flex items-center font-bold text-lg">
-              Offres d'emplois
-              <span className="ml-1 text-xs">
-                <FaExternalLinkAlt />
-              </span>
-            </Link>
           </div>
           <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>

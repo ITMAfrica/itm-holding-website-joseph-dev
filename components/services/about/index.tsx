@@ -13,24 +13,14 @@ export default function ServicesPageAbout({ params }: any) {
         </article>
         <article className="lg:w-1/2 w-full lg:pt-0 pt-3">
           <p>
-            De Lubumbashi à la conquête du monde,nous avons écrit une success
-            story exceptionnelle. Résiliente face aux défis, nous savons saisir
-            les opportunités pour accélérer le développement et se positionner
-            comme un acteur global. Notre histoire est celle d'hommes et de
-            femmes passionnés qui, avec une vision précise, avons reussi à
-            transformer un projet local en une entreprise internationale
-            prospère. Aujourd'hui, ITM Holding est un modèle d'inspiration pour
-            tous ceux qui rêvent de bâtir un avenir meilleur.
+            En quête de talents ? Nous vous aidons à trouver les profils les
+            plus adaptés à vos besoins. Nous vous accompagnons dans toutes les
+            étapes de la gestion de vos ressources humaines : recrutement,
+            formation, développement des compétences, relations sociales...
           </p>
           <p className="pt-3">
-            De Lubumbashi à la conquête du monde,nous avons écrit une success
-            story exceptionnelle. Résiliente face aux défis, nous savons saisir
-            les opportunités pour accélérer le développement et se positionner
-            comme un acteur global. Notre histoire est celle d'hommes et de
-            femmes passionnés qui, avec une vision précise, avons reussi à
-            transformer un projet local en une entreprise internationale
-            prospère. Aujourd'hui, ITM Holding est un modèle d'inspiration pour
-            tous ceux qui rêvent de bâtir un avenir meilleur.
+            Notre expertise en ressources humaines vous permet de gagner en
+            efficacité et d'améliorer les performances de vos équipes.
           </p>
           <Link
             href={'/'}
