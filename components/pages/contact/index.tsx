@@ -4,7 +4,6 @@ import CallToAction from '@/components/global/callToAction';
 import Faqs from '@/components/global/faqs';
 import ContactPageContactSection from '@/components/contact/contact';
 import ContactPageQuestionsSection from '@/components/contact/question';
-import useCountry from '@/hooks/useCountry';
 
 export default function ContactPage({ params }: { params: any }) {
   return (
