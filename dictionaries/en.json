@@ -145,6 +145,16 @@
                 "key": "about-us",
                 "title": "See details about ITM HR"
               }
+            },
+            {
+              "title": "WELCOME TO ITM HR ",
+              "paragraph": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
+              }
             }
           ]
         },

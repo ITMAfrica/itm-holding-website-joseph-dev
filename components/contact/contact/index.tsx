@@ -26,7 +26,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
               href={`mailto:info@itmafrica.com`}
               className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded"
             >
-              Send us an e-mail
+              info@itmafrica.com
             </Link>
           </div>
         </ContactCard>
