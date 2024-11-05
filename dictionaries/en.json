@@ -235,6 +235,18 @@
             }
           ]
         }
+      },
+      "services": {
+        "about": {
+          "title": "WHAT WE DO",
+          "subtitle": "We provide exclusive services for your business",
+          "paragraph": "Looking for talent? We can help you find the profiles best suited to your needs. We support you at every stage of your human resources management: recruitment, training, skills development, labor relations...",
+          "paragraph2": "Our expertise in human resources enables you to improve the efficiency and performance of your teams.",
+          "btnContact": {
+            "title": "Contact us",
+            "link": "/en/contact-us"
+          }
+        }
       }
     }
   }

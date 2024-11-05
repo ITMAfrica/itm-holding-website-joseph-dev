@@ -249,6 +249,18 @@
             "text": "Loyauté - Intégrité - Qualité"
           }
         }
+      },
+      "services": {
+        "about": {
+          "title": "CE QUE NOUS FAISONS",
+          "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph": "En quête de talents ? Nous vous aidons à trouver les profils les plus adaptés à vos besoins. Nous vous accompagnons dans toutes les étapes de la gestion de vos ressources humaines : recrutement, formation, développement des compétences, relations sociales...",
+          "paragraph2": "Notre expertise en ressources humaines vous permet de gagner en efficacité et d'améliorer les performances de vos équipes.",
+          "btnContact": {
+            "title": "Contactez-nous",
+            "link": "/fr/contactez-nous"
+          }
+        }
       }
     }
   },
