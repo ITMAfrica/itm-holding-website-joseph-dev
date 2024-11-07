@@ -1,11 +1,22 @@
-export default function ContactFormItem() {
+export default function ContactFormItem({
+  label,
+  name,
+  type,
+  placeholder,
+}: {
+  label: string;
+  name: string;
+  type: string;
+  placeholder: string;
+}) {
   return (
     <div className="w-full">
-      <p className="text-blue_itm_primary text-xs font-bold mb-2">First name</p>
+      <p className="text-blue_itm_primary text-xs font-bold mb-2">{label}</p>
       <input
-        type="text"
+        name={name}
+        type={type}
         className="px-3 py-2 text-black bg-white w-full rounded"
-        placeholder="Your first name"
+        placeholder={placeholder}
       />
     </div>
   );
