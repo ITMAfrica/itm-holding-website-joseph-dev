@@ -84,7 +84,7 @@ export default function ContactPageQuestionsSection({
           </div>
         </div>
         <div className="md:w-1/2 bg-white rounded-xl">
-          <ContactPageForm />
+          <ContactPageForm params={params} />
         </div>
       </section>
     </section>

@@ -247,6 +247,64 @@
             "link": "/en/contact-us"
           }
         }
+      },
+      "contact": {
+        "formSection": {
+          "form": {
+            "firstName": {
+              "label": "First name*",
+              "name": "firstName",
+              "type": "text",
+              "placeholder": "Your first name"
+            },
+            "lastName": {
+              "label": "Last name*",
+              "name": "lastName",
+              "type": "text",
+              "placeholder": "Your last name"
+            },
+            "entreprise": {
+              "label": "Company",
+              "name": "company",
+              "type": "text",
+              "placeholder": "Your company"
+            },
+            "email": {
+              "label": "Email address*",
+              "name": "email",
+              "type": "email",
+              "placeholder": "Your email address"
+            },
+            "professionalEmail": {
+              "label": "Professional email",
+              "name": "professionalEmail",
+              "type": "email",
+              "placeholder": "Your email professional"
+            },
+            "phoneNumber": {
+              "label": "Phone number*",
+              "name": "phoneNumber",
+              "type": "text",
+              "placeholder": "Your phone number"
+            },
+            "subject": {
+              "label": "Subject*",
+              "name": "subject",
+              "type": "text",
+              "placeholder": "Message subject"
+            },
+            "message": {
+              "label": "Message*",
+              "name": "message",
+              "type": "text",
+              "placeholder": "Your message"
+            },
+            "formWarning": "All fields with asterisks (*) are mandatory and cannot be ignored.",
+            "btnSend": {
+              "text": "Send"
+            }
+          }
+        }
       }
     }
   }

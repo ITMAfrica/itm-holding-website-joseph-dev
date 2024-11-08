@@ -1,15 +1,24 @@
-export default function ContactFormTextArea() {
+export default function ContactFormTextArea({
+  label,
+  name,
+  placeholder,
+  type,
+}: {
+  label: string;
+  name: string;
+  placeholder: string;
+  type: string;
+}) {
   return (
     <div className="w-full">
-      <p className="text-blue_itm_primary text-xs font-bold mb-2">First name</p>
+      <p className="text-blue_itm_primary text-xs font-bold mb-2">{label}</p>
       <textarea
         id="txtid"
-        name="txtname"
+        name={name}
         rows={5}
         cols={20}
         className="w-full px-3 py-2"
-        placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam
-        nihil nostrum!"
+        placeholder={placeholder}
       ></textarea>
     </div>
   );
