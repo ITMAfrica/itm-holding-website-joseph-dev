@@ -312,5 +312,20 @@
         }
       }
     }
+  },
+  "cd": {
+    "pages": {
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM sarl",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }

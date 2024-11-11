@@ -731,4 +731,22 @@ export const entitiesInfos: any = {
     phone: '+244 946 083 313',
     email: 'infoangola@itmafrica.com',
   },
+  cg: {
+    address:
+      '243, Boulevard Charles DE GAULLE, immeuble Tour MAYOMBE, centre-ville/ Pointe-Noire ',
+    phone: '+242 05 640 17 50',
+    email: 'infocongobrazza@itmafrica.com',
+  },
+  bn: {
+    address:
+      'St Michel, Immeuble MAVEKA, à 50 m de la poste au 3ème étage aile gauche',
+    phone: '+229 550 719 19 ',
+    email: 'infobenin@itmafrica.com',
+  },
+  ng: {
+    address:
+      'St James House, 167 Adetokunbo Ademola Crescent, Wuse 2, Abuja. Suite 310A, 3rd floor Mulliner Towers, 39 Alfred Rwene road, Ikoyi, Lagos.',
+    phone: '+234 702 509 0000',
+    email: 'info.abuja@itmafrica.com',
+  },
 };
