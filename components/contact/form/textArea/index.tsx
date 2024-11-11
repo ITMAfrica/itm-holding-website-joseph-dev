@@ -17,7 +17,7 @@ export default function ContactFormTextArea({
         name={name}
         rows={5}
         cols={20}
-        className="w-full px-3 py-2"
+        className="w-full px-3 py-2 outline-none text-black"
         placeholder={placeholder}
       ></textarea>
     </div>
