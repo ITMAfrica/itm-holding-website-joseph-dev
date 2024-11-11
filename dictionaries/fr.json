@@ -357,5 +357,59 @@
         }
       }
     }
+  },
+  "rw": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM AFRICA LTD.?",
+          "description": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph1": "ITM Rwanda est un leader de confiance qui façonne l'avenir de la gestion de la main-d'œuvre et des solutions d'affaires au Rwanda depuis 2017. En tant que partie intégrante de la vaste présence panafricaine de ITM, nous fournissons des services personnalisés qui stimulent la croissance des entreprises et l'excellence opérationnelle. Notre expertise couvre l'acquisition stratégique de talents, la gestion complète des ressources humaines et les solutions de paie de pointe, permettant aux entreprises d'atteindre leur plein potentiel. ITM Rwanda est un partenaire de confiance dans la gestion de la main-d'œuvre au Rwanda depuis 2017. Faisant partie du réseau panafricain de l'ITM et avec plus de 1 000 employés sous notre gestion, nous fournissons des solutions sur mesure qui stimulent la croissance des entreprises et garantissent l'efficacité opérationnelle.",
+          "paragraph2": "Notre expertise couvre l'acquisition de talents, la gestion des ressources humaines et les solutions de paie avancées, aidant les entreprises à rationaliser leurs opérations et à se concentrer sur ce qui compte le plus. De la gestion du recrutement à la supervision de la paie et des contrats, nous assurons un soutien RH sans faille aux entreprises qui cherchent à prospérer dans un environnement compétitif. Nous sommes votre partenaire privilégié pour les solutions stratégiques en matière de ressources humaines, permettant aux entreprises d'atteindre un succès durable au Rwanda et au-delà.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/fr/rw/contactez-nous"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM AFRICA Ltd.",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
+  },
+  "ke": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM KENYA?",
+          "description": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph1": "ITM Kenya est le fournisseur de confiance de solutions RH innovantes au Kenya depuis 2021, jouant un rôle clé dans le vaste réseau panafricain d'ITM. Nous sommes spécialisés dans des services allant du recrutement et du placement à l'externalisation des RH et à la formation professionnelle, tous conçus pour aider les entreprises à répondre à leurs besoins en main-d'œuvre tout en adhérant aux meilleures pratiques mondiales. Nos services de recrutement et de placement mettent en relation les entreprises avec les meilleurs talents dans des secteurs tels que l'informatique, la finance, les soins de santé et l'ingénierie, garantissant ainsi la bonne adéquation à chaque poste.",
+          "paragraph2": "Grâce à l'externalisation de la main-d'œuvre, nous soutenons les entreprises locales et internationales en gérant le recrutement, les salaires, les contrats et les avantages sociaux. Les entreprises peuvent ainsi se concentrer sur leurs activités principales pendant que nous nous occupons de leurs besoins en personnel, qu'il s'agisse de projets à court terme ou de partenariats à long terme. En outre, nos programmes de formation professionnelle intègrent des techniques innovantes telles que la gamification pour doter les employés de compétences essentielles, favorisant ainsi une croissance continue et l'excellence opérationnelle. Que vous vous développiez au Kenya ou que vous recherchiez des solutions stratégiques en matière de ressources humaines, ITM Kenya est votre partenaire pour le succès.",
+          "btnContact": {
+            "text": "Contactez-nous",
+            "link": "/fr/ke/contactez-nous"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM KENYA",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
   }
 }

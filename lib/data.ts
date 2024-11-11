@@ -749,4 +749,9 @@ export const entitiesInfos: any = {
     phone: '+234 702 509 0000',
     email: 'info.abuja@itmafrica.com',
   },
+  ke: {
+    address: '104 Riverside Square, Riverside Drive, Nairobi, Kenya',
+    phone: '+254 722 272 596',
+    email: 'infokenya@itmafrica.com',
+  },
 };
