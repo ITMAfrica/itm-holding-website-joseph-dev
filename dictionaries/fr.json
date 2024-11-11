@@ -411,5 +411,32 @@
         }
       }
     }
+  },
+  "za": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM AFRIQUE DU SUD?",
+          "description": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph1": "ITM Katope Afrique du Sud est un leader de confiance dans la gestion des personnes depuis 2017. Dans le cadre de l'empreinte mondiale de l'IMT, nous nous spécialisons dans l'externalisation des RH, les services d'employeur de référence (EOR), le recrutement, le placement et les opérations de centre d'appels. Notre objectif s'étend à la résolution de l'un des défis les plus pressants de l'Afrique du Sud : le chômage des jeunes. Grâce à nos initiatives de développement de la jeunesse, nous responsabilisons les jeunes en leur proposant des placements professionnels, le développement de leurs compétences et un mentorat de carrière, leur offrant ainsi un avenir plus radieux.",
+          "paragraph2": "Outre nos services complets de gestion des ressources humaines et du personnel, nous sommes fiers de notre centre d'appel moderne et dynamique, qui fournit à des clients de tous les secteurs une assistance entrante et sortante. Notre engagement en faveur de l'innovation et de l'excellence dans la prestation de services nous distingue sur le marché. Rejoignez-nous pour conduire le changement, améliorer les communautés et redéfinir les solutions RH en Afrique du Sud et au-delà!",
+          "btnContact": {
+            "text": "Contactez-nous",
+            "link": "/fr/za/contactez-nous"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM AFRIQUE DU SUD",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
   }
 }

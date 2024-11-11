@@ -380,6 +380,44 @@
             "link": "/en/ke/contact-us"
           }
         }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM KENYA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "za": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM SOUTH AFRICA",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Katope South Africa has been a trusted leader in people management since 2017. As part of ITM’s global footprint, we specialize in HR outsourcing, Employer of Record (EOR) services, recruitment, placement, and call center operations. Our focus extends to addressing one of South Africa’s most pressing challenges: youth unemployment. Through our youth development initiatives, we empower young people by offering job placements, skills development, and career mentorship, giving them a brighter future.",
+          "paragraph2": "In addition to our comprehensive HR and people management services, we are proud of our vibrant, modern call center operations, serving clients across industries with inbound and outbound support. Our dedication to innovation and excellence in service delivery sets us apart in the market. Join us as we drive change, uplift communities, and redefine HR solutions in South Africa and beyond!",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/za/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM SOUTH AFRICA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
       }
     }
   }

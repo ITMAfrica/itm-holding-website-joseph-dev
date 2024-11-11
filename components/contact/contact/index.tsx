@@ -21,7 +21,12 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           </span>
           <h5 className="text-2xl font-bold text-center">{data.call}</h5>
           <p className="text-xl text-center mt-4">
-            {entitiesInfos[code].phone}
+            <Link
+              href={`tel:${entitiesInfos[code].phone}`}
+              className="text-lg text-center mt-4 py-2 px-3 rounded"
+            >
+              {entitiesInfos[code].phone}
+            </Link>
           </p>
         </ContactCard>
         <ContactCard>
