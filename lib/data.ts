@@ -709,3 +709,26 @@ export const testimonies = [
     image: avatar,
   },
 ];
+
+export const entitiesInfos: any = {
+  cd: {
+    address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
+    phone: '+243 8346 88 027',
+    email: 'infocustomer@itmafrica.com',
+  },
+  za: {
+    address: '360 Oak Avenue, 4 Tulbagh, Ferndale, 2194',
+    phone: '+27 10 825 9413',
+    email: 'admin.katope@itmafrica.com',
+  },
+  rw: {
+    address: 'KG 220 ST, House 7, Gishushu - Kigali, Rwanda',
+    phone: '+250 790 009 444',
+    email: 'inforwanda@itmafrica.com',
+  },
+  ao: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+};

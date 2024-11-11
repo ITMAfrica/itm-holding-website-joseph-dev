@@ -2,8 +2,16 @@ import { PiChatsLight } from 'react-icons/pi';
 import { IoCallOutline } from 'react-icons/io5';
 import { BsGeoAlt } from 'react-icons/bs';
 import Link from 'next/link';
+import { entitiesInfos } from '@/lib/data';
+import { getCountryCode } from '@/helpers';
+import { getDictionary } from '@/get-dictionary';
 
 export default function ContactPageContactSection({ params }: { params: any }) {
+  const lang: string = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.globalContent.pages.contact.infos;
+  const country: string = params.country;
+  const code: string = getCountryCode(country);
   return (
     <section className="h-fit bg-white pt-5 md:pb-16 pb-8">
       <div className="flex flex-wrap justify-between lg:w-10/12 w-11/12 mx-auto">
@@ -11,22 +19,22 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <span className="flex justify-center">
             <IoCallOutline className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
-          <h5 className="text-2xl font-bold text-center">Call us directly</h5>
-          <p className="text-xl text-center mt-4">(+243) 828 502 119</p>
+          <h5 className="text-2xl font-bold text-center">{data.call}</h5>
+          <p className="text-xl text-center mt-4">
+            {entitiesInfos[code].phone}
+          </p>
         </ContactCard>
         <ContactCard>
           <span className="flex justify-center">
             <PiChatsLight className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
-          <h5 className="text-2xl font-bold text-center">
-            Chat whit our sales team
-          </h5>
+          <h5 className="text-2xl font-bold text-center">{data.email}</h5>
           <div className="flex justify-center">
             <Link
               href={`mailto:info@itmafrica.com`}
               className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded"
             >
-              info@itmafrica.com
+              {entitiesInfos[code].email}
             </Link>
           </div>
         </ContactCard>
@@ -34,11 +42,8 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <span className="flex justify-center">
             <BsGeoAlt className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
-          <h5 className="text-2xl font-bold text-center">Visit our office</h5>
-          <p className=" text-center mt-4">
-            ITM AFRICA SARL HQ. - 272, Av. Colonel Mondjiba, Kinshasa-Ngaliema,
-            RDC.
-          </p>
+          <h5 className="text-2xl font-bold text-center">{data.address}</h5>
+          <p className=" text-center mt-4">{entitiesInfos[code].address}</p>
         </ContactCard>
       </div>
     </section>

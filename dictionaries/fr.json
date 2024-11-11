@@ -267,6 +267,11 @@
         }
       },
       "contact": {
+        "infos": {
+          "call": "Appeler directement",
+          "email": "Chat avec notre équipe de vente",
+          "address": "Visitez notre bureau"
+        },
         "formSection": {
           "form": {
             "firstName": {
@@ -332,6 +337,11 @@
         "banner": {
           "title": "Vous avez des questions?",
           "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM sarl",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
         }
       }
     }
