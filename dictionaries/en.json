@@ -447,5 +447,59 @@
         }
       }
     }
+  },
+  "ng": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM NIGERIA?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Nigeria has been Nigeria’s leading provider of innovative human resource solutions since 2019. As a vital part of ITM’s pan-African presence, we offer a comprehensive range of HR services, including talent acquisition, capacity building, employee management, and retention strategies, tailored to meet the specific needs of businesses.",
+          "paragraph2": "Our focus is on helping organizations enhance their performance by equipping them with the right tools and talent to foster growth and remain competitive in today’s dynamic business environment. Through our services, we support businesses in developing their workforce, improving workplace culture, and driving sustainable success. At ITM Nigeria, we take pride in our commitment to excellence, integrity, and client satisfaction. Our reputation for delivering high-value services has earned us the trust of businesses seeking to thrive in Nigeria’s competitive marketplace.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ng/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM NIGERIA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "bn": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM BENIN?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Benin has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/bn/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM BENIN",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }
