@@ -420,5 +420,32 @@
         }
       }
     }
+  },
+  "ao": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM KATOPE ANGOLA",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Katope Angola has been a trusted partner in driving business growth and enhancing operational capacity across various sectors in Angola since 2018. We are committed to delivering tailored solutions that ensure long-term sustainability and success for our clients.",
+          "paragraph2": "Over the past six years, our mission has been to support organizations in building sustainable operational capacity. We equip companies with the tools and insights to make strategic, informed decisions that fuel growth and innovation. Our clients’ success is the foundation of our own achievements. Partner with ITM Katope Angola, and let us work together to unlock your company’s full potential, driving sustainable growth and operational excellence in an ever-evolving market.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ao/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM KATOPE ANGOLA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }

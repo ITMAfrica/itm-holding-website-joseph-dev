@@ -438,5 +438,32 @@
         }
       }
     }
+  },
+  "ao": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM AFRIQUE DU SUD?",
+          "description": "Nous fournissons des services exclusifs pour votre entreprise",
+          "paragraph1": "ITM Katope Angola est un partenaire de confiance pour stimuler la croissance des entreprises et renforcer la capacité opérationnelle dans divers secteurs en Angola depuis 2018. Nous nous engageons à fournir des solutions sur mesure qui garantissent la durabilité et le succès à long terme de nos clients.",
+          "paragraph2": "Au cours des six dernières années, notre mission a été de soutenir les organisations dans le développement d'une capacité opérationnelle durable. Nous dotons les entreprises des outils et des connaissances nécessaires pour prendre des décisions stratégiques et éclairées qui alimentent la croissance et l'innovation. Le succès de nos clients est le fondement de nos propres réalisations. Associez-vous à ITM Katope Angola et laissez-nous travailler ensemble pour libérer tout le potentiel de votre entreprise, en favorisant la croissance durable et l'excellence opérationnelle dans un marché en constante évolution.",
+          "btnContact": {
+            "text": "Contactez-nous",
+            "link": "/fr/ao/contactez-nous"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM KATOPE ANGOLA",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
   }
 }
