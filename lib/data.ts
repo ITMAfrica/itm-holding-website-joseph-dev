@@ -709,3 +709,49 @@ export const testimonies = [
     image: avatar,
   },
 ];
+
+export const entitiesInfos: any = {
+  cd: {
+    address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
+    phone: '+243 8346 88 027',
+    email: 'infocustomer@itmafrica.com',
+  },
+  za: {
+    address: '360 Oak Avenue, 4 Tulbagh, Ferndale, 2194',
+    phone: '+27 10 825 9413',
+    email: 'admin.katope@itmafrica.com',
+  },
+  rw: {
+    address: 'KG 220 ST, House 7, Gishushu - Kigali, Rwanda',
+    phone: '+250 790 009 444',
+    email: 'inforwanda@itmafrica.com',
+  },
+  ao: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  cg: {
+    address:
+      '243, Boulevard Charles DE GAULLE, immeuble Tour MAYOMBE, centre-ville/ Pointe-Noire ',
+    phone: '+242 05 640 17 50',
+    email: 'infocongobrazza@itmafrica.com',
+  },
+  bn: {
+    address:
+      'St Michel, Immeuble MAVEKA, à 50 m de la poste au 3ème étage aile gauche',
+    phone: '+229 550 719 19 ',
+    email: 'infobenin@itmafrica.com',
+  },
+  ng: {
+    address:
+      'St James House, 167 Adetokunbo Ademola Crescent, Wuse 2, Abuja. Suite 310A, 3rd floor Mulliner Towers, 39 Alfred Rwene road, Ikoyi, Lagos.',
+    phone: '+234 702 509 0000',
+    email: 'info.abuja@itmafrica.com',
+  },
+  ke: {
+    address: '104 Riverside Square, Riverside Drive, Nairobi, Kenya',
+    phone: '+254 722 272 596',
+    email: 'infokenya@itmafrica.com',
+  },
+};

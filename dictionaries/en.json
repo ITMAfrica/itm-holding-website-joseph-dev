@@ -249,6 +249,11 @@
         }
       },
       "contact": {
+        "infos": {
+          "call": "Call us directly",
+          "email": "Chat whit our sales team",
+          "address": "Visit our office"
+        },
         "formSection": {
           "form": {
             "firstName": {
@@ -304,6 +309,195 @@
               "text": "Send"
             }
           }
+        }
+      }
+    }
+  },
+  "cd": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM SARL",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "Founded in 2011, ITM SARL started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 10,000 employees in 5 regions in the DRC, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
+          "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM sarl",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "rw": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM AFRICA LTD",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Rwanda has been a trusted leader in shaping the future of workforce management and business solutions in Rwanda since 2017. As an integral part of ITM’s extensive pan-African presence, we provide customized services that drive business growth and operational excellence. Our expertise spans strategic talent acquisition, comprehensive human resource management, and cutting-edge payroll solutions, empowering businesses to reach their full potential. ITM Rwanda has been a trusted partner in workforce management in Rwanda since 2017. As part of ITM’s pan-African network and with over 1,000 staff under our management, we provide tailored solutions that drive business growth and guarantee operational efficiency.",
+          "paragraph2": "Our expertise spans talent acquisition, HR management, and advanced payroll solutions, helping businesses streamline operations and focus on what matters most. From managing recruitment to overseeing payroll and contracts, we ensure seamless HR support for companies looking to thrive in a competitive environment. We are your go-to partner for strategic HR solutions, empowering businesses to achieve sustainable success in Rwanda and beyond.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/rw/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM AFRICA Ltd.",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "ke": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM KENYA",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Kenya has been Kenya’s trusted provider of innovative HR solutions since 2021, playing a key role in ITM’s extensive pan-African network. We specialize in services ranging from recruitment and placement to HR outsourcing and professional training, all designed to help businesses meet their workforce needs while adhering to global best practices. Our recruitment and placement services connect companies with top talent in industries like IT, Finance, Healthcare, and Engineering, ensuring the right fit for every role.",
+          "paragraph2": "Through our manpower outsourcing, we support both local and international businesses by managing recruitment, payroll, contracts, and benefits. This allows companies to focus on core operations while we handle their staffing needs, whether for short-term projects or long-term partnerships. Additionally, our professional training programs incorporate innovative techniques like gamification to equip employees with essential skills, fostering continuous growth and operational excellence. Whether you are expanding in Kenya or looking for strategic HR solutions, ITM Kenya is your partner for success.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ke/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM KENYA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "za": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM SOUTH AFRICA",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Katope South Africa has been a trusted leader in people management since 2017. As part of ITM’s global footprint, we specialize in HR outsourcing, Employer of Record (EOR) services, recruitment, placement, and call center operations. Our focus extends to addressing one of South Africa’s most pressing challenges: youth unemployment. Through our youth development initiatives, we empower young people by offering job placements, skills development, and career mentorship, giving them a brighter future.",
+          "paragraph2": "In addition to our comprehensive HR and people management services, we are proud of our vibrant, modern call center operations, serving clients across industries with inbound and outbound support. Our dedication to innovation and excellence in service delivery sets us apart in the market. Join us as we drive change, uplift communities, and redefine HR solutions in South Africa and beyond!",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/za/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM SOUTH AFRICA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "ao": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM KATOPE ANGOLA",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Katope Angola has been a trusted partner in driving business growth and enhancing operational capacity across various sectors in Angola since 2018. We are committed to delivering tailored solutions that ensure long-term sustainability and success for our clients.",
+          "paragraph2": "Over the past six years, our mission has been to support organizations in building sustainable operational capacity. We equip companies with the tools and insights to make strategic, informed decisions that fuel growth and innovation. Our clients’ success is the foundation of our own achievements. Partner with ITM Katope Angola, and let us work together to unlock your company’s full potential, driving sustainable growth and operational excellence in an ever-evolving market.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ao/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM KATOPE ANGOLA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "ng": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM NIGERIA?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Nigeria has been Nigeria’s leading provider of innovative human resource solutions since 2019. As a vital part of ITM’s pan-African presence, we offer a comprehensive range of HR services, including talent acquisition, capacity building, employee management, and retention strategies, tailored to meet the specific needs of businesses.",
+          "paragraph2": "Our focus is on helping organizations enhance their performance by equipping them with the right tools and talent to foster growth and remain competitive in today’s dynamic business environment. Through our services, we support businesses in developing their workforce, improving workplace culture, and driving sustainable success. At ITM Nigeria, we take pride in our commitment to excellence, integrity, and client satisfaction. Our reputation for delivering high-value services has earned us the trust of businesses seeking to thrive in Nigeria’s competitive marketplace.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ng/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM NIGERIA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "bn": {
+    "pages": {
+      "about": {
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM BENIN?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Benin has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/bn/contact-us"
+          }
+        }
+      },
+      "contact": {
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM BENIN",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
         }
       }
     }

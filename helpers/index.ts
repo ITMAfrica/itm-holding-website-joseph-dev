@@ -146,5 +146,43 @@ export function getCookie(cname: string, doc: any): string {
   return '';
 }
 
+export const getCountryCode = (country: string | undefined) => {
+  switch (country) {
+    case 'za':
+      return 'za';
+    case 'de':
+      return 'de';
+    case 'cd':
+      return 'cd';
+    case 'ao':
+      return 'ao';
+    case 'bn':
+      return 'bn';
+    case 'cm':
+      return 'cm';
+    case 'cg':
+      return 'cg';
+    case 'gb':
+      return 'gb';
+    case 'ke':
+      return 'ke';
+    case 'ng':
+      return 'ng';
+    case 'rw':
+      return 'rw';
+    case 'tz':
+      return 'tz';
+    case 'tg':
+      return 'tg';
+    case 'ug':
+      return 'ug';
+    case 'zm':
+      return 'zm';
+
+    default:
+      return 'cd';
+  }
+};
+
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';

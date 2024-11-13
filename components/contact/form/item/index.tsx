@@ -3,11 +3,13 @@ export default function ContactFormItem({
   name,
   type,
   placeholder,
+  onChange,
 }: {
   label: string;
   name: string;
   type: string;
   placeholder: string;
+  onChange: () => void;
 }) {
   return (
     <div className="w-full">
@@ -15,8 +17,9 @@ export default function ContactFormItem({
       <input
         name={name}
         type={type}
-        className="px-3 py-2 text-black bg-white w-full rounded"
+        className="px-3 py-2 text-black bg-white w-full rounded outline-none"
         placeholder={placeholder}
+        onChange={onChange}
       />
     </div>
   );

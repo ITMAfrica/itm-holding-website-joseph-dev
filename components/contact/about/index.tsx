@@ -7,32 +7,27 @@ import image3 from '@/public/pages/contact/image3.png';
 import image4 from '@/public/pages/contact/image4.png';
 import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
-import { CODE } from '@/helpers';
+import { CODE, getCountryCode } from '@/helpers';
 import { dictionary } from '@/types';
 
 export default function ContactPageAboutSection({ params }: { params: any }) {
   const lang: string = params.lang;
+  const country: string = params.country;
+  const code = getCountryCode(country);
   const dictionary: any = getDictionary(lang);
-  const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
-  const dynamicContent: any = dictionary?.[CURRENT_CODE]?.pages.contact
-    ? dictionary?.dynamicContent?.header[CURRENT_CODE]
-    : dictionary?.dynamicContent?.header[CODE];
+  const dynamicContent: any = dictionary?.[code]?.pages.contact.about;
   return (
     <section className="h-fit bg-white md:py-16 py-10">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">
         <div className="md:w-1/2">
           <div className="md:mr-14">
             <h1 className="md:text-6xl text-4xl text-blue_itm_primary font-bold">
-              Contact-nous pour
+              {dynamicContent.title1}
             </h1>
             <h1 className="md:text-6xl text-5xl text-blue_itm_primary font-bold">
-              ITM sarl
+              {dynamicContent.title2}
             </h1>
-            <p className="md:mt-10 mt-5 text-lg">
-              Prêt à franchir le pas ? Contactez-nous pour discuter de votre
-              projet et découvrir comment nous pouvons vous aider à atteindre
-              vos objectifs.
-            </p>
+            <p className="md:mt-10 mt-5 text-lg">{dynamicContent.subtitle}</p>
           </div>
         </div>
         <div className="md:w-1/2">
