@@ -26,7 +26,7 @@ export default function ServiceCardText({
   name,
   description,
   paragraph,
-  image,
+  icon,
   index,
 }: Props) {
   const ref = useRef(null);
@@ -38,12 +38,12 @@ export default function ServiceCardText({
     <motion.section
       ref={ref}
       initial={{ opacity: 0 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      whileInView={{ opacity: 1, offset: ['end start', 'end end'] }}
-      viewport={{ amount: 'all' }}
-      className="h-fit py-20 flex justify-center items-center snap-center border border-red-400"
+      transition={{ duration: 0.5 }}
+      whileInView={{ opacity: 1, offset: ['start start', 'end end'] }}
+      viewport={{ amount: 'all', margin: '300px' }}
+      className="h-fit py-20 flex justify-center items-center snap-center border-2 border-yellow-500"
     >
-      <div className="w-1/2">
+      <div className="w-3/5">
         <motion.h4 className="text-xl text-gray_itm">
           Service {index + 1} #
         </motion.h4>
@@ -53,8 +53,10 @@ export default function ServiceCardText({
         <p className="py-4">{paragraph}</p>
         <p>{description}</p>
       </div>
-      <div className="flex items-center justify-center w-1/2">
-        <div className="w-[300px] h-[400px] border border-red-700"></div>
+      <div className="flex items-center justify-center w-2/5">
+        <div className="w-[300px] h-[400px] border border-blue_itm_primary">
+          <Image src={icon} alt={name} style={{ objectFit: 'cover' }} />
+        </div>
       </div>
     </motion.section>
   );

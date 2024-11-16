@@ -13,30 +13,16 @@ export default function ServicesPageServices({ params }: { params: any }) {
   const [toShow] = useState(4);
   const [activeSlide, setActiveSlide] = useState(0);
 
-  const containerVariants = {
-    hidden: {
-      opacity: 0,
-    },
-    show: {
-      opacity: 1,
-      transiton: {
-        staggerChildren: 0.25,
-        delay: 4,
-      },
-    },
-  };
   return (
-    <motion.section
-      ref={ref}
-      variants={containerVariants}
-      viewport={{ amount: 'all' }}
-      className="w-10/12 mx-auto snap-mandatory"
-      initial="hidden"
-      animate="show"
-    >
-      {servicesHome[lang].map((item: any, index: number) => {
-        return <ServiceCardText {...item} index={index} key={index} />;
-      })}
-    </motion.section>
+    <section className="flex w-10/12 mx-auto relative">
+      <div className="w-4/5 mx-auto border border-red-400 h-screen overflow-scroll snap-y snap-mandatory">
+        {servicesHome[lang].map((item: any, index: number) => {
+          return <ServiceCardText {...item} index={index} key={index} />;
+        })}
+      </div>
+      <div className="sticky top-0 h-screen flex items-center w-1/5 border border-green-500">
+        <div className="w-[300px] h-[400px] bg-blue_itm_linear">Images</div>
+      </div>
+    </section>
   );
 }
