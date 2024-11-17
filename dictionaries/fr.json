@@ -251,6 +251,31 @@
           "values": {
             "title": "Nos valeurs",
             "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+18",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },

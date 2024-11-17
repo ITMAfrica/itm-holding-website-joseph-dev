@@ -44,51 +44,51 @@ export default function AboutPageMetrics({ params }: { params: any }) {
         </div>
         <div className="lg:w-1/2 w-11/12 mx-auto lg:pt-0 pt-10">
           <p className="text-black_itm/70 text-xs lg:text-sm">
-            ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.
+          {data.right.text}
           </p>
           <div className="w-full flex flex-wrap items-center justify-between pt-5">
             <div className="w-1/2  pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 10 500
+              {data.right.number.agents.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Agents ous notre gestion
+              {data.right.number.agents.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.agents.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 500
+              {data.right.number.recruiting.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Recrutements par mois
+              {data.right.number.recruiting.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.recruiting.description}
               </p>
             </div>
             <div className="w-1/2 pr-5 pt-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 18
+              {data.right.number.country.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Pays dans le monde
+              {data.right.number.country.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.country.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 300
+              {data.right.number.company.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Entreprises partenaires
+              {data.right.number.company.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.company.description}
               </p>
             </div>
           </div>
