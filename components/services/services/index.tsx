@@ -15,13 +15,15 @@ export default function ServicesPageServices({ params }: { params: any }) {
 
   return (
     <section className="flex w-10/12 mx-auto relative">
-      <div className="w-4/5 mx-auto border border-red-400 h-screen overflow-scroll snap-y snap-mandatory">
+      <div className="w-4/6 mx-auto border border-red-400 h-screen overflow-scroll snap-y snap-mandatory">
         {servicesHome[lang].map((item: any, index: number) => {
-          return <ServiceCardText {...item} index={index} key={index} />;
+          return <ServiceCardText {...item} index={index} key={index} />
         })}
       </div>
-      <div className="sticky top-0 h-screen flex items-center w-1/5 border border-green-500">
-        <div className="w-[300px] h-[400px] bg-blue_itm_linear">Images</div>
+      <div className="sticky top-0 h-screen flex items-center w-2/2">
+        <div className="w-[300px] h-[400px] bg-blue_itm_linear">
+          <Image src={servicesHome[lang][1].icon} alt="Image du service" style={{objectFit: "cover"}} className="h-full w-full" />
+        </div>
       </div>
     </section>
   );

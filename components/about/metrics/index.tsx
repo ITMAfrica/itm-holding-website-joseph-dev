@@ -1,4 +1,9 @@
+import { getDictionary } from "@/get-dictionary";
+
 export default function AboutPageMetrics({ params }: { params: any }) {
+  const lang = params.lang
+  const dictionary = getDictionary(lang)
+  const data = dictionary.globalContent.pages.about.metrics
   console.log(params)
   return (
     <section className="h-fit">
@@ -8,30 +13,30 @@ export default function AboutPageMetrics({ params }: { params: any }) {
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[270px] h-[200px] lg:h-[270px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  bg-blue_itm_primary rounded-full">
               <div className="w-fit text-white_itm md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase md:text-xl text-lg">
-                  Notre Mission
+                  {data.mission.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Assurer la croissance et la durabilité de la capacité opérationnelle pour nos parties prenantes
+                {data.mission.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[200px] h-[200px] lg:translate-y-[10%] lg:h-[200px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  md:mx-5 mx-2 bg-blue_itm_secondary rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase  lg:text-xl text-lg">
-                  Notre vision
+                {data.vision.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Assurer la réussite de tous
+                {data.vision.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:translate-x-[12%] lg:-translate-y-[10%] lg:w-[220px] h-[200px] lg:h-[220px] flex flex-wrap items-center justify-center  bg-blue_itm_aqua_marine rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase lg:text-xl text-lg">
-                  Nos valeurs
+                {data.values.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Loyauté - Intégrité - Qualité
+                {data.values.text}
                 </p>
               </div>
             </div>

@@ -234,6 +234,20 @@
               "description": "Committed to excellence, integrity, and social responsibility, we strive to redefine industry standards, drive economic growth, and empower communities on the continent through the provision of quality goods and services."
             }
           ]
+        },
+        "metrics": {
+          "mission": {
+            "title": "Our mission",
+            "text": "Assurer la croissance et la durabilité de la capacité opérationnelle pour nos parties prenantes"
+          },
+          "vision": {
+            "title": "Our vision",
+            "text": "Assurer la réussite de tous"
+          },
+          "values": {
+            "title": "Our values",
+            "text": "Loyauté - Intégrité - Qualité"
+          }
         }
       },
       "services": {

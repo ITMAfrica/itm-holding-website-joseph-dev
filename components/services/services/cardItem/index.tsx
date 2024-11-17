@@ -71,7 +71,8 @@ export default function ServiceCardText({
           variants={titleVariants}
           initial="hidden"
           animate="show"
-          className="w-3/5"
+          
+          className="w-full"
         >
           <motion.h4 className="text-xl text-gray_itm">
             Service {index + 1} #
@@ -79,14 +80,14 @@ export default function ServiceCardText({
           <motion.h1 className="w-2/3 text-4xl text-blue_itm_primary font-bold py-5">
             {name}
           </motion.h1>
-          <p className="py-4">{paragraph}</p>
+          <p className="py-3">{paragraph}</p>
           <p>{description}</p>
         </motion.div>
-        <div className="flex items-center justify-center w-2/5">
+        {/* <div className="flex items-center justify-center w-2/5">
           <div className="w-[300px] h-[400px] border border-blue_itm_primary">
             <Image src={icon} alt={name} style={{ objectFit: 'cover' }} />
           </div>
-        </div>
+        </div> */}
       </motion.section>
     </div>
   );
