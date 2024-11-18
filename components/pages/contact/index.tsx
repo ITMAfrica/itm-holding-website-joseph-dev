@@ -12,7 +12,7 @@ export default function ContactPage({ params }: { params: any }) {
       <ContactPageAboutSection params={params} />
       <ContactPageContactSection params={params} />
       <ContactPageQuestionsSection params={params} />
-      <Faqs />
+      <Faqs params={params} />
       <CallToAction params={params} />
     </main>
   );

@@ -129,6 +129,40 @@
       "cd": {
         "title": "Selectionne ta position"
       }
+    },
+    "faq": {
+      "left": {
+        "title": "QUESTIONS",
+        "subtitle": "Foire aux questions",
+        "text": "N'hésitez pas à nous poser toutes vos questions",
+        "text2": "Nous sommes là pour vous"
+      },
+      "right": [
+        {
+          "question": "Que signifie ITM ?",
+          "response": "Au départ, ITM signifiait 'International Training and Motivation', mais au fil du temps, ITM signifie tout simplement ITM"
+        },
+        {
+          "question": "Quels autres services propose ITM ?",
+          "response": "ITM propose des services en placement du personnel, recrutement, formation, payroll, team building"
+        },
+        {
+          "question": "Pourquoi choisir ITM ?",
+          "response": "ITM a une réputation qui n'est plus à prouver. Notre efficatité et professionalisme nous pousse à chercher le meilleur pour nos parties prenantes"
+        },
+        {
+          "question": "Comment trouver vos offres?",
+          "response": "Nous publions régulièrement nos offres sur notre plateforme de recrutement Talent Pro et sur nos différents réseaux sociaux"
+        },
+        {
+          "question": "Où se trouve le siège de ITM ?",
+          "response": "Basé en République Démocratique du Congo, notre direction générale se situe à Lubumbashi"
+        },
+        {
+          "question": "Comment vous contacter?",
+          "response": "Pour entrer en contact avec nous, veillez vous référer aux informations de contact présent sur notre page de contact"
+        }
+      ]
     }
   },
   "globalContent": {
@@ -226,16 +260,16 @@
           "description": "Fondé en 2011, ITM Holding est un conglomérat panafricain composé de 9 sociétés opérant dans 18 pays, dont la République démocratique du Congo, le Congo, la Zambie, l'Angola, l'Afrique du Sud, la Tanzanie, le Kenya, l'Ouganda, le Rwanda, le Burundi, le Nigéria, le Cameroun, le Gabon, le Bénin, le Togo, la Côte d'Ivoire, le Sénégal et l'Allemagne. Avec des investissements dans des secteurs tels que les ressources humaines, l'exploitation minière, les services financiers, la logistique et les centres de contact, la mission d'ITM Holding est de stimuler la croissance économique tout en renforçant les communautés à travers l'Afrique. Notre vision est de fournir des solutions innovantes et durables qui transforment les industries et créent une valeur durable. Fondée sur l'excellence, l'intégrité et la responsabilité sociale, ITM Holding continue d'étendre son impact à travers le continent, façonnant un avenir meilleur pour les entreprises et les communautés qu'elles servent.",
           "items": [
             {
-              "title": "Notre histoire",
-              "description": "ITM, fondée en RD Congo en 2011, a commencé comme une société de formation et de gestion du personnel. Aujourd'hui, ITM Holding opère dans 18 pays avec plus de 15 000 employés dans divers secteurs d'activité."
+              "question": "Notre histoire",
+              "response": "ITM, fondée en RD Congo en 2011, a commencé comme une société de formation et de gestion du personnel. Aujourd'hui, ITM Holding opère dans 18 pays avec plus de 15 000 employés dans divers secteurs d'activité."
             },
             {
-              "title": "Ce qui nous différencie",
-              "description": "Présents dans 18 pays, nous avons une connaissance inégalée des marchés, des cultures et des réglementations locales, ce qui nous permet de proposer des solutions adaptées à chaque région."
+              "question": "Ce qui nous différencie",
+              "response": "Présents dans 18 pays, nous avons une connaissance inégalée des marchés, des cultures et des réglementations locales, ce qui nous permet de proposer des solutions adaptées à chaque région."
             },
             {
-              "title": "Ce qui nous définit",
-              "description": "Attachés à l'excellence, à l'intégrité et à la responsabilité sociale, nous nous efforçons de redéfinir les normes du secteur, de stimuler la croissance économique et d'autonomiser les communautés du continent grâce à la fourniture de biens et de services de qualité."
+              "question": "Ce qui nous définit",
+              "response": "Attachés à l'excellence, à l'intégrité et à la responsabilité sociale, nous nous efforçons de redéfinir les normes du secteur, de stimuler la croissance économique et d'autonomiser les communautés du continent grâce à la fourniture de biens et de services de qualité."
             }
           ]
         },
@@ -251,6 +285,31 @@
           "values": {
             "title": "Nos valeurs",
             "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+18",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },

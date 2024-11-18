@@ -4,11 +4,14 @@ import ContactFormItem from './item';
 import ContactFormTextArea from './textArea';
 import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
+import axios from 'axios';
+import { mail_api_url } from '@/helpers';
 
 export default function ContactPageForm({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.contact.formSection.form;
+  const [loader, setLoader] = useState(false);
 
   const [state, setState] = useState({
     firstName: '',
@@ -22,7 +25,6 @@ export default function ContactPageForm({ params }: { params: any }) {
   });
 
   const onChange = (e: any) => {
-    console.log(state);
     if (e?.target) {
       const { value, name } = e.target;
       setState((state: any) => ({
@@ -30,6 +32,32 @@ export default function ContactPageForm({ params }: { params: any }) {
         [name]: value,
       }));
     }
+  };
+
+  const onSubmit = async () => {
+    setLoader(true);
+    const data = {
+      lang: lang,
+      data: {
+        firstName: state.firstName,
+        lastName: state.lastName,
+        company: state.company,
+        email: state.email,
+        professionalEmail: state.professionalEmail,
+        phoneNumber: state.phoneNumber,
+        subject: state.subject,
+        message: state.message,
+      },
+    };
+    await axios
+      .post(`${mail_api_url}/contact-website`, data)
+      .then(() => {
+        console.log('Message envoyé avec succès');
+      })
+      .catch(() => {
+        setLoader(false);
+        console.log('Erreur');
+      });
   };
   return (
     <form

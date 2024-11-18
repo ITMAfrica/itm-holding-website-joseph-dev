@@ -1,4 +1,9 @@
+import { getDictionary } from "@/get-dictionary";
+
 export default function AboutPageMetrics({ params }: { params: any }) {
+  const lang = params.lang
+  const dictionary = getDictionary(lang)
+  const data = dictionary.globalContent.pages.about.metrics
   console.log(params)
   return (
     <section className="h-fit">
@@ -8,30 +13,30 @@ export default function AboutPageMetrics({ params }: { params: any }) {
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[270px] h-[200px] lg:h-[270px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  bg-blue_itm_primary rounded-full">
               <div className="w-fit text-white_itm md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase md:text-xl text-lg">
-                  Notre Mission
+                  {data.mission.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Assurer la croissance et la durabilité de la capacité opérationnelle pour nos parties prenantes
+                {data.mission.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[200px] h-[200px] lg:translate-y-[10%] lg:h-[200px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  md:mx-5 mx-2 bg-blue_itm_secondary rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase  lg:text-xl text-lg">
-                  Notre vision
+                {data.vision.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Assurer la réussite de tous
+                {data.vision.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:translate-x-[12%] lg:-translate-y-[10%] lg:w-[220px] h-[200px] lg:h-[220px] flex flex-wrap items-center justify-center  bg-blue_itm_aqua_marine rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase lg:text-xl text-lg">
-                  Nos valeurs
+                {data.values.title}
                 </h3>
                 <p className="text-xs lg:text-sm text-center pt-3">
-                  Loyauté - Intégrité - Qualité
+                {data.values.text}
                 </p>
               </div>
             </div>
@@ -39,51 +44,51 @@ export default function AboutPageMetrics({ params }: { params: any }) {
         </div>
         <div className="lg:w-1/2 w-11/12 mx-auto lg:pt-0 pt-10">
           <p className="text-black_itm/70 text-xs lg:text-sm">
-            ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.
+          {data.right.text}
           </p>
           <div className="w-full flex flex-wrap items-center justify-between pt-5">
             <div className="w-1/2  pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 10 500
+              {data.right.number.agents.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Agents ous notre gestion
+              {data.right.number.agents.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.agents.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 500
+              {data.right.number.recruiting.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Recrutements par mois
+              {data.right.number.recruiting.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.recruiting.description}
               </p>
             </div>
             <div className="w-1/2 pr-5 pt-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 18
+              {data.right.number.country.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Pays dans le monde
+              {data.right.number.country.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.country.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-                + 300
+              {data.right.number.company.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-                Entreprises partenaires
+              {data.right.number.company.title}
               </h3>
               <p className="font-normal text-xs lg:text-base pt-1">
-                Gagnez du temps grâce à notre processus de recrutement simplifié.
+              {data.right.number.company.description}
               </p>
             </div>
           </div>

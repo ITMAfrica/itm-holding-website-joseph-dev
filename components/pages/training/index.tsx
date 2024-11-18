@@ -20,7 +20,7 @@ export default function TrainingPage({ params }: { params: any }) {
       <TrainingPageEvents params={params} />
       <TrainingPagePastEventsSection params={params} />
       <TrainingPageTeamBuildingSection params={params} />
-      <Faqs />
+      <Faqs params={params} />
       <CallToAction params={params} />
     </main>
   );
