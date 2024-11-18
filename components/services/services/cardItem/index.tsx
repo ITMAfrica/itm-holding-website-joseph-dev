@@ -71,7 +71,6 @@ export default function ServiceCardText({
           variants={titleVariants}
           initial="hidden"
           animate="show"
-          
           className="w-full"
         >
           <motion.h4 className="text-xl text-gray_itm">

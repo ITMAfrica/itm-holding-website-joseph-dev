@@ -129,6 +129,40 @@
       "cd": {
         "title": "Select your position"
       }
+    },
+    "faq": {
+      "left": {
+        "title": "QUESTIONS",
+        "subtitle": "Frequently asked questions",
+        "text": "We look forward to hearing from you.",
+        "text2": "We're here for you"
+      },
+      "right": [
+        {
+          "question": "What does ITM stand for?",
+          "response": "Initially, ITM stood for 'International Training and Motivation', but over time ITM has come to mean simply ITM"
+        },
+        {
+          "question": "What other services does ITM offer?",
+          "response": "ITM offers services in personnel placement, recruitment, training, payroll, team building, etc."
+        },
+        {
+          "question": "Why should you choose ITM?",
+          "response": "ITM has a proven reputation. Our efficiency and professionalism drive us to seek the best for our stakeholders."
+        },
+        {
+          "question": "How do I find your offers?",
+          "response": "We regularly publish our vacancies on our Talent Pro recruitment platform and on our various social networks."
+        },
+        {
+          "question": "Where are ITM's headquarters?",
+          "response": "Based in the Democratic Republic of Congo, our head office is located in Lubumbashi."
+        },
+        {
+          "question": "How can I contact you?",
+          "response": "To get in touch with us, please refer to the contact information on our contact page."
+        }
+      ]
     }
   },
   "globalContent": {
@@ -222,57 +256,57 @@
           "description": "Founded in 2011, ITM Holding is a pan-African conglomerate comprising 9 companies operating across 18 countries, including the Democratic Republic of the Congo, Congo, Zambia, Angola, South Africa, Tanzania, Kenya, Uganda, Rwanda, Burundi, Nigeria, Cameroon, Gabon, Benin, Togo, Côte d'Ivoire, Senegal, and Germany. With investments in sectors such as Human Resources, mining, financial services, logistics, and contact centers, ITM Holding’s mission is to drive economic growth while empowering communities throughout Africa. Our vision is to provide innovative, sustainable solutions that transform industries and create lasting value. Grounded in excellence, integrity, and social responsibility, ITM Holding continues to expand its impact across the continent, shaping a brighter future for businesses and the communities they serve. ",
           "items": [
             {
-              "title": "Our history",
-              "description": "ITM, founded in DR Congo in 2011, started as a training and staff management company. Today, ITM Holding operates in 18 countries with over 15,000 employees across various industries."
+              "question": "Our history",
+              "response": "ITM, founded in DR Congo in 2011, started as a training and staff management company. Today, ITM Holding operates in 18 countries with over 15,000 employees across various industries."
             },
             {
-              "title": "What makes us different",
-              "description": "With operations in 18 countries, we have an unmatched understanding of local markets, cultures, and regulations, enabling us to deliver region-specific solutions that work."
+              "question": "What makes us different",
+              "response": "With operations in 18 countries, we have an unmatched understanding of local markets, cultures, and regulations, enabling us to deliver region-specific solutions that work."
             },
             {
-              "title": "What defines us",
-              "description": "Committed to excellence, integrity, and social responsibility, we strive to redefine industry standards, drive economic growth, and empower communities on the continent through the provision of quality goods and services."
+              "question": "What defines us",
+              "response": "Committed to excellence, integrity, and social responsibility, we strive to redefine industry standards, drive economic growth, and empower communities on the continent through the provision of quality goods and services."
             }
           ]
         },
         "metrics": {
           "mission": {
             "title": "Our mission",
-            "text": "Assurer la croissance et la durabilité de la capacité opérationnelle pour nos parties prenantes"
+            "text": "Driving sustainable growth and operational excellence for all our stakeholders"
           },
           "vision": {
             "title": "Our vision",
-            "text": "Assurer la réussite de tous"
+            "text": "Building a successful future for all"
           },
           "values": {
             "title": "Our values",
-            "text": "Loyauté - Intégrité - Qualité"
+            "text": "Quality - Integrity - Loyalty"
           },
           "right": {
-            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "text": "ITM has a proven track record of successful placements, satisfied customers and years of industry experience. Our online recruitment dashboard revolutionizes the way job seekers find opportunities and recruiters connect with top talent.",
             "number": {
               "recruiting": {
                 "number": "+500",
-                "title": "Placements chaque mois",
-                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution.",
+                "title": "Successful Placements Monthly",
+                "description": "We consistently connect businesses with top talent to meet their evolving needs.",
                 "bg": true
               },
               "agents": {
                 "number": "+15000",
-                "title": "Agents sous notre gestion",
-                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance.",
+                "title": "Professionals Under Our Care",
+                "description": "From HR management to compliance, we handle your workforce so you can focus on growth.",
                 "bg": false
               },
               "country": {
                 "number": "+18",
-                "title": "Pays d'expertise",
-                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale.",
+                "title": "Countries of Expertise",
+                "description": "With a strong presence across Africa, we offer deep local insights and a global perspective.",
                 "bg": true
               },
               "company": {
                 "number": "+700",
-                "title": "Entreprises partenaires",
-                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite.",
+                "title": "Trusted Business Partners",
+                "description": "Companies rely on us for HR solutions that drive performance and success.",
                 "bg": false
               }
             }
