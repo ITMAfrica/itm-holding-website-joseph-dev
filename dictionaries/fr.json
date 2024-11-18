@@ -392,7 +392,85 @@
   },
   "cd": {
     "pages": {
+      "home": {
+        "meta": {
+          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Ressources humaines",
+            "Team Building",
+            "Formation",
+            "Ressources humaines RDC",
+            "Gestion du payroll"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
       "about": {
+        "meta": {
+          "title": "A propos de ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "A propos de ITM Africa",
+            "ITM Africa",
+            "Ressources humaines",
+            "Team Building",
+            "Formation",
+            "Ressources humaines RDC",
+            "Gestion du payroll"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM SARL?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
@@ -404,7 +482,165 @@
           }
         }
       },
+      "services": {
+        "meta": {
+          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "A propos de ITM Africa",
+            "ITM Africa",
+            "Ressources humaines",
+            "Team Building",
+            "Formation",
+            "Ressources humaines RDC",
+            "Gestion du payroll"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM formations",
+            "Formations ITM Africa RDC",
+            "ITM Africa renforcement de capacité",
+            "Ressources humaines formations",
+            "Team Building formation",
+            "Formation RDC RH",
+            "Ressources humaines RDC",
+            "Gestion du payroll formation ITM"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM news",
+            "Actualités ITM Africa RDC",
+            "ITM Africa news et infos",
+            "Ressources humaines actualités",
+            "Team Building news",
+            "Actulités RDC RH",
+            "Ressources humaines RDC",
+            "Gestion du payroll actualités ITM"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
       "contact": {
+        "meta": {
+          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "Contacter ITM Africa",
+            "ITM Africa",
+            "Ressources humaines contact",
+            "Team Building contact",
+            "Formation RDC contact",
+            "Ressources humaines RDC",
+            "Gestion du payroll ITM"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
         "banner": {
           "title": "Vous avez des questions?",
           "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
