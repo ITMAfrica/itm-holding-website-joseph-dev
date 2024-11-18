@@ -2,11 +2,7 @@
 import { useState } from 'react';
 import { FaPlus } from 'react-icons/fa6';
 import { FaMinus } from 'react-icons/fa6';
-export default function CardFaq({
-  title = 'Notre Histoire',
-  description = 'Notre Histoire',
-  about = false,
-}: any) {
+export default function CardFaq({ question, response, about = false }: any) {
   const [show, setShow] = useState(false);
   function showUs() {
     setShow(!show);
@@ -23,7 +19,7 @@ export default function CardFaq({
               !show ? 'text-black' : 'text-blue_itm_aqua_marine'
             }`}
           >
-            {title}
+            {question}
           </h1>
           <div
             className={`w-fit rounded-full p-3 py-0 group-hover:text-blue_itm_aqua_marine ${
@@ -34,7 +30,7 @@ export default function CardFaq({
           </div>
         </div>
         {show && (
-          <p className="w-full group-hover:text-black pt-3">{description}</p>
+          <p className="w-full group-hover:text-black pt-3">{response}</p>
         )}
       </article>
     );
@@ -46,7 +42,7 @@ export default function CardFaq({
           !show ? 'text-black' : 'text-blue_itm_aqua_marine'
         }`}
       >
-        {title}
+        {question}
       </h1>
       <div
         onClick={showUs}
@@ -56,9 +52,7 @@ export default function CardFaq({
       >
         {!show ? <FaPlus /> : <FaMinus />}
       </div>
-      {show && (
-        <p className="w-full group-hover:text-black pt-3">{description}</p>
-      )}
+      {show && <p className="w-full group-hover:text-black pt-3">{response}</p>}
     </article>
   );
 }
