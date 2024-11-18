@@ -65,8 +65,8 @@ export default function HomeServicesCarousel({
           <div className="flex items-center justify-start pl-3 z-20">
             <SlidePrevButton />
             <div className="px-2">
-              <span>{activeSlide + 1} - </span>
-              <span>{servicesHome[lang].length}</span>
+              {/* <span>{activeSlide + 1} - </span>
+              <span>{servicesHome[lang].length}</span> */}
             </div>
             <SlideNextButton />
           </div>

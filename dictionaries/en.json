@@ -523,6 +523,86 @@
           }
         }
       },
+      "training": {
+        "meta": {
+          "title": "Training ITM Africa | Your strategic partner in HR solutions in Africa",
+          "description": "We offer customized training to enhance your teams' capabilities. We customize our services - recruitment, staff placement, training and HR compliance - to meet your precise needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM training",
+            "Traing ITM Africa DRC",
+            "ITM Africa capacity building",
+            "Human resources training",
+            "Team Building training",
+            "Training RDC RH",
+            "Human resource DRC",
+            "Payroll management training"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News ITM Africa | Your strategic partner in HR solutions in Africa",
+          "description": "Keep up to date with the latest ITM Africa news and information on our offers and services.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM news",
+            "News ITM Africa DRC",
+            "ITM Africa news",
+            "Human resource news",
+            "Team Building news",
+            "News DRC RH",
+            "Human resource DRC",
+            "Payroll management news DRC"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
       "contact": {
         "meta": {
           "title": "Contact ITM Africa | Your strategic partner in HR solutions in Africa",

@@ -51,13 +51,13 @@ export async function generateMetadata({ params }: any) {
     case 'services':
       return data.services.meta;
     case 'training':
-      return data.home.meta;
+      return data.training.meta;
     case 'formations':
-      return data.home.meta;
+      return data.training.meta;
     case 'news':
-      return data.home.meta;
+      return data.news.meta;
     case 'actualites':
-      return data.home.meta;
+      return data.news.meta;
     case 'contact-us':
       return data.contact.meta;
     case 'contactez-nous':
