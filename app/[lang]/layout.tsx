@@ -31,7 +31,8 @@ const candara = localFont({
 
 export const metadata = {
   title: 'ITM Africa | Welcome to the ITM Africa web site',
-  description: 'This is where everything start',
+  description:
+    'ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs',
 };
 
 export default async function Root({

@@ -1,11 +1,71 @@
-"use client"
 import AboutPage from '@/components/pages/about';
 import ContactPage from '@/components/pages/contact';
 import HomePage from '@/components/pages/home';
 import NewsPage from '@/components/pages/news';
 import ServicesPage from '@/components/pages/services';
 import TrainingPage from '@/components/pages/training';
+import { getDictionary } from '@/get-dictionary';
+import { getCountryCode } from '@/helpers';
 
+export async function generateMetadata({ params }: any) {
+  const lang = params.lang;
+  const country = getCountryCode(params.country);
+  const dictionary = getDictionary(lang);
+  const data: any = dictionary[country].pages;
+
+  switch (params.country) {
+    case 'tz':
+      return data.home.meta;
+    case 'tg':
+      return data.home.meta;
+    case 'ao':
+      return data.home.meta;
+    case 'bn':
+      return data.home.meta;
+    case 'bu':
+      return data.home.meta;
+    case 'cg':
+      return data.home.meta;
+    case 'cm':
+      return data.home.meta;
+    case 'de':
+      return data.home.meta;
+    case 'gb':
+      return data.home.meta;
+    case 'ke':
+      return data.home.meta;
+    case 'ng':
+      return data.home.meta;
+    case 'ug':
+      return data.home.meta;
+    case 'za':
+      return data.home.meta;
+    case 'zm':
+      return data.home.meta;
+    case 'rw':
+      return data.home.meta;
+    case 'about-us':
+      return data.about.meta;
+    case 'a-propos-de-nous':
+      return data.about.meta;
+    case 'services':
+      return data.services.meta;
+    case 'training':
+      return data.home.meta;
+    case 'formations':
+      return data.home.meta;
+    case 'news':
+      return data.home.meta;
+    case 'actualites':
+      return data.home.meta;
+    case 'contact-us':
+      return data.contact.meta;
+    case 'contactez-nous':
+      return data.contact.meta;
+    default:
+      return data.home.meta;
+  }
+}
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
