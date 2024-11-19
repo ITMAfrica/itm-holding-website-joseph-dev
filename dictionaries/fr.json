@@ -314,6 +314,10 @@
         }
       },
       "services": {
+        "banner": {
+          "title": "Découvrez nos services",
+          "subtitle": "De la gestion du recrutement à la formation, en passant par le développement des compétences et les relations sociales, nous vous accompagnons à chaque étape. Grâce à notre expertise en ressources humaines, vous optimisez vos processus, améliorez l'efficacité de vos équipes et boostez vos performances."
+        },
         "about": {
           "title": "CE QUE NOUS FAISONS",
           "subtitle": "Nous fournissons des services exclusifs pour votre entreprise",

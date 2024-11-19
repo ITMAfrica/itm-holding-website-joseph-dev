@@ -318,6 +318,10 @@
         }
       },
       "services": {
+        "banner": {
+          "title": "Discover our services",
+          "subtitle": "From recruitment management to training, skills development and labor relations, we're with you every step of the way. Thanks to our expertise in human resources, you can optimize your processes, improve the efficiency of your teams and boost your performance."
+        },
         "about": {
           "title": "WHAT WE DO",
           "subtitle": "We provide exclusive services for your business",
