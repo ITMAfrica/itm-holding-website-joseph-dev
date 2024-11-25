@@ -754,4 +754,39 @@ export const entitiesInfos: any = {
     phone: '+254 722 272 596',
     email: 'infokenya@itmafrica.com',
   },
+  tz: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  tg: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  cm: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  de: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  gb: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  zm: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
+  ug: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infoangola@itmafrica.com',
+  },
 };
