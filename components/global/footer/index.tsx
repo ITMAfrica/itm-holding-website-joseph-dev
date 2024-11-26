@@ -6,7 +6,7 @@ import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import CardCountry from '@/components/global/cards/country';
-import { CODE } from '@/helpers';
+import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
 
@@ -77,8 +77,16 @@ export default function Footer({ params }: { params: any }) {
           <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>
             <ul className="mb-2">
-              <li className="mb-3">Talent pro</li>
-              <li className="mb-3">Kazi pro</li>
+              <li className="mb-3">
+                <Link href={TALENTPRO_HREF} target="_blank">
+                  Talent pro
+                </Link>
+              </li>
+              <li className="mb-3">
+                <Link href={KAZIPRO_HREF} target="_blank">
+                  Kazi pro
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="mt-8 sm:mt-0">
