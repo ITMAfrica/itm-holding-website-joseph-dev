@@ -327,6 +327,10 @@
             "title": "Contactez-nous",
             "link": "/fr/contactez-nous"
           }
+        },
+        "services": {
+          "mail": "Email",
+          "phone": "Appel"
         }
       },
       "contact": {

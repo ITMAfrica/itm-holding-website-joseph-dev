@@ -6,7 +6,7 @@ import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import CardCountry from '@/components/global/cards/country';
-import { CODE } from '@/helpers';
+import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
 
@@ -77,8 +77,24 @@ export default function Footer({ params }: { params: any }) {
           <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>
             <ul className="mb-2">
-              <li className="mb-3">Talent pro</li>
-              <li className="mb-3">Kazi pro</li>
+              <li className="mb-3">
+                <Link
+                  href={TALENTPRO_HREF}
+                  target="_blank"
+                  className="hover:text-blue_itm_primary"
+                >
+                  Talent pro
+                </Link>
+              </li>
+              <li className="mb-3">
+                <Link
+                  href={KAZIPRO_HREF}
+                  target="_blank"
+                  className="hover:text-blue_itm_primary"
+                >
+                  Kazi pro
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="mt-8 sm:mt-0">
@@ -90,26 +106,26 @@ export default function Footer({ params }: { params: any }) {
           </div>
         </section>
       </div>
-      <section className="flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
+      <section className="md:flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
         <div className="w-fit font-bold">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>
-        <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit flex  flex-wrap items-center justify-between">
+        <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit md:flex  flex-wrap items-center justify-between">
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Paramètre des cookies
           </Link>
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Politique de confidentialité
           </Link>
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Condition d'utilisation
           </Link>

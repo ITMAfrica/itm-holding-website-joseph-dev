@@ -331,6 +331,10 @@
             "title": "Contact us",
             "link": "/en/contact-us"
           }
+        },
+        "services": {
+          "mail": "Email",
+          "phone": "Call"
         }
       },
       "contact": {

@@ -3,6 +3,38 @@ import ContactPage from '@/components/pages/contact';
 import NewsPage from '@/components/pages/news';
 import ServicesPage from '@/components/pages/services';
 import TrainingPage from '@/components/pages/training';
+import { getDictionary } from '@/get-dictionary';
+import { getCountryCode } from '@/helpers';
+
+export async function generateMetadata({ params }: any) {
+  const lang = params.lang;
+  const country = getCountryCode(params.country);
+  const dictionary = getDictionary(lang);
+  const data: any = dictionary[country].pages;
+
+  switch (params.country) {
+    case 'about-us':
+      return data.about.meta;
+    case 'a-propos-de-nous':
+      return data.about.meta;
+    case 'services':
+      return data.services.meta;
+    case 'training':
+      return data.training.meta;
+    case 'formations':
+      return data.training.meta;
+    case 'news':
+      return data.news.meta;
+    case 'actualites':
+      return data.news.meta;
+    case 'contact-us':
+      return data.contact.meta;
+    case 'contactez-nous':
+      return data.contact.meta;
+    default:
+      return data.home.meta;
+  }
+}
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {

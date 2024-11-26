@@ -187,3 +187,4 @@ export const getCountryCode = (country: string | undefined) => {
 export const mail_api_url = 'http://localhost:3000';
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
+export const KAZIPRO_HREF: string = 'https://www.kazipro.app/fr';
