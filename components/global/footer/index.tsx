@@ -78,12 +78,20 @@ export default function Footer({ params }: { params: any }) {
             <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>
             <ul className="mb-2">
               <li className="mb-3">
-                <Link href={TALENTPRO_HREF} target="_blank">
+                <Link
+                  href={TALENTPRO_HREF}
+                  target="_blank"
+                  className="hover:text-blue_itm_primary"
+                >
                   Talent pro
                 </Link>
               </li>
               <li className="mb-3">
-                <Link href={KAZIPRO_HREF} target="_blank">
+                <Link
+                  href={KAZIPRO_HREF}
+                  target="_blank"
+                  className="hover:text-blue_itm_primary"
+                >
                   Kazi pro
                 </Link>
               </li>
