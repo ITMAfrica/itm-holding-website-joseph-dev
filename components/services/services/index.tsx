@@ -1,6 +1,7 @@
 'use client';
-import { servicesHome } from '@/lib/data';
+import { entitiesInfos, servicesHome } from '@/lib/data';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 import {
   MdOutlineKeyboardArrowLeft,
@@ -8,14 +9,22 @@ import {
 } from 'react-icons/md';
 import Carousel from 'react-simply-carousel';
 import CardServices from './card';
+import { GoMail } from 'react-icons/go';
+import { IoCallOutline } from 'react-icons/io5';
+import { getCountryCode } from '@/helpers';
+import { getDictionary } from '@/get-dictionary';
 
 export default function ServicesPageServices({ params }: { params: any }) {
   const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.globalContent.pages.services.services;
+  const country: string = params.country;
+  const code: string = getCountryCode(country);
   const [toShow] = useState(4);
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <section className="w-full lg:min-h-[80vh] flex items-center relative">
-      <div className="w-10/12 shadow-2xl shadow-black rounded-2xl my-20 overflow-hidden mx-auto relative top-0 min-h-[65vh] lg:min-h-[80vh] left-0 right-0 bottom-0">
+    <section className="w-full md:min-h-[80vh] flex items-center relative">
+      <div className="w-11/12 lg:w-10/12 shadow-2xl shadow-black rounded-2xl my-14 overflow-hidden mx-auto relative top-0 min-h-[80vh] lg:min-h-[77vh] left-0 right-0 bottom-0">
         <Image
           alt=""
           src={servicesHome[lang][activeSlide]?.image}
@@ -26,25 +35,37 @@ export default function ServicesPageServices({ params }: { params: any }) {
         <div className="absolute top-0 left-0 right-0 flex   bottom-0 bg-gradient-to-r from-transparent to-black/70">
           <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">
             <div className="w-10/12 h-10/12 lg:w-8/12 h-8/12">
-              <h1 className="font-bold text-5xl">
+              <h1 className="font-bold md:text-5xl text-4xl">
                 {servicesHome[lang][activeSlide]?.name}
               </h1>
               <p className="pt-3 lg:text-sm text-xs">
                 {servicesHome[lang][activeSlide]?.description}
               </p>
               <div className="w-full pt-5 flex lg:text-sm text-xs">
-                <div className="w-fit py-2 px-4 rounded-full bg-white text-black mr-2">
-                  Nous contacter
-                </div>
-                <div className="w-fit py-2 px-4 rounded-full bg-white text-black">
-                  Nous contacter
-                </div>
+                <Link
+                  href={`tel: ${entitiesInfos[code].phone}`}
+                  className="flex justify-center w-20 z-50 py-2 px-4 rounded-full bg-white text-black mr-2 hover:text-blue_itm_aqua_marine hover:scale-110 duration-150"
+                >
+                  <span className="flex items-center mr-1">
+                    <IoCallOutline />
+                  </span>
+                  {data.phone}
+                </Link>
+                <Link
+                  href={`mailto:${entitiesInfos[code].email}`}
+                  className="flex justify-center w-20 z-50 py-2 px-4 rounded-full bg-white text-black hover:text-blue_itm_aqua_marine hover:scale-110 duration-150"
+                >
+                  <span className="flex items-center mr-1">
+                    <GoMail />
+                  </span>
+                  {data.mail}
+                </Link>
               </div>
             </div>
           </article>
         </div>
       </div>
-      <div className="w-full absolute z-10 top-0 left-0 right-0 bottom-0 lg:flex   items-center justify-center">
+      <div className="w-full absolute z-10 top-0 left-0 right-0 bottom-0 lg:flex items-center justify-center">
         <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white"></article>
         <div className="relative lg:w-3/5 w-full lg:flex hidden h-fit flex-row">
           <Carousel

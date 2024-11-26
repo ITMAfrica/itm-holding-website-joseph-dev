@@ -106,26 +106,26 @@ export default function Footer({ params }: { params: any }) {
           </div>
         </section>
       </div>
-      <section className="flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
+      <section className="md:flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
         <div className="w-fit font-bold">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>
-        <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit flex  flex-wrap items-center justify-between">
+        <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit md:flex  flex-wrap items-center justify-between">
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Paramètre des cookies
           </Link>
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Politique de confidentialité
           </Link>
           <Link
             href={lang}
-            className="w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
           >
             Condition d'utilisation
           </Link>
