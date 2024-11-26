@@ -163,6 +163,11 @@
           "response": "Pour entrer en contact avec nous, veillez vous référer aux informations de contact présent sur notre page de contact"
         }
       ]
+    },
+    "footer": {
+      "text": "Restez informé des dernières fonctionnalités et versions en rejoignant notre newsletter.",
+      "placeholder": "Votre mail",
+      "sendBtn": "S'abonner"
     }
   },
   "globalContent": {
