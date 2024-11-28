@@ -30,7 +30,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
           src={servicesHome[lang][activeSlide]?.image}
           fill
           objectFit="cover"
-          className=""
+          className="blur-0 lg:blur-sm"
         />
         <div className="absolute top-0 left-0 right-0 flex   bottom-0 bg-gradient-to-r from-transparent to-black/70">
           <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">

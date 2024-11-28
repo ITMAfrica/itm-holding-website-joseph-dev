@@ -1,7 +1,18 @@
 import recrutement from '@/public/pages/home/services/service1.png';
-import service1 from '@/public/pages/home/services/service1.png';
-import service2 from '@/public/pages/home/services/service2.png';
-import service3 from '@/public/pages/home/services/service3.png';
+import service1 from '@/public/assets/services/service1.png';
+import service2 from '@/public/assets/services/service2.jpg';
+import service3 from '@/public/assets/services/service3.jpg';
+import service4 from '@/public/assets/services/service4.jpg';
+import service5 from '@/public/assets/services/service5.jpg';
+import service6 from '@/public/assets/services/service6.jpg';
+import service7 from '@/public/assets/services/service7.jpg';
+import service8 from '@/public/assets/services/service8.jpg';
+import service9 from '@/public/assets/services/service9.jpg';
+import service10 from '@/public/assets/services/service10.jpg';
+import service11 from '@/public/assets/services/service11.jpg';
+import service12 from '@/public/assets/services/service12.jpg';
+import service13 from '@/public/assets/services/service13.jpg';
+import service14 from '@/public/assets/services/service14.jpg';
 import cdFlag from '@/public/assets/flag/cd.png';
 import rwFlag from '@/public/assets/flag/rw.png';
 import tzFlag from '@/public/assets/flag/tz.png';
@@ -94,7 +105,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Gestion de payrolls',
-      icon: service1,
+      icon: service4,
       description:
         "La gestion des salaires peut s'avérer délicate, surtout lorsqu'il s'agit de régions différentes. Nous nous chargeons de la gestion des salaires pour vous, en veillant à ce que les employés soient payés à temps et dans le respect des lois locales.",
       image: projetService,
@@ -110,7 +121,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Services de conseil en RH',
-      icon: service2,
+      icon: service5,
       description:
         'Chaque entreprise est confrontée à des défis uniques en matière de ressources humaines. Nos services de conseil en ressources humaines vous aident à faire face à toutes les situations, de la planification de vos effectifs au respect des réglementations. Nous travaillons avec vous pour créer des stratégies RH qui répondent aux besoins de votre entreprise.',
       image: projetService,
@@ -125,7 +136,7 @@ export const servicesHome: any = {
     },
     {
       name: 'KaziPro: Votre solution en RH',
-      icon: service3,
+      icon: service6,
       description:
         'Améliorez vos processus RH avec notre logiciel RH facile à utiliser. De la gestion des salaires au suivi des performances, nos solutions technologiques facilitent vos tâches RH et les rendent plus efficaces.',
       image: formationService,
@@ -140,7 +151,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Formation et développement des compétences',
-      icon: service3,
+      icon: service7,
       description:
         "Investir dans le développement de votre équipe est la clé d'une réussite à long terme. Nos programmes de formation et de développement des compétences aident vos employés à progresser, qu'ils aient besoin d'améliorer leurs compétences existantes ou d'en acquérir de nouvelles. Nous adaptons les programmes à vos besoins.",
       image: formationService,
@@ -155,7 +166,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Executive Leadership Programs',
-      icon: service3,
+      icon: service8,
       description:
         'Nos programmes de leadership sont conçus pour les cadres supérieurs et les étoiles montantes de votre entreprise. Ils permettent de développer les compétences nécessaires pour diriger des équipes et relever des défis complexes, en particulier sur les marchés à croissance rapide.',
       image: formationService,
@@ -169,7 +180,7 @@ export const servicesHome: any = {
     },
     {
       name: "Pôle d'apprentissage et de développement",
-      icon: service3,
+      icon: service9,
       description:
         "Grâce à notre centre d'apprentissage et de développement en ligne, vos employés peuvent accéder aux supports de formation et aux cours à tout moment et en tout lieu. C'est un moyen souple et pratique d'assurer l'apprentissage et le développement de votre équipe.",
       image: formationService,
@@ -184,7 +195,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Solutions Team Building',
-      icon: service3,
+      icon: service10,
       description:
         "Des équipes fortes conduisent à des entreprises fortes. Nos activités de consolidation d'équipe sont conçues pour améliorer la communication, le travail d'équipe et la productivité. Elles sont amusantes, engageantes et adaptées aux besoins de votre équipe.",
       image: formationService,
@@ -199,7 +210,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Analyse comparative des avantages sociaux et des salaires',
-      icon: service3,
+      icon: service11,
       description:
         "Offrir des avantages compétitifs est essentiel pour que votre équipe soit heureuse et productive. Nous vous aidons à concevoir des ensembles d'avantages sociaux et menons des enquêtes salariales dans différents secteurs d'activité, pays et fonctions pour vous assurer de rester compétitif.",
       image: formationService,
@@ -214,7 +225,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Gestion de Performance',
-      icon: service3,
+      icon: service12,
       description:
         "Le suivi des performances est essentiel pour une équipe productive. Nous vous aidons à mettre en place des systèmes permettant de suivre les objectifs, de fournir un retour d'information et de veiller à ce que votre équipe reste motivée. Il s'agit de faire en sorte que les gens restent sur la bonne voie pour réaliser de grandes choses.",
       image: formationService,
@@ -229,7 +240,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Gestion des expatriés',
-      icon: service3,
+      icon: service13,
       description:
         "Lorsque l'on s'implante dans de nouvelles régions, la gestion des expatriés peut s'avérer difficile. Nous nous occupons des visas, du logement et de toutes les formalités administratives, afin que vos employés puissent s'installer en douceur et se concentrer sur leur travail.",
       image: formationService,
@@ -243,7 +254,7 @@ export const servicesHome: any = {
     },
     {
       name: "Perspectives et analyse de la main-d'œuvre",
-      icon: service3,
+      icon: service14,
       description:
         "Prenez des décisions éclairées grâce à des informations basées sur des données. Notre service d'analyse des effectifs vous aide à comprendre la performance, l'engagement et la rotation des employés, afin que vous puissiez prendre des décisions plus intelligentes en matière de ressources humaines.",
       image: formationService,
@@ -303,7 +314,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Payroll Management',
-      icon: service1,
+      icon: service4,
       description:
         'Payroll can be tricky, especially when dealing with different regions. We handle payroll management for you, ensuring employees are paid on time and in full compliance with local laws.',
       image: projetService,
@@ -318,7 +329,7 @@ export const servicesHome: any = {
     },
     {
       name: 'HR Advisory Services',
-      icon: service2,
+      icon: service5,
       description:
         'Every business has unique HR challenges. Our HR advisory services help you navigate everything from planning your workforce to staying compliant with regulations. We work with you to create HR strategies that meet your company’s needs.',
       image: projetService,
@@ -332,7 +343,7 @@ export const servicesHome: any = {
     },
     {
       name: 'KaziPro: Your HR Technology Solution',
-      icon: service3,
+      icon: service6,
       description:
         'Upgrade your HR processes with our easy-to-use HR software. From managing payroll to tracking performance, our technology solutions help make your HR tasks easier and more efficient.',
       image: formationService,
@@ -347,7 +358,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Training and Skills Development',
-      icon: service3,
+      icon: service7,
       description:
         'Investing in your team’s development is the key to long-term success. Our training and skills programs help your employees grow, whether they need to enhance existing skills or develop new ones. We customize programs to fit your needs.',
       image: formationService,
@@ -361,7 +372,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Executive Leadership Programs',
-      icon: service3,
+      icon: service8,
       description:
         'Our leadership programs are designed for senior managers and rising stars in your company. These programs help build the skills needed to lead teams and navigate complex challenges, especially in fast-growing markets.',
       image: formationService,
@@ -375,7 +386,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Learning and Development Hub',
-      icon: service3,
+      icon: service9,
       description:
         'With our online Learning and Development Hub, your employees can access training materials and courses anytime, anywhere. It’s a flexible and convenient way to keep your team learning and growing.',
       image: formationService,
@@ -389,7 +400,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Team Building Solutions',
-      icon: service3,
+      icon: service10,
       description:
         'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
       image: formationService,
@@ -403,7 +414,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Employee Benefits and Salary Benchmarking',
-      icon: service3,
+      icon: service11,
       description:
         'Offering competitive benefits is key to keeping your team happy and productive. We help you design benefits packages and conduct salary surveys across industries, countries, and roles to make sure you stay competitive.',
       image: formationService,
@@ -417,7 +428,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Performance Management',
-      icon: service3,
+      icon: service12,
       description:
         'Keeping track of performance is crucial for a productive team. We help you set up systems to track goals, give feedback, and ensure your team stays motivated. It’s all about keeping people on track to achieve great things.',
       image: formationService,
@@ -431,7 +442,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Expatriate Management',
-      icon: service3,
+      icon: service13,
       description:
         'When expanding into new regions, managing expatriates can be a challenge. We take care of visas, housing, and all the paperwork, so your employees can settle in smoothly and focus on their work.',
       image: formationService,
@@ -445,7 +456,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Workforce Insights and Analytics',
-      icon: service3,
+      icon: service14,
       description:
         'Make informed decisions with data-driven insights. Our workforce analytics service helps you understand employee performance, engagement, and turnover, so you can make smarter HR decisions.',
       image: formationService,
