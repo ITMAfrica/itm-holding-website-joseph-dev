@@ -8,6 +8,7 @@ import {
 
 export default function CardEntity({
   name,
+  image,
   slogant,
   description,
   total,
@@ -22,7 +23,7 @@ export default function CardEntity({
           <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative ">
             <div className="w-full h-full relative overflow-hidden">
               <Image
-                src={bgEntity}
+                src={image}
                 fill
                 alt=""
                 objectFit="cover"

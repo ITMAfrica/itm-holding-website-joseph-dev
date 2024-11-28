@@ -163,6 +163,11 @@
           "response": "To get in touch with us, please refer to the contact information on our contact page."
         }
       ]
+    },
+    "footer": {
+      "text": "Keep up to date with the latest features and versions by joining our newsletter.",
+      "placeholder": "Your email address",
+      "sendBtn": "Subscribe"
     }
   },
   "globalContent": {

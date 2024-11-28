@@ -4,7 +4,6 @@ import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
-import { FaExternalLinkAlt } from 'react-icons/fa';
 import CardCountry from '@/components/global/cards/country';
 import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
@@ -20,6 +19,7 @@ type linkHeader = {
 export default function Footer({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
+  const content = dictionary.global.footer;
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
   const data: any = dictionary?.global?.header[CURRENT_CODE]
     ? dictionary?.global?.header[CURRENT_CODE]
@@ -50,18 +50,15 @@ export default function Footer({ params }: { params: any }) {
               />
             </Link>
           </div>
-          <p className="text-lg py-4 md:w-10/12">
-            Restez informé des dernières fonctionnalités et versions en
-            rejoignant notre newsletter.
-          </p>
+          <p className="text-lg py-4 md:w-10/12">{content.text}</p>
           <nav className="flex">
             <input
               className="py-3 px-4 text-black rounded w-full mr-6"
               type="text"
-              placeholder="Votre email"
+              placeholder={content.placeholder}
             />
             <button className="py-2 px-4 border rounded hover:bg-blue_itm_aqua_marine hover:text-white hover:border-blue_itm_aqua_marine">
-              S'abonner
+              {content.sendBtn}
             </button>
           </nav>
         </section>
