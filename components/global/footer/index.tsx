@@ -9,6 +9,11 @@ import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
 
+import { FaFacebookF } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa6';
+
 type linkHeader = {
   href: string;
   name: string;
@@ -96,9 +101,43 @@ export default function Footer({ params }: { params: any }) {
           </div>
           <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">Suivez-nous</h4>
-            <ul className="mb-2">
-              <li className="mb-3">Talent pro</li>
-              <li className="mb-3">Kazi pro</li>
+            <ul className="flex mb-2">
+              <li className="mr-2">
+                <Link
+                  href="/fr"
+                  target="_blank"
+                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                >
+                  <FaFacebookF />
+                </Link>
+              </li>
+              <li className="mr-2">
+                <Link
+                  href="/fr"
+                  target="_blank"
+                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                >
+                  <FaXTwitter />
+                </Link>
+              </li>
+              <li className="mr-2">
+                <Link
+                  href="/fr"
+                  target="_blank"
+                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                >
+                  <FaLinkedinIn />
+                </Link>
+              </li>
+              <li className="mr-2">
+                <Link
+                  href="/fr"
+                  target="_blank"
+                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                >
+                  <FaInstagram />
+                </Link>
+              </li>
             </ul>
           </div>
         </section>
