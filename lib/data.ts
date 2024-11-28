@@ -108,7 +108,7 @@ export const servicesHome: any = {
       icon: service4,
       description:
         "La gestion des salaires peut s'avérer délicate, surtout lorsqu'il s'agit de régions différentes. Nous nous chargeons de la gestion des salaires pour vous, en veillant à ce que les employés soient payés à temps et dans le respect des lois locales.",
-      image: projetService,
+      image: personnelService,
 
       paragraph:
         "Grâce à nos services d'experts, la paie devient un jeu d'enfant.",
@@ -154,7 +154,7 @@ export const servicesHome: any = {
       icon: service7,
       description:
         "Investir dans le développement de votre équipe est la clé d'une réussite à long terme. Nos programmes de formation et de développement des compétences aident vos employés à progresser, qu'ils aient besoin d'améliorer leurs compétences existantes ou d'en acquérir de nouvelles. Nous adaptons les programmes à vos besoins.",
-      image: formationService,
+      image: recruitmentService,
       paragraph:
         'Aidez votre équipe à se développer et à réussir grâce à une formation sur mesure.',
       btnMore: {
@@ -183,7 +183,7 @@ export const servicesHome: any = {
       icon: service9,
       description:
         "Grâce à notre centre d'apprentissage et de développement en ligne, vos employés peuvent accéder aux supports de formation et aux cours à tout moment et en tout lieu. C'est un moyen souple et pratique d'assurer l'apprentissage et le développement de votre équipe.",
-      image: formationService,
+      image: projetService,
       paragraph:
         "Favorisez l'apprentissage continu grâce à notre plateforme en ligne.",
       btnMore: {
@@ -213,7 +213,7 @@ export const servicesHome: any = {
       icon: service11,
       description:
         "Offrir des avantages compétitifs est essentiel pour que votre équipe soit heureuse et productive. Nous vous aidons à concevoir des ensembles d'avantages sociaux et menons des enquêtes salariales dans différents secteurs d'activité, pays et fonctions pour vous assurer de rester compétitif.",
-      image: formationService,
+      image: recruitmentService,
       paragraph:
         'Fidéliser les meilleurs talents grâce à des avantages sociaux intéressants et à une rémunération équitable.',
       btnMore: {
@@ -228,7 +228,7 @@ export const servicesHome: any = {
       icon: service12,
       description:
         "Le suivi des performances est essentiel pour une équipe productive. Nous vous aidons à mettre en place des systèmes permettant de suivre les objectifs, de fournir un retour d'information et de veiller à ce que votre équipe reste motivée. Il s'agit de faire en sorte que les gens restent sur la bonne voie pour réaliser de grandes choses.",
-      image: formationService,
+      image: projetService,
       paragraph:
         'Améliorez les performances de votre équipe grâce à des outils simples et efficaces.',
       btnMore: {
@@ -243,7 +243,7 @@ export const servicesHome: any = {
       icon: service13,
       description:
         "Lorsque l'on s'implante dans de nouvelles régions, la gestion des expatriés peut s'avérer difficile. Nous nous occupons des visas, du logement et de toutes les formalités administratives, afin que vos employés puissent s'installer en douceur et se concentrer sur leur travail.",
-      image: formationService,
+      image: recruitmentService,
       paragraph: 'Faciliter les missions des expatriés.',
       btnMore: {
         text: "LIRE D'AVANTAGE",
@@ -317,7 +317,7 @@ export const servicesHome: any = {
       icon: service4,
       description:
         'Payroll can be tricky, especially when dealing with different regions. We handle payroll management for you, ensuring employees are paid on time and in full compliance with local laws.',
-      image: projetService,
+      image: recruitmentService,
 
       paragraph: 'Make payroll stress-free with our expert services.',
       btnMore: {
@@ -332,7 +332,7 @@ export const servicesHome: any = {
       icon: service5,
       description:
         'Every business has unique HR challenges. Our HR advisory services help you navigate everything from planning your workforce to staying compliant with regulations. We work with you to create HR strategies that meet your company’s needs.',
-      image: projetService,
+      image: formationService,
       paragraph: 'Let’s solve your HR challenges together.',
       btnMore: {
         text: 'READ MORE',
@@ -346,7 +346,7 @@ export const servicesHome: any = {
       icon: service6,
       description:
         'Upgrade your HR processes with our easy-to-use HR software. From managing payroll to tracking performance, our technology solutions help make your HR tasks easier and more efficient.',
-      image: formationService,
+      image: recruitmentService,
       paragraph:
         'Take your HR operations to the next level with smart technology.',
       btnMore: {
@@ -361,7 +361,7 @@ export const servicesHome: any = {
       icon: service7,
       description:
         'Investing in your team’s development is the key to long-term success. Our training and skills programs help your employees grow, whether they need to enhance existing skills or develop new ones. We customize programs to fit your needs.',
-      image: formationService,
+      image: projetService,
       paragraph: 'Help your team grow and succeed with tailored training.',
       btnMore: {
         text: 'READ MORE',
@@ -389,7 +389,7 @@ export const servicesHome: any = {
       icon: service9,
       description:
         'With our online Learning and Development Hub, your employees can access training materials and courses anytime, anywhere. It’s a flexible and convenient way to keep your team learning and growing.',
-      image: formationService,
+      image: projetService,
       paragraph: 'Enable continuous learning with our online platform.',
       btnMore: {
         text: 'READ MORE',
@@ -403,7 +403,7 @@ export const servicesHome: any = {
       icon: service10,
       description:
         'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
-      image: formationService,
+      image: recruitmentService,
       paragraph: 'Bring your team together with activities that build trust.',
       btnMore: {
         text: 'READ MORE',
@@ -431,7 +431,7 @@ export const servicesHome: any = {
       icon: service12,
       description:
         'Keeping track of performance is crucial for a productive team. We help you set up systems to track goals, give feedback, and ensure your team stays motivated. It’s all about keeping people on track to achieve great things.',
-      image: formationService,
+      image: projetService,
       paragraph: 'Boost your team’s performance with simple, effective tools.',
       btnMore: {
         text: 'READ MORE',
@@ -445,7 +445,7 @@ export const servicesHome: any = {
       icon: service13,
       description:
         'When expanding into new regions, managing expatriates can be a challenge. We take care of visas, housing, and all the paperwork, so your employees can settle in smoothly and focus on their work.',
-      image: formationService,
+      image: recruitmentService,
       paragraph: 'Make expatriate assignments easy and hassle-free.',
       btnMore: {
         text: 'READ MORE',
