@@ -39,11 +39,11 @@ import avatarWomen from '@/public/assets/bg/bg.avatar.women.png';
 import hr from '@/public/assets/entities/hr.jpg';
 import jamon from '@/public/assets/entities/jamon.jpg';
 import ifs from '@/public/assets/entities/ifs.jpg';
-import vendis from '@/public/assets/entities/vendis.jpg';
 import ibs from '@/public/assets/entities/ibs.jpg';
 import maintenance from '@/public/assets/entities/maintenance.jpg';
 import environment from '@/public/assets/entities/environment.jpg';
 import geo from '@/public/assets/entities/geo.jpg';
+import vendis from '@/public/assets/entities/vendis.jpg';
 
 export const servicesHome: any = {
   fr: [
