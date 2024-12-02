@@ -1,5 +1,5 @@
 import recrutement from '@/public/pages/home/services/service1.png';
-import service1 from '@/public/assets/services/service1.png';
+import service1 from '@/public/assets/services/service1.jpg';
 import service2 from '@/public/assets/services/service2.jpg';
 import service3 from '@/public/assets/services/service3.jpg';
 import service4 from '@/public/assets/services/service4.jpg';
