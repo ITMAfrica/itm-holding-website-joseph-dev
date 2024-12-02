@@ -55,6 +55,8 @@ import maintenance from '@/public/assets/entities/maintenance.jpg';
 import environment from '@/public/assets/entities/environment.jpg';
 import geo from '@/public/assets/entities/geo.jpg';
 import vendis from '@/public/assets/entities/vendis.jpg';
+import grazia from '@/public/grazia.jpg';
+import airtel from '@/public/airtel.webp';
 
 export const servicesHome: any = {
   fr: [
@@ -719,39 +721,32 @@ export const langs = [
 
 export const testimonies = [
   {
-    poste: 'Hr supperviseur ',
-    name: 'Ruth Dumu',
+    poste: 'DG Grazia apartments Hotel',
+    name: 'Pascal',
     description:
-      'ITM Africa a été notre sauveur pour trouver un profil très spécifique en Afrique. Leur réseau étendu et leur compréhension du marché local nous ont permis de recruter rapidement le candidat idéal. Je recommande vivement leurs services.',
-    image: avatarWomen,
+      "ITM est la meilleure entreprise de formation à l'hôtellerie au Rwanda. Ils ont transformé notre personnel.",
+    image: grazia,
   },
   {
-    poste: 'Web developpeur ',
-    name: 'Jeereq minganda',
+    poste: 'Chief Business Officer Airtel.',
+    name: 'Amit Chawla',
     description:
-      "Les formations dispensées par ITM Africa ont été un véritable tournant pour notre entreprise. Les programmes étaient parfaitement adaptés à nos besoins et ont permis d'améliorer significativement les compétences de nos équipes dev.",
-    image: avatar,
+      "Il s'agit d'une entreprise honnête et transparente qui jouit d'une excellente réputation.",
+    image: airtel,
   },
   {
-    poste: 'Chargé de paie',
-    name: 'Eric beya',
+    poste: 'DG Grazia apartments Hotel',
+    name: 'Pascal',
     description:
-      'ITM Africa nous a simplifié la gestion de notre paie en Afrique. Leur plateforme en ligne est intuitive et leur équipe est toujours disponible pour répondre à nos questions. Nous avons gagné en efficacité et en conformité.',
-    image: avatar,
+      "ITM est la meilleure entreprise de formation à l'hôtellerie au Rwanda. Ils ont transformé notre personnel.",
+    image: grazia,
   },
   {
-    poste: 'Drh ',
-    name: 'Jean René Mukala',
+    poste: 'Chief Business Officer Airtel.',
+    name: 'Amit Chawla',
     description:
-      'ITM Africa est un partenaire de confiance qui nous accompagne dans tous nos projets RH. Leur expertise, leur réactivité et leur approche personnalisée font la différence.',
-    image: avatar,
-  },
-  {
-    poste: 'Country Manager ',
-    name: 'Marcel ilunga',
-    description:
-      "Grâce à ITM Africa, nous avons mieux compris la culture d'entreprise africaine et avons pu améliorer nos relations avec nos collaborateurs locaux.",
-    image: avatar,
+      "Il s'agit d'une entreprise honnête et transparente qui jouit d'une excellente réputation.",
+    image: airtel,
   },
 ];
 
