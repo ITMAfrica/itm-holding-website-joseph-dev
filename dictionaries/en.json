@@ -35,22 +35,7 @@
               }
             ]
           },
-          {
-            "href": "/en/training",
-            "name": "TRAINING",
-            "external": false,
-            "current": "training",
-            "langs": [
-              {
-                "href": "/en/training",
-                "name": "En"
-              },
-              {
-                "href": "/fr/formations",
-                "name": "Fr"
-              }
-            ]
-          },
+
           {
             "href": "https://talentpro.itmafrica.com",
             "name": "JOB OFFERS",
@@ -63,22 +48,6 @@
               },
               {
                 "href": "https://talentpro.itmafrica.com",
-                "name": "Fr"
-              }
-            ]
-          },
-          {
-            "href": "/en/news",
-            "name": "NEWS",
-            "external": false,
-            "current": "news",
-            "langs": [
-              {
-                "href": "/en/news",
-                "name": "En"
-              },
-              {
-                "href": "/fr/actualites",
                 "name": "Fr"
               }
             ]

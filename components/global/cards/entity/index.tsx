@@ -1,4 +1,3 @@
-import bgEntity from '@/public/assets/bg/bg.entity.png';
 import bgHr from '@/public/assets/logo/hr.png';
 import Image from 'next/image';
 import {
@@ -9,6 +8,7 @@ import {
 export default function CardEntity({
   name,
   image,
+  logo,
   slogant,
   description,
   total,
@@ -65,8 +65,8 @@ export default function CardEntity({
           </div>
           <div className="absolute z-10 top-0 flex lg:justify-end justify-center left-0 right-0 bottom-0 bg-entityHover/30 pl-10"></div>
           <div className="w-11/12 lg:w-10/12 h-fit z-20 lg:-right-[4px] top-0 absolute flex justify-end py-10 lg:py-20">
-            <div className="w-[120px] h-[90px] relative bg-white px-2 border-x-4 border-l-white border-r-blue_itm_primary">
-              <Image src={bgHr} fill alt="" objectFit="contain" />
+            <div className="w-[120px] h-[90px] relative bg-white rounded-l-lg px-2 border-x-4 border-l-white border-r-blue_itm_primary">
+              <Image src={logo} fill alt="" objectFit="contain" />
             </div>
           </div>
         </div>
