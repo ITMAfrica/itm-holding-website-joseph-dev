@@ -49,7 +49,12 @@ export default function HomePageBanner({
       >
         {data.map((item: any, index: number) => (
           <SwiperSlide className="py-0" key={index}>
-            <CarouselItem {...item} indexImage={index} key={index} />
+            <CarouselItem
+              {...item}
+              indexImage={index}
+              key={index}
+              index={index}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -13,12 +13,14 @@ export default function CarouselItem({
   btnMore,
   indexImage,
   bgWhite,
+  index,
 }: {
   title: string;
   paragraph: string;
   btnMore: any;
   indexImage: number;
   bgWhite: boolean;
+  index: number;
 }) {
   const images = [image1, image3];
   const params = useParams();
@@ -52,7 +54,7 @@ export default function CarouselItem({
               {title}
             </h1>
             <p className="mb-8">{paragraph}</p>
-            <ButtonBg {...btnMore} link={getHref()} />
+            <ButtonBg {...btnMore} link={getHref()} key={index} />
           </div>
         ) : (
           <div className="sm:ml-14 ml-4 h-fit">
@@ -60,7 +62,7 @@ export default function CarouselItem({
               {title}
             </h1>
             <p className="text-white mb-8">{paragraph}</p>
-            <ButtonBg {...btnMore} link={getHref()} />
+            <ButtonBg {...btnMore} link={getHref()} key={index + 1} />
           </div>
         )}
       </article>
