@@ -54,7 +54,7 @@ export default function HomeServicesCarousel({
           className="h-full w-full my-auto"
         >
           {servicesHome[lang].map((item: any, index: number) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <HomeServiceCard
                 {...item}
                 activeSlide={activeSlide}
@@ -64,10 +64,7 @@ export default function HomeServicesCarousel({
           ))}
           <div className="flex items-center justify-start pl-3 z-20">
             <SlidePrevButton />
-            <div className="px-2">
-              {/* <span>{activeSlide + 1} - </span>
-              <span>{servicesHome[lang].length}</span> */}
-            </div>
+            <div className="px-2"></div>
             <SlideNextButton />
           </div>
         </Swiper>

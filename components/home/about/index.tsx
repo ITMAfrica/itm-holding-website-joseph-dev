@@ -28,7 +28,7 @@ export default function HomeAbout({ params }: { params: any }) {
             </h1>
             <p className="mb-5">{data.paragraph}</p>
             <div className="mx-auto  w-fit lg:w-full">
-              <ButtonOulined {...data.btnMore} />
+              <ButtonOulined {...data.btnMore} key={1} />
             </div>
           </div>
         </div>
