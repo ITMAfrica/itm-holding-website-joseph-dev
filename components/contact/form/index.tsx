@@ -5,7 +5,8 @@ import ContactFormTextArea from './textArea';
 import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import axios from 'axios';
-import { mail_api_url } from '@/helpers';
+import { mail_api_url, notifyError, notifySuccess } from '@/helpers';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactPageForm({ params }: { params: any }) {
   const lang = params.lang;
@@ -34,7 +35,8 @@ export default function ContactPageForm({ params }: { params: any }) {
     }
   };
 
-  const onSubmit = async () => {
+  const onSubmit = async (e: any) => {
+    e.preventDefault();
     setLoader(true);
     const data = {
       lang: lang,
@@ -53,9 +55,21 @@ export default function ContactPageForm({ params }: { params: any }) {
       .post(`${mail_api_url}/contact-website`, data)
       .then(() => {
         console.log('Message envoyé avec succès');
+        notifySuccess('Success', 'Contact');
+        setState({
+          firstName: '',
+          lastName: '',
+          company: '',
+          email: '',
+          professionalEmail: '',
+          phoneNumber: '',
+          subject: '',
+          message: '',
+        });
       })
       .catch(() => {
         setLoader(false);
+        notifyError('Error', 'Contact');
         console.log('Erreur');
       });
   };
@@ -90,7 +104,10 @@ export default function ContactPageForm({ params }: { params: any }) {
       </div>
       <div>
         <p className="text-black mt-2 mb-5">{data.formWarning}</p>
-        <button className="bg-blue_itm_primary py-3 px-10 rounded-full">
+        <button
+          onClick={onSubmit}
+          className="bg-blue_itm_primary py-3 px-10 rounded-full"
+        >
           {data.btnSend.text}
         </button>
       </div>

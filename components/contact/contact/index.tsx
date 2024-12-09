@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { entitiesInfos } from '@/lib/data';
 import { getCountryCode } from '@/helpers';
 import { getDictionary } from '@/get-dictionary';
+import { ToastContainer } from 'react-toastify';
 
 export default function ContactPageContactSection({ params }: { params: any }) {
   const lang: string = params.lang;
@@ -50,6 +51,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <h5 className="text-2xl font-bold text-center">{data.address}</h5>
           <p className=" text-center mt-4">{entitiesInfos[code].address}</p>
         </ContactCard>
+        <ToastContainer containerId={'Contact'} />
       </div>
     </section>
   );
