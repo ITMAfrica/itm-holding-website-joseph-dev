@@ -1,6 +1,7 @@
 import moment from 'moment';
 import { Expertise } from '@/types';
 import image1 from '@/public/milestone.png';
+import { toast } from 'react-toastify';
 
 interface ExperienceData {
   expertise: Expertise[];
@@ -146,6 +147,20 @@ export function getCookie(cname: string, doc: any): string {
   return '';
 }
 
+export const notifySuccess = (response: string, containerId: string) =>
+  toast.success(response, {
+    containerId,
+    position: 'bottom-right',
+    theme: 'colored',
+  });
+
+export const notifyError = (response: string, containerId: string) =>
+  toast.error(response, {
+    containerId,
+    position: 'bottom-right',
+    theme: 'colored',
+  });
+
 export const getCountryCode = (country: string | undefined) => {
   switch (country) {
     case 'za':
@@ -184,7 +199,7 @@ export const getCountryCode = (country: string | undefined) => {
   }
 };
 
-export const mail_api_url = 'http://localhost:3000';
+export const mail_api_url = 'http://localhost:3005';
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
 export const KAZIPRO_HREF: string = 'https://www.kazipro.app/fr';
