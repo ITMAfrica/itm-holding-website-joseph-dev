@@ -2,10 +2,16 @@ import client1 from '@/public/pages/home/partners/client1.png';
 import client2 from '@/public/pages/home/partners/client2.png';
 import client3 from '@/public/pages/home/partners/client3.png';
 import client4 from '@/public/pages/home/partners/client4.png';
-import client8 from '@/public/pages/home/partners/client8.png';
+import client5 from '@/public/pages/home/partners/client5.png';
 import client6 from '@/public/pages/home/partners/client6.png';
 import client7 from '@/public/pages/home/partners/client7.png';
+import client8 from '@/public/pages/home/partners/client8.png';
 import client9 from '@/public/pages/home/partners/client9.png';
+import client10 from '@/public/pages/home/partners/client10.png';
+import client11 from '@/public/pages/home/partners/client11.png';
+import client12 from '@/public/pages/home/partners/client12.png';
+import client13 from '@/public/pages/home/partners/client13.png';
+import client14 from '@/public/pages/home/partners/client14.png';
 import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
 
@@ -39,7 +45,7 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client4} alt="Client" width={130} height={130} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client8} alt="Client" width={130} height={130} />
+              <Image src={client5} alt="Client" width={130} height={130} />
             </li>
           </ul>
           <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 lg:px-20">
@@ -50,7 +56,7 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client7} alt="Client" width={130} height={130} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client9} alt="Client" width={130} height={130} />
+              <Image src={client8} alt="Client" width={130} height={130} />
             </li>
           </ul>
           <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 md:px-20">
@@ -58,13 +64,13 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client9} alt="Client" width={100} height={100} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client6} alt="Client" width={100} height={100} />
+              <Image src={client10} alt="Client" width={100} height={100} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client7} alt="Client" width={100} height={100} />
+              <Image src={client11} alt="Client" width={100} height={100} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client6} alt="Client" width={100} height={100} />
+              <Image src={client12} alt="Client" width={100} height={100} />
             </li>
           </ul>
         </div>
