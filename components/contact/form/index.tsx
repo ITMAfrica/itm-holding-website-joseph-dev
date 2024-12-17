@@ -6,6 +6,9 @@ import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import axios from 'axios';
 import { mail_api_url, notifyError, notifySuccess } from '@/helpers';
+import { useForm, SubmitHandler } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import contactSchema from './type';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactPageForm({ params }: { params: any }) {
@@ -13,6 +16,16 @@ export default function ContactPageForm({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.contact.formSection.form;
   const [loader, setLoader] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    setValue,
+    trigger,
+  } = useForm<any>({
+    resolver: yupResolver(contactSchema),
+  });
 
   const [state, setState] = useState({
     firstName: '',
@@ -35,9 +48,10 @@ export default function ContactPageForm({ params }: { params: any }) {
     }
   };
 
-  const onSubmit = async (e: any) => {
+  const onSubmit = handleSubmit(async (e: any) => {
     e.preventDefault();
     setLoader(true);
+    console.log('Form submited');
     const data = {
       lang: lang,
       data: {
@@ -72,7 +86,7 @@ export default function ContactPageForm({ params }: { params: any }) {
         notifyError('Error', 'Contact');
         console.log('Erreur');
       });
-  };
+  });
   return (
     <form
       action=""
