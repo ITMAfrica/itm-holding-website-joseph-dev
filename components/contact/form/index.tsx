@@ -18,11 +18,9 @@ export default function ContactPageForm({ params }: { params: any }) {
   const [loader, setLoader] = useState(false);
 
   const {
-    register,
     handleSubmit,
     formState: { errors },
     setValue,
-    trigger,
   } = useForm<any>({
     resolver: yupResolver(contactSchema),
   });

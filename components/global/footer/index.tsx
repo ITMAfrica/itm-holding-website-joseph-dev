@@ -8,11 +8,14 @@ import CardCountry from '@/components/global/cards/country';
 import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
+import newsLetterSchema from './newsLetterSchema';
 
 import { FaFacebookF } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa6';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
 
 type linkHeader = {
   href: string;
@@ -36,6 +39,18 @@ export default function Footer({ params }: { params: any }) {
       return `/${params.lang}`;
     }
   }
+
+  const {
+    handleSubmit,
+    formState: { errors },
+    setValue,
+  } = useForm<any>({
+    resolver: yupResolver(newsLetterSchema),
+  });
+
+  const setError: any = (errors: any, name: string) => {
+    return { error: errors[name], errorMessage: errors[name]?.message[lang] };
+  };
   return (
     <footer className="bg-black_footer text-white">
       <div className="flex md:flex-nowrap flex-wrap md:w-10/12 w-11/12 mx-auto md:py-20 py-10 border-b border-b-black">
