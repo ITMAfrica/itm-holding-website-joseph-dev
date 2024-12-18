@@ -2,7 +2,7 @@ export default function ContactFormTextArea({
   label,
   name,
   placeholder,
-  type,
+  onChange,
   errorMessage,
 }: {
   label: string;
@@ -10,6 +10,7 @@ export default function ContactFormTextArea({
   placeholder: string;
   type: string;
   errorMessage: string;
+  onChange: any;
 }) {
   return (
     <div className="w-full">
@@ -21,6 +22,7 @@ export default function ContactFormTextArea({
         cols={20}
         className="w-full px-3 py-2 outline-none text-black"
         placeholder={placeholder}
+        onChange={(e) => onChange(e)}
       ></textarea>
       <p className="text-red-600 text-xs">
         {errorMessage ? errorMessage : ''}{' '}
