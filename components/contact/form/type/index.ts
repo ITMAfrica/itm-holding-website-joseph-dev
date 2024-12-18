@@ -18,7 +18,10 @@ let contactSchema = object({
     en: 'The company name must have at least 2 characters',
   }),
   email: string()
-    .email()
+    .email({
+      fr: "L'adresse mail saisie n'est pas valide",
+      en: 'The email address entered is not valid',
+    })
     .min(5, {
       fr: 'Le mail doit avoir au moins 5 caractères',
       en: 'The email must have at least 5 characters',

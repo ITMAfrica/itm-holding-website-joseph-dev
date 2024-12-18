@@ -3,11 +3,13 @@ export default function ContactFormTextArea({
   name,
   placeholder,
   type,
+  errorMessage,
 }: {
   label: string;
   name: string;
   placeholder: string;
   type: string;
+  errorMessage: string;
 }) {
   return (
     <div className="w-full">
@@ -20,6 +22,9 @@ export default function ContactFormTextArea({
         className="w-full px-3 py-2 outline-none text-black"
         placeholder={placeholder}
       ></textarea>
+      <p className="text-red-600 text-xs">
+        {errorMessage ? errorMessage : ''}{' '}
+      </p>
     </div>
   );
 }

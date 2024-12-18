@@ -15,7 +15,6 @@ export default function ContactFormItem({
   placeholder,
   onChange,
   errorMessage,
-  error,
 }: Input): React.ReactElement {
   return (
     <div className="w-full">
