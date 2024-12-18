@@ -3,13 +3,13 @@ import { object, string } from 'yup';
 let contactSchema = object({
   firstName: string()
     .min(2, {
-      fr: 'Le prénom doit avoir au moins 2 caractères',
+      fr: 'Le nom doit avoir au moins 2 caractères',
       en: 'The first name must have at least 2 characters',
     })
     .required({ fr: 'Le prénom est requis', en: 'The first name is required' }),
   lastName: string()
     .min(2, {
-      fr: 'Le nom doit avoir au moins 2 caractères',
+      fr: 'Le post-nom doit avoir au moins 2 caractères',
       en: 'The last name must have at least 2 characters',
     })
     .required({ fr: 'Le nom est requis', en: 'The last name is required' }),
