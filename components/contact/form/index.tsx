@@ -18,11 +18,9 @@ export default function ContactPageForm({ params }: { params: any }) {
   const [loader, setLoader] = useState(false);
 
   const {
-    register,
     handleSubmit,
     formState: { errors },
     setValue,
-    trigger,
   } = useForm<any>({
     resolver: yupResolver(contactSchema),
   });
@@ -53,8 +51,7 @@ export default function ContactPageForm({ params }: { params: any }) {
     }
   };
 
-  const onSubmit = handleSubmit(async (e: any) => {
-    e.preventDefault();
+  const onSubmit = handleSubmit(async () => {
     setLoader(true);
     console.log('Form submited');
     const data = {
@@ -150,6 +147,7 @@ export default function ContactPageForm({ params }: { params: any }) {
         <ContactFormTextArea
           {...data.message}
           {...setError(errors, data.message.name)}
+          onChange={onChange}
         />
       </div>
       <div>
