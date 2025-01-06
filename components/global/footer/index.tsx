@@ -84,7 +84,9 @@ export default function Footer({ params }: { params: any }) {
         </section>
         <section className="sm:flex justify-around md:ml-10 md:w-3/5 w-full">
           <div>
-            <h4 className="text-2xl font-bold mb-4">Liens internes</h4>
+            <h4 className="text-2xl font-bold mb-4">
+              {content.linksTitle.internal}
+            </h4>
             <ul className="mb-2">
               {data?.links.map((item: linkHeader, index: number) => (
                 <NavLinkFooter {...item} key={index} />
@@ -92,7 +94,9 @@ export default function Footer({ params }: { params: any }) {
             </ul>
           </div>
           <div className="mt-8 sm:mt-0">
-            <h4 className="text-2xl font-bold mb-4">Nos logiciels</h4>
+            <h4 className="text-2xl font-bold mb-4">
+              {content.linksTitle.software}
+            </h4>
             <ul className="mb-2">
               <li className="mb-3">
                 <Link
@@ -115,7 +119,9 @@ export default function Footer({ params }: { params: any }) {
             </ul>
           </div>
           <div className="mt-8 sm:mt-0">
-            <h4 className="text-2xl font-bold mb-4">Suivez-nous</h4>
+            <h4 className="text-2xl font-bold mb-4">
+              {content.linksTitle.followUs}
+            </h4>
             <ul className="flex mb-2">
               <li className="mr-2">
                 <Link
