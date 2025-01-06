@@ -136,7 +136,12 @@
     "footer": {
       "text": "Keep up to date with the latest features and versions by joining our newsletter.",
       "placeholder": "Your email address",
-      "sendBtn": "Subscribe"
+      "sendBtn": "Subscribe",
+      "linksTitle": {
+        "internal": "Internal links",
+        "software": "Our softwares",
+        "followUs": "Follow us"
+      }
     }
   },
   "globalContent": {

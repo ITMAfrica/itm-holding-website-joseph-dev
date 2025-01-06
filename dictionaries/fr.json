@@ -137,7 +137,12 @@
     "footer": {
       "text": "Restez informé des dernières fonctionnalités et versions en rejoignant notre newsletter.",
       "placeholder": "Votre mail",
-      "sendBtn": "S'abonner"
+      "sendBtn": "S'abonner",
+      "linksTitle": {
+        "internal": "Liens internes",
+        "software": "Nos logiciels",
+        "followUs": "Suivez-nous"
+      }
     }
   },
   "globalContent": {
