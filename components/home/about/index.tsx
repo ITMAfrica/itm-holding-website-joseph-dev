@@ -26,7 +26,9 @@ export default function HomeAbout({ params }: { params: any }) {
             <h1 className="text-blue_itm_good text-5xl font-bold mb-2">
               {data.subtitle}
             </h1>
-            <p className="mb-5">{data.paragraph}</p>
+            <p className="mb-5 font-open font-normal text-black_itm">
+              {data.paragraph}
+            </p>
             <div className="mx-auto  w-fit lg:w-full">
               <ButtonOulined {...data.btnMore} key={1} />
             </div>
