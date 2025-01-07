@@ -74,16 +74,14 @@
   animation-timing-function: ease-in-out;
 }
 
-.hideTitle {
-  animation: hideToShow;
-  animation-delay: 500ms;
+.titleAnimation {
+  animation: entityTitleAnimation;
   animation-duration: 1000ms;
   animation-timing-function: ease-in-out;
 }
 
 .hideDescription {
-  animation: hideToShow;
-  animation-delay: 1000ms;
+  animation: entityDescriptionAnimation;
   animation-duration: 1000ms;
   animation-timing-function: ease-in-out;
 }
@@ -107,6 +105,26 @@
   to {
     top: 0%;
     left: 0;
+  }
+}
+
+@keyframes entityTitleAnimation {
+  from {
+    transform: translate(-100px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
+@keyframes entityDescriptionAnimation {
+  from {
+    transform: translate(100px);
+  }
+
+  to {
+    transform: translate(0);
   }
 }
 
