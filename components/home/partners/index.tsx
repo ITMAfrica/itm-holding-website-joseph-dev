@@ -26,7 +26,7 @@ export default function HomePartners({ params }: { params: any }) {
           <h1 className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
             {data.title}
           </h1>
-          <h3 className="text-xl text-center md:w-3/5 w-full mx-auto">
+          <h3 className="text-xl text-center md:w-3/5 w-full mx-auto font-open text-black_itm">
             {data.subtitle}
           </h3>
         </div>

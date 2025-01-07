@@ -21,7 +21,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
           <h2 className="text-5xl font-bold text-blue_itm_primary pb-4">
             {data.title}
           </h2>
-          <p className="w-full">{data.description}</p>
+          <p className="w-full font-open text-black_itm">{data.description}</p>
           <div className="w-full">
             {data.items.map(function (item: any, index: number) {
               return <CardFaq {...item} about key={index} />;

@@ -27,7 +27,9 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
             <h1 className="md:text-6xl text-5xl text-blue_itm_primary font-bold">
               {dynamicContent.title2}
             </h1>
-            <p className="md:mt-10 mt-5 text-lg">{dynamicContent.subtitle}</p>
+            <p className="md:mt-10 mt-5 text-lg font-open">
+              {dynamicContent.subtitle}
+            </p>
           </div>
         </div>
         <div className="md:w-1/2">

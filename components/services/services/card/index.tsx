@@ -29,7 +29,9 @@ export default function CardServices({
             >
               {name}
             </h1>
-            <p className={`pt-3 text-xs`}>{description.slice(0, 100)}...</p>
+            <p className={`pt-3 text-xs font-open`}>
+              {description.slice(0, 100)}...
+            </p>
           </div>
         </div>
       </article>

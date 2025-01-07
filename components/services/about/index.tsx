@@ -16,8 +16,8 @@ export default function ServicesPageAbout({ params }: any) {
           </h1>
         </article>
         <article className="lg:w-1/2 w-full lg:pt-0 pt-3">
-          <p>{data.paragraph}</p>
-          <p className="pt-3">{data.paragraph2}</p>
+          <p className="font-open">{data.paragraph}</p>
+          <p className="pt-3 font-open">{data.paragraph2}</p>
           <Link
             href={data.btnContact.link}
             className="font-bold mt-5 px-5 py-3 bg-blue_itm_primary text-white block w-fit rounded-full hover:bg-blue_itm_aqua_marine"

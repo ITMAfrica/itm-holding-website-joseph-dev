@@ -18,7 +18,9 @@ export default function ContactFormItem({
 }: Input): React.ReactElement {
   return (
     <div className="w-full">
-      <p className="text-blue_itm_primary text-xs font-bold mb-2">{label}</p>
+      <p className="text-blue_itm_primary text-xs font-semibold mb-2 font-open">
+        {label}
+      </p>
       <input
         name={name}
         type={type}
