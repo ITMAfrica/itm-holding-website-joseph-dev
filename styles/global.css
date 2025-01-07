@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 
-*~* {
+* ~ * {
   transition: all;
   transition-duration: 400ms;
   box-sizing: border-box;
@@ -49,7 +49,17 @@
 }
 
 .courbe_country {
-  clip-path: polygon(71% 24%, 83% 7%, 100% 0, 100% 100%, 0 100%, 6% 70%, 21% 59%, 39% 54%, 56% 50%);
+  clip-path: polygon(
+    71% 24%,
+    83% 7%,
+    100% 0,
+    100% 100%,
+    0 100%,
+    6% 70%,
+    21% 59%,
+    39% 54%,
+    56% 50%
+  );
 }
 
 .fromToImage {
@@ -58,16 +68,20 @@
   animation-timing-function: ease-in-out;
 }
 
-.hideTitle {
+.entityLogoAnimation {
   animation: hideToShow;
-  animation-delay: 500ms;
+  animation-duration: 2500ms;
+  animation-timing-function: ease-in-out;
+}
+
+.titleAnimation {
+  animation: entityTitleAnimation;
   animation-duration: 1000ms;
   animation-timing-function: ease-in-out;
 }
 
 .hideDescription {
-  animation: hideToShow;
-  animation-delay: 1000ms;
+  animation: entityDescriptionAnimation;
   animation-duration: 1000ms;
   animation-timing-function: ease-in-out;
 }
@@ -85,10 +99,32 @@
 @keyframes fromTo {
   from {
     top: -100%;
+    left: -40%;
   }
 
   to {
     top: 0%;
+    left: 0;
+  }
+}
+
+@keyframes entityTitleAnimation {
+  from {
+    transform: translate(-100px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
+@keyframes entityDescriptionAnimation {
+  from {
+    transform: translate(100px);
+  }
+
+  to {
+    transform: translate(0);
   }
 }
 
@@ -185,16 +221,22 @@
     --rotating-gradient-border-width: 1.5px;
     --rotating-gradient-border-color: transparent;
 
-    background: linear-gradient(to bottom,
-        var(--background-color),
-        var(--background-color-2)) padding-box,
-      conic-gradient(from var(--rotating-gradient-border-angle) at 50% 50%,
-        transparent 17%,
-        var(--rotating-gradient-border-color) 24%,
-        transparent 32%,
-        transparent 67%,
-        var(--rotating-gradient-border-color) 76%,
-        transparent 84%) border-box,
+    background: linear-gradient(
+          to bottom,
+          var(--background-color),
+          var(--background-color-2)
+        )
+        padding-box,
+      conic-gradient(
+          from var(--rotating-gradient-border-angle) at 50% 50%,
+          transparent 17%,
+          var(--rotating-gradient-border-color) 24%,
+          transparent 32%,
+          transparent 67%,
+          var(--rotating-gradient-border-color) 76%,
+          transparent 84%
+        )
+        border-box,
       linear-gradient(var(--border-color), var(--border-color)) border-box;
     border: var(--rotating-gradient-border-width) solid transparent;
     animation: rotate-gradient-border infinite linear 10s;

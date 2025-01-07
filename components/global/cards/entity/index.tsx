@@ -66,13 +66,19 @@ export default function CardEntity({
           <div className="absolute z-10 top-0 flex lg:justify-end justify-center left-0 right-0 bottom-0 bg-entityHover/30 pl-10"></div>
           <div className="w-11/12 lg:w-10/12 h-fit z-20 lg:-right-[4px] top-0 absolute flex justify-end py-10 lg:py-20">
             <div className="w-[120px] h-[90px] relative bg-white rounded-l-lg px-2 border-x-4 border-l-white border-r-blue_itm_primary">
-              <Image src={logo} fill alt="" objectFit="contain" />
+              <Image
+                src={logo}
+                fill
+                alt=""
+                objectFit="contain"
+                className="entityLogoAnimation"
+              />
             </div>
           </div>
         </div>
         <div className="lg:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
           <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
-            <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
+            <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30 rounded-tr-md rounded-br-md">
               <div
                 onClick={function () {
                   if (activeSlide != 0) setActiveSlide(activeSlide - 1);
@@ -92,7 +98,7 @@ export default function CardEntity({
               </div>
             </div>
             <div className="w-10/12 lg:w-8/12 mx-auto text-sm">
-              <h2 className="text-4xl hideTitle w-full mx-auto font-bold text-blue_itm_primary pb-3">
+              <h2 className="text-4xl titleAnimation w-full mx-auto font-bold text-blue_itm_primary pb-3">
                 {name}
               </h2>
               <p className="w-full hideDescription mx-auto">{description}</p>
