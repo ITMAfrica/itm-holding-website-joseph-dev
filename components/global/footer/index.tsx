@@ -70,7 +70,7 @@ export default function Footer({ params }: { params: any }) {
               />
             </Link>
           </div>
-          <p className="text-lg py-4 md:w-10/12">{content.text}</p>
+          <p className="py-4 md:w-10/12 font-open">{content.text}</p>
           <nav className="flex">
             <input
               className="py-3 px-4 text-black rounded w-full mr-6"
@@ -164,27 +164,15 @@ export default function Footer({ params }: { params: any }) {
         </section>
       </div>
       <section className="md:flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
-        <div className="w-fit font-bold">
+        <div className="w-fit font-semibold font-open">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>
         <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit md:flex  flex-wrap items-center justify-between">
           <Link
             href={lang}
-            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
+            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 font-open text-sm"
           >
             Paramètre des cookies
-          </Link>
-          <Link
-            href={lang}
-            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
-          >
-            Politique de confidentialité
-          </Link>
-          <Link
-            href={lang}
-            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 "
-          >
-            Condition d'utilisation
           </Link>
           <div className="md:ml-4"></div>
           <CardCountry />

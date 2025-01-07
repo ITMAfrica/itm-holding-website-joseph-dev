@@ -26,8 +26,8 @@ export default function HomeMetricsCard({
           separator=" "
         />
       </h2>
-      <h4 className="text-xl font-bold">{title}</h4>
-      <p className="text-sm">{description}</p>
+      <h4 className="text-xl font-bold mb-1">{title}</h4>
+      <p className="text-xs font-open">{description}</p>
     </div>
   );
 }

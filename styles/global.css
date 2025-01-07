@@ -12,6 +12,11 @@
 }
 
 @font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.ttf');
+}
+
+@font-face {
   font-family: 'Candara_bold';
   src: url('../fonts/Candara_Bold.ttf');
   font-weight: bold;

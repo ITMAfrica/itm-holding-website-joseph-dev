@@ -151,7 +151,9 @@ export default function ContactPageForm({ params }: { params: any }) {
         />
       </div>
       <div>
-        <p className="text-black mt-2 mb-5">{data.formWarning}</p>
+        <p className="text-black_itm mt-2 mb-5 font-open text-sm">
+          {data.formWarning}
+        </p>
         <button
           onClick={onSubmit}
           className="bg-blue_itm_primary py-3 px-10 rounded-full"

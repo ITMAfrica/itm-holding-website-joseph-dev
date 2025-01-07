@@ -61,7 +61,7 @@ export default function CarouselItem({
             <h1 className="text-white md:text-5xl text-3xl font-bold mb-4">
               {title}
             </h1>
-            <p className="text-white mb-8">{paragraph}</p>
+            <p className="text-white mb-8 font-open font-light">{paragraph}</p>
             <ButtonBg {...btnMore} link={getHref()} key={index + 1} />
           </div>
         )}

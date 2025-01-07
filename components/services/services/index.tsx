@@ -43,10 +43,10 @@ export default function ServicesPageServices({ params }: { params: any }) {
         <div className="absolute top-0 left-0 right-0 flex   bottom-0 bg-gradient-to-r from-transparent to-black/70">
           <article className="w-full lg:w-2/5 h-full flex items-center justify-center text-white">
             <div className="w-10/12 h-10/12 lg:w-8/12 h-8/12">
-              <h1 className="font-bold md:text-5xl text-4xl">
+              <h1 className="font-bold md:text-4xl text-4xl">
                 {servicesHome[lang][activeSlide]?.name}
               </h1>
-              <p className="pt-3 lg:text-sm text-xs">
+              <p className="pt-3 lg:text-sm text-xs font-open">
                 {servicesHome[lang][activeSlide]?.description}
               </p>
               <div className="w-full pt-5 flex lg:text-sm text-xs">

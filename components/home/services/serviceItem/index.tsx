@@ -35,7 +35,7 @@ export default function HomeServiceCard({
             {name}
           </h1>
           <div className="hidden group-hover:block transition animate-slow-display ease-in-out duration-700">
-            <p className="opacity-0 text-xs mb-6 group-hover:opacity-100 transition ease-in-out duration-700">
+            <p className="opacity-0 text-xs mb-6 font-open group-hover:opacity-100 transition ease-in-out duration-700">
               {paragraph}
             </p>
             <Link

@@ -1,10 +1,10 @@
-import { getDictionary } from "@/get-dictionary";
+import { getDictionary } from '@/get-dictionary';
 
 export default function AboutPageMetrics({ params }: { params: any }) {
-  const lang = params.lang
-  const dictionary = getDictionary(lang)
-  const data = dictionary.globalContent.pages.about.metrics
-  console.log(params)
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.globalContent.pages.about.metrics;
+  console.log(params);
   return (
     <section className="h-fit">
       <main className="flex flex-wrap items-center w-full lg:w-9/12 mx-auto lg:py-20 py-10">
@@ -15,80 +15,80 @@ export default function AboutPageMetrics({ params }: { params: any }) {
                 <h3 className="font-bold text-center uppercase md:text-xl text-lg">
                   {data.mission.title}
                 </h3>
-                <p className="text-xs lg:text-sm text-center pt-3">
-                {data.mission.text}
+                <p className="text-xs lg:text-sm text-center pt-3 font-open">
+                  {data.mission.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[200px] h-[200px] lg:translate-y-[10%] lg:h-[200px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  md:mx-5 mx-2 bg-blue_itm_secondary rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase  lg:text-xl text-lg">
-                {data.vision.title}
+                  {data.vision.title}
                 </h3>
-                <p className="text-xs lg:text-sm text-center pt-3">
-                {data.vision.text}
+                <p className="text-xs lg:text-sm text-center pt-3 font-open">
+                  {data.vision.text}
                 </p>
               </div>
             </div>
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:translate-x-[12%] lg:-translate-y-[10%] lg:w-[220px] h-[200px] lg:h-[220px] flex flex-wrap items-center justify-center  bg-blue_itm_aqua_marine rounded-full">
               <div className="w-fit text-white  md:p-5 p-3">
                 <h3 className="font-bold text-center uppercase lg:text-xl text-lg">
-                {data.values.title}
+                  {data.values.title}
                 </h3>
-                <p className="text-xs lg:text-sm text-center pt-3">
-                {data.values.text}
+                <p className="text-xs lg:text-sm text-center pt-3 font-open">
+                  {data.values.text}
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div className="lg:w-1/2 w-11/12 mx-auto lg:pt-0 pt-10">
-          <p className="text-black_itm/70 text-xs lg:text-sm">
-          {data.right.text}
+          <p className="text-black_itm/70 text-xs lg:text-sm font-open">
+            {data.right.text}
           </p>
           <div className="w-full flex flex-wrap items-center justify-between pt-5">
             <div className="w-1/2  pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-              {data.right.number.agents.number}
+                {data.right.number.agents.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-              {data.right.number.agents.title}
+                {data.right.number.agents.title}
               </h3>
-              <p className="font-normal text-xs lg:text-base pt-1">
-              {data.right.number.agents.description}
+              <p className="font-normal text-xs lg:text-base pt-1 font-open">
+                {data.right.number.agents.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-              {data.right.number.recruiting.number}
+                {data.right.number.recruiting.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-              {data.right.number.recruiting.title}
+                {data.right.number.recruiting.title}
               </h3>
-              <p className="font-normal text-xs lg:text-base pt-1">
-              {data.right.number.recruiting.description}
+              <p className="font-normal text-xs lg:text-base pt-1 font-open">
+                {data.right.number.recruiting.description}
               </p>
             </div>
             <div className="w-1/2 pr-5 pt-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-              {data.right.number.country.number}
+                {data.right.number.country.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-              {data.right.number.country.title}
+                {data.right.number.country.title}
               </h3>
-              <p className="font-normal text-xs lg:text-base pt-1">
-              {data.right.number.country.description}
+              <p className="font-normal text-xs lg:text-base pt-1 font-open">
+                {data.right.number.country.description}
               </p>
             </div>
             <div className="w-1/2 pt-5 pr-5">
               <h4 className="font-extrabold text-4xl lg:text-6xl text-blue_itm_aqua_marine">
-              {data.right.number.company.number}
+                {data.right.number.company.number}
               </h4>
               <h3 className="font-bold pt-1 text-sm lg:text-lg">
-              {data.right.number.company.title}
+                {data.right.number.company.title}
               </h3>
-              <p className="font-normal text-xs lg:text-base pt-1">
-              {data.right.number.company.description}
+              <p className="font-normal text-xs lg:text-base pt-1 font-open">
+                {data.right.number.company.description}
               </p>
             </div>
           </div>

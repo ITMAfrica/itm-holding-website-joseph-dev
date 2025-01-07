@@ -9,7 +9,7 @@ export default function ContactPageBanner({ params }: { params: any }) {
       <div className="flex items-center w-11/12 mx-auto text-white bg-cover bg-center bg-[url('../public/assets/bg/banner_contact.png')] h-full rounded-xl">
         <section className="sm:w-1/2 sm:ml-20 ml-5 mr-4 sm:mr-0">
           <h1 className="md:text-5xl text-4xl font-bold mb-4">{data.title}</h1>
-          <p className="">{data.subtitle}</p>
+          <p className="font-open">{data.subtitle}</p>
         </section>
       </div>
     </section>

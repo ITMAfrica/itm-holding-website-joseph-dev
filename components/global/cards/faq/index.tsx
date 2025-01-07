@@ -30,7 +30,9 @@ export default function CardFaq({ question, response, about = false }: any) {
           </div>
         </div>
         {show && (
-          <p className="w-full group-hover:text-black pt-3">{response}</p>
+          <p className="w-full group-hover:text-black pt-3 font-open">
+            {response}
+          </p>
         )}
       </article>
     );
@@ -38,7 +40,7 @@ export default function CardFaq({ question, response, about = false }: any) {
     <article className="w-full group bg-white flex flex-wrap items-center justify-between text-black px-5 py-1 mb-3 rounded-lg">
       <h1
         onClick={showUs}
-        className={`group-hover:text-blue_itm_aqua_marine cursor-pointer ${
+        className={`group-hover:text-blue_itm_aqua_marine cursor-pointer font-open ${
           !show ? 'text-black' : 'text-blue_itm_aqua_marine'
         }`}
       >
@@ -52,7 +54,11 @@ export default function CardFaq({ question, response, about = false }: any) {
       >
         {!show ? <FaPlus /> : <FaMinus />}
       </div>
-      {show && <p className="w-full group-hover:text-black pt-3">{response}</p>}
+      {show && (
+        <p className="w-full group-hover:text-black py-3 font-open">
+          {response}
+        </p>
+      )}
     </article>
   );
 }

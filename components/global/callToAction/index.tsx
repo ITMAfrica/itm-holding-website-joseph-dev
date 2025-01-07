@@ -14,7 +14,7 @@ export default function CallToAction({ params }: { params: any }) {
             <span className="text-blue_itm_aqua_marine">{data?.career}</span>
             {data?.click}
           </h1>
-          <p className="text-center pt-2 pb-5 text-xl w-11/12 m-auto md:w-full">
+          <p className="text-center pt-2 pb-5 text-xl w-11/12 m-auto md:w-full font-open">
             {data?.subtitle}
           </p>
           <div className="flex justify-center">

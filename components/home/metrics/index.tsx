@@ -13,7 +13,7 @@ export default function HomeMetrics({ params }: { params: any }) {
             <h3 className="text-4xl font-bold md:w-1/4 w-4/5 mx-auto md:mx-0 ">
               {data.title}
             </h3>
-            <p className="md:w-2/5 w-full">{data.paragraph}</p>
+            <p className="md:w-2/5 w-full font-open">{data.paragraph}</p>
           </div>
           <div className="w-full flex justify-between flex-wrap">
             {data.metricsItems.map((item: any, index: number) => (

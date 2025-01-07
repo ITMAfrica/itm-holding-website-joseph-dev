@@ -24,7 +24,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <p className="text-xl text-center mt-4">
             <Link
               href={`tel:${entitiesInfos[code].phone}`}
-              className="text-lg text-center mt-4 py-2 px-3 rounded"
+              className="text-lg text-center mt-4 py-2 px-3 rounded font-open"
             >
               {entitiesInfos[code].phone}
             </Link>
@@ -38,7 +38,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <div className="flex justify-center">
             <Link
               href={`mailto:info@itmafrica.com`}
-              className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded"
+              className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded font-open"
             >
               {entitiesInfos[code].email}
             </Link>
@@ -49,7 +49,9 @@ export default function ContactPageContactSection({ params }: { params: any }) {
             <BsGeoAlt className="w-20 h-20 text-blue_itm_aqua_marine text-center" />
           </span>
           <h5 className="text-2xl font-bold text-center">{data.address}</h5>
-          <p className=" text-center mt-4">{entitiesInfos[code].address}</p>
+          <p className=" text-center mt-4 font-open">
+            {entitiesInfos[code].address}
+          </p>
         </ContactCard>
         <ToastContainer containerId={'Contact'} />
       </div>

@@ -101,7 +101,9 @@ export default function CardEntity({
               <h2 className="text-4xl titleAnimation w-full mx-auto font-bold text-blue_itm_primary pb-3">
                 {name}
               </h2>
-              <p className="w-full hideDescription mx-auto">{description}</p>
+              <p className="w-full hideDescription mx-auto font-open">
+                {description}
+              </p>
             </div>
           </div>
         </div>

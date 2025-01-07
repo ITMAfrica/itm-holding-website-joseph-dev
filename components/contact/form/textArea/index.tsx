@@ -14,13 +14,15 @@ export default function ContactFormTextArea({
 }) {
   return (
     <div className="w-full">
-      <p className="text-blue_itm_primary text-xs font-bold mb-2">{label}</p>
+      <p className="text-blue_itm_primary text-xs font-semibold mb-2 font-open">
+        {label}
+      </p>
       <textarea
         id="txtid"
         name={name}
         rows={5}
         cols={20}
-        className="w-full px-3 py-2 outline-none text-black"
+        className="w-full px-3 py-2 outline-none text-black_itm"
         placeholder={placeholder}
         onChange={(e) => onChange(e)}
       ></textarea>

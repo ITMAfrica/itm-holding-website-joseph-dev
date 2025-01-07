@@ -47,7 +47,9 @@ export default async function Root({
     <html lang={lang.lang}>
       <body suppressHydrationWarning={true} className={candara.className}>
         <HomeHeader params={params} />
-        <main className="w-full bg-gray_itm_bg/40">{children}</main>
+        <main className="w-full bg-gray_itm_bg/40 text-black_itm">
+          {children}
+        </main>
         <Footer params={params} />
       </body>
     </html>
