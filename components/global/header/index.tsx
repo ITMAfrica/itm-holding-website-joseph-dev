@@ -11,6 +11,7 @@ import React, { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 import { CODE, getCookie } from '@/helpers';
 import CardLogo from '@/components/global/cards/logo';
+import CardCountry from '../cards/country';
 
 type linkHeader = {
   href: string;
@@ -87,6 +88,7 @@ export default function HomeHeader({ params }: propsPage) {
         </nav>
         <div className="w-fit flex">
           <CardLang links={data?.links} langs={data?.langs} />
+          <CardCountry />
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
