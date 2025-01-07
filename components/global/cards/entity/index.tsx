@@ -78,7 +78,7 @@ export default function CardEntity({
         </div>
         <div className="lg:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
           <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
-            <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30">
+            <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30 rounded-tr-md rounded-br-md">
               <div
                 onClick={function () {
                   if (activeSlide != 0) setActiveSlide(activeSlide - 1);
