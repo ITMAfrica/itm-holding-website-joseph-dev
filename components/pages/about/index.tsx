@@ -17,7 +17,7 @@ export default function AboutPage({ params }: { params: any }) {
       <AboutPageAbout params={params} />
       <AboutPageMetrics params={params} />
       {/* <AboutPageMileStone params={params} /> */}
-      {/* <Teams /> */}
+      <Teams />
       <Faqs params={params} />
       <CallToAction params={params} />
     </main>
