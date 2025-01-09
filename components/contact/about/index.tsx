@@ -17,7 +17,7 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
   const dictionary: any = getDictionary(lang);
   const dynamicContent: any = dictionary?.[code]?.pages.contact.about;
   return (
-    <section className="h-fit bg-white md:py-16 py-10">
+    <section className="h-fit bg-white md:py-16 py-10 bg-[url('../public/pages/print.png')] bg-left bg-no-repeat">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">
         <div className="md:w-1/2">
           <div className="md:mr-14">

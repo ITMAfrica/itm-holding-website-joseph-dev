@@ -7,7 +7,7 @@ export default function Faqs({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.global.faq;
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20 bg-[url('../public/pages/print.png')] bg-left bg-no-repeat">
       <div className="w-11/12 lg:w-10/12 mx-auto lg-fit lg:h-[500px] lg:flex">
         <div className="w-full lg:w-1/3">
           <SectionTitle text={data.left.title} />

@@ -6,7 +6,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
   const data = dictionary.globalContent.pages.about.metrics;
   console.log(params);
   return (
-    <section className="h-fit">
+    <section className="h-fit bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
       <main className="flex flex-wrap items-center w-full lg:w-9/12 mx-auto lg:py-20 py-10">
         <div className="w-11/12 mx-auto lg:w-1/2 lg:-rotate-24">
           <div className="w-full flex flex-wrap items-center justify-center">

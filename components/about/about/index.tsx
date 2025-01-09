@@ -10,7 +10,7 @@ export default function AboutPageAbout({ params }: any) {
   const code: string = getCountryCode(country);
   const data = dictionary[code].pages.about.aboutEntity;
   return (
-    <section className="w-full bg-white lg:py-20 py-10 bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
+    <section className="w-full bg-white lg:py-20 py-10">
       <div className="w-11/12 lg:w-9/12 mx-auto flex lg:flex-nowrap items-start flex-wrap">
         <article className="md:w-1/2 w-full lg:pr-20 pr-0">
           <SectionTitle text={data.title} />
