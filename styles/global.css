@@ -143,6 +143,12 @@
   }
 }
 
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #a4a5a8 white;
+  --scrollbar-thumb-bg: #1238b9;
+}
+
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;
@@ -154,17 +160,6 @@
     --scrollbar-thumb-hover-border: #bbb;
 
     --input-autofill-color: #444;
-  }
-
-  html.dark {
-    --scrollbar-bg: #000;
-    --scrollbar-border: #151515;
-    --scrollbar-thumb-bg: #151515;
-    --scrollbar-thumb-border: #333;
-    --scrollbar-thumb-hover-bg: #222;
-    --scrollbar-thumb-hover-border: #444;
-
-    --input-autofill-color: #bbb;
   }
 
   ::-webkit-scrollbar {

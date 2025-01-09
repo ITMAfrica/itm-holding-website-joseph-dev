@@ -55,7 +55,7 @@ export default function ModalCountryChoice({ init = false }: any) {
               <MdOutlineCancel size={24} />
             </div>
           </div>
-          <div className="bg-white rounded-xl text-black w-full p-2 py-5 max-h-[70vh] overflow-y-scroll filter-none">
+          <div className="bg-white rounded-xl text-black w-full p-2 py-5 max-h-[70vh] overflow-y-scroll filter-none scrollbar">
             <h1 className="font-medium text-xl text-center w-full pb-10">
               {data?.title}
             </h1>
