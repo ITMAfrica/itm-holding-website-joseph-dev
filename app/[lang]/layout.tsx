@@ -44,7 +44,7 @@ export default async function Root({
 }) {
   const lang = await params;
   return (
-    <html lang={lang.lang}>
+    <html lang={lang.lang} className="scroll-smooth">
       <body suppressHydrationWarning={true} className={candara.className}>
         <HomeHeader params={params} />
         <main className="w-full bg-gray_itm_bg/40 text-black_itm">
