@@ -5,6 +5,7 @@ import ServicesPage from '@/components/pages/services';
 import TrainingPage from '@/components/pages/training';
 import { getDictionary } from '@/get-dictionary';
 import { getCountryCode } from '@/helpers';
+import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }: any) {
   const lang = params.lang;
@@ -94,5 +95,7 @@ function getComponent({ params }: any) {
       return <ContactPage params={params} />;
     case 'contactez-nous':
       return <ContactPage params={params} />;
+    default:
+      notFound();
   }
 }
