@@ -16,7 +16,7 @@ export default function HomeAbout({ params }: { params: any }) {
     en: 'Congo Kinshasa',
   });
   return (
-    <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10">
+    <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10 bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
       <div className="w-11/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
         <AboutImagesDesign />
         <div className="w-fit h-full md:px-5 px-3"></div>
