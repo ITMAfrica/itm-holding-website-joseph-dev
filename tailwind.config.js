@@ -16,7 +16,7 @@ module.exports = {
         24: '24deg',
       },
       fontFamily: {
-        open: 'OpenSans, ui-serif',
+        open: ['var(--font-open-sans)', 'sans-serif'], // Open Sans par défaut
       },
       colors: {
         blue_itm_good: '#1238B9',
