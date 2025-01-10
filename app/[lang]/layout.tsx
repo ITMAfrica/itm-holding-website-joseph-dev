@@ -1,6 +1,7 @@
 import HomeHeader from '@/components/global/header';
 import { type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
+import { Open_Sans } from 'next/font/google';
 import Footer from '@/components/global/footer';
 import '@/styles/global.css';
 
@@ -29,6 +30,12 @@ const candara = localFont({
   ],
 });
 
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+});
+
 export const metadata = {
   title: 'ITM Africa | Welcome to the ITM Africa web site',
   description:
@@ -45,7 +52,10 @@ export default async function Root({
   const lang = await params;
   return (
     <html lang={lang.lang} className="scroll-smooth">
-      <body suppressHydrationWarning={true} className={candara.className}>
+      <body
+        suppressHydrationWarning={true}
+        className={`${openSans.variable} ${candara.className}`}
+      >
         <HomeHeader params={params} />
         <main className="w-full bg-gray_itm_bg/40 text-black_itm">
           {children}
