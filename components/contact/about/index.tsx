@@ -6,9 +6,7 @@ import image2 from '@/public/pages/contact/image2.png';
 import image3 from '@/public/pages/contact/image3.png';
 import image4 from '@/public/pages/contact/image4.png';
 import { getDictionary } from '@/get-dictionary';
-import { useState } from 'react';
 import { CODE, getCountryCode } from '@/helpers';
-import { dictionary } from '@/types';
 
 export default function ContactPageAboutSection({ params }: { params: any }) {
   const lang: string = params.lang;

@@ -486,6 +486,7 @@ export const entities = [
   {
     fr: 'Congo Kinshasa',
     en: 'Congo Kinshasa',
+    name: 'ITM SARL',
     href: '/',
     code: 'cd',
     flag: cdFlag,
@@ -494,6 +495,7 @@ export const entities = [
   {
     fr: 'Rwanda',
     en: 'Rwanda',
+    name: 'ITM AFRICA LTD.',
     href: '/en/rw',
     code: 'rw',
     flag: rwFlag,
@@ -502,6 +504,7 @@ export const entities = [
   {
     fr: 'Tanzanie',
     en: 'Tanzania',
+    name: 'ITM TANZANIA',
     href: '/en/tz',
     code: 'tz',
     flag: tzFlag,
@@ -510,6 +513,7 @@ export const entities = [
   {
     fr: 'Togo',
     en: 'Togo',
+    name: 'ITM TOGO',
     href: '/en/tg',
     code: 'tg',
     flag: tgFlag,
@@ -518,6 +522,7 @@ export const entities = [
   {
     fr: 'Nigéria',
     en: 'Nigeria',
+    name: 'ITM NIGERIA',
     href: '/en/ng',
     code: 'ng',
     flag: ngFlag,
@@ -526,6 +531,7 @@ export const entities = [
   {
     fr: 'Gabon',
     en: 'Gabon',
+    name: 'ITM GABON',
     href: '/en/gb',
     code: 'gb',
     flag: gbFlag,
@@ -534,6 +540,7 @@ export const entities = [
   {
     fr: 'Uganda',
     en: 'Uganda',
+    name: 'ITM UGANDA',
     href: '/en/ug',
     code: 'ug',
     flag: ugFlag,
@@ -542,6 +549,7 @@ export const entities = [
   {
     fr: 'Bénin',
     en: 'Benin',
+    name: 'ITM BENIN',
     href: '/fr/bn',
     code: 'bn',
     flag: bnFlag,
@@ -550,6 +558,7 @@ export const entities = [
   {
     fr: 'Angola',
     en: 'Angola',
+    name: 'ITM ANGOLA',
     href: '/en/ao',
     code: 'ao',
     flag: aoFlag,
@@ -558,6 +567,7 @@ export const entities = [
   {
     fr: 'Kenya',
     en: 'Kenya',
+    name: 'ITM KENYA',
     href: '/en/ke',
     code: 'ke',
     flag: keFlag,
@@ -566,6 +576,7 @@ export const entities = [
   {
     fr: 'Congo Brazza',
     en: 'Congo Brazza',
+    name: 'ITM BRAZZA',
     href: '/fr/cg',
     code: 'cg',
     flag: cgFlag,
@@ -574,6 +585,7 @@ export const entities = [
   {
     fr: 'Cameroun',
     en: 'Cameroun',
+    name: 'ITM CAMEROUN',
     href: '/fr/cm',
     code: 'cm',
     flag: cmFlag,
@@ -582,6 +594,7 @@ export const entities = [
   {
     fr: 'Zambie',
     en: 'Zambia',
+    name: 'ITM ZAMBIA',
     href: '/en/zm',
     code: 'zm',
     flag: zmFlag,
@@ -590,6 +603,7 @@ export const entities = [
   {
     fr: 'Afrique du sud',
     en: 'South Africa',
+    name: 'ITM KATOPE LTD.',
     href: '/en/za',
     code: 'za',
     flag: zaFlag,
@@ -598,6 +612,7 @@ export const entities = [
   {
     fr: 'Allemagne',
     en: 'Allemagne',
+    name: 'ITM NEXUS',
     href: '/en/de',
     code: 'de',
     flag: deFlag,
