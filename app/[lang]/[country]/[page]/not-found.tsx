@@ -1,5 +1,5 @@
 import PageNotFound404 from '@/components/pages/page404';
 
-export default function NotFound() {
-  return <PageNotFound404 />;
+export default function NotFound({ params }: { params: any }) {
+  return <PageNotFound404 params={params} />;
 }

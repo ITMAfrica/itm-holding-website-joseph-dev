@@ -382,6 +382,38 @@
             }
           }
         }
+      },
+      "notFound": {
+        "meta": {
+          "title": "404 - Page not found",
+          "description": "The page you are looking for cannot be found",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "authors": [{ "name": "Amos Bafuna" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": false,
+            "follow": false,
+            "nocache": true,
+            "googleBot": {
+              "index": false,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "title": "404 - Page not found",
+        "paragraph": "Oops! The page you are looking for cannot be found"
       }
     }
   },

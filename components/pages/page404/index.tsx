@@ -1,7 +1,9 @@
+'use client';
+
 import Image from 'next/image';
 import ImageError from '@/public/pages/error.png';
 
-export default function PageNotFound404() {
+export default function PageNotFound404({ params }: { params: any }) {
   return (
     <div className="h-[80vh] flex items-center justify-center w-11/12 mx-auto">
       <div>

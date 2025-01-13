@@ -1,7 +1,7 @@
 'use client';
 import CardFaq from '@/components/global/cards/faq';
 import { getDictionary } from '@/get-dictionary';
-import imageLeft from '@/public/assets/bg/bg.about.itm.left.png';
+import imageLeft from '@/public/assets/bg/bg.about.jpg';
 import imageRight from '@/public/assets/bg/design_about.jpg';
 import Image from 'next/image';
 import { useState } from 'react';

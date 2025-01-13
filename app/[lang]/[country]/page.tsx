@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: any) {
   const country = getCountryCode(params.country);
   const dictionary = getDictionary(lang);
   const data: any = dictionary[country].pages;
+  const notFound: any = dictionary.globalContent.pages.notFound;
 
   switch (params.country) {
     case 'tz':
@@ -64,7 +65,7 @@ export async function generateMetadata({ params }: any) {
     case 'contactez-nous':
       return data.contact.meta;
     default:
-      return data.home.meta;
+      return notFound.meta;
   }
 }
 
