@@ -379,6 +379,38 @@
             }
           }
         }
+      },
+      "notFound": {
+        "meta": {
+          "title": "404 - Page introuvable",
+          "description": "La page que vous recherchez est introuvable",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "authors": [{ "name": "Amos Bafuna" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": false,
+            "follow": false,
+            "nocache": true,
+            "googleBot": {
+              "index": false,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "title": "404 - Page introuvable",
+        "paragraph": "Oops! La page que vous recherchez n'existe pas."
       }
     }
   },
