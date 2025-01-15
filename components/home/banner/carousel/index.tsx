@@ -20,6 +20,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import { getCountryCode } from '@/helpers';
 
 export default function HomePageBanner({
   params,
@@ -30,7 +31,9 @@ export default function HomePageBanner({
 }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.globalContent.pages.home.banner.items;
+  const country: string = params.country;
+  const code = getCountryCode(country);
+  const data = dictionary?.[code]?.pages.home.banner.items;
 
   return (
     <section className="h-full py-5">
