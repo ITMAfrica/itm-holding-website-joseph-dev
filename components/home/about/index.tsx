@@ -4,12 +4,14 @@ import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
 import AboutImagesDesign from './aboutImagesDesign';
 import { useState } from 'react';
-import { CODE } from '@/helpers';
+import { CODE, getCountryCode } from '@/helpers';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
   const dictionary: any = getDictionary(lang);
-  const data: any = dictionary?.globalContent?.pages.home.about;
+  const country: string = params.country;
+  const code = getCountryCode(country);
+  const data = dictionary?.[code]?.pages.home.about;
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
     fr: 'Congo Kinshasa',
