@@ -830,9 +830,9 @@ export const entitiesInfos: any = {
     email: 'info.abuja@itmafrica.com',
   },
   ke: {
-    address: '104 Riverside Square, Riverside Drive, Nairobi, Kenya',
+    address: '104 KOFISI DRIVE, Nairobi, Kenya',
     phone: '+254 722 272 596',
-    email: 'infokenya@itmafrica.com',
+    email: 'info.kenya@itmafrica.com',
   },
   tz: {
     address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
