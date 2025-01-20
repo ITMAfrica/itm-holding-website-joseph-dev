@@ -3276,22 +3276,22 @@
           "items": [
             {
               "title": "WELCOME TO ITM KENYA",
-              "paragraph": "ITM KENYA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "ITM KENYA is your strategic partner in HR solutions in Africa. Our company is a part of ITM Holding with a proven track record of managing over 15,000 employees in 18 countries, we tailor our services-from recruitment and employee management to training and HR compliance to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM KENYA"
               }
             },
             {
               "title": "WELCOME TO ITM KENYA",
-              "paragraph": "ITM KENYA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "ITM KENYA is your strategic partner in HR solutions in Africa. Our company is a part of ITM Holding with a proven track record of managing over 15,000 employees in 18 countries, we tailor our services-from recruitment and employee management to training and HR compliance to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM KENYA"
               }
             }
           ]
@@ -3377,8 +3377,8 @@
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM KENYA",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Kenya has been Kenya’s trusted provider of innovative HR solutions since 2021, playing a key role in ITM’s extensive pan-African network. We specialize in services ranging from recruitment and placement to HR outsourcing and professional training, all designed to help businesses meet their workforce needs while adhering to global best practices. Our recruitment and placement services connect companies with top talent in industries like IT, Finance, Healthcare, and Engineering, ensuring the right fit for every role.",
-          "paragraph2": "Through our manpower outsourcing, we support both local and international businesses by managing recruitment, payroll, contracts, and benefits. This allows companies to focus on core operations while we handle their staffing needs, whether for short-term projects or long-term partnerships. Additionally, our professional training programs incorporate innovative techniques like gamification to equip employees with essential skills, fostering continuous growth and operational excellence. Whether you are expanding in Kenya or looking for strategic HR solutions, ITM Kenya is your partner for success.",
+          "paragraph1": "ITM Kenya, a member of the ITM Group founded in 2023, is a trusted provider of professional Human Resources (HR) services. We specialize in delivering tailored HR solutions designed to help businesses streamline their workforce management, enhance employee engagement, and achieve organizational success.",
+          "paragraph2": "As part of the globally recognized ITM Group, ITM Kenya is committed to excellence and innovation, empowering organizations across the region with comprehensive HR services that drive growth and efficiency.",
           "btnContact": {
             "text": "Contact us",
             "link": "/en/ke/contact-us"
