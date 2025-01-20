@@ -36,10 +36,10 @@ export default function Teams({ toShow = 5, params }: any) {
               {
                 itemsToShow: toShow,
                 itemsToScroll: 1,
-                minWidth: 768,
+                minWidth: 600,
               },
             ]}
-            itemsToShow={toShow}
+            itemsToShow={2}
             infinite={true}
             autoplay={true}
             autoplayDelay={2000}
