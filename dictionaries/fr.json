@@ -164,6 +164,10 @@
         }
       ]
     },
+    "team": {
+      "title": "Notre Equipe",
+      "subtitle": "Rencontrez notre équipe"
+    },
     "footer": {
       "text": "Restez informé des dernières fonctionnalités et versions en rejoignant notre newsletter.",
       "placeholder": "Votre mail",
@@ -512,7 +516,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM SARL",
-          "paragraph": "ITM SARL est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM SARL est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM SARL est votre partenaire de confiance pour une croissance durable.",
           "btnMore": {
             "text": "En-savoir plus",
             "link": "/fr/a-propos-de-nous",
@@ -3456,12 +3460,12 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM KENYA LTD.",
-          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM Kenya, membre du groupe ITM fondé en 2023, est un fournisseur de confiance de services professionnels de ressources humaines (RH). Nous sommes spécialisés dans la fourniture de solutions RH sur mesure conçues pour aider les entreprises à rationaliser la gestion de leurs effectifs, à renforcer l'engagement des employés et à atteindre le succès organisationnel. En tant que membre du groupe ITM mondialement reconnu, ITM Kenya s'engage à l'excellence et à l'innovation, permettant aux organisations de toute la région de bénéficier de services RH complets qui stimulent la croissance et l'efficacité.",
           "btnMore": {
             "text": "En-savoir plus",
-            "link": "/fr/a-propos-de-nous",
+            "link": "/fr/ke/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM KENYA"
           }
         }
       },

@@ -1,19 +1,23 @@
 'use client';
 import SectionTitle from '@/components/global/section_title';
+import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import Carousel from 'react-simply-carousel';
 import CardTeam from '../cards/team';
 
-export default function Teams({ toShow = 5 }: any) {
+export default function Teams({ toShow = 5, params }: any) {
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.global.team;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <section className="w-full py-20 bg-white">
       <div className="w-11/12 mx-auto">
         <div className="w-fit mx-auto">
-          <SectionTitle text={'Notre Equipe'} />
+          <SectionTitle text={data.title} />
         </div>
-        <h1 className="font-bold  text-4xl text-center text-blue_itm_primary pb-5">
-          Rencontrez notre équipe
+        <h1 className="font-bold text-4xl text-center text-blue_itm_primary pb-5">
+          {data.subtitle}
         </h1>
         <main className="w-full flex justify-between relative">
           <Carousel
