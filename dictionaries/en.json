@@ -35,7 +35,22 @@
               }
             ]
           },
-
+          {
+            "href": "/en/training",
+            "name": "TRAINING",
+            "current": "training",
+            "external": false,
+            "langs": [
+              {
+                "href": "/en/training",
+                "name": "En"
+              },
+              {
+                "href": "/fr/formations",
+                "name": "Fr"
+              }
+            ]
+          },
           {
             "href": "https://talentpro.itmafrica.com",
             "name": "JOB OFFERS",
@@ -48,6 +63,22 @@
               },
               {
                 "href": "https://talentpro.itmafrica.com",
+                "name": "Fr"
+              }
+            ]
+          },
+          {
+            "href": "/en/news",
+            "name": "NEWS",
+            "current": "news",
+            "external": false,
+            "langs": [
+              {
+                "href": "/en/news",
+                "name": "En"
+              },
+              {
+                "href": "/fr/actualites",
                 "name": "Fr"
               }
             ]
@@ -3297,7 +3328,7 @@
           ]
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Welcome to ITM Kenya | Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -3378,7 +3409,7 @@
           "title": "WHAT TO KNOW ABOUT ITM KENYA",
           "description": "We provide exclusive services for your business",
           "paragraph1": "ITM Kenya, a member of the ITM Group founded in 2023, is a trusted provider of professional Human Resources (HR) services. We specialize in delivering tailored HR solutions designed to help businesses streamline their workforce management, enhance employee engagement, and achieve organizational success.",
-          "paragraph2": "As part of the globally recognized ITM Group, ITM Kenya is committed to excellence and innovation, empowering organizations across the region with comprehensive HR services that drive growth and efficiency.",
+          "paragraph2": "Located at KOFISI DRIVE, Nairobi, ITM Kenya is your trusted partner for exceptional HR services tailored to meet the unique needs of businesses in Kenya. With a team of seasoned experts, we are committed to delivering comprehensive and personalized HR solutions that drive your organization's success. Whether you’re seeking top-tier recruitment, professional training, team building services, or HR outsourcing, ITM Kenya has the expertise to help you achieve your workforce goals.",
           "btnContact": {
             "text": "Contact us",
             "link": "/en/ke/contact-us"
@@ -3550,7 +3581,7 @@
         },
         "about": {
           "title1": "Contact us",
-          "title2": "ITM KENYA",
+          "title2": "ITM KENYA LTD.",
           "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
         }
       }

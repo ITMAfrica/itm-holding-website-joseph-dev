@@ -35,7 +35,22 @@
               }
             ]
           },
-
+          {
+            "href": "/fr/formations",
+            "name": "FORMATIONS",
+            "current": "a-propos-de-nous",
+            "external": false,
+            "langs": [
+              {
+                "href": "/en/training",
+                "name": "En"
+              },
+              {
+                "href": "/fr/formations",
+                "name": "Fr"
+              }
+            ]
+          },
           {
             "href": "https://talentpro.itmafrica.com",
             "name": "OFFRES D'EMPLOIS",
@@ -52,7 +67,22 @@
               }
             ]
           },
-
+          {
+            "href": "/fr/actualites",
+            "name": "ACTUALITES",
+            "current": "actualites",
+            "external": false,
+            "langs": [
+              {
+                "href": "/en/news",
+                "name": "En"
+              },
+              {
+                "href": "/fr/actualites",
+                "name": "Fr"
+              }
+            ]
+          },
           {
             "href": "/fr/contactez-nous",
             "name": "CONTACTS",
@@ -417,30 +447,6 @@
   "cd": {
     "pages": {
       "home": {
-        "banner": {
-          "items": [
-            {
-              "title": "BIENVENUE CHEZ ITM SARL",
-              "paragraph": "ITM SARL est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM SARL"
-              }
-            },
-            {
-              "title": "BIENVENUE CHEZ ITM SARL",
-              "paragraph": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM HR"
-              }
-            }
-          ]
-        },
         "meta": {
           "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
@@ -477,6 +483,41 @@
               "max-image-preview": "large",
               "max-snippet": -1
             }
+          }
+        },
+        "banner": {
+          "items": [
+            {
+              "title": "BIENVENUE CHEZ ITM SARL",
+              "paragraph": "ITM SARL est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM SARL"
+              }
+            },
+            {
+              "title": "BIENVENUE CHEZ ITM SARL",
+              "paragraph": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM HR"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "QUI SOMMES-NOUS ?",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "btnMore": {
+            "text": "En-savoir plus",
+            "link": "/fr/a-propos-de-nous",
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM HR"
           }
         }
       },
@@ -700,30 +741,6 @@
   "de": {
     "pages": {
       "home": {
-        "banner": {
-          "items": [
-            {
-              "title": "BIENVENUE CHEZ ITM NEXUS",
-              "paragraph": "ITM NEXUS est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM NEXUS"
-              }
-            },
-            {
-              "title": "BIENVENUE CHEZ ITM NEXUS",
-              "paragraph": "ITM NEXUS est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM NEXUS"
-              }
-            }
-          ]
-        },
         "meta": {
           "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
@@ -760,6 +777,41 @@
               "max-image-preview": "large",
               "max-snippet": -1
             }
+          }
+        },
+        "banner": {
+          "items": [
+            {
+              "title": "BIENVENUE CHEZ ITM NEXUS",
+              "paragraph": "ITM NEXUS est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM NEXUS"
+              }
+            },
+            {
+              "title": "BIENVENUE CHEZ ITM NEXUS",
+              "paragraph": "ITM NEXUS est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM NEXUS"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "QUI SOMMES-NOUS ?",
+          "subtitle": "ITM HR",
+          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "btnMore": {
+            "text": "En-savoir plus",
+            "link": "/fr/a-propos-de-nous",
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM HR"
           }
         }
       },
@@ -3251,32 +3303,8 @@
   "ke": {
     "pages": {
       "home": {
-        "banner": {
-          "items": [
-            {
-              "title": "BIENVENUE CHEZ ITM KENYA",
-              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM KENYA"
-              }
-            },
-            {
-              "title": "BIENVENUE CHEZ ITM KENYA",
-              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
-              "bgWhite": false,
-              "btnMore": {
-                "text": "En-savoir plus",
-                "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM KENYA"
-              }
-            }
-          ]
-        },
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Bienvenue chez ITM Kenya | Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -3312,11 +3340,35 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "items": [
+            {
+              "title": "BIENVENUE CHEZ ITM KENYA",
+              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM KENYA"
+              }
+            },
+            {
+              "title": "BIENVENUE CHEZ ITM KENYA",
+              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En-savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM KENYA"
+              }
+            }
+          ]
         }
       },
       "about": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Bienvenue chez ITM Kenya | Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -3357,7 +3409,7 @@
           "title": "QUE RETENIR SUR ITM KENYA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
           "paragraph1": "ITM Kenya, membre du groupe ITM fondé en 2023, est un fournisseur de confiance de services professionnels de ressources humaines (RH). Nous sommes spécialisés dans la fourniture de solutions RH sur mesure conçues pour aider les entreprises à rationaliser la gestion de leurs effectifs, à renforcer l'engagement des employés et à atteindre le succès organisationnel.",
-          "paragraph2": "En tant que membre du groupe ITM mondialement reconnu, ITM Kenya s'engage à l'excellence et à l'innovation, permettant aux organisations de toute la région de bénéficier de services RH complets qui stimulent la croissance et l'efficacité.",
+          "paragraph2": "Situé à KOFISI DRIVE, Nairobi, ITM Kenya est votre partenaire de confiance pour des services RH exceptionnels adaptés aux besoins uniques des entreprises au Kenya. Avec une équipe d'experts chevronnés, nous nous engageons à fournir des solutions RH complètes et personnalisées qui favorisent le succès de votre organisation. Que vous soyez à la recherche d'un recrutement de premier ordre, d'une formation professionnelle, de services de consolidation d'équipe ou d'une externalisation des RH, ITM Kenya possède l'expertise nécessaire pour vous aider à atteindre vos objectifs en matière de main-d'œuvre.",
           "btnContact": {
             "text": "Contactez-nous",
             "link": "/fr/ke/contactez-nous"
