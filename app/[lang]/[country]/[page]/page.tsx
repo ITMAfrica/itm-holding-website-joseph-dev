@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: any) {
   const data: any = dictionary[country].pages;
   const notFound: any = dictionary.globalContent.pages.notFound;
 
-  switch (params.country) {
+  switch (params.page) {
     case 'about-us':
       return data.about.meta;
     case 'a-propos-de-nous':

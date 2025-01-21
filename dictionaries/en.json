@@ -1369,11 +1369,11 @@
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM HR",
-          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "subtitle": "ITM CONGO",
+          "paragraph": "Established in 2022, ITM Congo is a subsidiary of ITM Holding, dedicated to offering innovative solutions tailored to the specific needs of our customers, both in Congo and internationally. With a dynamic team combining youth and experience, we are committed to providing top-quality services in a variety of business sectors.",
           "btnMore": {
             "text": "Discover more",
-            "link": "/en/about-us",
+            "link": "/en/cg/about-us",
             "key": "about-us",
             "title": "Learn more about ITM history"
           }

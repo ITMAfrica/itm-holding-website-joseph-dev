@@ -175,7 +175,6 @@ export default function Footer({ params }: { params: any }) {
             Paramètre des cookies
           </Link>
           <div className="md:ml-4"></div>
-          <CardCountry />
         </div>
       </section>
     </footer>
