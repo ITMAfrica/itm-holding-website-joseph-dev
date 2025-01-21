@@ -814,7 +814,7 @@ export const entitiesInfos: any = {
   cg: {
     address:
       '243, Boulevard Charles DE GAULLE, immeuble Tour MAYOMBE, centre-ville/ Pointe-Noire ',
-    phone: '+242 05 640 17 50',
+    phone: '+242 056 401 750',
     email: 'infocongobrazza@itmafrica.com',
   },
   bn: {

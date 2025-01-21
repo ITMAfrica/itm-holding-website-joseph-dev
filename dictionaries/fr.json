@@ -452,8 +452,8 @@
     "pages": {
       "home": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines en Africa et dans le monde",
+          "description": "ITM Africa est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH — pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -1397,13 +1397,13 @@
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM HR",
-          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "subtitle": "ITM CONGO",
+          "paragraph": "Établie en 2022, ITM Congo est une filiale d'ITM Holding, dédiée à offrir des solutions innovantes et adaptées aux besoins spécifiques de nos clients, tant au Congo qu'à l'international. Avec une équipe dynamique alliant jeunesse et expérience, nous nous engageons à fournir des services de qualité supérieure dans divers secteurs d'activité.",
           "btnMore": {
             "text": "En-savoir plus",
-            "link": "/fr/a-propos-de-nous",
+            "link": "/fr/cg/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM CONGO"
           }
         }
       },
