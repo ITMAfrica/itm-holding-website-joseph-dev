@@ -28,8 +28,8 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
             })}
           </div>
         </div>
-        <div className="w-full lg:w-6/12 lg:pb-0 pb-10 h-full flex items-center justify-center relative">
-          <div className="w-10/12 lg:w-[400px] h-[300px] md:h-[400px] lg:h-[550px] shadow-2xl shadow-black/60 relative">
+        <div className="w-full md:w-6/12 mx-auto lg:pb-0 pb-10 h-full flex items-center justify-center relative">
+          <div className="w-10/12 lg:w-[400px] h-[400px] sm:h-[500px] md:h-[400px] lg:h-[550px] shadow-2xl shadow-black/60 relative">
             <Image
               src={imageLeft}
               fill
