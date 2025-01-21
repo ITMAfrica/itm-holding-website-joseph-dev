@@ -296,7 +296,7 @@ export const servicesHome: any = {
       },
     },
     {
-      name: 'Recrutment and Talent Acquisition',
+      name: 'Recruitment and Talent Acquisition',
       icon: service2,
       description:
         "Finding the right people is essential for growth. Our talent sourcing services connect you with the best candidates, whether you're looking to fill specialized roles or hire at scale. We use a combination of technology and local expertise to find the right fit for your company.",
