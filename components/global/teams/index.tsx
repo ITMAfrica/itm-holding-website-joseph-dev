@@ -33,13 +33,10 @@ export default function Teams({ toShow = 5, params }: any) {
             onRequestChange={setActiveSlide}
             easing="linear"
             responsiveProps={[
-              {
-                itemsToShow: toShow,
-                itemsToScroll: 1,
-                minWidth: 600,
-              },
+              { minWidth: 700, maxWidth: 1200, itemsToShow: 3 },
+              { maxWidth: 450, itemsToShow: 1 },
             ]}
-            itemsToShow={2}
+            itemsToShow={toShow}
             infinite={true}
             autoplay={true}
             autoplayDelay={2000}
