@@ -787,20 +787,20 @@
           }
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Welcome to ITM Germany | Your strategic partner in HR solutions in Germany",
+          "description": "ITM Nexus is your strategic partner in HR solutions in Germany. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
-            "ITM",
-            "ITM Africa RDC",
+            "ITM Germany",
+            "ITM Nexus",
             "ITM Africa",
-            "Human Resource Africa",
+            "Human Resource Germany",
             "Team Building",
-            "Training ITM",
-            "Human resource DRC",
-            "Payroll management"
+            "Training ITM Nexus",
+            "Human resource Germany",
+            "Payroll management Germany"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -827,21 +827,21 @@
       },
       "about": {
         "meta": {
-          "title": "About ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "About ITM Germany | Your strategic partner in HR solutions in Germany",
+          "description": "ITM Germany is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
-            "ITM About",
+            "ITM Germany About",
             "About International training and Motivation",
-            "ITM Africa RDC",
-            "ITM Africa",
+            "ITM Africa Germany",
+            "ITM Nexus",
             "Human Resource Africa",
             "Team Building",
-            "Training ITM",
-            "Human resource DRC",
-            "Payroll management"
+            "Training ITM Nexus",
+            "Human resource Germany",
+            "Payroll management Germany"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -872,26 +872,26 @@
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
-            "link": "/en/contact-us"
+            "link": "/en/de/contact-us"
           }
         }
       },
       "services": {
         "meta": {
-          "title": "Services of ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Services of ITM Germany | Your strategic partner in HR solutions in Germany",
           "description": "We tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
-            "ITM services",
-            "ITM Africa services",
-            "ITM Africa",
-            "Human Resource Africa DRC",
+            "ITM Germany services",
+            "ITM Nexus services",
+            "ITM Germany",
+            "Human Resource Germany",
             "Team Building",
             "Training",
-            "HR DRC",
-            "Payroll management"
+            "HR Germany",
+            "Payroll management Nexus"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -918,19 +918,19 @@
       },
       "training": {
         "meta": {
-          "title": "Training ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Training ITM Germany | Your strategic partner in HR solutions in Germany",
           "description": "We offer customized training to enhance your teams' capabilities. We customize our services - recruitment, staff placement, training and HR compliance - to meet your precise needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
-            "ITM training",
-            "Traing ITM Africa DRC",
-            "ITM Africa capacity building",
+            "ITM training Germany",
+            "Traing ITM Nexus",
+            "ITM Germany capacity building",
             "Human resources training",
             "Team Building training",
-            "Training RDC RH",
-            "Human resource DRC",
+            "Training Germany RH",
+            "Human resource Germany",
             "Payroll management training"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -958,20 +958,20 @@
       },
       "news": {
         "meta": {
-          "title": "News ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "News ITM Germany | Your strategic partner in HR solutions in Germany",
           "description": "Keep up to date with the latest ITM Africa news and information on our offers and services.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM news",
-            "News ITM Africa DRC",
-            "ITM Africa news",
+            "News ITM Africa Germany",
+            "ITM Germany news",
             "Human resource news",
             "Team Building news",
-            "News DRC RH",
-            "Human resource DRC",
-            "Payroll management news DRC"
+            "News Germany RH",
+            "Human resource Nexus",
+            "Payroll management news Germany"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -998,20 +998,20 @@
       },
       "contact": {
         "meta": {
-          "title": "Contact ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Contact ITM Germany | Your strategic partner in HR solutions in Germany",
           "description": "Contact us to get in touch. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
-            "ITM contatc",
+            "ITM Nexus contatc",
             "contact International training and Motivation",
-            "ITM Africa DRC contact",
-            "ITM Africa",
-            "Human Resource Africa",
+            "ITM Africa Germany contact",
+            "ITM Germany",
+            "Human Resource Africa Germany",
             "Team Building",
-            "Training ITM",
-            "Human resource DRC",
+            "Training ITM Nexus",
+            "Human resource Germany",
             "Payroll management contact"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],

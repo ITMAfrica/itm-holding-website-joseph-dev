@@ -746,19 +746,19 @@
     "pages": {
       "home": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Bienvenue chez ITM Nexus | Votre partenaire en Ressources humaines en allemagne",
+          "description": "ITM Nexus est votre partenaire stratégique en solutions RH en Allemagne. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "ITM Africa RDC",
-            "ITM Africa",
-            "Ressources humaines",
-            "Team Building",
+            "ITM Africa Allemagne",
+            "ITM Africa nexus",
+            "Ressources humaines berlin",
+            "Team Building nexus",
             "Formation",
-            "Ressources humaines RDC",
+            "Ressources humaines Nexus",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -821,19 +821,19 @@
       },
       "about": {
         "meta": {
-          "title": "A propos de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "A propos de ITM Nexus | Votre partenaire en Ressources humaines en allemagne",
+          "description": "ITM Nexus est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "A propos de ITM Africa",
-            "ITM Africa",
+            "A propos de ITM Nexus",
+            "ITM Africa allemagne",
             "Ressources humaines",
             "Team Building",
             "Formation",
-            "Ressources humaines RDC",
+            "Ressources humaines allemagne",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -865,25 +865,25 @@
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
-            "link": "/fr/contactez-nous"
+            "link": "/fr/de/contactez-nous"
           }
         }
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Services de ITM Allemagne | Votre partenaire en Ressources humaines en allemagne",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "A propos de ITM Africa",
+            "A propos de ITM Nexus",
             "ITM Africa",
             "Ressources humaines",
             "Team Building",
             "Formation",
-            "Ressources humaines RDC",
+            "Ressources humaines Nexus",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -911,20 +911,20 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Formations de ITM Allemagne | Votre partenaire en Ressources humaines allemagne",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM formations",
-            "Formations ITM Africa RDC",
+            "Formations ITM Nexus",
             "ITM Africa renforcement de capacité",
             "Ressources humaines formations",
             "Team Building formation",
-            "Formation RDC RH",
-            "Ressources humaines RDC",
-            "Gestion du payroll formation ITM"
+            "Formation Allemagne RH",
+            "Ressources humaines Nexus",
+            "Gestion du payroll formation ITM Nexus"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -951,20 +951,20 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
+          "title": "Actualités de ITM allemagne | Votre partenaire en Ressources humaines allemagne",
+          "description": "Restez à jour sur les dernières actualités de ITM Allemagne et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM news",
-            "Actualités ITM Africa RDC",
-            "ITM Africa news et infos",
+            "Actualités ITM Nexus",
+            "ITM Africa news et infos allemagne",
             "Ressources humaines actualités",
             "Team Building news",
-            "Actulités RDC RH",
-            "Ressources humaines RDC",
-            "Gestion du payroll actualités ITM"
+            "Actulités allemagne RH",
+            "Ressources humaines allemagne",
+            "Gestion du payroll actualités ITM nexus"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -991,20 +991,20 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez ITM Allemagne | Votre partenaire en Ressources humaines en allemagne",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "Contacter ITM Africa",
+            "Contacter ITM Nexus",
             "ITM Africa",
             "Ressources humaines contact",
             "Team Building contact",
             "Formation RDC contact",
-            "Ressources humaines RDC",
-            "Gestion du payroll ITM"
+            "Ressources humaines allemagne",
+            "Gestion du payroll ITM Nexus"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
