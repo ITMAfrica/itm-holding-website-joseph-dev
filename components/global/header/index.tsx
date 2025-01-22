@@ -18,6 +18,7 @@ type linkHeader = {
   name: string;
   current: string;
   external: boolean;
+  arrow: boolean;
 };
 
 export default function HomeHeader({ params }: propsPage) {

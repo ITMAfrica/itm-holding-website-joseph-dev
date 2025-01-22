@@ -8,6 +8,7 @@
             "name": "ABOUT US",
             "current": "about-us",
             "external": false,
+            "arrow": true,
             "langs": [
               {
                 "href": "/en/about-us",
@@ -24,6 +25,7 @@
             "name": "SERVICES",
             "current": "services",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/services",
@@ -40,6 +42,7 @@
             "name": "TRAINING",
             "current": "training",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/training",
@@ -56,6 +59,7 @@
             "name": "JOB OFFERS",
             "current": "offers",
             "external": true,
+            "arrow": false,
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com",
@@ -72,6 +76,7 @@
             "name": "NEWS",
             "current": "news",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/news",
@@ -88,6 +93,7 @@
             "name": "CONTACTS",
             "external": false,
             "current": "contact-us",
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/contact-us",

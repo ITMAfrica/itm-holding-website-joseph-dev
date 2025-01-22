@@ -30,6 +30,7 @@ export type link = {
   name: string;
   current?: string;
   external: boolean;
+  arrow: boolean;
   full?: boolean;
   closeModal?: any;
 };

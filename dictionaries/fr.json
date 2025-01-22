@@ -8,6 +8,25 @@
             "name": "A PROPOS DE NOUS",
             "current": "a-propos-de-nous",
             "external": false,
+            "arrow": true,
+            "submenus": [
+              {
+                "name": "A propos de la Holding",
+                "link": "a-propos-de-nous#holding"
+              },
+              {
+                "name": "Nos compagnies",
+                "link": "a-propos-de-nous#company"
+              },
+              {
+                "name": "A propos de l'entité",
+                "link": "a-propos-de-nous#entity"
+              },
+              {
+                "name": "Notre équipe",
+                "link": "a-propos-de-nous#team"
+              }
+            ],
             "langs": [
               {
                 "href": "/en/about-us",
@@ -24,6 +43,7 @@
             "name": "SERVICES",
             "current": "services",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/services",
@@ -40,6 +60,7 @@
             "name": "FORMATIONS",
             "current": "a-propos-de-nous",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/training",
@@ -56,6 +77,7 @@
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
             "external": true,
+            "arrow": false,
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com",
@@ -72,6 +94,7 @@
             "name": "ACTUALITES",
             "current": "actualites",
             "external": false,
+            "arrow": false,
             "langs": [
               {
                 "href": "/en/news",
@@ -87,6 +110,7 @@
             "href": "/fr/contactez-nous",
             "name": "CONTACTS",
             "external": false,
+            "arrow": false,
             "current": "contactez-nous",
             "langs": [
               {
@@ -3126,7 +3150,7 @@
           "subtitle": "ITM AFRICA LTD.",
           "paragraph": "Depuis 2017, ITM Rwanda est un leader de confiance en matière de gestion de la main-d'œuvre et de solutions commerciales. Soutenant plus de 1 000 employés, l'entreprise fournit des solutions personnalisées qui font une réelle différence pour les organisations. Notre expertise comprend l'acquisition de talents, la gestion des RH et les solutions de paie, permettant aux entreprises de rationaliser leurs opérations et de se concentrer sur le succès. Du recrutement à la gestion des salaires, ITM Rwanda simplifie la gestion du personnel, permettant aux entreprises de se concentrer sur la croissance. S'associer avec ITM Rwanda, c'est construire un avenir plus solide pour les entreprises au Rwanda et au-delà.",
           "btnMore": {
-            "text": "En-savoir plus",
+            "text": "En savoir plus",
             "link": "/fr/rw/a-propos-de-nous",
             "key": "a-propos-de-nous",
             "title": "Voir les détails sur ITM AFRICA LTD."
