@@ -31,6 +31,7 @@ export type link = {
   current?: string;
   external: boolean;
   arrow: boolean;
+  submenus?: any;
   full?: boolean;
   closeModal?: any;
 };

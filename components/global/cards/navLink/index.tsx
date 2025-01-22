@@ -13,6 +13,7 @@ export default function NavLinkCard({
   full = false,
   external,
   arrow,
+  submenus,
   closeModal = () => {},
 }: link) {
   const params = useParams();
@@ -70,22 +71,46 @@ export default function NavLinkCard({
       </span>
     </Link>
   ) : (
-    <Link
-      href={getHref()}
-      className={`${
-        pathname == getHref()
-          ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
-          : ''
-      } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
-    >
+    <>
       {arrow ? (
-        <span className="flex items-center">
-          <span className="flex items-center">{name}</span>
-          <IoIosArrowDown className="ml-1" />
+        <span className="dropdown">
+          <Link
+            href={getHref()}
+            className={`${
+              pathname == getHref()
+                ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
+                : ''
+            } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+          >
+            {arrow ? (
+              <div className="">
+                <span className="flex items-center">
+                  <span className="flex items-center">{name}</span>
+                  <IoIosArrowDown className="ml-1" />
+                </span>
+              </div>
+            ) : (
+              <span className="flex items-center">{name}</span>
+            )}
+          </Link>
+          <div className="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </span>
       ) : (
-        <span className="flex items-center">{name}</span>
+        <Link
+          href={getHref()}
+          className={`${
+            pathname == getHref()
+              ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
+              : ''
+          } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+        >
+          <span className="flex items-center">{name}</span>
+        </Link>
       )}
-    </Link>
+    </>
   );
 }

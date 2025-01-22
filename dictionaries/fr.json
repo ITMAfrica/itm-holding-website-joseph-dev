@@ -44,6 +44,7 @@
             "current": "services",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/services",
@@ -61,6 +62,7 @@
             "current": "a-propos-de-nous",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/training",
@@ -95,6 +97,7 @@
             "current": "actualites",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/news",
@@ -111,6 +114,7 @@
             "name": "CONTACTS",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "current": "contactez-nous",
             "langs": [
               {

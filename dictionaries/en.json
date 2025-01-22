@@ -9,6 +9,24 @@
             "current": "about-us",
             "external": false,
             "arrow": true,
+            "submenus": [
+              {
+                "name": "About Holding",
+                "link": "about-us#holding"
+              },
+              {
+                "name": "Our companies",
+                "link": "about-us#company"
+              },
+              {
+                "name": "About the entity",
+                "link": "about-us#entity"
+              },
+              {
+                "name": "Our team",
+                "link": "about-us#team"
+              }
+            ],
             "langs": [
               {
                 "href": "/en/about-us",
@@ -26,6 +44,7 @@
             "current": "services",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/services",
@@ -43,6 +62,7 @@
             "current": "training",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/training",
@@ -60,6 +80,7 @@
             "current": "offers",
             "external": true,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "https://talentpro.itmafrica.com",
@@ -77,6 +98,7 @@
             "current": "news",
             "external": false,
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/news",
@@ -94,6 +116,7 @@
             "external": false,
             "current": "contact-us",
             "arrow": false,
+            "submenus": [],
             "langs": [
               {
                 "href": "/en/contact-us",
