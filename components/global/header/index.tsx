@@ -18,6 +18,8 @@ type linkHeader = {
   name: string;
   current: string;
   external: boolean;
+  arrow: boolean;
+  submenus?: any;
 };
 
 export default function HomeHeader({ params }: propsPage) {

@@ -11,7 +11,7 @@ export default function Teams({ toShow = 5, params }: any) {
   const data = dictionary.global.team;
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white" id="team">
       <div className="w-11/12 mx-auto">
         <div className="w-fit mx-auto">
           <SectionTitle text={data.title} />

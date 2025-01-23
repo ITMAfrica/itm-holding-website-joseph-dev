@@ -5,12 +5,15 @@ import Link from 'next/link';
 import { useParams, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { IoIosArrowDown } from 'react-icons/io';
 
 export default function NavLinkCard({
   href,
   name,
   full = false,
   external,
+  arrow,
+  submenus,
   closeModal = () => {},
 }: link) {
   const params = useParams();
@@ -68,15 +71,46 @@ export default function NavLinkCard({
       </span>
     </Link>
   ) : (
-    <Link
-      href={getHref()}
-      className={`${
-        pathname == getHref()
-          ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
-          : ''
-      } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
-    >
-      <span className="flex items-center">{name}</span>
-    </Link>
+    <>
+      {arrow ? (
+        <span className="dropdown">
+          <Link
+            href={getHref()}
+            className={`${
+              pathname == getHref()
+                ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
+                : ''
+            } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+          >
+            {arrow ? (
+              <div className="">
+                <span className="flex items-center">
+                  <span className="flex items-center">{name}</span>
+                  <IoIosArrowDown className="ml-1" />
+                </span>
+              </div>
+            ) : (
+              <span className="flex items-center">{name}</span>
+            )}
+          </Link>
+          <div className="dropdown-content">
+            {submenus.map((item: any, index: number) => {
+              return <Link href={getHref() + item.link}>{item.name}</Link>;
+            })}
+          </div>
+        </span>
+      ) : (
+        <Link
+          href={getHref()}
+          className={`${
+            pathname == getHref()
+              ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
+              : ''
+          } block px-4 mb-3 md:mb-0 py-2 transition-all duration-1000 hover:font-bold hover:text-blue_itm_good hover:bg-gray_itm_bg/40 rounded-full text-black_itm text-left lg:text-center uppercase`}
+        >
+          <span className="flex items-center">{name}</span>
+        </Link>
+      )}
+    </>
   );
 }
