@@ -12,19 +12,19 @@
             "submenus": [
               {
                 "name": "About Holding",
-                "link": "about-us#holding"
+                "link": "#holding"
               },
               {
                 "name": "Our companies",
-                "link": "about-us#company"
+                "link": "#company"
               },
               {
                 "name": "About the entity",
-                "link": "about-us#entity"
+                "link": "#entity"
               },
               {
                 "name": "Our team",
-                "link": "about-us#team"
+                "link": "#team"
               }
             ],
             "langs": [

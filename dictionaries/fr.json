@@ -12,19 +12,19 @@
             "submenus": [
               {
                 "name": "A propos de la Holding",
-                "link": "a-propos-de-nous#holding"
+                "link": "#holding"
               },
               {
                 "name": "Nos compagnies",
-                "link": "a-propos-de-nous#company"
+                "link": "#company"
               },
               {
                 "name": "A propos de l'entité",
-                "link": "a-propos-de-nous#entity"
+                "link": "#entity"
               },
               {
                 "name": "Notre équipe",
-                "link": "a-propos-de-nous#team"
+                "link": "#team"
               }
             ],
             "langs": [
