@@ -94,9 +94,9 @@ export default function NavLinkCard({
             )}
           </Link>
           <div className="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            {submenus.map((item: any, index: number) => {
+              return <Link href={item.link}>{item.name}</Link>;
+            })}
           </div>
         </span>
       ) : (
