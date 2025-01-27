@@ -4,7 +4,6 @@ import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
-import CardCountry from '@/components/global/cards/country';
 import { CODE, getCountryCode, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
