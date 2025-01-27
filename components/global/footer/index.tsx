@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/logo_rdc_blanc.png';
 import CardCountry from '@/components/global/cards/country';
-import { CODE, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
+import { CODE, getCountryCode, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
 import newsLetterSchema from './newsLetterSchema';
@@ -16,6 +16,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa6';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { entitiesInfos } from '@/lib/data';
 
 type linkHeader = {
   href: string;
@@ -39,6 +40,11 @@ export default function Footer({ params }: { params: any }) {
       return `/${params.lang}`;
     }
   }
+
+  //Getting dynamics infos for social medias
+  const country: string = params.country;
+  const code = getCountryCode(country);
+  const socials_network_infos = entitiesInfos[code].social_medias;
 
   const {
     handleSubmit,
@@ -125,7 +131,7 @@ export default function Footer({ params }: { params: any }) {
             <ul className="flex mb-2">
               <li className="mr-2">
                 <Link
-                  href="/fr"
+                  href={socials_network_infos.facebook}
                   target="_blank"
                   className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
@@ -134,7 +140,7 @@ export default function Footer({ params }: { params: any }) {
               </li>
               <li className="mr-2">
                 <Link
-                  href="/fr"
+                  href={socials_network_infos.twitter}
                   target="_blank"
                   className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
@@ -143,7 +149,7 @@ export default function Footer({ params }: { params: any }) {
               </li>
               <li className="mr-2">
                 <Link
-                  href="/fr"
+                  href={socials_network_infos.linkedin}
                   target="_blank"
                   className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
@@ -152,7 +158,7 @@ export default function Footer({ params }: { params: any }) {
               </li>
               <li className="mr-2">
                 <Link
-                  href="/fr"
+                  href={socials_network_infos.instagram}
                   target="_blank"
                   className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
