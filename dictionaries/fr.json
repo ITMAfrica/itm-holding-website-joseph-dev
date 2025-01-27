@@ -555,7 +555,7 @@
       },
       "about": {
         "meta": {
-          "title": "A propos de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "A propos de nous | ITM Africa, Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -605,7 +605,7 @@
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Services | ITM Africa, Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -645,7 +645,7 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Formations | ITM Africa, Votre partenaire en Ressources humaines",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -685,7 +685,7 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Actualités | ITM Africa, votre partenaire en Ressources humaines",
           "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -725,7 +725,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contact | ITM Africa, votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -3499,19 +3499,19 @@
       },
       "about": {
         "meta": {
-          "title": "Bienvenue chez ITM Kenya | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "A propos de nous | ITM Kenya, Votre partenaire en Ressources humaines",
+          "description": "ITM Kenya est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "ITM Africa RDC",
+            "ITM Africa Kenya",
             "ITM Africa",
             "Ressources humaines",
-            "Team Building",
+            "Team Building kenya",
             "Formation",
-            "Ressources humaines RDC",
+            "Ressources humaines kenya",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -3549,7 +3549,7 @@
       },
       "services": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Services | ITM Kenya, votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -3589,8 +3589,8 @@
       },
       "training": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Formations | ITM Kenya, votre partenaire en Ressources humaines",
+          "description": "ITM Kenya est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -3629,8 +3629,8 @@
       },
       "news": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Actualités | ITM Kenya Votre partenaire en Ressources humaines",
+          "description": "ITM Kenya est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -3669,7 +3669,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contact | ITM Kenya, votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
