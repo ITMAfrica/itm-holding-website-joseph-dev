@@ -493,15 +493,6 @@ export const entities = [
     logo: cdLogo,
   },
   {
-    fr: 'Rwanda',
-    en: 'Rwanda',
-    name: 'ITM AFRICA LTD.',
-    href: '/en/rw',
-    code: 'rw',
-    flag: rwFlag,
-    logo: rwLogo,
-  },
-  {
     fr: 'Tanzanie',
     en: 'Tanzania',
     name: 'ITM TANZANIA',
