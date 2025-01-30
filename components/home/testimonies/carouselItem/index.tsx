@@ -20,7 +20,7 @@ export default function TestimonyItem({
       }}
       className={`${activeSlide == index ? centerClass : asideClass}`}
     >
-      <div className="w-[325px] min-h-[325px] bg-white shadow-xl rounded-2xl border pt-0 p-3 relative">
+      <div className="lg:w-[325px] md:w-[300px] w-[200px] min-h-[325px] bg-white shadow-xl rounded-2xl border pt-0 p-3 relative">
         <div className="-translate-y-1/2 flex justify-center">
           <div className="w-24 h-24 p-2 relative shadow-lg overflow-hidden rounded-full border-4 border-white bg-gray-200">
             <Image src={item?.image} fill alt="avatar" />
