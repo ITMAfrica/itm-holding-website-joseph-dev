@@ -57,24 +57,6 @@
             ]
           },
           {
-            "href": "/fr/formations",
-            "name": "FORMATIONS",
-            "current": "a-propos-de-nous",
-            "external": false,
-            "arrow": false,
-            "submenus": [],
-            "langs": [
-              {
-                "href": "/en/training",
-                "name": "En"
-              },
-              {
-                "href": "/fr/formations",
-                "name": "Fr"
-              }
-            ]
-          },
-          {
             "href": "https://talentpro.itmafrica.com",
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
@@ -91,24 +73,7 @@
               }
             ]
           },
-          {
-            "href": "/fr/actualites",
-            "name": "ACTUALITES",
-            "current": "actualites",
-            "external": false,
-            "arrow": false,
-            "submenus": [],
-            "langs": [
-              {
-                "href": "/en/news",
-                "name": "En"
-              },
-              {
-                "href": "/fr/actualites",
-                "name": "Fr"
-              }
-            ]
-          },
+
           {
             "href": "/fr/contactez-nous",
             "name": "CONTACTS",

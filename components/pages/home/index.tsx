@@ -16,7 +16,7 @@ export default function HomePage({ params }: { params: any }) {
       <HomeMetrics params={params} />
       <HomePartners params={params} />
       <HomeTestimonies params={params} />
-      <HomeNews params={params} />
+      {/* <HomeNews params={params} /> */}
       <HomeCallToAction params={params} />
     </main>
   );
