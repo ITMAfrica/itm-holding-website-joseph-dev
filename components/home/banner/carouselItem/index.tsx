@@ -2,6 +2,7 @@ import Image from 'next/image';
 import image1 from '@/public/pages/home/banner/banner1.png';
 import image2 from '@/public/pages/home/banner/banner2.png';
 import image3 from '@/public/pages/home/banner/banner3.png';
+import image4 from '@/public/pages/home/banner/banner4.png';
 import ButtonBg from '@/components/global/buttons/btn_bg';
 import { CODE, getCookie, TALENTPRO_HREF } from '@/helpers';
 import { useParams, usePathname } from 'next/navigation';
@@ -68,7 +69,17 @@ export default function CarouselItem({
       </article>
       <Image
         src={images[indexImage]}
-        className="w-full bg-center rounded-xl"
+        className="sm:inline hidden w-full bg-center rounded-xl"
+        fill
+        alt="Bg"
+        style={{
+          objectFit: 'cover',
+          objectPosition: 'center',
+        }}
+      />
+      <Image
+        src={image4}
+        className="inline sm:hidden w-full bg-center rounded-xl"
         fill
         alt="Bg"
         style={{
