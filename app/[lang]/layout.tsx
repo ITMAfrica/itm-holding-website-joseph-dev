@@ -3,6 +3,7 @@ import { type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import { Open_Sans } from 'next/font/google';
 import Footer from '@/components/global/footer';
+import { Analytics } from '@vercel/analytics/next';
 import '@/styles/global.css';
 
 const candara = localFont({
@@ -61,6 +62,7 @@ export default async function Root({
           {children}
         </main>
         <Footer params={params} />
+        <Analytics />
       </body>
     </html>
   );
