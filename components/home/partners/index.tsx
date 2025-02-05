@@ -56,15 +56,15 @@ export default function HomePartners({ params }: { params: any }) {
               <Image src={client7} alt="Client" width={130} height={130} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client8} alt="Client" width={130} height={130} />
+              <Image src={client8} alt="Client" width={100} height={100} />
             </li>
           </ul>
           <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 md:px-20">
             <li className="mb-4 md:mb-0">
-              <Image src={client9} alt="Client" width={100} height={100} />
+              <Image src={client9} alt="Client" width={130} height={130} />
             </li>
             <li className="mb-4 md:mb-0">
-              <Image src={client10} alt="Client" width={100} height={100} />
+              <Image src={client10} alt="Client" width={150} height={150} />
             </li>
             <li className="mb-4 md:mb-0">
               <Image src={client11} alt="Client" width={100} height={100} />
