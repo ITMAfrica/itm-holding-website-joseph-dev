@@ -10,8 +10,6 @@ import client9 from '@/public/pages/home/partners/client9.png';
 import client10 from '@/public/pages/home/partners/client10.png';
 import client11 from '@/public/pages/home/partners/client11.png';
 import client12 from '@/public/pages/home/partners/client12.png';
-import client13 from '@/public/pages/home/partners/client13.png';
-import client14 from '@/public/pages/home/partners/client14.png';
 import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
 

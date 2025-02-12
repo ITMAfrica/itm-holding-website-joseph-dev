@@ -57,6 +57,7 @@ export default function ContactPageForm({ params }: { params: any }) {
     const data = {
       lang: lang,
       data: {
+        receiverEmail: 'amosbafuna24@gmail',
         firstName: state.firstName,
         lastName: state.lastName,
         company: state.company,
@@ -68,7 +69,7 @@ export default function ContactPageForm({ params }: { params: any }) {
       },
     };
     await axios
-      .post(`${mail_api_url}/contact-website`, data)
+      .post(`${mail_api_url}/panelSite/contact`, data)
       .then(() => {
         console.log('Message envoyé avec succès');
         notifySuccess('Success', 'Contact');

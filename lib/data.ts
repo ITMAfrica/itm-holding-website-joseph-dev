@@ -942,9 +942,10 @@ export const entitiesInfos: any = {
     },
   },
   ug: {
-    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
-    phone: '+244 946 083 313',
-    email: 'infocustomer@itmafrica.com',
+    address:
+      '6th Floor, Block B, Nakawa Business Park. Plot 3-5, Portbell Road.',
+    phone: '+256 707 331 616',
+    email: 'infouganda@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
       linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
