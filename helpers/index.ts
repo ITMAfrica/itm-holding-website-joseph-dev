@@ -199,7 +199,7 @@ export const getCountryCode = (country: string | undefined) => {
   }
 };
 
-export const mail_api_url = 'http://localhost:3005';
+export const mail_api_url = 'http://email.itmafrica.com/api';
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
 export const KAZIPRO_HREF: string = 'https://www.kazipro.app/fr';
