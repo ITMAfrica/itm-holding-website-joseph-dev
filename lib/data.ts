@@ -784,7 +784,7 @@ export const testimonies = [
 export const entitiesInfos: any = {
   cd: {
     address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
-    phone: '+243 8346 88 027',
+    phone: '+243 828 502 119',
     email: 'infocustomer@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
