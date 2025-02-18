@@ -4629,7 +4629,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM BENIN",
-          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "Founded in 2022, ITM BENIN, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/about-us",
@@ -4638,8 +4638,8 @@
           }
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Welcome to ITM Benin | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Benin is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -4678,7 +4678,7 @@
       },
       "about": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "About us | ITM Benin Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -4728,7 +4728,7 @@
       },
       "services": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Services | ITM Benin, Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -4768,7 +4768,7 @@
       },
       "training": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Training | ITM Benin, Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -4808,7 +4808,7 @@
       },
       "news": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "News | ITM Benin, Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -4848,7 +4848,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Contact | ITM Benin, Your strategic partner in HR solutions in Africa",
           "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
