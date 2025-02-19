@@ -799,8 +799,9 @@ export const entitiesInfos: any = {
     email: 'admin.katope@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      linkedin: 'https://www.linkedin.com/company/itm-katope-ltd/',
+      instagram:
+        'https://www.instagram.com/itm_katope_ltd/?igsh=MWpoYngyajl1M2xxag%3D%3D#',
       twitter: 'https://twitter.com/ItmRdc',
     },
   },
@@ -813,8 +814,8 @@ export const entitiesInfos: any = {
         'https://www.facebook.com/people/ITM-Africa-LTD/100090874923287/?mibextid=LQQJ4d',
       linkedin: 'https://www.linkedin.com/company/itmafricaltdrw/',
       instagram:
-        'https://www.instagram.com/itm_africa_ltd/?igshid=MzRlODBiNWFlZA%3D%3D',
-      twitter: 'https://twitter.com/itmafricaltdrw',
+        'https://www.instagram.com/itm_africa_ltd/?igsh=cjB2MG9xcWkyMDJy#',
+      twitter: 'https://x.com/itmafricaltdrw?s=21&t=6hx5ru-D_IrsTXYN2Ot2fQ',
     },
   },
   ao: {
@@ -858,10 +859,11 @@ export const entitiesInfos: any = {
     phone: '+234 702 509 0000',
     email: 'info.abuja@itmafrica.com',
     social_medias: {
-      facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
-      twitter: 'https://twitter.com/ItmRdc',
+      facebook:
+        'https://www.facebook.com/people/itmnigerialimited/100066818145274/',
+      linkedin: 'https://www.linkedin.com/company/itm-services-ltd/',
+      instagram: 'https://www.instagram.com/itmserviceslimited/?__pwa=1',
+      twitter: 'Twitter/X - https://x.com/ItmNigerialtd',
     },
   },
   ke: {
