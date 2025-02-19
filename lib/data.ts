@@ -855,8 +855,8 @@ export const entitiesInfos: any = {
   },
   ng: {
     address:
-      'St James House, 167 Adetokunbo Ademola Crescent, Wuse 2, Abuja. Suite 310A, 3rd floor Mulliner Towers, 39 Alfred Rwene road, Ikoyi, Lagos.',
-    phone: '+234 702 509 0000',
+      'ITM ABUJA St. James House 167 Adetokunbo Ademola Crescent Wuse 2, Abuja',
+    phone: '(+234)07025090000',
     email: 'info.abuja@itmafrica.com',
     social_medias: {
       facebook:
