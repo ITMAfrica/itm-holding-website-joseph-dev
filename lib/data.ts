@@ -73,7 +73,7 @@ export const servicesHome: any = {
       name: 'Recrutement et externalisation du personnel',
       icon: service1,
       description:
-        "La gestion d'une main-d'œuvre flexible et qualifiée dans plusieurs régions peut s'avérer difficile. Nous proposons des services de recrutement et d'externalisation de la main-d'œuvre sur mesure qui s'adaptent aux besoins de votre entreprise. Que vous ayez besoin de personnel temporaire ou d'une gestion du personnel à long terme, nous nous occupons du recrutement, de l'intégration et de la conformité. En outre, nos solutions de gestion des effectifs vous permettent de vous concentrer sur votre cœur de métier, tandis que nous gérons toutes les responsabilités en matière de ressources humaines pour votre personnel. Les employés travaillent sous votre contrôle opérationnel, mais ils sont contractés et gérés par nous, ce qui transfère les risques liés à l'emploi et les charges administratives à notre équipe.",
+        "La gestion d'une main-d'œuvre flexible et qualifiée dans plusieurs régions peut s'avérer difficile. Nous proposons des services de recrutement et d'externalisation de la main-d'œuvre sur mesure qui s'adaptent aux besoins de votre entreprise. Que vous ayez besoin de personnel temporaire ou d'une gestion du personnel à long terme, nous nous occupons du recrutement, de l'intégration et de la conformité. En outre, nos solutions de gestion des effectifs vous permettent de vous concentrer sur votre cœur de métier, tandis que nous gérons toutes les responsabilités en matière de ressources humaines pour votre personnel.",
       image: recruitmentService,
       paragraph:
         "Donnez à votre entreprise les moyens de disposer de la main-d'œuvre adéquate, quand vous en avez besoin, et laissez-nous nous occuper du reste.",
@@ -284,7 +284,7 @@ export const servicesHome: any = {
       name: 'Staffing and Workforce Outsourcing',
       icon: service1,
       description:
-        'Managing a flexible and skilled workforce across multiple regions can be challenging. We provide tailored staffing and workforce outsourcing services that adapt to your business needs. Whether you require temporary staffing or long-term workforce management, we handle recruitment, onboarding, and compliance. Additionally, our Managed Workforce Solutions allow you to focus on your core business while we manage all HR responsibilities for your staff. Employees work under your operational control, but they are contracted and managed by us, shifting employment risks and administrative burdens to our team.',
+        "Managing a flexible, skilled workforce across multiple regions can be challenging. We offer tailor-made recruitment and workforce outsourcing services to suit your company's needs. Whether you need temporary staff or long-term personnel management, we take care of recruitment, integration and compliance. What's more, our workforce management solutions let you focus on your core business, while we manage all HR responsibilities for your staff.",
       image: recruitmentService,
       paragraph:
         'Empower your business with the right workforce, whenever you need it, and let us handle the rest.',
@@ -484,8 +484,8 @@ export const servicesHome: any = {
 
 export const entities = [
   {
-    fr: 'Congo Kinshasa',
-    en: 'Congo Kinshasa',
+    fr: 'RD Congo',
+    en: 'DR Congo',
     name: 'ITM SARL',
     href: '/',
     code: 'cd',
@@ -565,8 +565,8 @@ export const entities = [
     logo: keLogo,
   },
   {
-    fr: 'Congo Brazza',
-    en: 'Congo Brazza',
+    fr: 'Rép. du Congo',
+    en: 'Congo Republic',
     name: 'ITM BRAZZA',
     href: '/fr/cg',
     code: 'cg',
