@@ -1401,7 +1401,7 @@
       },
       "about": {
         "meta": {
-          "title": "A propos de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "A propos de nous | ITM Congo, Votre partenaire en Ressources humaines",
           "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1451,8 +1451,8 @@
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Services | ITM Congo, Votre partenaire en Ressources humaines",
+          "description": "ITM Congo est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -1463,7 +1463,7 @@
             "Ressources humaines",
             "Team Building",
             "Formation",
-            "Ressources humaines RDC",
+            "Ressources humaines Congo",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -1491,7 +1491,7 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Formations | ITM Congo, Votre partenaire en Ressources humaines",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1531,7 +1531,7 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Nos actualités | ITM Congo, Votre partenaire en Ressources humaines",
           "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1571,7 +1571,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez-nous | ITM Congo, Votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
