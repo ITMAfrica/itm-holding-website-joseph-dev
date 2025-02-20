@@ -1964,15 +1964,15 @@
           }
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Welcome to Tanzania | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Tanzania is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "ITM Africa RDC",
-            "ITM Africa",
+            "ITM Africa Tanzania",
+            "ITM Tanzania",
             "Human Resource Africa",
             "Team Building",
             "Training ITM",
@@ -2004,8 +2004,8 @@
       },
       "about": {
         "meta": {
-          "title": "About ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "About us | ITM Tanzania, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Tanzania, is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -2055,7 +2055,7 @@
       },
       "services": {
         "meta": {
-          "title": "Services of ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Services | ITM Tanzania, Your strategic partner in HR solutions in Africa",
           "description": "We tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2095,7 +2095,7 @@
       },
       "training": {
         "meta": {
-          "title": "Training ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Training | ITM Tanzania, Your strategic partner in HR solutions in Africa",
           "description": "We offer customized training to enhance your teams' capabilities. We customize our services - recruitment, staff placement, training and HR compliance - to meet your precise needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2135,20 +2135,20 @@
       },
       "news": {
         "meta": {
-          "title": "News ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "News | ITM Tanzania, Your strategic partner in HR solutions in Africa",
           "description": "Keep up to date with the latest ITM Africa news and information on our offers and services.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM news",
-            "News ITM Africa DRC",
-            "ITM Africa news",
+            "News ITM Africa tanzania",
+            "ITM Tanzania news",
             "Human resource news",
             "Team Building news",
-            "News DRC RH",
-            "Human resource DRC",
-            "Payroll management news DRC"
+            "News tanzania RH",
+            "Human resource Tanzania",
+            "Payroll management news tanzania"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
           "creator": "Amos Bafuna",
@@ -2175,7 +2175,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contact ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Contact us | ITM Tanzani, Your strategic partner in HR solutions in Africa",
           "description": "Contact us to get in touch. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
