@@ -602,7 +602,7 @@ export const entities = [
   },
   {
     fr: 'Allemagne',
-    en: 'Allemagne',
+    en: 'Germany',
     name: 'ITM NEXUS',
     href: '/en/de',
     code: 'de',
