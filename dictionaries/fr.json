@@ -2537,14 +2537,14 @@
           }
         },
         "meta": {
-          "title": "Bienvenue chez ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Bienvenue chez ITM OUGANDA | Votre partenaire en Ressources humaines",
+          "description": "ITM Ouganda est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "ITM Africa RDC",
+            "ITM Ouganda",
             "ITM Africa",
             "Ressources humaines",
             "Team Building",
@@ -2577,8 +2577,8 @@
       },
       "about": {
         "meta": {
-          "title": "A propos de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "A propos de nous | ITM Ouganda, Votre partenaire en Ressources humaines",
+          "description": "ITM Ouganda est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -2627,8 +2627,8 @@
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Services | ITM Ouganda, Votre partenaire en Ressources humaines",
+          "description": "ITM Ouganda est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -2636,7 +2636,7 @@
             "ITM",
             "A propos de ITM Africa",
             "ITM Africa",
-            "Ressources humaines",
+            "Ressources humaines ITM Ouganda",
             "Team Building",
             "Formation",
             "Ressources humaines RDC",
@@ -2667,14 +2667,14 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Formations | ITM Ouganda, Votre partenaire en Ressources humaines",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM formations",
-            "Formations ITM Africa RDC",
+            "Formations ITM Ouganda",
             "ITM Africa renforcement de capacité",
             "Ressources humaines formations",
             "Team Building formation",
@@ -2707,7 +2707,7 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Actualités | ITM Ouganda, Votre partenaire en Ressources humaines",
           "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2747,7 +2747,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez-nous | ITM Ouganda, Votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
