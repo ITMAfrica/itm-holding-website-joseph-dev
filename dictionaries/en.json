@@ -57,7 +57,7 @@
             ]
           },
           {
-            "href": "https://talentpro.itmafrica.com",
+            "href": "https://talentpro.itmafrica.com/en/job-offers",
             "name": "JOB OFFERS",
             "current": "offers",
             "external": true,
@@ -65,11 +65,11 @@
             "submenus": [],
             "langs": [
               {
-                "href": "https://talentpro.itmafrica.com",
+                "href": "https://talentpro.itmafrica.com/en/job-offers",
                 "name": "En"
               },
               {
-                "href": "https://talentpro.itmafrica.com",
+                "href": "https://talentpro.itmafrica.com/fr/offres-d-emplois",
                 "name": "Fr"
               }
             ]
