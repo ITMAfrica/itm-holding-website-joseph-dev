@@ -57,18 +57,18 @@
             ]
           },
           {
-            "href": "https://talentpro.itmafrica.com",
+            "href": "https://talentpro.itmafrica.com/fr/offres-d-emplois",
             "name": "OFFRES D'EMPLOIS",
             "current": "offers",
             "external": true,
             "arrow": false,
             "langs": [
               {
-                "href": "https://talentpro.itmafrica.com",
+                "href": "https://talentpro.itmafrica.com/en/job-offers",
                 "name": "En"
               },
               {
-                "href": "https://talentpro.itmafrica.com",
+                "href": "https://talentpro.itmafrica.com/fr/offres-d-emplois",
                 "name": "Fr"
               }
             ]
