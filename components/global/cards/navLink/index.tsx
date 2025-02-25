@@ -55,7 +55,7 @@ export default function NavLinkCard({
     );
   return external ? (
     <Link
-      href={getHref()}
+      href={href}
       target="_blank"
       className={`${
         pathname == getHref()
