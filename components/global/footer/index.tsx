@@ -172,15 +172,6 @@ export default function Footer({ params }: { params: any }) {
         <div className="w-fit font-semibold font-open">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>
-        <div className="cursor-pointer md:mt-0 mt-2 w-full md:w-fit md:flex  flex-wrap items-center justify-between">
-          <Link
-            href={lang}
-            className="block w-fit md:ml-4 hover:font-bold md:mb-0 mb-2 font-open text-sm"
-          >
-            Paramètre des cookies
-          </Link>
-          <div className="md:ml-4"></div>
-        </div>
       </section>
     </footer>
   );
