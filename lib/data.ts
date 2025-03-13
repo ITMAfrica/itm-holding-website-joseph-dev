@@ -855,7 +855,7 @@ export const entitiesInfos: any = {
   },
   ng: {
     address:
-      'ITM ABUJA St. James House 167 Adetokunbo Ademola Crescent Wuse 2, Abuja',
+      'Abuja Office: St. James House, 167 Adetokunbo Ademola Crescent Wuse 2, Abuja. Lagos Office: Suite 310A, 3rd floor, Mulliner Towers, 39 Alfred Rwene road, Ikoyi, Lagos.',
     phone: '(+234)07025090000',
     email: 'info.abuja@itmafrica.com',
     social_medias: {
