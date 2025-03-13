@@ -111,7 +111,7 @@
       "paragraph1": "Boost your ",
       "career": "career ",
       "click": "with a click",
-      "subtitle": "Find the best offers in DRC and elsewhere",
+      "subtitle": "Find the best offers in Africa and elsewhere",
       "btn": {
         "text": "Sign up",
         "link": "https://talentpro.itmafrica.com",
@@ -4307,30 +4307,30 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM NIGERIA",
-              "paragraph": "ITM NIGERIA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM SERVICES | Your strategic partner in HR solutions in Africa.",
+              "paragraph": "ITM Services is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM Services"
               }
             },
             {
-              "title": "WELCOME TO ITM NIGERIA",
-              "paragraph": "ITM NIGERIA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM SERVICES",
+              "paragraph": "ITM SERVICES Ltd. is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM Services"
               }
             }
           ]
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM NIGERIA",
+          "subtitle": "ITM SERVICES",
           "paragraph": "ITM Services Limited is the leading provider of a wide range of support services tailored to the needs of Business Entities in Nigeria. From human resources needs to business process outsourcing and supply chain solutions, ITM is your trusted partner for innovative business solutions. Our services are renowned for driving efficiency, optimizing business processes, and fostering career development, making ITM Nigeria the ideal choice for businesses seeking excellence.",
           "btnMore": {
             "text": "Discover more",
@@ -4340,8 +4340,8 @@
           }
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Welcome to ITM Services | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Services is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -4380,8 +4380,8 @@
       },
       "about": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "About us | ITM Services, Your strategic partner in HR solutions in Africa",
+          "description": "ITM services is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -4418,9 +4418,9 @@
           }
         },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM NIGERIA?",
+          "title": "WHAT TO KNOW ABOUT ITM SERVICES?",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Nigeria has been Nigeria’s leading provider of innovative human resource solutions since 2019. As a vital part of ITM’s pan-African presence, we offer a comprehensive range of HR services, including talent acquisition, capacity building, employee management, and retention strategies, tailored to meet the specific needs of businesses.",
+          "paragraph1": "ITM Services has been Nigeria’s leading provider of innovative human resource solutions since 2019. As a vital part of ITM’s pan-African presence, we offer a comprehensive range of HR services, including talent acquisition, capacity building, employee management, and retention strategies, tailored to meet the specific needs of businesses.",
           "paragraph2": "Our focus is on helping organizations enhance their performance by equipping them with the right tools and talent to foster growth and remain competitive in today’s dynamic business environment. Through our services, we support businesses in developing their workforce, improving workplace culture, and driving sustainable success. At ITM Nigeria, we take pride in our commitment to excellence, integrity, and client satisfaction. Our reputation for delivering high-value services has earned us the trust of businesses seeking to thrive in Nigeria’s competitive marketplace.",
           "btnContact": {
             "text": "Contact us",
@@ -4430,8 +4430,8 @@
       },
       "services": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Our services | ITM Services, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Services is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -4550,8 +4550,8 @@
       },
       "contact": {
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Contact us | ITM Services, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Services is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -4593,7 +4593,7 @@
         },
         "about": {
           "title1": "Contact us",
-          "title2": "ITM NIGERIA",
+          "title2": "ITM SERVICES",
           "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
         }
       }
