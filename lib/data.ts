@@ -889,13 +889,15 @@ export const entitiesInfos: any = {
     },
   },
   tg: {
-    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
-    phone: '+244 946 083 313',
-    email: 'infocustomer@itmafrica.com',
+    address:
+      '2ème Etage Immeuble DEO, Boulevard circulaire, Rue Sédomé, Lomé-TOGO',
+    phone: '+228 79 32 95 89',
+    email: 'infotogo@itmafrica.com',
     social_medias: {
-      facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      facebook: 'https://www.facebook.com/people/ITM-Togo/100090020845747/',
+      linkedin:
+        'https://www.linkedin.com/company/itm-togo-sarl/posts/?feedView=all',
+      instagram: 'https://www.instagram.com/itm_tgo/',
       twitter: 'https://twitter.com/ItmRdc',
     },
   },
