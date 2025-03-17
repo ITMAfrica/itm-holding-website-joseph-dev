@@ -7,7 +7,7 @@ import CardTeam from '../cards/team';
 import team1 from '@/public/assets/teams/avatar.png';
 import team2 from '@/public/assets/teams/avatar2.webp';
 
-export default function Teams({ toShow = 5, params }: any) {
+export default function Teams({ toShow = 5, params, team }: any) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.global.team;
@@ -89,7 +89,7 @@ export default function Teams({ toShow = 5, params }: any) {
             itemsToScroll={1}
             speed={1000}
           >
-            {team_members.map((item: any, index: number) => (
+            {team.map((item: any, index: number) => (
               <CardTeam key={index} {...item} />
             ))}
           </Carousel>

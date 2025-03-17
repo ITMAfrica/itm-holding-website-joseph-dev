@@ -2228,7 +2228,7 @@
           "items": [
             {
               "title": "WELCOME TO ITM TOGO",
-              "paragraph": "ITM TOGO is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "ITM TOGO is your strategic partner in HR solutions in Togo. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -2238,7 +2238,7 @@
             },
             {
               "title": "WELCOME TO ITM TOGO",
-              "paragraph": "ITM TOGO is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "ITM TOGO is your strategic partner in HR solutions in Togo. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -2260,8 +2260,8 @@
           }
         },
         "meta": {
-          "title": "Welcome to ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "Welcome to ITM Togo | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Togo is your strategic partner in HR solutions in Togo. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -2300,8 +2300,8 @@
       },
       "about": {
         "meta": {
-          "title": "About ITM Africa | Your strategic partner in HR solutions in Africa",
-          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "title": "About us | ITM Togo, your strategic partner in HR solutions in Africa",
+          "description": "ITM Togo is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -2341,8 +2341,8 @@
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM TOGO",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Togo started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 15,000 employees in Africa, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
-          "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
+          "paragraph1": "ITM Togo is a subsidiary of ITM Holding, a pan-African group of eight companies operating in various sectors, including the provision of customized HR solutions to companies and institutions.",
+          "paragraph2": "Created in September 2022, ITM Togo draws on the expertise and reach of ITM Holding to offer services tailored to the realities of the Togolese and sub-regional markets. With a skilled and experienced staff at the helm, the company has rapidly established itself as a key player in human resources management, recruitment and staff placement. Thanks to an approach combining innovation, digitalization and proximity, ITM Togo supports companies in optimizing their human capital, providing them with strategic and operational solutions tailored to their specific needs.",
           "btnContact": {
             "text": "Contact us",
             "link": "/en/tg/contact-us"
@@ -2351,7 +2351,7 @@
       },
       "services": {
         "meta": {
-          "title": "Services of ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Our services | ITM Togo, your strategic partner in HR solutions in Africa",
           "description": "We tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2391,7 +2391,7 @@
       },
       "training": {
         "meta": {
-          "title": "Training ITM Africa | Your strategic partner in HR solutions in Africa",
+          "title": "Training | ITM Togo, your strategic partner in HR solutions in Africa",
           "description": "We offer customized training to enhance your teams' capabilities. We customize our services - recruitment, staff placement, training and HR compliance - to meet your precise needs.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
