@@ -94,7 +94,7 @@ export default function HomeHeader({ params }: propsPage) {
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
-            <div className="w-9/12 p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">
+            <div className="w-10/12 p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">
               <div className="w-full">
                 <div className="w-full flex items-center justify-between pr-4 mb-3">
                   <div

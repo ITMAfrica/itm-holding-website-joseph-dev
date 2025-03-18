@@ -44,9 +44,17 @@ export default function NavLinkCard({
     }
   }
   if (full)
-    return (
+    return external ? (
       <Link
         href={href}
+        onClick={closeModal}
+        className="block mb-2 hover:text-blue_itm_good"
+      >
+        {name}
+      </Link>
+    ) : (
+      <Link
+        href={getHref()}
         onClick={closeModal}
         className="block mb-2 hover:text-blue_itm_good"
       >

@@ -2373,7 +2373,7 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Nos formations | ITM Togo, votre partenaire en Ressources humaines",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2413,7 +2413,7 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Actualités | ITM Togo, votre partenaire en Ressources humaines",
           "description": "Restez à jour sur les dernières actualités de ITM Africa et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2453,7 +2453,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez-nous | ITM Togo, votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -2493,7 +2493,7 @@
         "about": {
           "title1": "Contactez-nous",
           "title2": "ITM Togo",
-          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+          "subtitle": "Prêt à franchir le pas? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
         }
       }
     }
