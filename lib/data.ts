@@ -847,9 +847,9 @@ export const entitiesInfos: any = {
     phone: '+229 550 719 19 ',
     email: 'infobenin@itmafrica.com',
     social_medias: {
-      facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      facebook: 'https://www.facebook.com/profile.php?id=100080658041714',
+      linkedin: 'https://www.linkedin.com/company/105272657/',
+      instagram: 'https://www.instagram.com/itm_benin_?igsh=OTVoNmgzaGh3d2Uz',
       twitter: 'https://twitter.com/ItmRdc',
     },
   },
@@ -869,23 +869,27 @@ export const entitiesInfos: any = {
   ke: {
     address: '104 KOFISI DRIVE, Nairobi, Kenya',
     phone: '+254 722 272 596',
-    email: 'info.kenya@itmafrica.com',
+    email: 'infokenya@itmafrica.com',
     social_medias: {
-      facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
-      twitter: 'https://twitter.com/ItmRdc',
+      facebook:
+        'https://www.facebook.com/people/ITM-Kenya/61561472194322/?_rdr',
+      linkedin:
+        'https://www.linkedin.com/company/itm-kenya/?originalSubdomain=ke',
+      instagram: 'https://www.instagram.com/itm_kenya/',
+      twitter: 'https://x.com/ItmKenyaltd ',
     },
   },
   tz: {
-    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
-    phone: '+244 946 083 313',
-    email: 'infocustomer@itmafrica.com',
+    address:
+      'ITM Tanzania Limited Offices, Suredi Street, Plot 1103, Mikocheni B, Industry Way Road',
+    phone: '+255 763 554 258',
+    email: 'infotanzania@itmafrica.com',
     social_medias: {
-      facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
-      twitter: 'https://twitter.com/ItmRdc',
+      facebook: 'https://www.facebook.com/p/ITM-Tanzania-100085252992636/',
+      linkedin:
+        'https://www.linkedin.com/company/itm-tanzania-ltd?originalSubdomain=tz  ',
+      instagram: 'https://www.instagram.com/_itmtanzania/',
+      twitter: ' https://x.com/itmtanzania?mx=2 ',
     },
   },
   tg: {
@@ -952,9 +956,10 @@ export const entitiesInfos: any = {
     email: 'infouganda@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
-      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
-      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
-      twitter: 'https://twitter.com/ItmRdc',
+      linkedin:
+        'https://www.linkedin.com/posts/itm-uganda_itmuganda-activity-7281983653528690689-31EO/',
+      instagram: 'https://www.instagram.com/itmuganda/',
+      twitter: 'https://x.com/itmuganda',
     },
   },
 };
