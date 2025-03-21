@@ -31,6 +31,15 @@ import roland from '@/public/assets/teams/bn/bn_roland.jpeg';
 import thomas from '@/public/assets/teams/bn/bn_thomas.jpeg';
 import tristan from '@/public/assets/teams/bn/bn_tristan.jpeg';
 
+//Nigéria
+import abah from '@/public/assets/teams/ng/abah.jpg';
+import bukola from '@/public/assets/teams/ng/bukola.jpg';
+import cynthia from '@/public/assets/teams/ng/cynthia.jpg';
+import joshua from '@/public/assets/teams/ng/joshua.jpg';
+import barbara from '@/public/assets/teams/ng/barbara.jpg';
+import victory from '@/public/assets/teams/ng/victory.jpg';
+import pleasant from '@/public/assets/teams/ng/pleasant.jpg';
+
 export const team_members: any = {
   tz: [
     {
@@ -222,6 +231,50 @@ export const team_members: any = {
       position: 'Responsable Sous-traitance et Opérations',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: tristan,
+    },
+  ],
+  ng: [
+    {
+      name: 'Abah Johnson',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: abah,
+    },
+    {
+      name: 'Barbara ASSEH',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: barbara,
+    },
+    {
+      name: 'Bukola Oyinlola-Anuwe',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: bukola,
+    },
+    {
+      name: 'Cynthia EWENI',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: cynthia,
+    },
+    {
+      name: 'Joshua BASO',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: joshua,
+    },
+    {
+      name: 'Pleasant ODE',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: pleasant,
+    },
+    {
+      name: 'Victory VICTOR',
+      position: 'Directrice Générale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: victory,
     },
   ],
 };
