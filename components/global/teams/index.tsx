@@ -4,58 +4,13 @@ import { getDictionary } from '@/get-dictionary';
 import { useState } from 'react';
 import Carousel from 'react-simply-carousel';
 import CardTeam from '../cards/team';
-import team1 from '@/public/assets/teams/avatar.png';
-import team2 from '@/public/assets/teams/avatar2.webp';
 
 export default function Teams({ toShow = 5, params, team }: any) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.global.team;
   const [activeSlide, setActiveSlide] = useState(0);
-  const team_members = [
-    {
-      name: 'Adelaida Kwai',
-      position: 'Regional Managing Director',
-      image: team1,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Daniel Abtertus',
-      position: 'Outsourcing Managing',
-      image: team2,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Adelaida Kwai',
-      position: 'Regional Managing Director',
-      image: team1,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Daniel Abtertus',
-      position: 'Outsourcing Managing',
-      image: team2,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Adelaida Kwai',
-      position: 'Regional Managing Director',
-      image: team1,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Daniel Abtertus',
-      position: 'Outsourcing Managing',
-      image: team2,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-    {
-      name: 'Adelaida Kwai',
-      position: 'Regional Managing Director',
-      image: team1,
-      text: 'To provide premier quality Human resources services with competence, effectiveness and efficiency',
-    },
-  ];
+
   return (
     <section className="w-full py-20 bg-white" id="team">
       <div className="w-11/12 mx-auto">
