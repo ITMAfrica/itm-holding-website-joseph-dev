@@ -21,7 +21,7 @@ import nokukhanya from '@/public/assets/teams/za/nokukhanya.jpg';
 //Bénin
 import alain from '@/public/assets/teams/bn/bn_alain.jpeg';
 import diane from '@/public/assets/teams/bn/bn_diane.jpeg';
-import hamdane from '@/public/assets/teams/bn/bn_diane.jpeg';
+import hamdane from '@/public/assets/teams/bn/bn_hamdane.jpeg';
 import imane from '@/public/assets/teams/bn/bn_imane.jpeg';
 import jane from '@/public/assets/teams/bn/bn_jane.png';
 import jean from '@/public/assets/teams/bn/bn_jean.jpeg';
@@ -191,7 +191,7 @@ export const team_members: any = {
       image: imane,
     },
     {
-      name: 'Jane JOISAH',
+      name: 'Jane JOSIAH',
       position: 'Assistant Sous-traitance',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: jane,
