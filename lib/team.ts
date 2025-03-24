@@ -233,48 +233,48 @@ export const team_members: any = {
       image: tristan,
     },
   ],
-  ng: [
-    {
-      name: 'Abah Johnson',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: abah,
-    },
-    {
-      name: 'Barbara ASSEH',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: barbara,
-    },
-    {
-      name: 'Bukola Oyinlola-Anuwe',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: bukola,
-    },
-    {
-      name: 'Cynthia EWENI',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: cynthia,
-    },
-    {
-      name: 'Joshua BASO',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: joshua,
-    },
-    {
-      name: 'Pleasant ODE',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: pleasant,
-    },
-    {
-      name: 'Victory VICTOR',
-      position: 'Directrice Générale',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: victory,
-    },
-  ],
+  // ng: [
+  //   {
+  //     name: 'Abah Johnson',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: abah,
+  //   },
+  //   {
+  //     name: 'Barbara ASSEH',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: barbara,
+  //   },
+  //   {
+  //     name: 'Bukola Oyinlola-Anuwe',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: bukola,
+  //   },
+  //   {
+  //     name: 'Cynthia EWENI',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: cynthia,
+  //   },
+  //   {
+  //     name: 'Joshua BASO',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: joshua,
+  //   },
+  //   {
+  //     name: 'Pleasant ODE',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: pleasant,
+  //   },
+  //   {
+  //     name: 'Victory VICTOR',
+  //     position: 'Directrice Générale',
+  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+  //     image: victory,
+  //   },
+  // ],
 };
