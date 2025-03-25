@@ -16,7 +16,7 @@ export default function HomeServicesSection({ params }: { params: any }) {
             <h2 className="text-blue_itm_good md:text-5xl text-3xl font-bold mt-4 mb-4">
               {data.subtitle}
             </h2>
-            <p className="sm:text-xl font-open text-lg text-black">
+            <p className="sm:text-xl font-open text-lg text-black_itm">
               {data.paragraph}
             </p>
           </div>
