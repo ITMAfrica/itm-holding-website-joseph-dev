@@ -71,7 +71,7 @@ export default function HomeHeader({ params }: propsPage) {
         scrollToBottom >= 5 ? 'py-1' : 'md:py-4 py-3'
       }  flex justify-center bg-white shadow-headerShadow transition-all duration-500 ease-linear`}
     >
-      <div className="md:w-10/12 w-11/12 h-fit flex items-center justify-between ">
+      <div className="md:w-[85%] w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
           <div className="flex items-center">
             <div
