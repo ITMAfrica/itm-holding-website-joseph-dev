@@ -8,6 +8,7 @@
   "dependencies": {
     "@formatjs/intl-localematcher": "0.2.32",
     "@hookform/resolvers": "^3.9.1",
+    "@next/third-parties": "^15.2.4",
     "@nextui-org/react": "^2.4.6",
     "@react-spring/web": "^9.7.4",
     "@vercel/analytics": "^1.4.1",
