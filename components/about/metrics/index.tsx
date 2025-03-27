@@ -7,7 +7,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
   console.log(params);
   return (
     <section className="h-fit bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
-      <main className="flex flex-wrap items-center w-full lg:w-9/12 mx-auto lg:py-20 py-10">
+      <main className="flex flex-wrap items-center w-full lg:w-10/12 mx-auto lg:py-20 py-10">
         <div className="w-11/12 mx-auto lg:w-1/2 lg:-rotate-24">
           <div className="w-full flex flex-wrap items-center justify-center">
             <div className="w-[200px] lg:rotate-24 shadow-2xl lg:w-[270px] h-[200px] lg:h-[270px] lg:mb-0 mb-5 flex flex-wrap items-center justify-center  bg-blue_itm_primary rounded-full">
@@ -43,7 +43,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
           </div>
         </div>
         <div className="lg:w-1/2 w-11/12 mx-auto lg:pt-0 pt-10">
-          <p className="text-black_itm/70 text-xs lg:text-sm font-open">
+          <p className="text-black_itm/70 text-base lg:text-base font-open">
             {data.right.text}
           </p>
           <div className="w-full flex flex-wrap items-center justify-between pt-5">
