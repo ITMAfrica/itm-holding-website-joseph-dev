@@ -16,7 +16,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
       className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10"
       id="holding"
     >
-      <div className="w-10/12 lg:w-9/12 flex flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse h-full mx-auto md:pb-20">
+      <div className="w-11/12 lg:w-10/12 flex flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse h-full mx-auto md:pb-20">
         <div className="w-full lg:pb-0 lg:pt-0 pt-20 lg:w-6/12">
           <h1 className="text-blue_itm_aqua_marine font-bold pb-4">
             ITM HOLDING
@@ -24,7 +24,9 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
           <h2 className="text-5xl font-bold text-blue_itm_primary pb-4">
             {data.title}
           </h2>
-          <p className="w-full font-open text-black_itm">{data.description}</p>
+          <p className="w-full font-open text-base text-black_itm">
+            {data.description}
+          </p>
           <div className="w-full">
             {data.items.map(function (item: any, index: number) {
               return <CardFaq {...item} about key={index} />;
