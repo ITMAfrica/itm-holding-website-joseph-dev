@@ -1,4 +1,5 @@
 import HomeHeader from '@/components/global/header';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import { Open_Sans } from 'next/font/google';
@@ -62,6 +63,7 @@ export default async function Root({
           {children}
         </main>
         <Footer params={params} />
+        <GoogleAnalytics gaId="AW-16880582497" />
         <Analytics />
       </body>
     </html>
