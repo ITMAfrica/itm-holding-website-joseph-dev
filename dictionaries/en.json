@@ -1043,17 +1043,17 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM NEXUS",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM BURUNDI",
+              "paragraph": "ITM BURUNDI is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM NEXUS"
+                "title": "See details about ITM BURUNDI"
               }
             },
             {
-              "title": "WELCOME TO ITM NEXUS",
+              "title": "WELCOME TO ITM BURUNDI",
               "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
               "bgWhite": false,
               "btnMore": {
@@ -1066,11 +1066,11 @@
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM GERMANY",
-          "paragraph": "ITM GERMANY is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "subtitle": "ITM BURUNDI",
+          "paragraph": "ITM BURUNDI is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
           "btnMore": {
             "text": "Discover more",
-            "link": "/en/de/about-us",
+            "link": "/en/bi/about-us",
             "key": "about-us",
             "title": "Learn more about ITM history"
           }
