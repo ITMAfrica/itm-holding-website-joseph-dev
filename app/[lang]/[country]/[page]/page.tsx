@@ -56,6 +56,8 @@ export default function PageCountry({ params }: { params: any }) {
       return getComponent({ params });
     case 'de':
       return getComponent({ params });
+    case 'bi':
+      return getComponent({ params });
     case 'gb':
       return getComponent({ params });
     case 'ke':

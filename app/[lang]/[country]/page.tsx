@@ -32,6 +32,8 @@ export async function generateMetadata({ params }: any) {
       return data.home.meta;
     case 'de':
       return data.home.meta;
+    case 'bi':
+      return data.home.meta;
     case 'gb':
       return data.home.meta;
     case 'ke':
@@ -86,6 +88,8 @@ export default function PageCountry({ params }: { params: any }) {
     case 'cm':
       return <HomePage params={params} />;
     case 'de':
+      return <HomePage params={params} />;
+    case 'bi':
       return <HomePage params={params} />;
     case 'gb':
       return <HomePage params={params} />;

@@ -15,6 +15,7 @@ import service13 from '@/public/assets/services/service13.jpg';
 import service14 from '@/public/assets/services/service14.jpg';
 import cdFlag from '@/public/assets/flag/cd.png';
 import rwFlag from '@/public/assets/flag/rw.png';
+import biFlag from '@/public/assets/flag/bi.png';
 import tzFlag from '@/public/assets/flag/tz.png';
 import tgFlag from '@/public/assets/flag/tg.png';
 import ngFlag from '@/public/assets/flag/ng.png';
@@ -36,6 +37,7 @@ import cgLogo from '@/public/assets/logo/cg.png';
 import keLogo from '@/public/assets/logo/ke.png';
 import ngLogo from '@/public/assets/logo/ng.png';
 import rwLogo from '@/public/assets/logo/rw.png';
+import biLogo from '@/public/assets/logo/bi.png';
 import tzLogo from '@/public/assets/logo/tz.png';
 import tgLogo from '@/public/assets/logo/tg.png';
 import ugLogo from '@/public/assets/logo/ug.png';
@@ -583,6 +585,15 @@ export const entities = [
     logo: hrLogo,
   },
   {
+    fr: 'Burundi',
+    en: 'Burundi',
+    name: 'ITM BURUNDI',
+    href: '/fr/bi',
+    code: 'bi',
+    flag: biFlag,
+    logo: hrLogo,
+  },
+  {
     fr: 'Zambie',
     en: 'Zambia',
     name: 'ITM ZAMBIA',
@@ -906,6 +917,17 @@ export const entitiesInfos: any = {
     },
   },
   cm: {
+    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
+    phone: '+244 946 083 313',
+    email: 'infocustomer@itmafrica.com',
+    social_medias: {
+      facebook: 'https://www.facebook.com/itmafrica',
+      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
+      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      twitter: 'https://twitter.com/ItmRdc',
+    },
+  },
+  bi: {
     address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
     phone: '+244 946 083 313',
     email: 'infocustomer@itmafrica.com',
