@@ -5197,5 +5197,611 @@
         }
       }
     }
+  },
+  "ci": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM BENIN",
+              "paragraph": "ITM BENIN is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM BENIN",
+              "paragraph": "ITM BENIN is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM BENIN",
+          "paragraph": "Founded in 2022, ITM BENIN, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/bn/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM history"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Benin | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Benin is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Benin Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM BENIN?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Benin has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/bn/contact-us"
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Benin",
+            "ITM benin",
+            "ITM Porto-Novo",
+            "Human resource Cotonou",
+            "Team Building benin cotonou",
+            "Team Building benin porto-novo",
+            "Training benin cotonou",
+            "Human resource porto-novo",
+            "Payroll management cotonou",
+            "contact ITM benin",
+            "contact ITM porto-novo",
+            "contact ITM cotonou",
+            "contact ITM HR cotonou"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM BENIN",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "sn": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM BENIN",
+              "paragraph": "ITM BENIN is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM BENIN",
+              "paragraph": "ITM BENIN is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM HR"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM BENIN",
+          "paragraph": "Founded in 2022, ITM BENIN, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/bn/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM history"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Benin | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Benin is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Benin Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM BENIN?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Benin has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/bn/contact-us"
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM",
+            "Human resource DRC",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Benin, Your strategic partner in HR solutions in Africa",
+          "description": "ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Benin",
+            "ITM benin",
+            "ITM Porto-Novo",
+            "Human resource Cotonou",
+            "Team Building benin cotonou",
+            "Team Building benin porto-novo",
+            "Training benin cotonou",
+            "Human resource porto-novo",
+            "Payroll management cotonou",
+            "contact ITM benin",
+            "contact ITM porto-novo",
+            "contact ITM cotonou",
+            "contact ITM HR cotonou"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM BENIN",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }

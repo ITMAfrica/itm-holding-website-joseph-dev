@@ -70,6 +70,10 @@ export default function PageCountry({ params }: { params: any }) {
       return getComponent({ params });
     case 'rw':
       return getComponent({ params });
+    case 'ci':
+      return getComponent({ params });
+    case 'sn':
+      return getComponent({ params });
     case 'about-us':
       return <AboutPage params={params} />;
     case 'a-propos-de-nous':

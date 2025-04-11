@@ -48,6 +48,10 @@ export async function generateMetadata({ params }: any) {
       return data.home.meta;
     case 'rw':
       return data.home.meta;
+    case 'ci':
+      return data.home.meta;
+    case 'sn':
+      return data.home.meta;
     case 'about-us':
       return data.about.meta;
     case 'a-propos-de-nous':
@@ -104,6 +108,10 @@ export default function PageCountry({ params }: { params: any }) {
     case 'zm':
       return <HomePage params={params} />;
     case 'rw':
+      return <HomePage params={params} />;
+    case 'ci':
+      return <HomePage params={params} />;
+    case 'sn':
       return <HomePage params={params} />;
     case 'about-us':
       return <AboutPage params={params} />;
