@@ -623,8 +623,8 @@ export const entities = [
   },
   {
     fr: "Côte d'Ivoire",
-    en: 'Ivory Cost',
-    name: 'Ivory Cost',
+    en: 'Ivory Coast',
+    name: 'Ivory Coast',
     href: '/fr/ci',
     code: 'ci',
     flag: ciFlag,
