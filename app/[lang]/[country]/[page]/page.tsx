@@ -48,15 +48,13 @@ export default function PageCountry({ params }: { params: any }) {
       return getComponent({ params });
     case 'bn':
       return getComponent({ params });
-    case 'bu':
+    case 'bi':
       return getComponent({ params });
     case 'cg':
       return getComponent({ params });
     case 'cm':
       return getComponent({ params });
     case 'de':
-      return getComponent({ params });
-    case 'bi':
       return getComponent({ params });
     case 'gb':
       return getComponent({ params });
