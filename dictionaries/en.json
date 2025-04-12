@@ -5197,5 +5197,610 @@
         }
       }
     }
+  },
+  "ci": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM IVORY COAST",
+              "paragraph": "ITM IVORY COAST is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM Ivory coast"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM IVORY COAST",
+              "paragraph": "ITM IVORY COAST is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM IVORY COAST"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM IVORY COAST",
+          "paragraph": "Founded in 2024, ITM IVORY COAST, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/ci/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM history"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Ivory coast | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Ivory coast is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Ivory coast",
+            "ITM Africa Ivory coast",
+            "ITM Africa",
+            "Human Resource Africa",
+            "Team Building Ivory coast",
+            "Training ITM Ivory coast",
+            "Human resource Ivory coast",
+            "Payroll management Abijan"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Ivory coast Your strategic partner in HR solutions in Africa",
+          "description": "ITM Ivory coast is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Ivory coast",
+            "ITM Africa Ivory coast",
+            "Human Resource Africa Ivory coast",
+            "Team Building",
+            "Training ITM Ivory coast",
+            "Human resource Ivory coast",
+            "Payroll management Ivory coast"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM IVORY COAST?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Ivory coast has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/ci/contact-us"
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Ivory coast, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Ivory coast is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Ivory coast",
+            "ITM Africa Ivory coast",
+            "ITM Africa",
+            "Human Resource Africa Ivory coast",
+            "Team Building Ivory coast",
+            "Training ITM",
+            "Human resource Ivory coast",
+            "Payroll management Abijan"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Ivory coast, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Ivory coast is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Ivory coast",
+            "ITM Africa Ivory coast",
+            "ITM Africa Ivory coast",
+            "Human Resource Africa",
+            "Team Building",
+            "Training ITM Ivory coast",
+            "Human resource Ivory coast",
+            "Payroll management Abijan"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Ivory coast, Your strategic partner in HR solutions in Africa",
+          "description": "ITM IVORY COAST is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Ivory coast",
+            "ITM Africa Abijan",
+            "Human Resource Africa Ivory coast",
+            "Team Building Ivory coast",
+            "Training ITM Abijan",
+            "Human resource Ivory coast",
+            "Payroll management Abijan"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Ivory coast, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Ivory coast is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Ivory coast",
+            "ITM Ivory coast",
+            "ITM Abijan",
+            "Human resource Abijan",
+            "Team Building Ivory coast Abijan",
+            "Team Building Ivory coast",
+            "Training Abijan",
+            "Human resource Ivory coast",
+            "Payroll management Ivory coast",
+            "contact ITM Ivory coast",
+            "contact ITM Abijan",
+            "contact ITM Ivory coast",
+            "contact ITM HR Ivory coast"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM IVORY COAST",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "sn": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM SENEGAL",
+              "paragraph": "ITM SENEGAL is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM SENEGAL"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM SENEGAL",
+              "paragraph": "ITM SENEGAL is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM SENEGAL"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM SENEGAL",
+          "paragraph": "Founded in 2024, ITM SENEGAL, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/sn/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM history"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Senegal | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Senegal",
+            "ITM Africa Senegal",
+            "Human Resource Africa Senegal",
+            "Team Building Senegal",
+            "Training ITM Senegal Dakar",
+            "Human resource Senegal",
+            "Payroll management Dakar"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Senegal Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Senegal",
+            "ITM Africa",
+            "Human Resource Africa Dakar",
+            "Team Building Senegal",
+            "Training ITM Dakar",
+            "Human resource DRC Senegal",
+            "Payroll management Dakar"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM SENEGAL?",
+          "description": "We provide exclusive services for your business",
+          "paragraph1": "ITM Senegal has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/sn/contact-us"
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Senegal, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Senegal",
+            "ITM Africa Dakar",
+            "Human Resource Africa Dakar",
+            "Team Building Senegal",
+            "Training ITM Senegal",
+            "Human resource Senegal Dakar",
+            "Payroll management Dakar"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Senegal, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Senegal",
+            "ITM Africa Dakar",
+            "Human Resource Africa",
+            "Team Building Dakar",
+            "Training ITM Senegal",
+            "Human resource Dakar",
+            "Payroll management"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Senegal, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Senegal",
+            "ITM Africa Dakar",
+            "Human Resource Africa Dakar",
+            "Team Building Senegal",
+            "Training ITM Senegal",
+            "Human resource Dakar",
+            "Payroll management Senegal"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Senegal, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Senegal is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Senegal",
+            "ITM Dakar",
+            "ITM Senegal",
+            "Human resource Dakar",
+            "Team Building Senegal Dakar",
+            "Team Building Senegal",
+            "Training Senegal Dakar",
+            "Human resource Senegal",
+            "Payroll management Dakar",
+            "contact ITM Senegal",
+            "contact ITM Dakar",
+            "contact ITM HR dakar"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM SENEGAL",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }

@@ -29,6 +29,8 @@ import cmFlag from '@/public/assets/flag/cm.png';
 import zmFlag from '@/public/assets/flag/zm.png';
 import zaFlag from '@/public/assets/flag/za.png';
 import deFlag from '@/public/assets/flag/de.png';
+import ciFlag from '@/public/assets/flag/ci.png';
+import snFlag from '@/public/assets/flag/sn.png';
 import cdLogo from '@/public/assets/logo/cd.png';
 import hrLogo from '@/public/assets/logo/hr.png';
 import aoLogo from '@/public/assets/logo/ao.png';
@@ -37,7 +39,6 @@ import cgLogo from '@/public/assets/logo/cg.png';
 import keLogo from '@/public/assets/logo/ke.png';
 import ngLogo from '@/public/assets/logo/ng.png';
 import rwLogo from '@/public/assets/logo/rw.png';
-import biLogo from '@/public/assets/logo/bi.png';
 import tzLogo from '@/public/assets/logo/tz.png';
 import tgLogo from '@/public/assets/logo/tg.png';
 import ugLogo from '@/public/assets/logo/ug.png';
@@ -620,6 +621,24 @@ export const entities = [
     flag: deFlag,
     logo: hrLogo,
   },
+  {
+    fr: "Côte d'Ivoire",
+    en: 'Ivory Coast',
+    name: 'Ivory Coast',
+    href: '/fr/ci',
+    code: 'ci',
+    flag: ciFlag,
+    logo: hrLogo,
+  },
+  {
+    fr: 'Sénégal',
+    en: 'Senegal',
+    name: 'Sénégal',
+    href: '/fr/sn',
+    code: 'sn',
+    flag: snFlag,
+    logo: hrLogo,
+  },
 ];
 
 export const organisations: any = {
@@ -928,9 +947,9 @@ export const entitiesInfos: any = {
     },
   },
   bi: {
-    address: 'Centro Comercial 3M, Largo do Patriota, Luanda, Angola',
-    phone: '+244 946 083 313',
-    email: 'infocustomer@itmafrica.com',
+    address: 'Avenue Songa 11-13 B.P 172, Bujumbura, Burundi',
+    phone: '(+257) 610 66161',
+    email: 'infoburundi@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
       linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
@@ -982,6 +1001,28 @@ export const entitiesInfos: any = {
         'https://www.linkedin.com/posts/itm-uganda_itmuganda-activity-7281983653528690689-31EO/',
       instagram: 'https://www.instagram.com/itmuganda/',
       twitter: 'https://x.com/itmuganda',
+    },
+  },
+  ci: {
+    address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
+    phone: '+243 828 502 119',
+    email: 'infocustomer@itmafrica.com',
+    social_medias: {
+      facebook: 'https://www.facebook.com/itmafrica',
+      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
+      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      twitter: 'https://twitter.com/ItmRdc',
+    },
+  },
+  sn: {
+    address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
+    phone: '+243 828 502 119',
+    email: 'infocustomer@itmafrica.com',
+    social_medias: {
+      facebook: 'https://www.facebook.com/itmafrica',
+      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
+      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      twitter: 'https://twitter.com/ItmRdc',
     },
   },
 };
