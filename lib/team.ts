@@ -20,16 +20,15 @@ import nokukhanya from '@/public/assets/teams/za/nokukhanya.jpg';
 
 //Bénin
 import alain from '@/public/assets/teams/bn/bn_alain.jpeg';
-import diane from '@/public/assets/teams/bn/bn_diane.jpeg';
-import hamdane from '@/public/assets/teams/bn/bn_hamdane.jpeg';
-import imane from '@/public/assets/teams/bn/bn_imane.jpeg';
+import diane from '@/public/assets/teams/bn/bn_diane.jpg';
 import jane from '@/public/assets/teams/bn/bn_jane.png';
 import jean from '@/public/assets/teams/bn/bn_jean.jpeg';
 import sandra from '@/public/assets/teams/bn/bn_sandra.jpeg';
-import penya from '@/public/assets/teams/bn/bn_penya.png';
+import penya from '@/public/assets/teams/bn/bn_penya.jpg';
 import roland from '@/public/assets/teams/bn/bn_roland.jpeg';
-import thomas from '@/public/assets/teams/bn/bn_thomas.jpeg';
 import tristan from '@/public/assets/teams/bn/bn_tristan.jpeg';
+import josaphat from '@/public/assets/teams/bn/bn_josaphat.jpeg';
+import faizath from '@/public/assets/teams/bn/bn_faizath.jpg';
 
 //Nigéria
 import abah from '@/public/assets/teams/ng/abah.jpg';
@@ -179,18 +178,6 @@ export const team_members: any = {
       image: alain,
     },
     {
-      name: 'Hamdane ISSFOU',
-      position: 'Assistant Formation',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: hamdane,
-    },
-    {
-      name: 'Imane ADEGBOLA',
-      position: 'Assistante RH',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: imane,
-    },
-    {
       name: 'Jane JOSIAH',
       position: 'Assistant Sous-traitance',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
@@ -221,16 +208,22 @@ export const team_members: any = {
       image: sandra,
     },
     {
-      name: 'Thomas SOMMISOU',
-      position: 'Technicien de surface',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: thomas,
-    },
-    {
       name: 'Tristan ALOMA',
       position: 'Responsable Sous-traitance et Opérations',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: tristan,
+    },
+    {
+      name: 'Josaphat MULENDE',
+      position: 'Responsable Sous-traitance',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: josaphat,
+    },
+    {
+      name: 'Faïzath Hounkanrin',
+      position: 'Finance Internship',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: faizath,
     },
   ],
   // ng: [
