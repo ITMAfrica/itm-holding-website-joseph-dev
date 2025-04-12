@@ -193,6 +193,12 @@ export const getCountryCode = (country: string | undefined) => {
       return 'ug';
     case 'zm':
       return 'zm';
+    case 'bi':
+      return 'bi';
+    case 'ci':
+      return 'ci';
+    case 'sn':
+      return 'sn';
 
     default:
       return 'cd';
