@@ -31,13 +31,13 @@ import josaphat from '@/public/assets/teams/bn/bn_josaphat.jpeg';
 import faizath from '@/public/assets/teams/bn/bn_faizath.jpg';
 
 //Nigéria
-import abah from '@/public/assets/teams/ng/abah.jpg';
+import abah from '@/public/assets/teams/ng/abah.png';
 import bukola from '@/public/assets/teams/ng/bukola.jpg';
-import cynthia from '@/public/assets/teams/ng/cynthia.jpg';
+import cynthia from '@/public/assets/teams/ng/cynthia.png';
 import joshua from '@/public/assets/teams/ng/joshua.jpg';
-import barbara from '@/public/assets/teams/ng/barbara.jpg';
+import barbara from '@/public/assets/teams/ng/barbara.png';
 import victory from '@/public/assets/teams/ng/victory.jpg';
-import pleasant from '@/public/assets/teams/ng/pleasant.jpg';
+import hakeem from '@/public/assets/teams/ng/hakeem.png';
 
 export const team_members: any = {
   tz: [
@@ -226,48 +226,48 @@ export const team_members: any = {
       image: faizath,
     },
   ],
-  // ng: [
-  //   {
-  //     name: 'Abah Johnson',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: abah,
-  //   },
-  //   {
-  //     name: 'Barbara ASSEH',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: barbara,
-  //   },
-  //   {
-  //     name: 'Bukola Oyinlola-Anuwe',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: bukola,
-  //   },
-  //   {
-  //     name: 'Cynthia EWENI',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: cynthia,
-  //   },
-  //   {
-  //     name: 'Joshua BASO',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: joshua,
-  //   },
-  //   {
-  //     name: 'Pleasant ODE',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: pleasant,
-  //   },
-  //   {
-  //     name: 'Victory VICTOR',
-  //     position: 'Directrice Générale',
-  //     text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-  //     image: victory,
-  //   },
-  // ],
+  ng: [
+    {
+      name: 'Johnson Abah',
+      position: 'Sales Executive',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: abah,
+    },
+    {
+      name: 'Barbara ASSEH',
+      position: 'Human Resource Officer',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: barbara,
+    },
+    {
+      name: 'Bukola Oyinlola-Anuwe',
+      position: 'Country Manager',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: bukola,
+    },
+    {
+      name: 'Cynthia EWENI',
+      position: 'HR Assistant',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: cynthia,
+    },
+    {
+      name: 'Joshua BASO',
+      position: 'Accountant',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: joshua,
+    },
+    {
+      name: 'Hakeem Ogunlola',
+      position: 'HR Officer',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: hakeem,
+    },
+    {
+      name: 'Victory VICTOR',
+      position: 'Front Desk Admin',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: victory,
+    },
+  ],
 };
