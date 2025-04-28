@@ -874,7 +874,7 @@ export const entitiesInfos: any = {
   bn: {
     address:
       'St Michel, Immeuble MAVEKA, à 50 m de la poste au 3ème étage aile gauche',
-    phone: '+229 550 719 19 ',
+    phone: '+229 015 507 19 19 ',
     email: 'infobenin@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/profile.php?id=100080658041714',
