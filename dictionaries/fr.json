@@ -1107,8 +1107,8 @@
       },
       "about": {
         "meta": {
-          "title": "A propos de ITM Nexus | Votre partenaire en Ressources humaines en allemagne",
-          "description": "ITM Nexus est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "A propos de ITM Burundi | Votre partenaire en Ressources humaines en allemagne",
+          "description": "ITM Burundi est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -1145,31 +1145,31 @@
           }
         },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM NEXUS?",
+          "title": "QUE RETENIR SUR ITM Burundi?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM NEXUS est une filiale du réseau ITM représenté au niveau international. La société mère ITM Sarl est un prestataire de services spécialisé dans le domaine des ressources humaines (recrutement, gestion du personnel, comptabilité des salaires), de la formation professionnelle et du renforcement des capacités ainsi que de l'organisation et de la logistique de la formation, du suivi et de l'évaluation de projets et de l'accompagnement des organisations humanitaires et gouvernementales dans le développement organisationnel.",
+          "paragraph1": "ITM Burundi est une filiale du réseau ITM représenté au niveau international. La société mère ITM Burundi est un prestataire de services spécialisé dans le domaine des ressources humaines (recrutement, gestion du personnel, comptabilité des salaires), de la formation professionnelle et du renforcement des capacités ainsi que de l'organisation et de la logistique de la formation, du suivi et de l'évaluation de projets et de l'accompagnement des organisations humanitaires et gouvernementales dans le développement organisationnel.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
-            "link": "/fr/de/contactez-nous"
+            "link": "/fr/bi/contactez-nous"
           }
         }
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Allemagne | Votre partenaire en Ressources humaines en allemagne",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Services de Burundi | Votre partenaire en Ressources humaines en allemagne",
+          "description": "ITM Burundi est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
           "keywords": [
             "ITM",
-            "A propos de ITM Nexus",
+            "A propos de ITM Burundi",
             "ITM Africa",
             "Ressources humaines",
             "Team Building",
             "Formation",
-            "Ressources humaines Nexus",
+            "Ressources humaines Burundi",
             "Gestion du payroll"
           ],
           "authors": [{ "name": "Amos Bafuna" }, { "name": "Jeereq Minganda" }],
@@ -1197,7 +1197,7 @@
       },
       "training": {
         "meta": {
-          "title": "Formations de ITM Allemagne | Votre partenaire en Ressources humaines allemagne",
+          "title": "Formations de ITM Ouganda | Votre partenaire en Ressources humaines allemagne",
           "description": "Nous proposons des formations adaptées pour le renforcement des capacités de vos équipes. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1237,7 +1237,7 @@
       },
       "news": {
         "meta": {
-          "title": "Actualités de ITM allemagne | Votre partenaire en Ressources humaines allemagne",
+          "title": "Actualités de ITM Ouganda | Votre partenaire en Ressources humaines allemagne",
           "description": "Restez à jour sur les dernières actualités de ITM Allemagne et les informations sur nos offres et services",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1277,7 +1277,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Allemagne | Votre partenaire en Ressources humaines en allemagne",
+          "title": "Contactez ITM Ouganda | Votre partenaire en Ressources humaines en allemagne",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1316,7 +1316,7 @@
         },
         "about": {
           "title1": "Contactez-nous",
-          "title2": "ITM Nexus",
+          "title2": "ITM Burundi",
           "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
         }
       }
@@ -1451,8 +1451,8 @@
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Services de ITM Cameroun | Votre partenaire en Ressources humaines",
+          "description": "ITM Cameroun est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -1571,7 +1571,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez ITM Cameroun | Votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1610,7 +1610,7 @@
         },
         "about": {
           "title1": "Contactez-nous",
-          "title2": "ITM Nexus",
+          "title2": "ITM Cameroun",
           "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
         }
       }
@@ -5302,7 +5302,7 @@
       },
       "services": {
         "meta": {
-          "title": "Services | ITM Bénin, Votre partenaire en Ressources humaines",
+          "title": "Services | ITM Côte d'ivoire, Votre partenaire en Ressources humaines",
           "description": "ITM Bénin est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
