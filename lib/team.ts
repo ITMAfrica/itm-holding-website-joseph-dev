@@ -1,6 +1,5 @@
-import adelaida from '@/public/assets/teams/avatar.png';
 import karen from '@/public/assets/teams/tz/karen.jpg';
-import julius from '@/public/assets/teams/tz/julius.jpg';
+import julius from '@/public/assets/teams/tz/julius.png';
 import joseph from '@/public/assets/teams/tz/joseph.jpg';
 import jonathan from '@/public/assets/teams/tz/jonathan.jpg';
 import doreen from '@/public/assets/teams/tz/doreen.jpg';
@@ -103,7 +102,7 @@ export const team_members: any = {
     },
     {
       name: 'Suzan BRYCESON',
-      position: 'Finance Assistant',
+      position: 'Accountant',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: suzan,
     },
