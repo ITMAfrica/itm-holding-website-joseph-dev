@@ -1451,8 +1451,8 @@
       },
       "services": {
         "meta": {
-          "title": "Services de ITM Africa | Votre partenaire en Ressources humaines",
-          "description": "ITM HR est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "title": "Services de ITM Cameroun | Votre partenaire en Ressources humaines",
+          "description": "ITM Cameroun est votre partenaire stratégique en solutions RH en Afrique. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
           "referrer": "origin-when-cross-origin",
@@ -1571,7 +1571,7 @@
       },
       "contact": {
         "meta": {
-          "title": "Contactez ITM Africa | Votre partenaire en Ressources humaines",
+          "title": "Contactez ITM Cameroun | Votre partenaire en Ressources humaines",
           "description": "Veillez nous contacter et nous répondrons à toutes vos questionq. Nous personnalisons nos services: recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
@@ -1610,7 +1610,7 @@
         },
         "about": {
           "title1": "Contactez-nous",
-          "title2": "ITM Nexus",
+          "title2": "ITM Cameroun",
           "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
         }
       }
@@ -5302,7 +5302,7 @@
       },
       "services": {
         "meta": {
-          "title": "Services | ITM Bénin, Votre partenaire en Ressources humaines",
+          "title": "Services | ITM Côte d'ivoire, Votre partenaire en Ressources humaines",
           "description": "ITM Bénin est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
           "generator": "Next.js",
           "applicationName": "ITM Africa",
