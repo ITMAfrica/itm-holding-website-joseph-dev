@@ -50,6 +50,14 @@ import noumonvi from '@/public/assets/teams/tg/noumonvi.jpg';
 import obi from '@/public/assets/teams/tg/obi.jpg';
 import yalulu from '@/public/assets/teams/tg/yalulu.jpg';
 
+//Uganda
+import asha from '@/public/assets/teams/ug/asha.png';
+import joseph_ug from '@/public/assets/teams/ug/joseph.png';
+import miriam from '@/public/assets/teams/ug/miriam.png';
+import jasmine from '@/public/assets/teams/ug/jasmine.png';
+import ian from '@/public/assets/teams/ug/ian.png';
+import bridget from '@/public/assets/teams/ug/bridget.png';
+
 export const team_members: any = {
   tz: [
     {
@@ -341,6 +349,44 @@ export const team_members: any = {
       position: 'Assistante Administrative',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: nafissat,
+    },
+  ],
+  ug: [
+    {
+      name: 'Asha KALANZI',
+      position: 'Managing Director',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: asha,
+    },
+    {
+      name: 'Miriam GABULA',
+      position: 'Admin and Operations associate',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: miriam,
+    },
+    {
+      name: 'Joseph OWORI ',
+      position: 'Outsourcing associate',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: joseph_ug,
+    },
+    {
+      name: 'Jasmine NAMUJJU',
+      position: 'Finance associate',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: jasmine,
+    },
+    {
+      name: 'Assiimwe IAN',
+      position: 'Outsourcing associate',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: ian,
+    },
+    {
+      name: 'Bridget NIWENYESIGA',
+      position: 'Office Attendant',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: bridget,
     },
   ],
 };
