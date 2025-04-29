@@ -270,4 +270,66 @@ export const team_members: any = {
       image: victory,
     },
   ],
+  tg: [
+    {
+      name: 'Ruth OBI',
+      position: 'Assistante Commerciale',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Hervé YALULU',
+      position: 'Country Manager',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Eddy-Chris NOUMONVI',
+      position: 'Responsable Recrutement et Formation',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Charles NAKBONE',
+      position: 'Chargé des finances et de la comptabilité',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Djanaba MADOU',
+      position: 'Assistante Recrutement et Formation',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Bénit FURAHA',
+      position: 'Chargé de support RH/ST',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Florentine TOGBE',
+      position: 'Superviseur RH',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Marc-Joël DICK',
+      position: 'Superviseur RH',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Charles AKOUETE',
+      position: 'Chargé RH',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+    {
+      name: 'Nafissat ADEYEMON',
+      position: 'Assistante Administrative',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: karen,
+    },
+  ],
 };
