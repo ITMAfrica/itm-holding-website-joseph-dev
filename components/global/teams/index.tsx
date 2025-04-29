@@ -49,7 +49,7 @@ export default function Teams({ toShow = 5, params, team }: any) {
             ))}
           </Carousel>
           <div className="w-fit cursor-pointer h-5 z-10 absolute flex items-center m-auto left-0 right-0 -bottom-5">
-            {Array.from({ length: 10 }).map((item: any, index: number) =>
+            {team.map((item: any, index: number) =>
               index === activeSlide ? (
                 <div
                   key={index}
