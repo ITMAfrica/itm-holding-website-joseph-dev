@@ -39,6 +39,18 @@ import barbara from '@/public/assets/teams/ng/barbara.png';
 import victory from '@/public/assets/teams/ng/victory.jpg';
 import hakeem from '@/public/assets/teams/ng/hakeem.png';
 
+//Togo
+import akouete from '@/public/assets/teams/tg/akouete.jpg';
+import dick from '@/public/assets/teams/tg/dick.jpg';
+import florentine from '@/public/assets/teams/tg/florentine.jpg';
+import furaha from '@/public/assets/teams/tg/furaha.jpg';
+import madou from '@/public/assets/teams/tg/madou.jpg';
+import nafissat from '@/public/assets/teams/tg/nafissat.jpg';
+import nakpabone from '@/public/assets/teams/tg/nakpabone.jpg';
+import noumonvi from '@/public/assets/teams/tg/noumonvi.jpg';
+import obi from '@/public/assets/teams/tg/obi.jpg';
+import yalulu from '@/public/assets/teams/tg/yalulu.jpg';
+
 export const team_members: any = {
   tz: [
     {
@@ -275,61 +287,61 @@ export const team_members: any = {
       name: 'Ruth OBI',
       position: 'Assistante Commerciale',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: obi,
     },
     {
       name: 'Hervé YALULU',
       position: 'Country Manager',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: yalulu,
     },
     {
       name: 'Eddy-Chris NOUMONVI',
       position: 'Responsable Recrutement et Formation',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: noumonvi,
     },
     {
       name: 'Charles NAKBONE',
       position: 'Chargé des finances et de la comptabilité',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: nakpabone,
     },
     {
       name: 'Djanaba MADOU',
       position: 'Assistante Recrutement et Formation',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: madou,
     },
     {
       name: 'Bénit FURAHA',
       position: 'Chargé de support RH/ST',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: furaha,
     },
     {
       name: 'Florentine TOGBE',
       position: 'Superviseur RH',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: florentine,
     },
     {
       name: 'Marc-Joël DICK',
       position: 'Superviseur RH',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: dick,
     },
     {
       name: 'Charles AKOUETE',
       position: 'Chargé RH',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: akouete,
     },
     {
       name: 'Nafissat ADEYEMON',
       position: 'Assistante Administrative',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: karen,
+      image: nafissat,
     },
   ],
 };
