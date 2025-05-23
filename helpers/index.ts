@@ -163,6 +163,8 @@ export const notifyError = (response: string, containerId: string) =>
 
 export const getCountryCode = (country: string | undefined) => {
   switch (country) {
+    case 'cd':
+      return 'cd';
     case 'za':
       return 'za';
     case 'de':
