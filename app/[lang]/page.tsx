@@ -1,4 +1,5 @@
 import HomePage from '@/components/pages/home';
+import LandingPage from '@/components/pages/landingPage';
 import { getDictionary } from '@/get-dictionary';
 
 export async function generateMetadata({ params }: any) {
@@ -10,5 +11,5 @@ export async function generateMetadata({ params }: any) {
 }
 
 export default function IndexPage({ params }: { params: any }) {
-  return <HomePage params={params} />;
+  return <LandingPage params={params} />;
 }
