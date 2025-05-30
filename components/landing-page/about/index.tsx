@@ -19,17 +19,21 @@ export default function AboutLandingPage({ params }: { params: any }) {
           <div className="w-1/2 pt-10 md:pt-0 md:mr-14">
             <SectionTitle text="QUI SOMMES-NOUS ?" />
             <h1 className="text-blue_itm_good text-5xl font-bold mb-2">
-              ITM AFRICA
+              ITM HR
             </h1>
             <p className="mb-5 lg:w-11/12 font-open font-lg text-black_itm">
-              ITM HR est votre partenaire stratégique en solutions RH en
-              Afrique. Avec une expérience solide dans la gestion de plus de 15
-              000 employés répartis dans 18 pays, nous personnalisons nos
-              service recrutement, placement du personnel, formation et
-              conformité RHpour répondre précisément à vos besoins. Que vous
-              cherchiez à améliorer l'efficacité opérationnelle ou à renforcer
-              votre stratégie de gestion des talents, notre savoir-faire est à
-              votre disposition pour vous accompagner vers la réussit
+              En tant que membre d’ITM Holding, ITM HR est votre partenaire
+              stratégique et le principal fournisseur de solutions en Ressources
+              Humaines, offrant des services personnalisés dans 18 pays
+              d’Afrique. Nous tirons parti des ressources et de l’expertise d’un
+              conglomérat panafricain pour fournir des solutions conformes et
+              efficaces, soutenant le succès à long terme de votre entreprise.
+              Avec un fort accent sur l’excellence opérationnelle et le
+              développement des employés, ITM HR est votre partenaire de
+              confiance pour une croissance durable. Que vous souhaitiez
+              améliorer l’efficacité opérationnelle ou renforcer votre stratégie
+              de gestion des talents, nous avons l’expertise pour vous
+              accompagner vers la réussite.
             </p>
           </div>
         </div>
