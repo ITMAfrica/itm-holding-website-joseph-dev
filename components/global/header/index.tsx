@@ -12,6 +12,7 @@ import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 import { CODE, getCookie } from '@/helpers';
 import CardLogo from '@/components/global/cards/logo';
 import CardCountry from '../cards/country';
+import { usePathname } from 'next/navigation';
 
 type linkHeader = {
   href: string;
@@ -29,6 +30,7 @@ export default function HomeHeader({ params }: propsPage) {
   const data: any = dictionary?.global?.header[CURRENT_CODE]
     ? dictionary?.global?.header[CURRENT_CODE]
     : dictionary?.global?.header[CODE];
+  const root = usePathname().split('/')[2];
 
   const [openNavigation, setOpenNavigation] = useState(false);
   const [scrollToBottom, setScrollToBottom] = useState(0);
@@ -83,14 +85,18 @@ export default function HomeHeader({ params }: propsPage) {
             <CardLogo />
           </div>
         </div>
-        <nav className="w-fit lg:flex hidden items-center justify-evenly">
-          {data?.links.map((item: linkHeader, index: number) => (
-            <NavLinkCard {...item} key={index} />
-          ))}
-        </nav>
+        {root != undefined ? (
+          <nav className="w-fit lg:flex hidden items-center justify-evenly">
+            {data?.links.map((item: linkHeader, index: number) => (
+              <NavLinkCard {...item} key={index} />
+            ))}
+          </nav>
+        ) : (
+          ''
+        )}
         <div className="w-fit flex">
           <CardLang links={data?.links} langs={data?.langs} />
-          <CardCountry />
+          {root == undefined ? '' : <CardCountry />}
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
