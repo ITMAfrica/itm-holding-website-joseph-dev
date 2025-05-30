@@ -1,5 +1,5 @@
 import SectionTitle from '@/components/global/section_title';
-import img from '@/public/pages/main/main.png';
+import img from '@/public/pages/main/main2.png';
 import Image from 'next/image';
 
 export default function ProcessLandingPage({ params }: { params: any }) {
