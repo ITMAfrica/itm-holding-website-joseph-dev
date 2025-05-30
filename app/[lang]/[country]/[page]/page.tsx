@@ -40,6 +40,8 @@ export async function generateMetadata({ params }: any) {
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
+    case 'cd':
+      return getComponent({ params });
     case 'tz':
       return getComponent({ params });
     case 'tg':

@@ -31,16 +31,10 @@ export default function NavLinkCard({
     const current = href.split('/')[2];
     if (href == TALENTPRO_HREF) {
       return href;
-    } else if (
-      CURRENT_CODE &&
-      CURRENT_CODE != CODE &&
-      typeof current != 'undefined'
-    ) {
+    } else {
       return `/${params.lang}/${
         params.country ? params.country : CURRENT_CODE
       }/${current}`;
-    } else {
-      return href;
     }
   }
   if (full)

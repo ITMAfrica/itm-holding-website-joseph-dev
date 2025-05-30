@@ -511,7 +511,7 @@
           "paragraph": "ITM SARL est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM SARL est votre partenaire de confiance pour une croissance durable.",
           "btnMore": {
             "text": "En savoir plus",
-            "link": "/fr/a-propos-de-nous",
+            "link": "/fr/cd/a-propos-de-nous",
             "key": "a-propos-de-nous",
             "title": "Voir les détails sur ITM SARL"
           }
@@ -563,7 +563,7 @@
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
-            "link": "/fr/contactez-nous"
+            "link": "/fr/cd/contactez-nous"
           }
         }
       },

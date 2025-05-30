@@ -16,6 +16,8 @@ export async function generateMetadata({ params }: any) {
   const notFound: any = dictionary.globalContent.pages.notFound;
 
   switch (params.country) {
+    case 'cd':
+      return data.home.meta;
     case 'tz':
       return data.home.meta;
     case 'tg':
@@ -77,6 +79,8 @@ export async function generateMetadata({ params }: any) {
 
 export default function PageCountry({ params }: { params: any }) {
   switch (params.country) {
+    case 'cd':
+      return <HomePage params={params} />;
     case 'tz':
       return <HomePage params={params} />;
     case 'tg':
