@@ -17,17 +17,30 @@ export default function StepsLandingPage({ params }: { params: any }) {
             />
           </div>
           <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
-            <SectionTitle text="LOREM IPSUM" />
+            <SectionTitle text="ITM AFRICA" />
             <h1 className="text-blue_itm_good text-3xl font-bold mb-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              ITM HR est votre partenaire de confiance pour une croissance
+              durable.
             </h1>
-            <p className="mb-5 lg:w-11/12 font-open font-lg text-black_itm">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the Lorem Ipsum is simply dummy text of the
-            </p>
+            <div className="mb-5 lg:w-11/12 font-open font-lg text-black_itm">
+              <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
+                Notre Vision
+              </h3>
+              <p className="text-lg mb-4">
+                Construire un avenir réussi pour tous.
+              </p>
+              <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
+                Notre Mission
+              </h3>
+              <p className="text-lg mb-4">
+                Stimuler une croissance durable et l’excellence opérationnelle
+                pour l’ensemble de nos parties prenantes.
+              </p>
+              <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
+                Nos Valeurs
+              </h3>
+              <p className="text-lg">Qualité – Intégrité – Loyauté</p>
+            </div>
           </div>
         </div>
       </div>
