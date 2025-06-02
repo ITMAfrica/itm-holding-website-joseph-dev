@@ -28,7 +28,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
                   Pourquoi choisir ITM HR ?
                 </h1>
               </div>
-              <p className="w-[40%] text-lg font-sans">
+              <p className="md:w-[40%] text-lg font-sans">
                 Nous proposons des solutions stratégiques et standardisées,
                 adaptées à votre entreprise, soutenues par une expertise locale
                 approfondie et un engagement envers l’excellence. Que vous soyez
@@ -37,7 +37,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
                 complexité de la gestion des ressources humaines.
               </p>
             </div>
-            <div className="w-full flex justify-between flex-wrap">
+            <div className="w-full md:flex justify-between flex-wrap">
               {texts.map((item, index) => {
                 return <CardLandingPage {...item} key={index} />;
               })}

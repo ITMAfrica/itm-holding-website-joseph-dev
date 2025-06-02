@@ -1,4 +1,3 @@
-import HomePage from '@/components/pages/home';
 import LandingPage from '@/components/pages/landingPage';
 import { getDictionary } from '@/get-dictionary';
 

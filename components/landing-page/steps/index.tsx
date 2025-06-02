@@ -6,7 +6,7 @@ export default function StepsLandingPage({ params }: { params: any }) {
   return (
     <section className="md:flex justify-center w-full mx-auto py-10 bg-white">
       <div className="w-10/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
-        <div className="flex items-center">
+        <div className="md:flex items-center">
           <div className="w-fit mx-auto md:w-3/5 lg:w-1/2">
             <Image
               src={img}
@@ -16,7 +16,7 @@ export default function StepsLandingPage({ params }: { params: any }) {
               className="mx-auto"
             />
           </div>
-          <div className="w-1/2 pt-10 md:pt-0 md:mr-14">
+          <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
             <SectionTitle text="LOREM IPSUM" />
             <h1 className="text-blue_itm_good text-3xl font-bold mb-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
