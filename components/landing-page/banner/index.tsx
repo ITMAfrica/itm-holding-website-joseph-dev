@@ -9,11 +9,16 @@ export default function BannerLandingPage({ params }: { params: any }) {
         <div className="h-full py-5">
           <article className="flex items-center md:w-1/2 w-full absolute z-10 top-0 right-0 left-0 bottom-0">
             <div className="sm:ml-14 ml-4 h-fit">
-              <h1 className="text-white md:text-5xl text-3xl font-bold mb-4">
+              <h1 className="text-white md:text-5xl text-3xl font-bold mb-8">
                 ITM HR, votre partenaire stratégique en capital humain en
                 Afrique
               </h1>
-              <Link href="">Find ITM Africa in your country</Link>
+              <Link
+                href="#countries"
+                className="bg-white text-blue_itm_primary py-2 px-4 rounded-lg"
+              >
+                Find ITM Africa in your country
+              </Link>
             </div>
           </article>
         </div>

@@ -17,10 +17,13 @@ export default function CountriesLandingPage() {
 
   return (
     <section>
-      <div className="bg-white bg-[url('../public/pages/main/countries.png')] bg-contain bg-left bg-no-repeat">
+      <div
+        id="countries"
+        className="bg-white bg-[url('../public/pages/main/countries.png')] bg-contain bg-left bg-no-repeat"
+      >
         <div className="flex items-center h-full w-10/12 mx-auto py-10">
-          <div className="w-1/2"></div>
-          <div className="w-1/2">
+          <div className="hidden md:block md:w-1/2"></div>
+          <div className="md:w-1/2">
             <SectionTitle text="ITM AFRICA" />
             <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
               Trouvez ITM Africa dans votre pays
