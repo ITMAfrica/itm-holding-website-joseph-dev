@@ -76,12 +76,16 @@ export default function HomeHeader({ params }: propsPage) {
       <div className="md:w-[85%] w-11/12 h-fit flex items-center justify-between ">
         <div className="w-fit flex items-center">
           <div className="flex items-center">
-            <div
-              onClick={handleNavigation}
-              className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
-            >
-              <MdOutlineMenu />
-            </div>
+            {root != undefined ? (
+              <div
+                onClick={handleNavigation}
+                className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
+              >
+                <MdOutlineMenu />
+              </div>
+            ) : (
+              ''
+            )}
             <CardLogo />
           </div>
         </div>
