@@ -490,7 +490,7 @@ export const entities = [
     fr: 'RD Congo',
     en: 'DR Congo',
     name: 'ITM SARL',
-    href: '/',
+    href: '/fr/cd',
     code: 'cd',
     flag: cdFlag,
     logo: cdLogo,
