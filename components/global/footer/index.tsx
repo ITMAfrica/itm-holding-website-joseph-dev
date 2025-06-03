@@ -8,6 +8,7 @@ import { CODE, getCountryCode, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';
 import newsLetterSchema from './newsLetterSchema';
+import { usePathname } from 'next/navigation';
 
 import { FaFacebookF } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
@@ -28,6 +29,8 @@ export default function Footer({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const content = dictionary.global.footer;
+  const pathname = usePathname();
+  const root = usePathname().split('/')[2];
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
   const data: any = dictionary?.global?.header[CURRENT_CODE]
     ? dictionary?.global?.header[CURRENT_CODE]
@@ -88,16 +91,20 @@ export default function Footer({ params }: { params: any }) {
           </nav>
         </section>
         <section className="sm:flex justify-around md:ml-10 md:w-3/5 w-full">
-          <div>
-            <h4 className="text-2xl font-bold mb-4">
-              {content.linksTitle.internal}
-            </h4>
-            <ul className="mb-2">
-              {data?.links.map((item: linkHeader, index: number) => (
-                <NavLinkFooter {...item} key={index} />
-              ))}
-            </ul>
-          </div>
+          {root != undefined ? (
+            <div>
+              <h4 className="text-2xl font-bold mb-4">
+                {content.linksTitle.internal}
+              </h4>
+              <ul className="mb-2">
+                {data?.links.map((item: linkHeader, index: number) => (
+                  <NavLinkFooter {...item} key={index} />
+                ))}
+              </ul>
+            </div>
+          ) : (
+            ''
+          )}
           <div className="mt-8 sm:mt-0">
             <h4 className="text-2xl font-bold mb-4">
               {content.linksTitle.software}
