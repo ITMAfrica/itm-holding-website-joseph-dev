@@ -17,7 +17,7 @@ export default function BannerLandingPage({ params }: { params: any }) {
                 href="#countries"
                 className="bg-white text-blue_itm_primary py-2 px-4 rounded-lg"
               >
-                Find ITM Africa in your country
+                Trouvez ITM Africa dans ton pays
               </Link>
             </div>
           </article>

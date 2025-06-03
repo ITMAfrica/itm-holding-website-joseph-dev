@@ -6,10 +6,11 @@ import { CODE, getCookie } from '@/helpers';
 import { useParams, usePathname } from 'next/navigation';
 import { entities } from '@/lib/data';
 
-export default function CardLogo({ white = false }: any) {
+export default function CardLogo() {
   const params = useParams();
   const pathname = usePathname();
   const lang = params.lang;
+  const root = usePathname().split('/')[2];
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState('');
   const [CURRENT_IMAGE, SET_CURRENT_IMAGE] = useState(logo);
   function getHref() {
@@ -21,12 +22,16 @@ export default function CardLogo({ white = false }: any) {
   }
   useEffect(
     function () {
-      const code: string = getCookie('country', document?.cookie) || CODE;
+      const code: string = getCookie('country', document?.cookie) || '';
       SET_CURRENT_CODE(code);
       const find: any = entities.find(function (item: any) {
         return item.code == code;
       });
-      if (find) SET_CURRENT_IMAGE(find.logo);
+      if (find && root != undefined) {
+        SET_CURRENT_IMAGE(find.logo);
+      } else {
+        SET_CURRENT_IMAGE(logo);
+      }
     },
     [pathname]
   );
