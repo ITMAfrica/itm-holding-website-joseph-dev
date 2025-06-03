@@ -174,6 +174,57 @@
   },
   "globalContent": {
     "pages": {
+      "hr": {
+        "banner": {
+          "text": "ITM HR, Your Strategic Human Capital Partner in Africa",
+          "btn": "Find ITM HR in your country"
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM HR",
+          "text": "As part of ITM Holding, ITM HR is your strategic partner and the leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth."
+        },
+        "why": {
+          "title:": "ITM AFRICA",
+          "subtitle": "Why Partner with Us?",
+          "text": "Nous proposons des solutions stratégiques et standardisées, adaptées à votre entreprise, soutenues par une expertise locale approfondie et un engagement envers l’excellence. Que vous soyez en phase d’expansion internationale ou d’optimisation locale, nous sommes votre partenaire de confiance pour naviguer dans la complexité de la gestion des ressources humaines.",
+          "cards": [
+            {
+              "title": "Chefs d'entreprise et employeurs",
+              "text": "Atteignez vos objectifs d’entreprise grâce à nos stratégies RH complètes, notre accompagnement en conformité et nos services d’optimisation des effectifs, conçus pour stimuler la croissance et garantir l’excellence opérationnelle."
+            },
+            {
+              "title": "Professionnels RH et managers",
+              "text": "Accédez à des outils RH innovants, aux meilleures pratiques et à un accompagnement continu pour optimiser vos processus RH, renforcer l’engagement des collaborateurs et gérer efficacement les talents sur plusieurs marchés."
+            },
+            {
+              "title": "Chercheurs d'emploi et diplômés",
+              "text": "Développez votre potentiel grâce à des opportunités de carrière, des programmes de formation et un environnement propice à la croissance et à la reconnaissance de vos contributions."
+            }
+          ]
+        },
+        "process": {
+          "title": "ITM HR",
+          "subtitle": "Des solutions RH conçues pour améliorer votre entreprise",
+          "text": "Du recrutement au développement de la main-d'œuvre, nous fournissons des services personnalisés qui améliorent les performances et font progresser votre entreprise."
+        },
+        "steps": {
+          "title": "ITM AFRICA",
+          "subtitle": "ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "vision": {
+            "title": "Notre Vision",
+            "text": "Construire un avenir réussi pour tous."
+          },
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Stimuler une croissance durable et l’excellence opérationnelle pour l’ensemble de nos parties prenantes."
+          },
+          "values": {
+            "title": "Nos Valeurs",
+            "text": "Qualité – Intégrité – Loyauté"
+          }
+        }
+      },
       "home": {
         "banner": {
           "items": [
@@ -264,7 +315,7 @@
         },
         "about": {
           "title": "OUR GROUP",
-          "description": "Founded in 2011, ITM Holding is a pan-African conglomerate comprising 9 companies operating across 18 countries, including the Democratic Republic of the Congo, Congo, Zambia, Angola, South Africa, Tanzania, Kenya, Uganda, Rwanda, Burundi, Nigeria, Cameroon, Gabon, Benin, Togo, Côte d'Ivoire, Senegal, and Germany. With investments in sectors such as Human Resources, mining, financial services, logistics, and contact centers, ITM Holding’s mission is to drive economic growth while empowering communities throughout Africa. Our vision is to provide innovative, sustainable solutions that transform industries and create lasting value. Grounded in excellence, integrity, and social responsibility, ITM Holding continues to expand its impact across the continent, shaping a brighter future for businesses and the communities they serve. ",
+          "description": "Founded in 2011 in the Democratic Republic of the Congo by Mr Sylva Monga, ITM Holding began as “International Training & Motivation,” focused on training and staff management. As Africa’s business landscape evolved, so did ITM-expanding its services and reach to become a diversified pan-African conglomerate. Today, ITM Holding operates nine companies across 18 countries, employing over 15,000 people and investing in sectors including Human Resources, mining, financial services, logistics, BPO, and more.",
           "items": [
             {
               "question": "Our history",
