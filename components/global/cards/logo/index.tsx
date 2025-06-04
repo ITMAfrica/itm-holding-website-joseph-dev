@@ -17,7 +17,7 @@ export default function CardLogo() {
     if (CURRENT_CODE && CURRENT_CODE != CODE) {
       return `/${lang}/${CURRENT_CODE}`;
     } else {
-      return `/${lang}`;
+      return `/${lang}/${CURRENT_CODE}`;
     }
   }
   useEffect(
