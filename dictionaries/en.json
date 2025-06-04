@@ -185,21 +185,21 @@
           "text": "As part of ITM Holding, ITM HR Group delivers strategic human capital solutions across 18 African countries. We leverage pan-African conglomerate resources and expertise to provide compliant, scalable workforce management that drives sustainable business growth. Through operational excellence and comprehensive talent development, we serve as your trusted partner for long-term success in Africa's dynamic markets."
         },
         "why": {
-          "title:": "ITM AFRICA",
+          "title:": "ITM HR",
           "subtitle": "Why Partner with Us?",
-          "text": "Nous proposons des solutions stratégiques et standardisées, adaptées à votre entreprise, soutenues par une expertise locale approfondie et un engagement envers l’excellence. Que vous soyez en phase d’expansion internationale ou d’optimisation locale, nous sommes votre partenaire de confiance pour naviguer dans la complexité de la gestion des ressources humaines.",
+          "text": "We provide strategic solutions backed by deep local expertise and unwavering excellence. Navigate complexities with precision across local and international markets.",
           "cards": [
             {
-              "title": "Chefs d'entreprise et employeurs",
-              "text": "Atteignez vos objectifs d’entreprise grâce à nos stratégies RH complètes, notre accompagnement en conformité et nos services d’optimisation des effectifs, conçus pour stimuler la croissance et garantir l’excellence opérationnelle."
+              "title": "For Senior Leadership",
+              "text": "Achieve business objectives through comprehensive HR strategies and workforce optimization that ensure operational excellence."
             },
             {
-              "title": "Professionnels RH et managers",
-              "text": "Accédez à des outils RH innovants, aux meilleures pratiques et à un accompagnement continu pour optimiser vos processus RH, renforcer l’engagement des collaborateurs et gérer efficacement les talents sur plusieurs marchés."
+              "title": "For HR Professionals",
+              "text": "Access innovative technologies, proven practices, and continuous support to streamline processes and manage talent effectively."
             },
             {
-              "title": "Chercheurs d'emploi et diplômés",
-              "text": "Développez votre potentiel grâce à des opportunités de carrière, des programmes de formation et un environnement propice à la croissance et à la reconnaissance de vos contributions."
+              "title": "For Talents & Employees",
+              "text": "Unlock potential through career development, training programs, and growth-focused environments"
             }
           ]
         },
