@@ -97,11 +97,11 @@ export default function CardEntity({
                 <MdOutlineKeyboardArrowRight />
               </div>
             </div>
-            <div className="w-10/12 lg:w-8/12 mx-auto text-sm">
+            <div className="w-10/12 lg:w-8/12 mx-auto">
               <h2 className="text-4xl titleAnimation w-full mx-auto font-bold text-blue_itm_primary pb-3">
                 {name}
               </h2>
-              <p className="w-full hideDescription mx-auto font-open">
+              <p className="w-full hideDescription mx-auto font-open sm:text-medium">
                 {description}
               </p>
             </div>

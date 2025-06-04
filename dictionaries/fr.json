@@ -622,9 +622,9 @@
           }
         },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM SARL?",
+          "title": "QUE RETENIR SUR ITM RDC",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "Créée en 2011, ITM SARL démarre comme une entreprise spécialisée dans la Gestion du personnel, Recrutement et Formation. Nous avons étendu notre champ d’expertise pour couvrir l’ensemble des services de support RH. Avec plus de 10 000 employés dans 5 régions en RDC, nous offrons des services adaptés aux besoins de nos clients, leur permettant d’atteindre leurs objectifs opérationnels. Notre approche allie innovation et expertise, avec un juste équilibre entre jeunesse et expérience pour créer une équipe dynamique, prête à répondre aux exigences les plus spécifiques.",
+          "paragraph1": "Fondée en 2011 sous le nom \"International Training & Motivation,\" nous avons évolué pour devenir la principale entreprise RH de la RDC avec plus de 10 000 employés dans cinq régions. Notre approche innovante allie technologie de pointe et expertise locale approfondie, offrant des solutions RH personnalisées dans tous les secteurs avec une réactivité inégalée et des performances durables.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
@@ -1725,8 +1725,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM CONGO",
-              "paragraph": "ITM CONGO est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM CONGO BRAZZAVILLE",
+              "paragraph": "Transformer l'environnement des affaires au Congo grâce à l'excellence RH stratégique qui combine perspicacité locale et expertise panafricaine.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -1735,21 +1735,21 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM CONGO ",
-              "paragraph": "ITM CONGO est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM CONGO BRAZZAVILLE",
+              "paragraph": "Transformer l'environnement des affaires au Congo grâce à l'excellence RH stratégique qui combine perspicacité locale et expertise panafricaine.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM HR"
+                "title": "Voir les détails sur ITM CONGO"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM CONGO",
-          "paragraph": "Établie en 2022, ITM Congo est une filiale d'ITM Holding, dédiée à offrir des solutions innovantes et adaptées aux besoins spécifiques de nos clients, tant au Congo qu'à l'international. Avec une équipe dynamique alliant jeunesse et expérience, nous nous engageons à fournir des services de qualité supérieure dans divers secteurs d'activité.",
+          "subtitle": "CONGO BRAZZAVILLE",
+          "paragraph": "ITM HR Congo Brazzaville fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/cg/a-propos-de-nous",
@@ -1798,9 +1798,9 @@
           }
         },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM CONGO?",
+          "title": "QUE RETENIR SUR ITM CONGO BRAZZAVILLE ?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "Établie en 2022, ITM Congo est une filiale d'ITM Holding, dédiée à offrir des solutions innovantes et adaptées aux besoins spécifiques de nos clients, tant au Congo qu'à l'international. Avec une équipe dynamique alliant jeunesse et expérience, nous nous engageons à fournir des services de qualité supérieure dans divers secteurs d'activité.",
+          "paragraph1": "ITM Congo Brazzaville excelle comme acteur clé dans les ressources humaines et solutions d'affaires. Nos services complets englobent l'externalisation RH, le recrutement, la formation professionnelle et le conseil RH—tous délivrés avec une approche personnalisée qui adapte les solutions aux besoins spécifiques de chaque client, permettant le succès opérationnel dans le contexte économique unique du Congo grâce au soutien d'experts qualifiés.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
@@ -2299,7 +2299,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM TANZANIE",
-          "paragraph": "Établi en 2018, ITM Tanzanie fournit des solutions complètes de capital humain avec une approche distinctive basée sur les solutions. Notre équipe d'experts offre des services exceptionnels d'externalisation RH, de recrutement, de formation et de conseil, proposant un soutien à 360 degrés qui résout les défis opérationnels efficacement et durablement, nous positionnant comme le partenaire RH de confiance en Tanzanie dans tous les secteurs.",
+          "paragraph": "ITM HR Tanzanie fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/tz/a-propos-de-nous",
@@ -2388,7 +2388,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM TANZANIA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Tanzanie démarre comme une entreprise spécialisée dans la Gestion du personnel, Recrutement et Formation. Nous avons étendu notre champ d’expertise pour couvrir l’ensemble des services de support RH. Avec plus de 15 000 employés, nous offrons des services adaptés aux besoins de nos clients, leur permettant d’atteindre leurs objectifs opérationnels. Notre approche allie innovation et expertise, avec un juste équilibre entre jeunesse et expérience pour créer une équipe dynamique, prête à répondre aux exigences les plus spécifiques.",
+          "paragraph1": "Établi en 2018, ITM Tanzanie fournit des solutions complètes de capital humain avec une approche distinctive basée sur les solutions. Notre équipe d'experts offre des services exceptionnels d'externalisation RH, de recrutement, de formation et de conseil, proposant un soutien à 360 degrés qui résout les défis opérationnels efficacement et durablement, nous positionnant comme le partenaire RH de confiance en Tanzanie dans tous les secteurs.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
@@ -2570,7 +2570,7 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM TOGO",
-              "paragraph": "ITM TOGO est votre partenaire stratégique en solutions RH au Togo et en Afrique. Bénéficiant de l’expérience solide du groupe ITM Holding présent dans 18 pays et gérant plus de 15 000 employés, nous personnalisons nos services de recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Transformer le paysage de la main-d'œuvre togolaise grâce à des solutions RH complètes qui allient expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2580,7 +2580,7 @@
             },
             {
               "title": "BIENVENUE CHEZ ITM TOGO",
-              "paragraph": "ITM TOGO est votre partenaire stratégique en solutions RH au Togo et en Afrique. Bénéficiant de l’expérience solide du groupe ITM Holding présent dans 18 pays et gérant plus de 15 000 employés, nous personnalisons nos services de recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Transformer le paysage de la main-d'œuvre togolaise grâce à des solutions RH complètes qui allient expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2593,7 +2593,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM TOGO",
-          "paragraph": "ITM TOGO est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure au togo. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM Togo est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM HR Togo fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/tg/a-propos-de-nous",
@@ -2682,8 +2682,8 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM TOGO?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Togo est une filiale de ITM Holding, un groupe panafricain regroupant douze entreprises opérant dans divers secteurs, dont l’offre de solutions RH sur mesure aux entreprises et institutions.",
-          "paragraph2": "Créée en septembre 2022, ITM Togo s’appuie sur l’expertise et le rayonnement de ITM Holding pour proposer des services adaptés aux réalités du marché togolais et sous-régional. Avec à sa tête un staff compétent et expérimenté, le cabinet a rapidement su se positionner comme un acteur clé en matière de gestion des ressources humaines, de recrutement et de placement de personnel. Grâce à une approche alliant innovation, digitalisation et proximité, ITM Togo accompagne les entreprises dans l’optimisation de leur capital humain, en mettant à leur disposition des solutions stratégiques et opérationnelles adaptées à leurs besoins spécifiques.",
+          "paragraph1": "Établie en 2018, ITM Togo fournit des solutions d'affaires et de capital humain à 360 degrés grâce à notre équipe d'experts hautement qualifiés. Nous excellons dans l'externalisation RH, le recrutement, la formation professionnelle, le renforcement des capacités et les services de solutions sectorielles—mettant en œuvre des approches personnalisées basées sur les solutions qui résolvent de façon permanente et efficace les défis opérationnels des organisations dans l'économie dynamique du Togo.",
+          "paragraph2": "ITM Togo s’appuie sur l’expertise et le rayonnement de ITM Holding pour proposer des services adaptés aux réalités du marché togolais et sous-régional. Avec à sa tête un staff compétent et expérimenté, le cabinet a rapidement su se positionner comme un acteur clé en matière de gestion des ressources humaines, de recrutement et de placement de personnel. Grâce à une approche alliant innovation, digitalisation et proximité, ITM Togo accompagne les entreprises dans l’optimisation de leur capital humain, en mettant à leur disposition des solutions stratégiques et opérationnelles adaptées à leurs besoins spécifiques.",
           "btnContact": {
             "text": "Nous contacter",
             "link": "/fr/tg/contactez-nous"
@@ -2863,8 +2863,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM OUGANDA",
-              "paragraph": "ITM OUGANDA est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR OUGANDA",
+              "paragraph": "Révolutionner le paysage de la main-d'œuvre ougandaise avec des solutions RH innovantes qui libèrent le potentiel organisationnel et favorisent une croissance durable.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2873,8 +2873,8 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM OUGANDA ",
-              "paragraph": "ITM OUGANDA est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR OUGANDA",
+              "paragraph": "Révolutionner le paysage de la main-d'œuvre ougandaise avec des solutions RH innovantes qui libèrent le potentiel organisationnel et favorisent une croissance durable.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2887,12 +2887,12 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM OUGANDA",
-          "paragraph": "ITM OUGANDA est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM HR Ouganda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ug/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM UGANDA"
           }
         },
         "meta": {
@@ -2976,7 +2976,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM OUGANDA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Ouganda démarre comme une entreprise spécialisée dans la Gestion du personnel, Recrutement et Formation. Nous avons étendu notre champ d’expertise pour couvrir l’ensemble des services de support RH. Avec plus de 15 000 employés, nous offrons des services adaptés aux besoins de nos clients, leur permettant d’atteindre leurs objectifs opérationnels. Notre approche allie innovation et expertise, avec un juste équilibre entre jeunesse et expérience pour créer une équipe dynamique, prête à répondre aux exigences les plus spécifiques.",
+          "paragraph1": "ITM Ouganda s'affirme comme votre premier fournisseur de solutions RH complètes, offrant des services transformateurs en recrutement, externalisation RH, formation professionnelle, consolidation d'équipe et conseil RH. Nous reconnaissons les personnes comme l'atout le plus précieux de votre organisation et adaptons nos approches innovantes à vos besoins uniques, favorisant des environnements de travail positifs et productifs qui maximisent l'impact dans l'économie prometteuse de l'Ouganda.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
@@ -3475,7 +3475,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM RWANDA",
-          "paragraph": "Depuis 2017, ITM Rwanda révolutionne la gestion du personnel avec plus de 1 000 professionnels sous notre responsabilité. Notre expertise s'étend de l'acquisition stratégique de talents à la gestion RH complète et aux solutions de paie innovantes, permettant aux entreprises de prospérer dans l'environnement compétitif du Rwanda grâce à un soutien opérationnel fluide et des conseils stratégiques.",
+          "paragraph": "ITM HR Rwanda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/rw/a-propos-de-nous",
@@ -3562,9 +3562,9 @@
           }
         },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM AFRICA LTD.?",
+          "title": "QUE RETENIR SUR ITM RWANDA ?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Rwanda est un leader de confiance qui façonne l'avenir de la gestion de la main-d'œuvre et des solutions d'affaires au Rwanda depuis 2017. En tant que partie intégrante de la vaste présence panafricaine de ITM, nous fournissons des services personnalisés qui stimulent la croissance des entreprises et l'excellence opérationnelle. Notre expertise couvre l'acquisition stratégique de talents, la gestion complète des ressources humaines et les solutions de paie de pointe, permettant aux entreprises d'atteindre leur plein potentiel. ITM Rwanda est un partenaire de confiance dans la gestion de la main-d'œuvre au Rwanda depuis 2017. Faisant partie du réseau panafricain de l'ITM et avec plus de 1 000 employés sous notre gestion, nous fournissons des solutions sur mesure qui stimulent la croissance des entreprises et garantissent l'efficacité opérationnelle.",
+          "paragraph1": "Depuis 2017, ITM Rwanda révolutionne la gestion du personnel avec plus de 1 000 professionnels sous notre responsabilité. Notre expertise s'étend de l'acquisition stratégique de talents à la gestion RH complète et aux solutions de paie innovantes, permettant aux entreprises de prospérer dans l'environnement compétitif du Rwanda grâce à un soutien opérationnel fluide et des conseils stratégiques.",
           "paragraph2": "Notre expertise couvre l'acquisition de talents, la gestion des ressources humaines et les solutions de paie avancées, aidant les entreprises à rationaliser leurs opérations et à se concentrer sur ce qui compte le plus. De la gestion du recrutement à la supervision de la paie et des contrats, nous assurons un soutien RH sans faille aux entreprises qui cherchent à prospérer dans un environnement compétitif. Nous sommes votre partenaire privilégié pour les solutions stratégiques en matière de ressources humaines, permettant aux entreprises d'atteindre un succès durable au Rwanda et au-delà.",
           "btnContact": {
             "text": "Contact us",
@@ -3788,7 +3788,7 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM KENYA",
-              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
+              "paragraph": "Élever le centre économique de l'Afrique de l'Est grâce à l'innovation RH de classe mondiale et aux solutions stratégiques pour la main-d'œuvre.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -3798,7 +3798,7 @@
             },
             {
               "title": "BIENVENUE CHEZ ITM KENYA",
-              "paragraph": "ITM KENYA est votre partenaire stratégique en matière de solutions RH en Afrique. Notre société fait partie d'ITM Holding et a fait ses preuves en gérant plus de 15 000 employés dans 18 pays. Nous adaptons nos services - du recrutement et de la gestion des employés à la formation et à la conformité des RH - pour répondre à vos besoins spécifiques. Que vous cherchiez à améliorer votre efficacité opérationnelle ou à élever votre stratégie en matière de talents, nous avons l'expertise nécessaire pour vous aider à réussir.",
+              "paragraph": "Élever le centre économique de l'Afrique de l'Est grâce à l'innovation RH de classe mondiale et aux solutions stratégiques pour la main-d'œuvre.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -3810,8 +3810,8 @@
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM KENYA LTD.",
-          "paragraph": "ITM Kenya, membre du groupe ITM fondé en 2023, est un fournisseur de confiance de services professionnels de ressources humaines (RH). Nous sommes spécialisés dans la fourniture de solutions RH sur mesure conçues pour aider les entreprises à rationaliser la gestion de leurs effectifs, à renforcer l'engagement des employés et à atteindre le succès organisationnel. En tant que membre du groupe ITM mondialement reconnu, ITM Kenya s'engage à l'excellence et à l'innovation, permettant aux organisations de toute la région de bénéficier de services RH complets qui stimulent la croissance et l'efficacité.",
+          "subtitle": "ITM KENYA",
+          "paragraph": "ITM HR Kenya fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ke/a-propos-de-nous",
@@ -3862,7 +3862,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM KENYA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Kenya, membre du groupe ITM fondé en 2023, est un fournisseur de confiance de services professionnels de ressources humaines (RH). Nous sommes spécialisés dans la fourniture de solutions RH sur mesure conçues pour aider les entreprises à rationaliser la gestion de leurs effectifs, à renforcer l'engagement des employés et à atteindre le succès organisationnel.",
+          "paragraph1": "Établi en 2021, ITM Kenya propose des solutions RH innovantes dans l'économie la plus dynamique d'Afrique de l'Est. Notre expertise spécialisée en recrutement, externalisation RH et formation professionnelle—renforcée par des techniques innovantes comme la ludification—connecte les entreprises aux meilleurs talents en IT, Finance, Santé et Ingénierie tout en gérant les cycles de vie complets des effectifs pour une croissance durable.",
           "paragraph2": "Situé à KOFISI DRIVE, Nairobi, ITM Kenya est votre partenaire de confiance pour des services RH exceptionnels adaptés aux besoins uniques des entreprises au Kenya. Avec une équipe d'experts chevronnés, nous nous engageons à fournir des solutions RH complètes et personnalisées qui favorisent le succès de votre organisation. Que vous soyez à la recherche d'un recrutement de premier ordre, d'une formation professionnelle, de services de consolidation d'équipe ou d'une externalisation des RH, ITM Kenya possède l'expertise nécessaire pour vous aider à atteindre vos objectifs en matière de main-d'œuvre.",
           "btnContact": {
             "text": "Contactez-nous",
@@ -4071,7 +4071,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM AFRIQUE DU SUD",
-          "paragraph": "Depuis 2017, ITM Katope Afrique du Sud est pionnier dans l'excellence en externalisation RH, services d'Employeur de Record, recrutement et opérations de centre d'appels. Au-delà des solutions d'affaires, nous combattons le chômage des jeunes par des placements professionnels, le développement des compétences et des programmes de mentorat—créant des avenirs plus prometteurs tout en fournissant des services innovants qui répondent aux besoins évolutifs des entreprises sur le marché dynamique sud-africain.",
+          "paragraph": "ITM HR Afrique du Sud fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/za/a-propos-de-nous",
@@ -4160,7 +4160,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM AFRIQUE DU SUD?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Katope Afrique du Sud est un leader de confiance dans la gestion des personnes depuis 2017. Dans le cadre de l'empreinte mondiale de l'IMT, nous nous spécialisons dans l'externalisation des RH, les services d'employeur de référence (EOR), le recrutement, le placement et les opérations de centre d'appels. Notre objectif s'étend à la résolution de l'un des défis les plus pressants de l'Afrique du Sud : le chômage des jeunes. Grâce à nos initiatives de développement de la jeunesse, nous responsabilisons les jeunes en leur proposant des placements professionnels, le développement de leurs compétences et un mentorat de carrière, leur offrant ainsi un avenir plus radieux.",
+          "paragraph1": "Depuis 2017, ITM Katope Afrique du Sud est pionnier dans l'excellence en externalisation RH, services d'Employeur de Record, recrutement et opérations de centre d'appels. Au-delà des solutions d'affaires, nous combattons le chômage des jeunes par des placements professionnels, le développement des compétences et des programmes de mentorat—créant des avenirs plus prometteurs tout en fournissant des services innovants qui répondent aux besoins évolutifs des entreprises sur le marché dynamique sud-africain.",
           "paragraph2": "Outre nos services complets de gestion des ressources humaines et du personnel, nous sommes fiers de notre centre d'appel moderne et dynamique, qui fournit à des clients de tous les secteurs une assistance entrante et sortante. Notre engagement en faveur de l'innovation et de l'excellence dans la prestation de services nous distingue sur le marché. Rejoignez-nous pour conduire le changement, améliorer les communautés et redéfinir les solutions RH en Afrique du Sud et au-delà!",
           "btnContact": {
             "text": "Contactez-nous",
@@ -4643,8 +4643,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM SERVICES",
-              "paragraph": "ITM SERVICES est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM NIGERIA",
+              "paragraph": "Dynamiser la plus grande économie d'Afrique avec des solutions innovantes de capital humain qui transforment les entreprises et élèvent le potentiel de la main-d'œuvre.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -4653,21 +4653,21 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM SERVICES ",
-              "paragraph": "ITM SERVICES est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM NIGERIA",
+              "paragraph": "Dynamiser la plus grande économie d'Afrique avec des solutions innovantes de capital humain qui transforment les entreprises et élèvent le potentiel de la main-d'œuvre.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM SERVICES"
+                "title": "Voir les détails sur ITM Services"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM SERVICES LTD.",
-          "paragraph": "ITM Services Limited est le principal fournisseur d'une large gamme de services de soutien adaptés aux besoins des entités commerciales au Nigeria. Des besoins en ressources humaines à l'externalisation des processus d'affaires et aux solutions de la chaîne d'approvisionnement, ITM est votre partenaire de confiance pour des solutions d'affaires innovantes. Nos services sont réputés pour leur efficacité, l'optimisation des processus d'entreprise et le développement des carrières, ce qui fait d'ITM Nigeria le choix idéal pour les entreprises en quête d'excellence.",
+          "subtitle": "ITM NIGERIA",
+          "paragraph": "ITM HR Nigeria fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ng/a-propos-de-nous",
@@ -4756,7 +4756,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM NIGERIA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Nigeria est le principal fournisseur de solutions innovantes en matière de ressources humaines au Nigeria depuis 2019. En tant qu'élément essentiel de la présence panafricaine de l'IMT, nous offrons une gamme complète de services RH, y compris l'acquisition de talents, le renforcement des capacités, la gestion des employés et les stratégies de rétention, adaptés pour répondre aux besoins spécifiques des entreprises.",
+          "paragraph1": "ITM Services Limited, établi comme la pierre angulaire nigériane du Groupe ITM, offre une expertise inégalée en solutions de ressources humaines, externalisation des processus d'affaires et gestion de la chaîne d'approvisionnement. Avec des bureaux stratégiques à Abuja et Lagos, nous proposons des approches professionnelles uniques de gestion du capital humain qui s'alignent avec les stratégies d'entreprise et les meilleures pratiques de l'industrie, créant une valeur exceptionnelle à travers votre atout le plus vital—vos collaborateurs.",
           "paragraph2": "Notre objectif est d'aider les organisations à améliorer leurs performances en les dotant des outils et des talents adéquats pour favoriser la croissance et rester compétitives dans l'environnement commercial dynamique d'aujourd'hui. Grâce à nos services, nous aidons les entreprises à développer leur main-d'œuvre, à améliorer la culture du lieu de travail et à obtenir un succès durable. Chez ITM Nigeria, nous sommes fiers de notre engagement en faveur de l'excellence, de l'intégrité et de la satisfaction de nos clients. Notre réputation de fournisseur de services de grande valeur nous a valu la confiance des entreprises qui cherchent à prospérer sur le marché concurrentiel du Nigeria.",
           "btnContact": {
             "text": "Contactez-nous",
@@ -4942,7 +4942,7 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM BENIN",
-              "paragraph": "ITM BENIN est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Élever le paysage commercial du Bénin grâce à une expertise RH stratégique qui allie connaissance locale et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -4951,8 +4951,8 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM BENIN ",
-              "paragraph": "ITM BENIN est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM BENIN",
+              "paragraph": "Élever le paysage commercial du Bénin grâce à une expertise RH stratégique qui allie connaissance locale et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -4965,7 +4965,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM BENIN",
-          "paragraph": "Créé en 2022, ITM BENIN filiale du groupe ITM HOLDING se veut comme référence incontournable dans la gestion des ressources humaines. Nos offres de services variées allant de la simple consultation RH au recrutement du personnel local ou expatrié (EOR); Le Placement et la gestion du personnel (outsourcing); La Gestion de la paie: externalisation et calcul de la paie, le Team building, La Rédaction de contrat de travail local ou d’expatriation. Nous disposons d’un catalogue varié de formations innovantes que nous adaptons au besoin de votre entreprise. En tant que partenaire stratégique et par notre offre de supervision, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir, tout en maximisant leur performance et leur engagement.",
+          "paragraph": "ITM HR Bénin fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/bj/a-propos-de-nous",
@@ -5054,7 +5054,7 @@
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM BENIN?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Benin s'est rapidement imposée comme un acteur majeur dans la gestion des ressources humaines depuis sa création en 2022. En tant que filiale du groupe panafricain ITM, nous offrons des solutions RH complètes, adaptées aux besoins spécifiques des entreprises de tous secteurs.",
+          "paragraph1": "Établie en 2022, ITM Bénin s'est rapidement imposée comme un acteur majeur de la gestion des ressources humaines, gérant aujourd'hui près de 2 000 employés externalisés dans divers secteurs. Nos spécialisations dans le recrutement local et expatrié (EOR), la gestion du personnel et les programmes de formation innovants permettent aux entreprises de développer les compétences de leurs équipes tout en maximisant l'engagement et la productivité dans l'environnement commercial évolutif du Bénin.",
           "paragraph2": "Nous nous spécialisons dans le recrutement de personnel local et expatrié (EOR), le placement et la gestion de personnel en sous-traitance, ainsi que la gestion de la paie externalisée. Notre catalogue de formations innovantes, permet aux entreprises de développer les compétences de leurs équipes et de maintenir leur compétitivité dans un environnement en constante évolution. Nos solutions sont conçues pour améliorer la performance des entreprises tout en assurant la conformité avec les meilleures pratiques du marché. Aujourd’hui, ITM Benin gère près de 2 000 employés en externalisation, opérant dans des secteurs variés tels que l’industrie, la téléphonie, l’énergie, et la restauration. En tant que partenaire stratégique, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir tout en maximisant leur engagement et leur productivité.",
           "btnContact": {
             "text": "Contactez-nous",

@@ -14,7 +14,7 @@ export default function Faqs({ params }: { params: any }) {
           <h1 className="font-bold  text-4xl  text-blue_itm_primary">
             {data.left.subtitle}
           </h1>
-          <p className="pt-5 font-open">
+          <p className="pt-5 font-open md:text-lg">
             <span>{data.left.text}</span>
             <br />
             <span>{data.left.text2}</span>
