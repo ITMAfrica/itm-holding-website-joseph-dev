@@ -27,7 +27,10 @@ export default function ProcessLandingPage({ params }: { params: any }) {
                 <ul className="ml-4">
                   {data.services.items.map((item: any, index: number) => {
                     return (
-                      <li className="text-lg text-blue_itm_aqua_marine font-semibold">
+                      <li
+                        className="text-xl text-blue_itm_aqua_marine font-semibold"
+                        key={index}
+                      >
                         {item}
                       </li>
                     );

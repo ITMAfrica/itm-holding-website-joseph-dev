@@ -219,20 +219,24 @@
           }
         },
         "steps": {
-          "title": "ITM AFRICA",
-          "subtitle": "ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "title": "ITM HR",
+          "subtitle": "ITM HR is your trusted partner for sustainable growth.",
           "vision": {
-            "title": "Notre Vision",
-            "text": "Construire un avenir réussi pour tous."
+            "title": "Our Vision ",
+            "text": "Building a successful future for all."
           },
           "mission": {
-            "title": "Notre Mission",
-            "text": "Stimuler une croissance durable et l’excellence opérationnelle pour l’ensemble de nos parties prenantes."
+            "title": "Our Mission ",
+            "text": "Driving sustainable growth and operational excellence for all stakeholders."
           },
           "values": {
-            "title": "Nos Valeurs",
-            "text": "Qualité – Intégrité – Loyauté"
+            "title": "Our Values",
+            "text": "Quality – Integrity – Loyalty"
           }
+        },
+        "country": {
+          "title": "ITM HR",
+          "subtitle": "Find ITM HR in your country"
         }
       },
       "home": {

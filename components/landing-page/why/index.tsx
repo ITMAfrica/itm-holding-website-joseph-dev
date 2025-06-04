@@ -32,7 +32,9 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
                   {data.subtitle}
                 </h1>
               </div>
-              <p className="md:w-[40%] text-xl font-sans">{data.text}</p>
+              <p className="md:w-[40%] text-xl font-sans font-lg">
+                {data.text}
+              </p>
             </div>
             <div className="w-full md:flex justify-between flex-wrap">
               {data.cards.map((item: any, index: number) => {

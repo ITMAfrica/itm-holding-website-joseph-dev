@@ -2,6 +2,7 @@
 
 import CardCountryChoice from '@/components/global/cards/countryChoice';
 import SectionTitle from '@/components/global/section_title';
+import { getDictionary } from '@/get-dictionary';
 import { entities } from '@/lib/data';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
@@ -10,6 +11,8 @@ export default function CountriesLandingPage() {
   const params: any = useParams();
   const lang: string = params.lang;
   const [modal, setModal] = useState(false);
+  const dictionary = getDictionary(lang);
+  const data = dictionary.globalContent.pages.hr.country;
 
   const closeModal = () => {
     setModal(false);
@@ -26,7 +29,7 @@ export default function CountriesLandingPage() {
           <div className="md:w-1/2">
             <SectionTitle text="ITM HR" />
             <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
-              Trouvez ITM HR dans votre pays
+              {data.subtitle}
             </h1>
             <div className="h-[450px] overflow-scroll scrollbar-default">
               <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">
