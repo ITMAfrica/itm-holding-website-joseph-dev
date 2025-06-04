@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: any) {
       return data.home.meta;
     case 'ao':
       return data.home.meta;
-    case 'bn':
+    case 'bj':
       return data.home.meta;
     case 'bu':
       return data.home.meta;
@@ -87,7 +87,7 @@ export default function PageCountry({ params }: { params: any }) {
       return <HomePage params={params} />;
     case 'ao':
       return <HomePage params={params} />;
-    case 'bn':
+    case 'bj':
       return <HomePage params={params} />;
     case 'bu':
       return <HomePage params={params} />;

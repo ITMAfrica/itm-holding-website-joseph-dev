@@ -13,7 +13,7 @@ export default function ButtonBg({
     <Link
       href={link}
       title={title}
-      className="block w-40 py-3 text-xs font-semibold text-center text-blue_itm_good bg-white hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-white hover:border-blue_itm_aqua_marine"
+      className="block w-40 py-3 text-lg font-semibold text-center text-blue_itm_good bg-white hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-white hover:border-blue_itm_aqua_marine"
     >
       {text}
     </Link>

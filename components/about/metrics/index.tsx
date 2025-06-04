@@ -4,7 +4,6 @@ export default function AboutPageMetrics({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.about.metrics;
-  console.log(params);
   return (
     <section className="h-fit bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
       <main className="flex flex-wrap items-center w-full lg:w-10/12 mx-auto lg:py-20 py-10">

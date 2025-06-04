@@ -1,8 +1,12 @@
 import SectionTitle from '@/components/global/section_title';
+import { getDictionary } from '@/get-dictionary';
 import img from '@/public/pages/main/main3.png';
 import Image from 'next/image';
 
 export default function StepsLandingPage({ params }: { params: any }) {
+  const lang = params.lang;
+  const dictionary = getDictionary(lang);
+  const data = dictionary.globalContent.pages.hr.steps;
   return (
     <section className="md:flex justify-center w-full mx-auto py-10 bg-white">
       <div className="w-10/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
@@ -17,29 +21,23 @@ export default function StepsLandingPage({ params }: { params: any }) {
             />
           </div>
           <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
-            <SectionTitle text="ITM AFRICA" />
-            <h1 className="text-blue_itm_good text-3xl font-bold mb-2">
-              ITM HR est votre partenaire de confiance pour une croissance
-              durable.
+            <SectionTitle text="ITM HR" />
+            <h1 className="text-blue_itm_good text-3xl font-bold mb-4">
+              {data.subtitle}
             </h1>
             <div className="mb-5 lg:w-11/12 font-open font-lg text-black_itm">
               <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
-                Notre Vision
+                {data.vision.title}
               </h3>
-              <p className="text-lg mb-4">
-                Construire un avenir réussi pour tous.
-              </p>
+              <p className="text-lg mb-4">{data.vision.text}</p>
               <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
-                Notre Mission
+                {data.mission.title}
               </h3>
-              <p className="text-lg mb-4">
-                Stimuler une croissance durable et l’excellence opérationnelle
-                pour l’ensemble de nos parties prenantes.
-              </p>
+              <p className="text-lg mb-4">{data.mission.text}</p>
               <h3 className="text-lg font-semibold text-blue_itm_aqua_marine">
-                Nos Valeurs
+                {data.values.title}
               </h3>
-              <p className="text-lg">Qualité – Intégrité – Loyauté</p>
+              <p className="text-lg">{data.values.text}</p>
             </div>
           </div>
         </div>

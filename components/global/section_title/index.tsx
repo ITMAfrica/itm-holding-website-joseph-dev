@@ -7,8 +7,9 @@ export default function SectionTitle({
 }) {
   return (
     <h2
-      className={`font-bold text-blue_itm_aqua_marine ${center ? 'text-center' : ''
-        } mb-2`}
+      className={`font-bold text-blue_itm_aqua_marine text-lg ${
+        center ? 'text-center' : ''
+      } mb-2`}
     >
       {text}
     </h2>

@@ -544,8 +544,8 @@ export const entities = [
     fr: 'Bénin',
     en: 'Benin',
     name: 'ITM BENIN',
-    href: '/fr/bn',
-    code: 'bn',
+    href: '/fr/bj',
+    code: 'bj',
     flag: bnFlag,
     logo: bnLogo,
   },
@@ -871,7 +871,7 @@ export const entitiesInfos: any = {
       twitter: 'https://twitter.com/ItmRdc',
     },
   },
-  bn: {
+  bj: {
     address:
       'St Michel, Immeuble MAVEKA, à 50 m de la poste au 3ème étage aile gauche',
     phone: '+229 015 507 19 19 ',

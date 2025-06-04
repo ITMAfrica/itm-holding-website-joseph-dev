@@ -9,53 +9,62 @@ import { GoTriangleDown } from 'react-icons/go';
 import Link from 'next/link';
 import { CODE, getCookie, TALENTPRO_HREF } from '@/helpers';
 
-
-export default function CardLang({
-  langs
-}: { links: any[], langs: any[] }) {
-  const [show, setShow] = useState(false)
+export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
+  const [show, setShow] = useState(false);
   const params: any = useParams();
   const lang: string = params?.lang;
-  const [flag]: any = useState({ fr, en })
+  const [flag]: any = useState({ fr, en });
   const searchParams = useSearchParams();
   const pathname = usePathname();
-  const [href, setHref] = useState(`/${lang}`)
+  const [href, setHref] = useState(`/${lang}`);
   const [CURRENT_CODE, SET_CURRENT_CODE] = useState(CODE);
 
-  useEffect(function () {
-    SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
-  }, [params.lang, params.country]);
+  useEffect(
+    function () {
+      SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+    },
+    [params.lang, params.country]
+  );
 
-  function getHref(lang: string = "fr") {
-    const href: string = pathname
+  function getHref(lang: string = 'fr') {
+    const href: string = pathname;
     const current = href.split('/')[3];
+    const current_entity = href.split('/')[2];
     if (href == TALENTPRO_HREF) {
       return href;
-    } else if ((CURRENT_CODE) && (CURRENT_CODE != CODE) && (current != undefined)) {
-      return `/${lang}/${params.country ? params.country : CURRENT_CODE}/${current}`;
-    } else if (CURRENT_CODE && (CURRENT_CODE != CODE)) {
-      return `/${lang}/${CURRENT_CODE}`;
+    } else if (current != undefined) {
+      return `/${lang}/${
+        params.country ? params.country : CURRENT_CODE
+      }/${current}`;
+    } else if (current_entity) {
+      return `/${lang}/${current_entity}`;
     } else {
       return `/${lang}`;
     }
   }
 
   function toggleModal() {
-    setShow(!show)
+    setShow(!show);
   }
 
-  useEffect(function () {
-    document.body.addEventListener("click", function () {
-      if (show) {
-        setShow(false)
-      }
-    })
-  }, [show])
+  useEffect(
+    function () {
+      document.body.addEventListener('click', function () {
+        if (show) {
+          setShow(false);
+        }
+      });
+    },
+    [show]
+  );
 
   return (
     <>
       <div className="flex relative justify-center items-center">
-        <div onClick={toggleModal} className="w-fit  hover:bg-gray_itm_bg/40 p-2  rounded-full cursor-pointer flex items-center ">
+        <div
+          onClick={toggleModal}
+          className="w-fit  hover:bg-gray_itm_bg/40 p-2  rounded-full cursor-pointer flex items-center "
+        >
           <Image
             src={flag[lang]}
             height={12 * 0.2}
@@ -63,23 +72,35 @@ export default function CardLang({
             className="h-fit w-fit block mr-1 hover:cursor-pointer"
             alt="drapeau"
           />
-          <span className="text-sm align-middle mr-1 font-bold cursor-pointer">{lang}</span>
-          <GoTriangleDown className='cursor-pointer' />
+          <span className="text-sm align-middle mr-1 font-bold cursor-pointer">
+            {lang}
+          </span>
+          <GoTriangleDown className="cursor-pointer" />
         </div>
-        {show && <div className="w-[150px] top-[110%] absolute rounded-lg bg-white -left-[50%] p-2 shadow-xl shadow-black/20">
-          {langs.map(function (item: any) {
-            return <Link href={getHref(item.key)} className={`w-full p-2 ${item.key == lang && "bg-gray_itm_bg/40"} hover:bg-gray_itm_bg/40 mb-1 p-2 rounded-full flex justify-center items-center block`}>
-              <Image
-                src={flag[item.key]}
-                height={12 * 0.2}
-                width={16 * 0.2}
-                className="h-fit w-fit block mr-1"
-                alt="drapeau"
-              />
-              {item.tag}
-            </Link>
-          })}
-        </div>}
+        {show && (
+          <div className="w-[150px] top-[110%] absolute rounded-lg bg-white -left-[50%] p-2 shadow-xl shadow-black/20">
+            {langs.map(function (item: any) {
+              return (
+                <Link
+                  href={getHref(item.key)}
+                  className={`w-full p-2 ${
+                    item.key == lang && 'bg-gray_itm_bg/40'
+                  } hover:bg-gray_itm_bg/40 mb-1 p-2 rounded-full justify-center items-center flex
+                  `}
+                >
+                  <Image
+                    src={flag[item.key]}
+                    height={12 * 0.2}
+                    width={16 * 0.2}
+                    className="h-fit w-fit block mr-1"
+                    alt="drapeau"
+                  />
+                  {item.tag}
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </div>
     </>
   );

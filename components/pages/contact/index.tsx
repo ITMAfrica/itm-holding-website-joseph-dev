@@ -9,7 +9,7 @@ export default function ContactPage({ params }: { params: any }) {
   return (
     <main className="w-full">
       <ContactPageBanner params={params} />
-      <ContactPageAboutSection params={params} />
+      {/* <ContactPageAboutSection params={params} /> */}
       <ContactPageContactSection params={params} />
       <ContactPageQuestionsSection params={params} />
       <Faqs params={params} />
