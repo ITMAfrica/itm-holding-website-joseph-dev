@@ -9,15 +9,14 @@ export default function BannerLandingPage({ params }: { params: any }) {
         <div className="h-full py-5">
           <article className="flex items-center md:w-1/2 w-full absolute z-10 top-0 right-0 left-0 bottom-0">
             <div className="sm:ml-14 ml-4 h-fit">
-              <h1 className="text-white md:text-5xl text-3xl font-bold mb-8">
-                ITM HR, votre partenaire stratégique en capital humain en
-                Afrique
+              <h1 className="text-white md:text-5xl text-3xl font-bold mb-20">
+                ITM HR votre partenaire stratégique en solution RH
               </h1>
               <Link
                 href="#countries"
-                className="bg-white text-blue_itm_primary py-2 px-4 rounded-lg"
+                className="bg-white hover:py-5 hover:border-2 text-blue_itm_primary font-bold py-3 px-4 rounded-lg text-lg"
               >
-                Trouvez ITM Africa dans ton pays
+                Trouvez ITM RH dans votre pays
               </Link>
             </div>
           </article>

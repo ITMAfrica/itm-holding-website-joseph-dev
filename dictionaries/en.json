@@ -4946,7 +4946,7 @@
       }
     }
   },
-  "bn": {
+  "bj": {
     "pages": {
       "home": {
         "banner": {
@@ -4979,7 +4979,7 @@
           "paragraph": "Founded in 2022, ITM BENIN, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
           "btnMore": {
             "text": "Discover more",
-            "link": "/en/bn/about-us",
+            "link": "/en/bj/about-us",
             "key": "about-us",
             "title": "Learn more about ITM history"
           }
@@ -5069,7 +5069,7 @@
           "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
           "btnContact": {
             "text": "Contact us",
-            "link": "/en/bn/contact-us"
+            "link": "/en/bj/contact-us"
           }
         }
       },

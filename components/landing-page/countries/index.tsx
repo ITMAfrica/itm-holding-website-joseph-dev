@@ -24,9 +24,9 @@ export default function CountriesLandingPage() {
         <div className="flex items-center h-full w-10/12 mx-auto py-10">
           <div className="hidden md:block md:w-1/2"></div>
           <div className="md:w-1/2">
-            <SectionTitle text="ITM AFRICA" />
+            <SectionTitle text="ITM HR" />
             <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
-              Trouvez ITM Africa dans votre pays
+              Trouvez ITM HR dans votre pays
             </h1>
             <div className="h-[450px] overflow-scroll scrollbar-default">
               <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">

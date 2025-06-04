@@ -23,12 +23,12 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
           <div className="m-auto">
             <div className="md:flex justify-between md:mb-16 mb-10">
               <div>
-                <SectionTitle text="ITM AFRICA" />
+                <SectionTitle text="ITM HR" />
                 <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
                   Pourquoi choisir ITM HR ?
                 </h1>
               </div>
-              <p className="md:w-[40%] text-lg font-sans">
+              <p className="md:w-[40%] text-xl font-sans">
                 Nous proposons des solutions stratégiques et standardisées,
                 adaptées à votre entreprise, soutenues par une expertise locale
                 approfondie et un engagement envers l’excellence. Que vous soyez

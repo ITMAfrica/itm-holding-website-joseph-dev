@@ -6,10 +6,12 @@ export default function CardLandingPage({
   title: String;
 }) {
   return (
-    <article className="md:w-[31%] mb-6 md:mb-0 bg-blue_itm_title_blue h-[300px] rounded-lg flex items-center justify-center px-10">
-      <div className="w-fit h-fit text-white">
-        <h2 className="text-3xl mb-3 font-sans">{title}</h2>
-        <p className="">{text}</p>
+    <article className="md:w-[31%] mb-6 md:mb-0 bg-blue_itm_title_blue h-[320px] rounded-lg flex items-start pt-6 justify-center px-10">
+      <div className="w-fit h-fit ">
+        <h2 className="text-3xl mb-3 font-sans text-blue_itm_aqua_marine">
+          {title}
+        </h2>
+        <p className="text-lg text-white">{text}</p>
       </div>
     </article>
   );

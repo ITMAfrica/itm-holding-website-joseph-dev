@@ -173,8 +173,8 @@ export const getCountryCode = (country: string | undefined) => {
       return 'cd';
     case 'ao':
       return 'ao';
-    case 'bn':
-      return 'bn';
+    case 'bj':
+      return 'bj';
     case 'cm':
       return 'cm';
     case 'cg':

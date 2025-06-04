@@ -17,8 +17,8 @@ export default function StepsLandingPage({ params }: { params: any }) {
             />
           </div>
           <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
-            <SectionTitle text="ITM AFRICA" />
-            <h1 className="text-blue_itm_good text-3xl font-bold mb-2">
+            <SectionTitle text="ITM HR" />
+            <h1 className="text-blue_itm_good text-3xl font-bold mb-4">
               ITM HR est votre partenaire de confiance pour une croissance
               durable.
             </h1>

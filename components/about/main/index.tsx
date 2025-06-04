@@ -24,7 +24,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
           <h2 className="text-5xl font-bold text-blue_itm_primary pb-4">
             {data.title}
           </h2>
-          <p className="w-full font-open text-base text-black_itm">
+          <p className="w-full font-open text-xl text-black_itm">
             {data.description}
           </p>
           <div className="w-full">

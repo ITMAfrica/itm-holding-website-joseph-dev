@@ -28,7 +28,7 @@ export default function HomeAbout({ params }: { params: any }) {
             <h1 className="text-blue_itm_good text-5xl font-bold mb-2">
               {data.subtitle}
             </h1>
-            <p className="mb-5 font-open font-lg text-black_itm">
+            <p className="mb-5 font-open text-lg text-black_itm">
               {data.paragraph}
             </p>
             <div className="mx-auto  w-fit lg:w-full">

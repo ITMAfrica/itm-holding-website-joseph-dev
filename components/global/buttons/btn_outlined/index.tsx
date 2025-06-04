@@ -16,7 +16,7 @@ export default function ButtonOulined({
     <Link
       href={link}
       title={title}
-      className="block w-44 py-4 text-normal font-semibold text-center text-blue_itm_good hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_good hover:border-blue_itm_aqua_marine transition duration-800"
+      className="block w-44 py-4 text-lg font-semibold text-center text-blue_itm_good hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_good hover:border-blue_itm_aqua_marine transition duration-800"
     >
       <span className="flex justify-center items-center">
         {text}
