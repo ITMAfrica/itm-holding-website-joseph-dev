@@ -29,14 +29,15 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
   function getHref(lang: string = 'fr') {
     const href: string = pathname;
     const current = href.split('/')[3];
+    const current_entity = href.split('/')[2];
     if (href == TALENTPRO_HREF) {
       return href;
     } else if (current != undefined) {
       return `/${lang}/${
         params.country ? params.country : CURRENT_CODE
       }/${current}`;
-    } else if (CURRENT_CODE) {
-      return `/${lang}/${CURRENT_CODE}`;
+    } else if (current_entity) {
+      return `/${lang}/${current_entity}`;
     } else {
       return `/${lang}`;
     }
