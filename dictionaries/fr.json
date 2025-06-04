@@ -550,22 +550,22 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM RDC",
-              "paragraph": "The founding company of the ITM Group, established in the Democratic Republic of Congo. As the birthplace of ITM, we are proud to offer comprehensive HR solutions tailored to the unique needs of businesses operating in the region, helping them navigate complexities and achieve sustainable growth.",
+              "paragraph": "Pionniers de l'excellence en solutions RH en tant que berceau d'ITM, autonomisant les organisations à travers le Congo et au-delà.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM SARL"
+                "title": "Voir les détails sur ITM DRC"
               }
             },
             {
               "title": "BIENVENUE CHEZ ITM RDC",
-              "paragraph": "The founding company of the ITM Group, established in the Democratic Republic of Congo. As the birthplace of ITM, we are proud to offer comprehensive HR solutions tailored to the unique needs of businesses operating in the region, helping them navigate complexities and achieve sustainable growth.",
+              "paragraph": "Pionniers de l'excellence en solutions RH en tant que berceau d'ITM, autonomisant les organisations à travers le Congo et au-delà.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM HR"
+                "title": "Voir les détails sur ITM DRC"
               }
             }
           ]
@@ -573,12 +573,12 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM RDC",
-          "paragraph": "ITM RDC est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM RDC est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM HR République Démocratique du Congo fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/cd/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM SARL"
+            "title": "Voir les détails sur ITM RDC"
           }
         }
       },
@@ -2276,7 +2276,7 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM TANZANIE",
-              "paragraph": "ITM TANZANIE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Naviguer dans le paysage commercial dynamique de la Tanzanie avec des solutions RH sur mesure qui allient expertise locale et savoir-faire mondial.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2286,7 +2286,7 @@
             },
             {
               "title": "BIENVENUE CHEZ ITM TANZANIE",
-              "paragraph": "ITM TANZANIE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Naviguer dans le paysage commercial dynamique de la Tanzanie avec des solutions RH sur mesure qui allient expertise locale et savoir-faire mondial.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -2299,12 +2299,12 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM TANZANIE",
-          "paragraph": "ITM TANZANIE est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM Tanzanie est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "Établi en 2018, ITM Tanzanie fournit des solutions complètes de capital humain avec une approche distinctive basée sur les solutions. Notre équipe d'experts offre des services exceptionnels d'externalisation RH, de recrutement, de formation et de conseil, proposant un soutien à 360 degrés qui résout les défis opérationnels efficacement et durablement, nous positionnant comme le partenaire RH de confiance en Tanzanie dans tous les secteurs.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/tz/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM HR TANZANIE"
           }
         },
         "meta": {
@@ -3451,36 +3451,36 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM AFRICA LTD.",
-              "paragraph": "ITM AFRICA LTD. est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM RWANDA",
+              "paragraph": "Transformer le paysage de la main-d'œuvre rwandaise avec une excellence RH alimentée par une vision mondiale et des racines locales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM AFRICA LTD."
+                "title": "Voir les détails sur ITM RWANDA"
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM AFRICA LTD. ",
-              "paragraph": "ITM AFRICA LTD. est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM RWANDA",
+              "paragraph": "Transformer le paysage de la main-d'œuvre rwandaise avec une excellence RH alimentée par une vision mondiale et des racines locales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM AFRICA LTD."
+                "title": "Voir les détails sur ITM RWANDA"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM AFRICA LTD.",
-          "paragraph": "Depuis 2017, ITM Rwanda est un leader de confiance en matière de gestion de la main-d'œuvre et de solutions commerciales. Soutenant plus de 1 000 employés, l'entreprise fournit des solutions personnalisées qui font une réelle différence pour les organisations. Notre expertise comprend l'acquisition de talents, la gestion des RH et les solutions de paie, permettant aux entreprises de rationaliser leurs opérations et de se concentrer sur le succès. Du recrutement à la gestion des salaires, ITM Rwanda simplifie la gestion du personnel, permettant aux entreprises de se concentrer sur la croissance. S'associer avec ITM Rwanda, c'est construire un avenir plus solide pour les entreprises au Rwanda et au-delà.",
+          "subtitle": "ITM RWANDA",
+          "paragraph": "Depuis 2017, ITM Rwanda révolutionne la gestion du personnel avec plus de 1 000 professionnels sous notre responsabilité. Notre expertise s'étend de l'acquisition stratégique de talents à la gestion RH complète et aux solutions de paie innovantes, permettant aux entreprises de prospérer dans l'environnement compétitif du Rwanda grâce à un soutien opérationnel fluide et des conseils stratégiques.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/rw/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM AFRICA LTD."
+            "title": "Voir les détails sur ITM RWANDA"
           }
         },
         "meta": {
@@ -4047,31 +4047,31 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM KATOPE",
-              "paragraph": "ITM KATOPE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM AFRIQUE DU SUD",
+              "paragraph": "Autonomiser l'écosystème de la main-d'œuvre sud-africaine grâce à des solutions d'emploi innovantes et des initiatives à impact social.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM KATOPE"
+                "title": "Voir les détails sur ITM AFRIQUE DU SUD"
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM KATOPE",
-              "paragraph": "ITM KATOPE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM AFRIQUE DU SUD",
+              "paragraph": "Autonomiser l'écosystème de la main-d'œuvre sud-africaine grâce à des solutions d'emploi innovantes et des initiatives à impact social.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM KATOPE"
+                "title": "Voir les détails sur ITM AFRIQUE DU SUD"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM KATOPE LTD.",
-          "paragraph": "ITM Katope Afrique du Sud est un leader de confiance dans la gestion des personnes depuis 2017. Dans le cadre de l'empreinte mondiale de lTM, nous nous spécialisons dans l'externalisation des RH, les services d'employeur de référence (EOR), le recrutement, le placement et les opérations de centre d'appels. Notre objectif s'étend à la résolution de l'un des défis les plus pressants de l'Afrique du Sud : le chômage des jeunes. Grâce à nos initiatives de développement de la jeunesse, nous responsabilisons les jeunes en leur proposant des placements professionnels, le développement de leurs compétences et un mentorat de carrière, leur offrant ainsi un avenir plus radieux.",
+          "subtitle": "ITM AFRIQUE DU SUD",
+          "paragraph": "Depuis 2017, ITM Katope Afrique du Sud est pionnier dans l'excellence en externalisation RH, services d'Employeur de Record, recrutement et opérations de centre d'appels. Au-delà des solutions d'affaires, nous combattons le chômage des jeunes par des placements professionnels, le développement des compétences et des programmes de mentorat—créant des avenirs plus prometteurs tout en fournissant des services innovants qui répondent aux besoins évolutifs des entreprises sur le marché dynamique sud-africain.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/za/a-propos-de-nous",
