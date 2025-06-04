@@ -42,7 +42,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
           </div>
         </div>
         <div className="lg:w-1/2 w-11/12 mx-auto lg:pt-0 pt-10">
-          <p className="text-black_itm/70 text-base lg:text-base font-open">
+          <p className="text-black_itm/70 text-base lg:text-lg font-open">
             {data.right.text}
           </p>
           <div className="w-full flex flex-wrap items-center justify-between pt-5">
