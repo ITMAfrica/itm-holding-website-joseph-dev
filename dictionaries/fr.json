@@ -205,7 +205,17 @@
         "process": {
           "title": "ITM HR",
           "subtitle": "Des solutions RH conçues pour améliorer votre entreprise",
-          "text": "Du recrutement au développement de la main-d'œuvre, nous fournissons des services personnalisés qui améliorent les performances et font progresser votre entreprise."
+          "text": "De l'acquisition de talents au développement de la main-d'œuvre, nous fournissons des solutions de capital humain personnalisées qui optimisent la performance et accélèrent la croissance commerciale.",
+          "services": {
+            "title": "Nos services:",
+            "items": [
+              "1. Services d'Employeur de Référence (EOR) ",
+              "2. Conseil en Ressources Humaines Stratégiques",
+              "3. Acquisition et Gestion des Talents",
+              "4. Gestion des Expatriés ",
+              "5. Solutions de Formation et de Développement"
+            ]
+          }
         },
         "steps": {
           "title": "ITM AFRICA",
