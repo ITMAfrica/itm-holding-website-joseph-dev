@@ -3178,7 +3178,7 @@
           "items": [
             {
               "title": "BIENVENUE CHEZ ITM ZAMBIE",
-              "paragraph": "ITM ZAMBIE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Élever le paysage commercial zambien grâce à des stratégies RH innovantes qui combinent perspectives du marché local et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -3188,7 +3188,7 @@
             },
             {
               "title": "BIENVENUE CHEZ ITM ZAMBIE",
-              "paragraph": "ITM ZAMBIE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "paragraph": "Élever le paysage commercial zambien grâce à des stratégies RH innovantes qui combinent perspectives du marché local et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -3201,7 +3201,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM ZAMBIE",
-          "paragraph": "ITM ZAMBIE est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM Zambie s'impose comme un fournisseur de premier plan de solutions complètes en ressources humaines sur le marché zambien. Nos professionnels expérimentés fournissent des services stratégiques de gestion de main-d'œuvre couvrant l'externalisation RH, le recrutement, la formation professionnelle et les services consultatifs—tous personnalisés pour répondre aux besoins spécifiques du marché zambien tout en combinant innovation et pragmatisme pour une croissance commerciale durable.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/zm/a-propos-de-nous",
@@ -3287,10 +3287,14 @@
             }
           }
         },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Zambie fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM ZAMBIE?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Zambie démarre comme une entreprise spécialisée dans la Gestion du personnel, Recrutement et Formation. Nous avons étendu notre champ d’expertise pour couvrir l’ensemble des services de support RH. Avec plus de 15 000 employés, nous offrons des services adaptés aux besoins de nos clients, leur permettant d’atteindre leurs objectifs opérationnels. Notre approche allie innovation et expertise, avec un juste équilibre entre jeunesse et expérience pour créer une équipe dynamique, prête à répondre aux exigences les plus spécifiques.",
+          "paragraph1": "ITM Zambie s'impose comme un fournisseur de premier plan de solutions complètes en ressources humaines sur le marché zambien. Nos professionnels expérimentés fournissent des services stratégiques de gestion de main-d'œuvre couvrant l'externalisation RH, le recrutement, la formation professionnelle et les services consultatifs—tous personnalisés pour répondre aux besoins spécifiques du marché zambien tout en combinant innovation et pragmatisme pour une croissance commerciale durable.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
