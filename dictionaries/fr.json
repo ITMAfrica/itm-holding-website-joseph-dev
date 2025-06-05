@@ -4683,7 +4683,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM NIGERIA",
-          "paragraph": "ITM HR Nigeria fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "ITM Services Limited, established as the Nigerian cornerstone of ITM Group, delivers unparalleled expertise in human resource solutions, business process outsourcing, and supply chain management. With strategic offices in Abuja and Lagos, we provide uniquely professional approaches to Human Capital Management that align with business strategies and industry best practices, creating exceptional value through your most vital asset—your people.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ng/a-propos-de-nous",
@@ -4768,6 +4768,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Nigeria fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM NIGERIA?",

@@ -3299,6 +3299,10 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Rwanda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM ZAMBIA",
           "description": "We provide exclusive services for your business",
@@ -4712,7 +4716,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM NIGERIA",
-          "paragraph": "ITM HR Nigeria is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Services Limited, established as the Nigerian cornerstone of ITM Group, delivers unparalleled expertise in human resource solutions, business process outsourcing, and supply chain management. With strategic offices in Abuja and Lagos, we provide uniquely professional approaches to Human Capital Management that align with business strategies and industry best practices, creating exceptional value through your most vital asset—your people.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ng/about-us",
@@ -4797,6 +4801,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM SERVICES NIGERIA is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM NIGERIA?",
