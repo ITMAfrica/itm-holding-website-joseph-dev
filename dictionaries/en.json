@@ -816,8 +816,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM NEXUS",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GERMANY",
+              "paragraph": "Bridging European precision with African dynamism to deliver unparalleled HR solutions in Germany's innovative market.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -826,13 +826,13 @@
               }
             },
             {
-              "title": "WELCOME TO ITM NEXUS",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GERMANY",
+              "paragraph": "Bridging European precision with African dynamism to deliver unparalleled HR solutions in Germany's innovative market.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM NEXUS"
               }
             }
           ]
@@ -840,7 +840,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM GERMANY",
-          "paragraph": "ITM GERMANY is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Germany represents our strategic expansion into European markets, bringing our pan-African expertise to Germany's innovative business landscape. With over 15,000 professionals under management across our global network, we deliver specialized talent acquisition, comprehensive HR management, cutting-edge payroll solutions, and Employer of Record services—creating customized workforce strategies that bridge international markets.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/de/about-us",
@@ -927,10 +927,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Germany is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM NEXUS",
+          "title": "WHAT TO KNOW ABOUT ITM GERMANY",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM NEXUS is a subsidiary of the internationally-represented ITM network. The parent company, ITM Sarl, is a service provider specializing in human resources (recruitment, personnel management, payroll accounting), vocational training and capacity building, as well as training organization and logistics, project monitoring and evaluation, and organizational development support for humanitarian and governmental organizations.",
+          "paragraph1": "ITM Germany represents our strategic expansion into European markets, bringing our pan-African expertise to Germany's innovative business landscape. With over 15,000 professionals under management across our global network, we deliver specialized talent acquisition, comprehensive HR management, cutting-edge payroll solutions, and Employer of Record services—creating customized workforce strategies that bridge international markets.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",

@@ -847,36 +847,36 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM HR BURUNDI",
-              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
+              "title": "BIENVENUE CHEZ ITM HR ALLEMAGNE",
+              "paragraph": "Allier précision européenne et dynamisme africain pour offrir des solutions RH inégalées sur le marché innovant allemand.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM NEXUS"
+                "title": "Voir les détails sur ITM ALLEMAGNE"
               }
             },
             {
-              "title": "WELCOME TO ITM HR BURUNDI",
-              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
+              "title": "BIENVENUE CHEZ ITM HR ALLEMAGNE",
+              "paragraph": "Allier précision européenne et dynamisme africain pour offrir des solutions RH inégalées sur le marché innovant allemand.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
                 "key": "a-propos-de-nous",
-                "title": "Voir les détails sur ITM NEXUS"
+                "title": "Voir les détails sur ITM ALLEMAGNE"
               }
             }
           ]
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM ITM NEXUS",
-          "paragraph": "ITM ITM NEXUS est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "subtitle": "ITM ITM ALLEMAGNE",
+          "paragraph": "ITM Allemagne représente notre expansion stratégique sur les marchés européens, apportant notre expertise panafricaine au paysage commercial innovant de l'Allemagne. Avec plus de 15 000 professionnels sous gestion à travers notre réseau mondial, nous fournissons des services spécialisés d'acquisition de talents, de gestion RH complète, de solutions de paie de pointe et de services d'Employeur de Record—créant des stratégies de main-d'œuvre personnalisées qui relient les marchés internationaux.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/de/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM ALLEMAGNE"
           }
         }
       },
@@ -919,10 +919,14 @@
             }
           }
         },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Allemagne fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM NEXUS?",
+          "title": "QUE RETENIR SUR ITM ALLEMAGNE?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM NEXUS est une filiale du réseau ITM représenté au niveau international. La société mère ITM Sarl est un prestataire de services spécialisé dans le domaine des ressources humaines (recrutement, gestion du personnel, comptabilité des salaires), de la formation professionnelle et du renforcement des capacités ainsi que de l'organisation et de la logistique de la formation, du suivi et de l'évaluation de projets et de l'accompagnement des organisations humanitaires et gouvernementales dans le développement organisationnel.",
+          "paragraph1": "ITM Allemagne représente notre expansion stratégique sur les marchés européens, apportant notre expertise panafricaine au paysage commercial innovant de l'Allemagne. Avec plus de 15 000 professionnels sous gestion à travers notre réseau mondial, nous fournissons des services spécialisés d'acquisition de talents, de gestion RH complète, de solutions de paie de pointe et de services d'Employeur de Record—créant des stratégies de main-d'œuvre personnalisées qui relient les marchés internationaux.",
           "paragraph2": "Grâce à des technologies de pointe, nous proposons des solutions RH flexibles, évolutives et adaptées à tous les secteurs d’activité, garantissant ainsi une réactivité optimale et une performance durable.",
           "btnContact": {
             "text": "Nous contacter",
