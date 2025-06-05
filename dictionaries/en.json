@@ -3508,7 +3508,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM RWANDA",
-          "paragraph": "ITM HR Rwanda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Since 2017, ITM Rwanda has been revolutionizing workforce management with over 1,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, and cutting-edge payroll solutions, enabling businesses to thrive in Rwanda's competitive environment through seamless operational support and strategic guidance.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/rw/about-us",
@@ -3593,6 +3593,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Rwanda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM RWANDA",
@@ -4104,7 +4108,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM SOUTH AFRICA",
-          "paragraph": "ITM HR South Africa is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Since 2017, ITM Katope South Africa has pioneered excellence in HR outsourcing, Employer of Record services, recruitment, and call center operations. Beyond business solutions, we tackle youth unemployment through job placements, skills development, and mentorship programs—creating brighter futures while delivering innovative services that meet evolving business needs in South Africa's dynamic market.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/za/about-us",
@@ -4189,6 +4193,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR South Africa is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM SOUTH AFRICA",
@@ -4487,6 +4495,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR ANGOLA is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM KATOPE ANGOLA",

@@ -4079,12 +4079,12 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM AFRIQUE DU SUD",
-          "paragraph": "ITM HR Afrique du Sud fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "Depuis 2017, ITM Katope Afrique du Sud est pionnier dans l'excellence en externalisation RH, services d'Employeur de Record, recrutement et opérations de centre d'appels. Au-delà des solutions d'affaires, nous combattons le chômage des jeunes par des placements professionnels, le développement des compétences et des programmes de mentorat—créant des avenirs plus prometteurs tout en fournissant des services innovants qui répondent aux besoins évolutifs des entreprises sur le marché dynamique sud-africain.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/za/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM AFRIQUE DU SUD"
           }
         },
         "meta": {
@@ -4164,6 +4164,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": ": ITM HR Afrique du Sud fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM AFRIQUE DU SUD?",
