@@ -3483,7 +3483,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM RWANDA",
-          "paragraph": "ITM HR Rwanda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "Depuis 2017, ITM Rwanda révolutionne la gestion du personnel avec plus de 1 000 professionnels sous notre responsabilité. Notre expertise s'étend de l'acquisition stratégique de talents à la gestion RH complète et aux solutions de paie innovantes, permettant aux entreprises de prospérer dans l'environnement compétitif du Rwanda grâce à un soutien opérationnel fluide et des conseils stratégiques.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/rw/a-propos-de-nous",
@@ -3568,6 +3568,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Rwanda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM RWANDA ?",
@@ -4167,7 +4171,7 @@
         },
         "banner": {
           "title": "A PROPOS DE NOUS",
-          "subtitle": ": ITM HR Afrique du Sud fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+          "subtitle": "ITM HR Afrique du Sud fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM AFRIQUE DU SUD?",
