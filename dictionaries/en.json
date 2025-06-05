@@ -1728,7 +1728,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "CONGO BRAZZAVILLE",
-          "paragraph": "ITM HR Congo Brazzaville is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Congo Brazzaville excels as a key player in human resources and business solutions. Our comprehensive services encompass HR outsourcing, recruitment, professional training, and HR consulting—all delivered with a personalized approach that adapts solutions to each client's specific needs, enabling operational success in Congo's unique economic context through qualified expert support.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cg/about-us",
@@ -1814,6 +1814,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Congo Brazzaville is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM CONGO BRAZZAVILLE",
