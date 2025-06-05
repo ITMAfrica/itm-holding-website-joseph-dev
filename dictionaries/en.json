@@ -1113,7 +1113,7 @@
           "items": [
             {
               "title": "WELCOME TO ITM BURUNDI",
-              "paragraph": "ITM BURUNDI is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -1123,12 +1123,12 @@
             },
             {
               "title": "WELCOME TO ITM BURUNDI",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM BURUNDI"
               }
             }
           ]
@@ -1136,7 +1136,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM BURUNDI",
-          "paragraph": "ITM BURUNDI is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Burundi leads in shaping the future of workforce management with over 15,000 staff under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—providing customized support that drives business growth and operational excellence in Burundi's dynamic commercial environment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/bi/about-us",
@@ -1223,14 +1223,18 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Burundi is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM NEXUS",
+          "title": "WHAT TO KNOW ABOUT ITM BURUNDI",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM NEXUS is a subsidiary of the internationally-represented ITM network. The parent company, ITM Sarl, is a service provider specializing in human resources (recruitment, personnel management, payroll accounting), vocational training and capacity building, as well as training organization and logistics, project monitoring and evaluation, and organizational development support for humanitarian and governmental organizations.",
+          "paragraph1": "ITM Burundi leads in shaping the future of workforce management with over 15,000 staff under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—providing customized support that drives business growth and operational excellence in Burundi's dynamic commercial environment.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
-            "link": "/en/de/contact-us"
+            "link": "/en/bi/contact-us"
           }
         }
       },
