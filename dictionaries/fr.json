@@ -2899,7 +2899,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM OUGANDA",
-          "paragraph": "ITM HR Ouganda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "ITM Ouganda s'affirme comme votre premier fournisseur de solutions RH complètes, offrant des services transformateurs en recrutement, externalisation RH, formation professionnelle, consolidation d'équipe et conseil RH. Nous reconnaissons les personnes comme l'atout le plus précieux de votre organisation et adaptons nos approches innovantes à vos besoins uniques, favorisant des environnements de travail positifs et productifs qui maximisent l'impact dans l'économie prometteuse de l'Ouganda.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ug/a-propos-de-nous",
@@ -2984,6 +2984,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Ouganda fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM OUGANDA?",

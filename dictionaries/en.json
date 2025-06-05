@@ -2920,7 +2920,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM UGANDA",
-          "paragraph": "ITM HR Uganda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Uganda stands as your premier one-stop HR solutions provider, delivering transformative services across recruitment, HR outsourcing, professional training, team building, and HR consultancy. We recognize people as your organization's most valuable asset and tailor our innovative approaches to your unique needs, fostering positive, productive work environments that maximize impact in Uganda's promising economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ug/about-us",
@@ -3006,6 +3006,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Uganda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM UGANDA",
