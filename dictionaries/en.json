@@ -540,7 +540,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM DRC",
-          "paragraph": "ITM HR Democratic Republic of Congo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Founded in 2011 as \"International Training & Motivation,\" we've evolved into the DRC's premier HR powerhouse with 10,000+ staff across five regions. Our innovative approach blends cutting-edge technology with deep local expertise, delivering tailored HR solutions across all sectors with unmatched responsiveness and sustainable performance.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cd/about-us",
@@ -626,6 +626,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Democratic Republic of Congo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM DEMOCRATIC REPUBLIC OF CONGO",

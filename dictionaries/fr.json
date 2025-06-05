@@ -573,7 +573,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM RDC",
-          "paragraph": "ITM HR République Démocratique du Congo fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "Fondée en 2011 sous le nom \"International Training & Motivation,\" nous avons évolué pour devenir la principale entreprise RH de la RDC avec plus de 10 000 employés dans cinq régions. Notre approche innovante allie technologie de pointe et expertise locale approfondie, offrant des solutions RH personnalisées dans tous les secteurs avec une réactivité inégalée et des performances durables.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/cd/a-propos-de-nous",
@@ -620,6 +620,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR République Démocratique du Congo fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM RDC",
