@@ -2320,7 +2320,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM TANZANIA",
-          "paragraph": "ITM HR Tanzania is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2018, ITM Tanzania delivers comprehensive human capital solutions with a distinctive solution-based approach. Our expert team provides exceptional HR outsourcing, recruitment, training, and advisory services, offering 360-degree support that solves operational challenges efficiently and permanently, positioning us as Tanzania's trusted HR partner across industries.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/tz/about-us",
@@ -2406,6 +2406,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Tanzania is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM TANZANIA",

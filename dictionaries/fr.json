@@ -2303,7 +2303,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM TANZANIE",
-          "paragraph": "ITM HR Tanzanie fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "Établi en 2018, ITM Tanzanie fournit des solutions complètes de capital humain avec une approche distinctive basée sur les solutions. Notre équipe d'experts offre des services exceptionnels d'externalisation RH, de recrutement, de formation et de conseil, proposant un soutien à 360 degrés qui résout les défis opérationnels efficacement et durablement, nous positionnant comme le partenaire RH de confiance en Tanzanie dans tous les secteurs.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/tz/a-propos-de-nous",
@@ -2388,6 +2388,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Tanzanie fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM TANZANIA?",
