@@ -1412,8 +1412,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM CAMEROON",
-              "paragraph": "ITM CAMEROON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR CAMEROON",
+              "paragraph": "Transforming Cameroon's business landscape through innovative HR solutions that merge local insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -1422,21 +1422,21 @@
               }
             },
             {
-              "title": "WELCOME TO ITM CAMEROON",
-              "paragraph": "ITM CAMEROON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR CAMEROON",
+              "paragraph": "Transforming Cameroon's business landscape through innovative HR solutions that merge local insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM CAMEROON"
               }
             }
           ]
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM CAMEROON",
-          "paragraph": "ITM CAMEROON is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "subtitle": "ITM HR CAMEROON",
+          "paragraph": "ITM Cameroon excels in shaping the future of workforce management with over 15,000 professionals under our guidance. Our expertise encompasses strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized workforce strategies that drive business growth and operational excellence in Cameroon's competitive environment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cm/about-us",
@@ -1523,10 +1523,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Cameroon is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM CAMEROON",
+          "title": "WHAT TO KNOW ABOUT ITM HR CAMEROON",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "Founded in 2023, ITM Cameroon started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 10,000 employees in 5 regions in the DRC, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
+          "paragraph1": "ITM Cameroon excels in shaping the future of workforce management with over 15,000 professionals under our guidance. Our expertise encompasses strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized workforce strategies that drive business growth and operational excellence in Cameroon's competitive environment.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
