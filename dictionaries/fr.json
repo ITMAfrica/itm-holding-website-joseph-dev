@@ -4989,7 +4989,7 @@
         "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM BENIN",
-          "paragraph": "ITM HR Bénin fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous.",
+          "paragraph": "Établie en 2022, ITM Bénin s'est rapidement imposée comme un acteur majeur de la gestion des ressources humaines, gérant aujourd'hui près de 2 000 employés externalisés dans divers secteurs. Nos spécialisations dans le recrutement local et expatrié (EOR), la gestion du personnel et les programmes de formation innovants permettent aux entreprises de développer les compétences de leurs équipes tout en maximisant l'engagement et la productivité dans l'environnement commercial évolutif du Bénin.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/bj/a-propos-de-nous",
@@ -5074,6 +5074,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Bénin fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
         },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM BENIN?",
