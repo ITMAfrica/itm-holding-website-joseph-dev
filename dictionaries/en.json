@@ -2620,12 +2620,12 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM TOGO",
-          "paragraph": "ITM HR Togo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2018, ITM Togo delivers 360-degree business and human capital solutions through our highly qualified expert team. We excel in HR outsourcing, recruitment, professional training, capacity building, and sectoral solution services—implementing customized, solution-based approaches that permanently and efficiently resolve operational challenges for organizations throughout Togo's dynamic economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/tg/about-us",
             "key": "about-us",
-            "title": "Learn more about ITM history"
+            "title": "Learn more about ITM TOGO"
           }
         },
         "meta": {
@@ -2706,6 +2706,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Togo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM TOGO",
