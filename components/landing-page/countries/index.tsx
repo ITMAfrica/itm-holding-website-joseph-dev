@@ -24,7 +24,7 @@ export default function CountriesLandingPage() {
         id="countries"
         className="bg-white bg-[url('../public/pages/main/countries.png')] bg-contain bg-left bg-no-repeat"
       >
-        <div className="flex items-center h-full w-10/12 mx-auto py-10">
+        <div className="flex items-center h-full w-11/12 xl:w-10/12 mx-auto py-10">
           <div className="hidden md:block md:w-1/2"></div>
           <div className="md:w-1/2">
             <SectionTitle text="ITM HR" />

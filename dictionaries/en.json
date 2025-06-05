@@ -540,7 +540,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM DRC",
-          "paragraph": "ITM HR Democratic Republic of Congo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Founded in 2011 as \"International Training & Motivation,\" we've evolved into the DRC's premier HR powerhouse with 10,000+ staff across five regions. Our innovative approach blends cutting-edge technology with deep local expertise, delivering tailored HR solutions across all sectors with unmatched responsiveness and sustainable performance.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cd/about-us",
@@ -626,6 +626,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Democratic Republic of Congo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM DEMOCRATIC REPUBLIC OF CONGO",
@@ -812,8 +816,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM NEXUS",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GERMANY",
+              "paragraph": "Bridging European precision with African dynamism to deliver unparalleled HR solutions in Germany's innovative market.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -822,13 +826,13 @@
               }
             },
             {
-              "title": "WELCOME TO ITM NEXUS",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GERMANY",
+              "paragraph": "Bridging European precision with African dynamism to deliver unparalleled HR solutions in Germany's innovative market.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM NEXUS"
               }
             }
           ]
@@ -836,7 +840,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM GERMANY",
-          "paragraph": "ITM GERMANY is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Germany represents our strategic expansion into European markets, bringing our pan-African expertise to Germany's innovative business landscape. With over 15,000 professionals under management across our global network, we deliver specialized talent acquisition, comprehensive HR management, cutting-edge payroll solutions, and Employer of Record services—creating customized workforce strategies that bridge international markets.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/de/about-us",
@@ -923,10 +927,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Germany is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM NEXUS",
+          "title": "WHAT TO KNOW ABOUT ITM GERMANY",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM NEXUS is a subsidiary of the internationally-represented ITM network. The parent company, ITM Sarl, is a service provider specializing in human resources (recruitment, personnel management, payroll accounting), vocational training and capacity building, as well as training organization and logistics, project monitoring and evaluation, and organizational development support for humanitarian and governmental organizations.",
+          "paragraph1": "ITM Germany represents our strategic expansion into European markets, bringing our pan-African expertise to Germany's innovative business landscape. With over 15,000 professionals under management across our global network, we deliver specialized talent acquisition, comprehensive HR management, cutting-edge payroll solutions, and Employer of Record services—creating customized workforce strategies that bridge international markets.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
@@ -1109,7 +1117,7 @@
           "items": [
             {
               "title": "WELCOME TO ITM BURUNDI",
-              "paragraph": "ITM BURUNDI is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -1119,12 +1127,12 @@
             },
             {
               "title": "WELCOME TO ITM BURUNDI",
-              "paragraph": "ITM NEXUS is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Transforming Burundi's workforce landscape through strategic HR innovation that merges deep local knowledge with international expertise.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM BURUNDI"
               }
             }
           ]
@@ -1132,7 +1140,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM BURUNDI",
-          "paragraph": "ITM BURUNDI is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Burundi leads in shaping the future of workforce management with over 15,000 staff under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—providing customized support that drives business growth and operational excellence in Burundi's dynamic commercial environment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/bi/about-us",
@@ -1219,14 +1227,18 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Burundi is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM NEXUS",
+          "title": "WHAT TO KNOW ABOUT ITM BURUNDI",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM NEXUS is a subsidiary of the internationally-represented ITM network. The parent company, ITM Sarl, is a service provider specializing in human resources (recruitment, personnel management, payroll accounting), vocational training and capacity building, as well as training organization and logistics, project monitoring and evaluation, and organizational development support for humanitarian and governmental organizations.",
+          "paragraph1": "ITM Burundi leads in shaping the future of workforce management with over 15,000 staff under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—providing customized support that drives business growth and operational excellence in Burundi's dynamic commercial environment.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
-            "link": "/en/de/contact-us"
+            "link": "/en/bi/contact-us"
           }
         }
       },
@@ -1404,8 +1416,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM CAMEROON",
-              "paragraph": "ITM CAMEROON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR CAMEROON",
+              "paragraph": "Transforming Cameroon's business landscape through innovative HR solutions that merge local insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -1414,21 +1426,21 @@
               }
             },
             {
-              "title": "WELCOME TO ITM CAMEROON",
-              "paragraph": "ITM CAMEROON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR CAMEROON",
+              "paragraph": "Transforming Cameroon's business landscape through innovative HR solutions that merge local insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM CAMEROON"
               }
             }
           ]
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM CAMEROON",
-          "paragraph": "ITM CAMEROON is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "subtitle": "ITM HR CAMEROON",
+          "paragraph": "ITM Cameroon excels in shaping the future of workforce management with over 15,000 professionals under our guidance. Our expertise encompasses strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized workforce strategies that drive business growth and operational excellence in Cameroon's competitive environment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cm/about-us",
@@ -1515,10 +1527,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Cameroon is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM CAMEROON",
+          "title": "WHAT TO KNOW ABOUT ITM HR CAMEROON",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "Founded in 2023, ITM Cameroon started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 10,000 employees in 5 regions in the DRC, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
+          "paragraph1": "ITM Cameroon excels in shaping the future of workforce management with over 15,000 professionals under our guidance. Our expertise encompasses strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized workforce strategies that drive business growth and operational excellence in Cameroon's competitive environment.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
@@ -1724,7 +1740,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "CONGO BRAZZAVILLE",
-          "paragraph": "ITM HR Congo Brazzaville is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Congo Brazzaville excels as a key player in human resources and business solutions. Our comprehensive services encompass HR outsourcing, recruitment, professional training, and HR consulting—all delivered with a personalized approach that adapts solutions to each client's specific needs, enabling operational success in Congo's unique economic context through qualified expert support.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/cg/about-us",
@@ -1810,6 +1826,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Congo Brazzaville is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM CONGO BRAZZAVILLE",
@@ -1996,8 +2016,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM GABON",
-              "paragraph": "ITM GABON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GABON",
+              "paragraph": "Elevating Gabon's workforce ecosystem through innovative HR solutions that blend local expertise with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -2006,26 +2026,26 @@
               }
             },
             {
-              "title": "WELCOME TO ITM GABON",
-              "paragraph": "ITM GABON is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR GABON",
+              "paragraph": "Elevating Gabon's workforce ecosystem through innovative HR solutions that blend local expertise with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM GABON"
               }
             }
           ]
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM GABON",
-          "paragraph": "ITM GABON is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM Gabon is your trusted partner for sustainable growth.",
+          "subtitle": "ITM HR GABON",
+          "paragraph": "ITM Gabon leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Gabon's resource-rich economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/gb/about-us",
             "key": "about-us",
-            "title": "Learn more about ITM history"
+            "title": "Learn more about ITM GABON"
           }
         },
         "meta": {
@@ -2107,10 +2127,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Gabon is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM GABON",
+          "title": "WHAT TO KNOW ABOUT ITM HR GABON",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "Founded in 2020, ITM Gabon started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 15,000 employees, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
+          "paragraph1": "ITM Gabon leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Gabon's resource-rich economy.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
@@ -2316,7 +2340,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM TANZANIA",
-          "paragraph": "ITM HR Tanzania is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2018, ITM Tanzania delivers comprehensive human capital solutions with a distinctive solution-based approach. Our expert team provides exceptional HR outsourcing, recruitment, training, and advisory services, offering 360-degree support that solves operational challenges efficiently and permanently, positioning us as Tanzania's trusted HR partner across industries.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/tz/about-us",
@@ -2402,6 +2426,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Tanzania is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM TANZANIA",
@@ -2612,12 +2640,12 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM TOGO",
-          "paragraph": "ITM HR Togo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2018, ITM Togo delivers 360-degree business and human capital solutions through our highly qualified expert team. We excel in HR outsourcing, recruitment, professional training, capacity building, and sectoral solution services—implementing customized, solution-based approaches that permanently and efficiently resolve operational challenges for organizations throughout Togo's dynamic economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/tg/about-us",
             "key": "about-us",
-            "title": "Learn more about ITM history"
+            "title": "Learn more about ITM TOGO"
           }
         },
         "meta": {
@@ -2698,6 +2726,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Togo is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM TOGO",
@@ -2908,7 +2940,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM UGANDA",
-          "paragraph": "ITM HR Uganda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Uganda stands as your premier one-stop HR solutions provider, delivering transformative services across recruitment, HR outsourcing, professional training, team building, and HR consultancy. We recognize people as your organization's most valuable asset and tailor our innovative approaches to your unique needs, fostering positive, productive work environments that maximize impact in Uganda's promising economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ug/about-us",
@@ -2994,6 +3026,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Uganda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM UGANDA",
@@ -3181,7 +3217,7 @@
           "items": [
             {
               "title": "WELCOME TO ITM ZAMBIA",
-              "paragraph": "ITM ZAMBIA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Elevating Zambia's business landscape through innovative HR strategies that combine local market insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -3191,7 +3227,7 @@
             },
             {
               "title": "WELCOME TO ITM ZAMBIA",
-              "paragraph": "ITM ZAMBIA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "paragraph": "Elevating Zambia's business landscape through innovative HR strategies that combine local market insights with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -3204,7 +3240,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM ZAMBIA",
-          "paragraph": "ITM ZAMBIA is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Zambia stands as a leading provider of comprehensive human resource solutions in the Zambian market. Our experienced professionals deliver strategic workforce management services spanning HR outsourcing, recruitment, professional training, and advisory services—all customized to address the specific needs of Zambia's market while combining innovation with practicality for sustainable business growth.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/zm/about-us",
@@ -3291,10 +3327,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Zambia is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM ZAMBIA",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Zambia started out as a company specializing in Personnel Management, Recruitment and Training. We have expanded our field of expertise to cover all HR support services. With over 15,000 employees in Africa, we offer services tailored to our customers' needs, enabling them to achieve their business objectives. Our approach combines innovation and expertise, with the right balance of youth and experience to create a dynamic team ready to respond to the most specific requirements.",
+          "paragraph1": "ITM Zambia stands as a leading provider of comprehensive human resource solutions in the Zambian market. Our experienced professionals deliver strategic workforce management services spanning HR outsourcing, recruitment, professional training, and advisory services—all customized to address the specific needs of Zambia's market while combining innovation with practicality for sustainable business growth.",
           "paragraph2": "Thanks to state-of-the-art technologies, we offer flexible, scalable HR solutions adapted to all business sectors, guaranteeing optimal responsiveness and sustainable performance.",
           "btnContact": {
             "text": "Contact us",
@@ -3500,7 +3540,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM RWANDA",
-          "paragraph": "ITM HR Rwanda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Since 2017, ITM Rwanda has been revolutionizing workforce management with over 1,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, and cutting-edge payroll solutions, enabling businesses to thrive in Rwanda's competitive environment through seamless operational support and strategic guidance.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/rw/about-us",
@@ -3585,6 +3625,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Rwanda is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM RWANDA",
@@ -3798,7 +3842,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM KENYA",
-          "paragraph": "ITM HR Kenya is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2021, ITM Kenya delivers cutting-edge HR solutions across East Africa's most dynamic economy. Our specialized expertise in recruitment, HR outsourcing, and professional training—enhanced by innovative techniques like gamification—connects businesses with top talent in IT, Finance, Healthcare, and Engineering while managing complete workforce lifecycles for sustainable growth.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ke/about-us",
@@ -3883,6 +3927,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Kenya is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM KENYA",
@@ -4096,7 +4144,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM SOUTH AFRICA",
-          "paragraph": "ITM HR South Africa is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Since 2017, ITM Katope South Africa has pioneered excellence in HR outsourcing, Employer of Record services, recruitment, and call center operations. Beyond business solutions, we tackle youth unemployment through job placements, skills development, and mentorship programs—creating brighter futures while delivering innovative services that meet evolving business needs in South Africa's dynamic market.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/za/about-us",
@@ -4181,6 +4229,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR South Africa is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM SOUTH AFRICA",
@@ -4370,23 +4422,23 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM ANGOLA",
-              "paragraph": "ITM ANGOLA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR ANGOLA",
+              "paragraph": "Empowering Angola's evolving economy through strategic HR solutions that blend local expertise with global innovation.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM ANGOLA"
               }
             },
             {
-              "title": "WELCOME TO ITM ANGOLA",
-              "paragraph": "ITM ANGOLA is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR ANGOLA",
+              "paragraph": "Empowering Angola's evolving economy through strategic HR solutions that blend local expertise with global innovation.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
                 "key": "about-us",
-                "title": "See details about ITM HR"
+                "title": "See details about ITM ANGOLA"
               }
             }
           ]
@@ -4394,7 +4446,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM ANGOLA",
-          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM Angola leads in transforming workforce management with over 15,000 professionals under our stewardship. Our comprehensive expertise spans strategic talent acquisition, HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Angola's resource-rich and opportunity-laden market.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ao/about-us",
@@ -4480,10 +4532,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR ANGOLA is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM KATOPE ANGOLA",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Katope Angola has been a trusted partner in driving business growth and enhancing operational capacity across various sectors in Angola since 2018. We are committed to delivering tailored solutions that ensure long-term sustainability and success for our clients.",
+          "paragraph1": "ITM Angola leads in transforming workforce management with over 15,000 professionals under our stewardship. Our comprehensive expertise spans strategic talent acquisition, HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Angola's resource-rich and opportunity-laden market.",
           "paragraph2": "Over the past six years, our mission has been to support organizations in building sustainable operational capacity. We equip companies with the tools and insights to make strategic, informed decisions that fuel growth and innovation. Our clients’ success is the foundation of our own achievements. Partner with ITM Katope Angola, and let us work together to unlock your company’s full potential, driving sustainable growth and operational excellence in an ever-evolving market.",
           "btnContact": {
             "text": "Contact us",
@@ -4692,7 +4748,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM NIGERIA",
-          "paragraph": "ITM HR Nigeria is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "ITM Services Limited, established as the Nigerian cornerstone of ITM Group, delivers unparalleled expertise in human resource solutions, business process outsourcing, and supply chain management. With strategic offices in Abuja and Lagos, we provide uniquely professional approaches to Human Capital Management that align with business strategies and industry best practices, creating exceptional value through your most vital asset—your people.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ng/about-us",
@@ -4777,6 +4833,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM SERVICES NIGERIA is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM NIGERIA?",
@@ -4990,7 +5050,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM BENIN",
-          "paragraph": "ITM HR Benin is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2022, ITM Benin has rapidly emerged as a major player in human resources management, now managing nearly 2,000 outsourced staff across diverse sectors. Our specializations in local and expatriate recruitment (EOR), personnel management, and innovative training programs enable companies to develop team competencies while maximizing engagement and productivity in Benin's evolving business environment.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/bj/about-us",
@@ -5075,6 +5135,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Benin is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM BENIN?",
