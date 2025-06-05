@@ -4385,8 +4385,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM ANGOLA",
-              "paragraph": "ITM ANGOLA est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR ANGOLA",
+              "paragraph": "Autonomiser l'économie en évolution de l'Angola grâce à des solutions RH stratégiques qui associent expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -4395,8 +4395,8 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM ANGOLA ",
-              "paragraph": "ITM ANGOLA est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR ANGOLA",
+              "paragraph": "Autonomiser l'économie en évolution de l'Angola grâce à des solutions RH stratégiques qui associent expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -4408,13 +4408,13 @@
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM ANGOLA LTD.",
-          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "subtitle": "ITM ANGOLA",
+          "paragraph": "ITM Angola est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre intendance. Notre expertise complète couvre l'acquisition stratégique de talents, la gestion RH, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle sur le marché angolais riche en ressources et en opportunités.",
           "btnMore": {
             "text": "En savoir plus",
-            "link": "/fr/a-propos-de-nous",
+            "link": "/fr/ao/a-propos-de-nous",
             "key": "a-propos-de-nous",
-            "title": "Voir les détails sur ITM HR"
+            "title": "Voir les détails sur ITM ANGOLA"
           }
         },
         "meta": {
@@ -4495,10 +4495,14 @@
             }
           }
         },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Angola fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM ANGOLA?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Katope Angola est un partenaire de confiance pour stimuler la croissance des entreprises et renforcer la capacité opérationnelle dans divers secteurs en Angola depuis 2018. Nous nous engageons à fournir des solutions sur mesure qui garantissent la durabilité et le succès à long terme de nos clients.",
+          "paragraph1": "ITM Angola est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre intendance. Notre expertise complète couvre l'acquisition stratégique de talents, la gestion RH, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle sur le marché angolais riche en ressources et en opportunités.",
           "paragraph2": "Au cours des six dernières années, notre mission a été de soutenir les organisations dans le développement d'une capacité opérationnelle durable. Nous dotons les entreprises des outils et des connaissances nécessaires pour prendre des décisions stratégiques et éclairées qui alimentent la croissance et l'innovation. Le succès de nos clients est le fondement de nos propres réalisations. Associez-vous à ITM Katope Angola et laissez-nous travailler ensemble pour libérer tout le potentiel de votre entreprise, en favorisant la croissance durable et l'excellence opérationnelle dans un marché en constante évolution.",
           "btnContact": {
             "text": "Contactez-nous",
