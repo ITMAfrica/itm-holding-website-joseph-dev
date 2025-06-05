@@ -3814,7 +3814,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM KENYA",
-          "paragraph": "ITM HR Kenya is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all.",
+          "paragraph": "Established in 2021, ITM Kenya delivers cutting-edge HR solutions across East Africa's most dynamic economy. Our specialized expertise in recruitment, HR outsourcing, and professional training—enhanced by innovative techniques like gamification—connects businesses with top talent in IT, Finance, Healthcare, and Engineering while managing complete workforce lifecycles for sustainable growth.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/ke/about-us",
@@ -3899,6 +3899,10 @@
               "max-snippet": -1
             }
           }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Kenya is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
         },
         "aboutEntity": {
           "title": "WHAT TO KNOW ABOUT ITM KENYA",
