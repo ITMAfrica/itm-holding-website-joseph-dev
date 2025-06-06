@@ -22,7 +22,7 @@ export default function CountriesLandingPage() {
     <section>
       <div
         id="countries"
-        className="bg-white bg-[url('../public/pages/main/countries.png')] bg-contain bg-left bg-no-repeat"
+        className="bg-white xl:bg-[url('../public/pages/main/countries.png')] bg-[url('../public/pages/main/countriesRes.png')] bg-contain bg-left bg-no-repeat"
       >
         <div className="flex items-center h-full w-11/12 xl:w-10/12 mx-auto py-10">
           <div className="hidden md:block md:w-1/2"></div>
