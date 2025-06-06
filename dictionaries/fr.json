@@ -5308,8 +5308,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM CÔTE D'IVOIRE",
-              "paragraph": "ITM CÔTE D'IVOIRE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR CÔTE D'IVOIRE",
+              "paragraph": "Transformer le paysage commercial dynamique de la Côte d'Ivoire grâce à des solutions RH innovantes qui allient expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -5318,8 +5318,8 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM CÔTE D'IVOIRE",
-              "paragraph": "ITM CÔTE D'IVOIRE est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR CÔTE D'IVOIRE",
+              "paragraph": "Transformer le paysage commercial dynamique de la Côte d'Ivoire grâce à des solutions RH innovantes qui allient expertise locale et innovation mondiale.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -5331,8 +5331,8 @@
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM CÔTE D'IVOIRE",
-          "paragraph": "Créé en 2024, ITM CÔTE D'IVOIRE filiale du groupe ITM HOLDING se veut comme référence incontournable dans la gestion des ressources humaines. Nos offres de services variées allant de la simple consultation RH au recrutement du personnel local ou expatrié (EOR); Le Placement et la gestion du personnel (outsourcing); La Gestion de la paie: externalisation et calcul de la paie, le Team building, La Rédaction de contrat de travail local ou d’expatriation. Nous disposons d’un catalogue varié de formations innovantes que nous adaptons au besoin de votre entreprise. En tant que partenaire stratégique et par notre offre de supervision, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir, tout en maximisant leur performance et leur engagement.",
+          "subtitle": "ITM HR CÔTE D'IVOIRE",
+          "paragraph": "ITM Côte d'Ivoire excelle dans la définition de l'avenir de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre direction. Notre expertise complète couvre l'acquisition stratégique de talents, la gestion des ressources humaines, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des stratégies de main-d'œuvre personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle sur le marché dynamique de la Côte d'Ivoire.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/ci/a-propos-de-nous",
@@ -5418,10 +5418,14 @@
             }
           }
         },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Côte d'Ivoire fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
           "title": "QUE RETENIR SUR ITM CÔTE D'IVOIRE?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Côte d'ivoire s'est rapidement imposée comme un acteur majeur dans la gestion des ressources humaines depuis sa création en 2022. En tant que filiale du groupe panafricain ITM, nous offrons des solutions RH complètes, adaptées aux besoins spécifiques des entreprises de tous secteurs.",
+          "paragraph1": "ITM Côte d'Ivoire excelle dans la définition de l'avenir de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre direction. Notre expertise complète couvre l'acquisition stratégique de talents, la gestion des ressources humaines, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des stratégies de main-d'œuvre personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle sur le marché dynamique de la Côte d'Ivoire.",
           "paragraph2": "Nous nous spécialisons dans le recrutement de personnel local et expatrié (EOR), le placement et la gestion de personnel en sous-traitance, ainsi que la gestion de la paie externalisée. Notre catalogue de formations innovantes, permet aux entreprises de développer les compétences de leurs équipes et de maintenir leur compétitivité dans un environnement en constante évolution. Nos solutions sont conçues pour améliorer la performance des entreprises tout en assurant la conformité avec les meilleures pratiques du marché. Aujourd’hui, ITM Benin gère près de 2 000 employés en externalisation, opérant dans des secteurs variés tels que l’industrie, la téléphonie, l’énergie, et la restauration. En tant que partenaire stratégique, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir tout en maximisant leur engagement et leur productivité.",
           "btnContact": {
             "text": "Contactez-nous",
@@ -5610,8 +5614,8 @@
         "banner": {
           "items": [
             {
-              "title": "BIENVENUE CHEZ ITM SENEGAL",
-              "paragraph": "ITM SENEGAL est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR SENEGAL",
+              "paragraph": "Élever le paysage commercial dynamique du Sénégal grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -5620,8 +5624,8 @@
               }
             },
             {
-              "title": "BIENVENUE CHEZ ITM SENEGAL",
-              "paragraph": "ITM SENEGAL est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins. Que vous cherchiez à améliorer l'efficacité opérationnelle ou à renforcer votre stratégie de gestion des talents, notre savoir-faire est à votre disposition pour vous accompagner vers la réussite.",
+              "title": "BIENVENUE CHEZ ITM HR SENEGAL",
+              "paragraph": "Élever le paysage commercial dynamique du Sénégal grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
               "bgWhite": false,
               "btnMore": {
                 "text": "En savoir plus",
@@ -5633,8 +5637,8 @@
         },
         "about": {
           "title": "QUI SOMMES-NOUS ?",
-          "subtitle": "ITM SENEGAL",
-          "paragraph": "Créé en 2024, ITM SENEGAL filiale du groupe ITM HOLDING se veut comme référence incontournable dans la gestion des ressources humaines. Nos offres de services variées allant de la simple consultation RH au recrutement du personnel local ou expatrié (EOR); Le Placement et la gestion du personnel (outsourcing); La Gestion de la paie: externalisation et calcul de la paie, le Team building, La Rédaction de contrat de travail local ou d’expatriation. Nous disposons d’un catalogue varié de formations innovantes que nous adaptons au besoin de votre entreprise. En tant que partenaire stratégique et par notre offre de supervision, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir, tout en maximisant leur performance et leur engagement.",
+          "subtitle": "ITM HR SENEGAL",
+          "paragraph": "ITM Sénégal est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive du Sénégal.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/sn/a-propos-de-nous",
@@ -5720,10 +5724,14 @@
             }
           }
         },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Sénégal fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
         "aboutEntity": {
-          "title": "QUE RETENIR SUR ITM SENEGAL?",
+          "title": "QUE RETENIR SUR ITM HR SENEGAL?",
           "description": "Nous fournissons des services exclusifs pour votre entreprise",
-          "paragraph1": "ITM Sénégal s'est rapidement imposée comme un acteur majeur dans la gestion des ressources humaines depuis sa création en 2024. En tant que filiale du groupe panafricain ITM, nous offrons des solutions RH complètes, adaptées aux besoins spécifiques des entreprises de tous secteurs.",
+          "paragraph1": "ITM Sénégal est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive du Sénégal.",
           "paragraph2": "Nous nous spécialisons dans le recrutement de personnel local et expatrié (EOR), le placement et la gestion de personnel en sous-traitance, ainsi que la gestion de la paie externalisée. Notre catalogue de formations innovantes, permet aux entreprises de développer les compétences de leurs équipes et de maintenir leur compétitivité dans un environnement en constante évolution. Nos solutions sont conçues pour améliorer la performance des entreprises tout en assurant la conformité avec les meilleures pratiques du marché. Aujourd’hui, ITM Benin gère près de 2 000 employés en externalisation, opérant dans des secteurs variés tels que l’industrie, la téléphonie, l’énergie, et la restauration. En tant que partenaire stratégique, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir tout en maximisant leur engagement et leur productivité.",
           "btnContact": {
             "text": "Contactez-nous",
