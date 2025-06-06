@@ -5639,8 +5639,8 @@
         "banner": {
           "items": [
             {
-              "title": "WELCOME TO ITM SENEGAL",
-              "paragraph": "ITM SENEGAL is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR SENEGAL",
+              "paragraph": "Elevating Senegal's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -5649,8 +5649,8 @@
               }
             },
             {
-              "title": "WELCOME TO ITM SENEGAL",
-              "paragraph": "ITM SENEGAL is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs. Whether you're looking to enhance operational efficiency or elevate your talent strategy, we have the expertise to help you succeed.",
+              "title": "WELCOME TO ITM HR SENEGAL",
+              "paragraph": "Elevating Senegal's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
               "bgWhite": false,
               "btnMore": {
                 "text": "Discover more",
@@ -5662,13 +5662,13 @@
         },
         "about": {
           "title": "WHO ARE WE ?",
-          "subtitle": "ITM SENEGAL",
-          "paragraph": "Founded in 2024, ITM SENEGAL, a subsidiary of the ITM HOLDING group, is an essential reference in human resources management. Our services range from simple HR consulting to recruitment of local or expatriate personnel (EOR); Placement and management of personnel (outsourcing); Payroll management: outsourcing and payroll calculation, Team building, Drafting of local or expatriate employment contracts. We have a varied catalog of innovative training courses that we tailor to your company's needs. As a strategic partner and through our supervision services, we help our customers to create working environments where employees can flourish, while maximizing their performance and commitment.",
+          "subtitle": "ITM HR SENEGAL",
+          "paragraph": "ITM Senegal leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Senegal's vibrant and evolving economy.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/sn/about-us",
             "key": "about-us",
-            "title": "Learn more about ITM history"
+            "title": "Learn more about ITM SENEGAL"
           }
         },
         "meta": {
@@ -5749,10 +5749,14 @@
             }
           }
         },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Senegal is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
         "aboutEntity": {
-          "title": "WHAT TO KNOW ABOUT ITM SENEGAL?",
+          "title": "WHAT TO KNOW ABOUT ITM HR SENEGAL?",
           "description": "We provide exclusive services for your business",
-          "paragraph1": "ITM Senegal has rapidly established itself as a major player in human resources management since its creation in 2022. As a subsidiary of the pan-African ITM Group, we offer comprehensive HR solutions tailored to the specific needs of companies in all sectors.",
+          "paragraph1": "ITM Senegal leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Senegal's vibrant and evolving economy.",
           "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. Today, ITM Benin manages nearly 2,000 outsourced employees, operating in a variety of sectors including industry, telephony, energy and catering. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
           "btnContact": {
             "text": "Contact us",
