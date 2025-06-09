@@ -9,7 +9,7 @@ export default function BannerLandingPage({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.hr.banner;
   return (
-    <div className="p-5">
+    <div className="md:p-5">
       <section className="h-[75vh] mx-auto relative">
         <div className="w-10/12 mx-auto">
           <div className="h-full">
