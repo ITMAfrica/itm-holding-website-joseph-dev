@@ -6,20 +6,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.hr.why;
-  const texts = [
-    {
-      title: "Chefs d'entreprise et employeurs",
-      text: 'Atteignez vos objectifs d’entreprise grâce à nos stratégies RH complètes, notre accompagnement en conformité et nos services d’optimisation des effectifs, conçus pour stimuler la croissance et garantir l’excellence opérationnelle.',
-    },
-    {
-      title: 'Professionnels RH et managers',
-      text: 'Accédez à des outils RH innovants, aux meilleures pratiques et à un accompagnement continu pour optimiser vos processus RH, renforcer l’engagement des collaborateurs et gérer efficacement les talents sur plusieurs marchés.',
-    },
-    {
-      title: "Chercheurs d'emploi et diplômés",
-      text: 'Développez votre potentiel grâce à des opportunités de carrière, des programmes de formation et un environnement propice à la croissance et à la reconnaissance de vos contributions.',
-    },
-  ];
+
   return (
     <section className="bg-white py-4">
       <div>
@@ -38,7 +25,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
             </div>
             <div className="w-full md:flex justify-between flex-wrap">
               {data.cards.map((item: any, index: number) => {
-                return <CardLandingPage {...item} key={index} />;
+                return <CardLandingPage {...item} key={index} index={index} />;
               })}
             </div>
           </div>
