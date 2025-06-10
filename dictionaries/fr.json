@@ -415,6 +415,11 @@
           "address": "Visitez notre bureau"
         },
         "formSection": {
+          "infos": {
+            "title": "Des questions?",
+            "subtitle": "Nous sommes là pour vous",
+            "paragraph": "Contactez-nous et nous vous aiderons à trouver l'emploi ou l'équipe de vos rêves."
+          },
           "form": {
             "firstName": {
               "label": "Nom*",
