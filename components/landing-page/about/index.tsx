@@ -9,7 +9,7 @@ export default function AboutLandingPage({ params }: { params: any }) {
   const data = dictionary.globalContent.pages.hr.about;
   return (
     <section className="md:flex justify-center w-full mx-auto py-10 bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
-      <div className="w-10/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
+      <div className="w-11/12 lg:w-10/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
         <div className="md:flex items-center">
           <div className="w-fit mx-auto md:w-3/5 lg:w-1/2">
             <Image
