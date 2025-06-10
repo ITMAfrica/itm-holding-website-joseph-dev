@@ -236,6 +236,45 @@
         "country": {
           "title": "ITM HR",
           "subtitle": "Trouvez ITM HR dans votre pays"
+        },
+        "meta": {
+          "title": "Bienvenue chez ITM HR | Votre partenaire stratégique en solutions RH",
+          "description": "En tant que membre d'ITM Holding, ITM HR Group fournit des solutions stratégiques de capital humain dans 18 pays africains. Nous exploitons les ressources et l'expertise d'un conglomérat panafricain pour offrir une gestion de la main-d'œuvre conforme et évolutive qui stimule une croissance commerciale durable. Grâce à l'excellence opérationnelle et au développement complet des talents, nous servons de partenaire de confiance pour votre succès à long terme dans les marchés dynamiques de l'Afrique.",
+          "generator": "Next.js",
+          "applicationName": "ITM HR",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa RDC",
+            "ITM Africa",
+            "Human Ressource Africa",
+            "Team Building",
+            "Formation ITM",
+            "Ressource humaine en Afrique",
+            "Gestion de payroll",
+            "ITM HR"
+          ],
+          "authors": [{ "name": "Amos Bafuna" }],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
         }
       },
       "home": {
