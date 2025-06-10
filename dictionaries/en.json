@@ -420,6 +420,11 @@
           "address": "Visit our office"
         },
         "formSection": {
+          "infos": {
+            "title": "Got question?",
+            "subtitle": "We are happy to help",
+            "paragraph": "Contact us and let's help you get started to find your dream job or your dream team"
+          },
           "form": {
             "firstName": {
               "label": "First name*",

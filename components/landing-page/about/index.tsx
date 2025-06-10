@@ -20,7 +20,7 @@ export default function AboutLandingPage({ params }: { params: any }) {
               className="mx-auto"
             />
           </div>
-          <div className="md:w-1/2 pt-10 md:pt-0">
+          <div className="md:w-1/2 pt-10 md:pt-0 ml-0 sm:ml-10 lg:ml-0">
             <SectionTitle text={data.title} />
             <h1 className="text-blue_itm_good text-5xl font-bold mb-2">
               {data.subtitle}
