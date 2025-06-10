@@ -13,7 +13,7 @@ export default function CardLandingPage({
   index: number;
 }) {
   const images = [bg, bg2, bg3];
-  return (
+  return index % 2 == 0 ? (
     <article className="z-50 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_title_blue h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
       <Image
         src={images[index]}
@@ -22,6 +22,20 @@ export default function CardLandingPage({
       />
       <div className="w-fit h-fit z-10">
         <h2 className="text-3xl mb-3 font-sans text-blue_itm_aqua_marine">
+          {title}
+        </h2>
+        <p className="text-lg text-white">{text}</p>
+      </div>
+    </article>
+  ) : (
+    <article className="z-50 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_aqua_marine h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
+      <Image
+        src={images[index]}
+        alt="bg"
+        className="h-full w-full absolute z-0 opacity-10"
+      />
+      <div className="w-fit h-fit z-10">
+        <h2 className="text-3xl mb-3 font-sans text-blue_itm_title_blue">
           {title}
         </h2>
         <p className="text-lg text-white">{text}</p>
