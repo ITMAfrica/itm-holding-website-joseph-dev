@@ -17,6 +17,7 @@ import { FaInstagram } from 'react-icons/fa6';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { entitiesInfos } from '@/lib/data';
+import { IoHomeOutline } from 'react-icons/io5';
 
 type linkHeader = {
   href: string;
@@ -101,6 +102,12 @@ export default function Footer({ params }: { params: any }) {
                   <NavLinkFooter {...item} key={index} />
                 ))}
               </ul>
+              <h4 className="flex items-center text-lg">
+                <span className="mr-2">
+                  <IoHomeOutline />
+                </span>
+                <Link href={`/${lang}`}>Group</Link>
+              </h4>
             </div>
           ) : (
             ''
