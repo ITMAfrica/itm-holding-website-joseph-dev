@@ -13,7 +13,7 @@ export default function HomeMetricsCard({
   return (
     <div
       id="counter"
-      className="group rounded-lg lg:w-[23%] md:w-[48%] w-full bg-white/20 mb-4 lg:mb-0 text-white py-4 px-5"
+      className="group rounded-lg lg:w-[23%] md:w-[48%] w-full bg-blue_itm_aqua_marine/45 mb-4 lg:mb-0 text-white py-4 px-5"
     >
       <h2 className="md:text-6xl text-5xl font-bold mb-2 group-hover:text-blue_itm_aqua_marine">
         <CountUp
