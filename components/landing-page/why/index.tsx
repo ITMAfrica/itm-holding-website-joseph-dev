@@ -19,7 +19,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
                   {data.subtitle}
                 </h1>
               </div>
-              <p className="md:w-[40%] text-xl font-sans font-lg">
+              <p className="md:w-[50%] text-xl font-sans font-lg">
                 {data.text}
               </p>
             </div>
