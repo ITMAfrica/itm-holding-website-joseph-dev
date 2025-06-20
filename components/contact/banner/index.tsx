@@ -5,8 +5,8 @@ export default function ContactPageBanner({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.contact.banner;
   return (
-    <section className="w-full md:h-[60vh] h-[45vh] sm:py-10 py-5">
-      <div className="flex items-center w-11/12 mx-auto text-white bg-cover bg-center bg-[url('../public/assets/bg/banner_contact.png')] h-full rounded-xl">
+    <section className="w-full md:h-[60vh] h-[45vh] p-4">
+      <div className="flex items-center mx-auto text-white bg-cover bg-center bg-[url('../public/assets/bg/banner_contact.png')] h-full rounded-xl">
         <section className="sm:w-1/2 sm:ml-20 ml-5 mr-4 sm:mr-0">
           <h1 className="md:text-5xl text-4xl font-bold mb-4">{data.title}</h1>
           <p className="font-open">{data.subtitle}</p>

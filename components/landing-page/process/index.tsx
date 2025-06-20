@@ -13,7 +13,7 @@ export default function ProcessLandingPage({ params }: { params: any }) {
         <div className="md:flex items-center">
           <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
             <SectionTitle text="ITM HR" />
-            <h1 className="text-blue_itm_good text-3xl font-bold mb-2">
+            <h1 className="text-blue_itm_good text-4xl font-bold mb-2">
               {data.subtitle}
             </h1>
             <p className="mb-2 lg:w-11/12 font-open text-xl font-lg text-black_itm">
