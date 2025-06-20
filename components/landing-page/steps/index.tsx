@@ -22,7 +22,7 @@ export default function StepsLandingPage({ params }: { params: any }) {
           </div>
           <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
             <SectionTitle text="ITM HR" />
-            <h1 className="text-blue_itm_good text-3xl font-bold mb-4">
+            <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
               {data.subtitle}
             </h1>
             <div className="mb-5 lg:w-11/12 font-open font-lg text-black_itm">

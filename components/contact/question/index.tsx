@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import image1 from '@/public/pages/contact/contact2.png';
-import image2 from '@/public/pages/contact/contact1.png';
+import image2 from '@/public/pages/contact/contact1.jpg';
 import image3 from '@/public/pages/contact/contact3.png';
 import image4 from '@/public/pages/contact/contact4.png';
 import ContactPageForm from '../form';

@@ -2,7 +2,7 @@
 import CardFaq from '@/components/global/cards/faq';
 import { getDictionary } from '@/get-dictionary';
 import imageLeft from '@/public/assets/bg/bg.about.jpg';
-import imageRight from '@/public/assets/bg/design_about.jpg';
+import imageRight from '@/public/assets/bg/design_about.png';
 import Image from 'next/image';
 import { useState } from 'react';
 

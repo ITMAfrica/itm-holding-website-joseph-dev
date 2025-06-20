@@ -18,9 +18,9 @@ export default function CardEntity({
 }: any) {
   if (index == activeSlide) {
     return (
-      <article className="w-[100vw] h-fit lg:h-[70vh] lg:flex">
-        <div className="lg:w-1/2 h-full relative lg:py-10 pt-10 flex justify-center lg:justify-end">
-          <div className="w-11/12 lg:w-10/12 h-[50vh] lg:h-full bg-white relative ">
+      <article className="w-[100vw] h-fit lg:h-[70vh] md:flex">
+        <div className="md:w-1/2 h-full relative flex justify-center lg:justify-end">
+          <div className="w-full h-[50vh] lg:h-full bg-white relative ">
             <div className="w-full h-full relative overflow-hidden">
               <Image
                 src={image}
@@ -76,7 +76,7 @@ export default function CardEntity({
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
+        <div className="md:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
           <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
             <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30 rounded-tr-md rounded-br-md">
               <div
