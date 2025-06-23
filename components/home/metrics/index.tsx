@@ -6,7 +6,7 @@ export default function HomeMetrics({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.home.metrics;
   return (
-    <section className="bg-no-repeat bg-[url('../public/pages/home/bg_metrics.png')] bg-cover bg-black/70 w-full">
+    <section className="bg-no-repeat bg-[url('../public/pages/home/bg_metrics.jpg')] bg-cover bg-black/70 w-full">
       <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-16">
         <div className="m-auto">
           <div className="md:flex justify-between md:mb-16 mb-10 text-white">
