@@ -11,7 +11,6 @@ export default function ServicesPage({ params }: any) {
       <ServicesPageBanner params={params} />
       <ServicesPageAbout params={params} />
       <ServicesPageServices params={params} />
-      {/* <Teams params={params} /> */}
       <Faqs params={params} />
       <CallToAction params={params} />
     </main>
