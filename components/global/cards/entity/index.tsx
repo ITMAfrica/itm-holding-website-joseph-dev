@@ -77,7 +77,7 @@ export default function CardEntity({
           </div>
         </div>
         <div className="md:w-1/2 h-full lg:py-10 pb-10 flex lg:justify-start justify-center relative ">
-          <div className="w-11/12 lg:w-10/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
+          <div className="w-11/12 h-full lg:py-0 py-10  flex items-center lg:justify-start justify-center bg-white relative">
             <div className="absolute lg:flex hidden z-20 text-blue_itm_aqua_marine text-2xl justify-center h-[90px] items-center w-2/12 left-0 right-0 bottom-full lg:bottom-0 bg-entityBar/30 rounded-tr-md rounded-br-md">
               <div
                 onClick={function () {
@@ -97,7 +97,7 @@ export default function CardEntity({
                 <MdOutlineKeyboardArrowRight />
               </div>
             </div>
-            <div className="w-10/12 lg:w-8/12 mx-auto">
+            <div className="w-10/12 lg:w-9/12 mx-auto md:mr-10">
               <h2 className="text-4xl titleAnimation w-full mx-auto font-bold text-blue_itm_primary pb-3">
                 {name}
               </h2>

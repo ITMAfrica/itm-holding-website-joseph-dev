@@ -91,6 +91,7 @@ export default function HomeHeader({ params }: propsPage) {
         </div>
         {root != undefined ? (
           <nav className="w-fit lg:flex hidden items-center justify-evenly">
+            <NavLinkCard {...data.group} key={10} />
             {data?.links.map((item: linkHeader, index: number) => (
               <NavLinkCard {...item} key={index} />
             ))}
@@ -132,6 +133,7 @@ export default function HomeHeader({ params }: propsPage) {
                   </Link>
                 </div>
                 <nav className="w-full bg-white items-center justify-evenly">
+                  <NavLinkCard {...data.group} key={10} />
                   {data?.links.map((item: linkHeader, index: number) => (
                     <NavLinkCard
                       {...item}
