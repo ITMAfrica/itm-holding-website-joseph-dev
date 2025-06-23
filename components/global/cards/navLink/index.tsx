@@ -31,6 +31,8 @@ export default function NavLinkCard({
     const current = href.split('/')[2];
     if (href == TALENTPRO_HREF) {
       return href;
+    } else if (href == '/en' || href == '/fr') {
+      return href;
     } else {
       return `/${params.lang}/${
         params.country ? params.country : CURRENT_CODE

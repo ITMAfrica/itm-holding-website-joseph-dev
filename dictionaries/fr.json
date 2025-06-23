@@ -2,6 +2,10 @@
   "global": {
     "header": {
       "cd": {
+        "group": {
+          "href": "/fr",
+          "name": "GROUPE"
+        },
         "links": [
           {
             "href": "/fr/a-propos-de-nous",
