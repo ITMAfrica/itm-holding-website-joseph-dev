@@ -11,7 +11,7 @@ export default function ServicesPageBanner({ params }: { params: any }) {
           <h1 className="md:text-5xl text-2xl font-bold sm:mb-4 mb-2">
             {data.title}
           </h1>
-          <p className="font-open">{data.subtitle}</p>
+          <p className="font-open text-xl">{data.subtitle}</p>
         </section>
       </div>
     </section>

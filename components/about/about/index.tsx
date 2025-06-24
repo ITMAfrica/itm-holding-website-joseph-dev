@@ -14,7 +14,7 @@ export default function AboutPageAbout({ params }: any) {
       <div className="w-11/12 lg:w-10/12 mx-auto flex lg:flex-nowrap items-start flex-wrap">
         <article className="md:w-1/2 w-full lg:pr-20 pr-0">
           <SectionTitle text={data.title} />
-          <h1 className="font-bold md:text-6xl text-4xl pt-3 lg:pb-0 pb-3 text-blue_itm_primary">
+          <h1 className="font-bold md:text-4xl text-2xl pt-3 lg:pb-0 pb-3 text-blue_itm_primary">
             {data.description}
           </h1>
         </article>
