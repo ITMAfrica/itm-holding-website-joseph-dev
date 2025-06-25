@@ -568,6 +568,15 @@ export const entities = [
     logo: keLogo,
   },
   {
+    fr: 'Rwanda',
+    en: 'Rwanda',
+    name: 'ITM RWANDA',
+    href: '/en/rw',
+    code: 'rw',
+    flag: rwFlag,
+    logo: rwLogo,
+  },
+  {
     fr: 'Rép. du Congo',
     en: 'Congo Republic',
     name: 'ITM BRAZZA',

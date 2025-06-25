@@ -207,6 +207,14 @@ export const getCountryCode = (country: string | undefined) => {
   }
 };
 
+export const entities_to_display = (locationCode: string, entities: any) => {
+  if (locationCode.toLowerCase() === 'cd') {
+    return entities.filter((item: any) => item.code !== 'rw');
+  } else {
+    return entities;
+  }
+};
+
 export const mail_api_url = 'http://email.itmafrica.com/api';
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
