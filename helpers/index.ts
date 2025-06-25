@@ -211,3 +211,4 @@ export const mail_api_url = 'http://email.itmafrica.com/api';
 export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
 export const KAZIPRO_HREF: string = 'https://www.kazipro.app/fr';
+export const COUNTRY_API_URL: string = 'https://api.country.is';

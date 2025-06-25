@@ -14,7 +14,7 @@ export default function CardLandingPage({
 }) {
   const images = [bg, bg2, bg3];
   return index % 2 == 0 ? (
-    <article className="z-50 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_title_blue h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
+    <article className="z-20 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_title_blue h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
       <Image
         src={images[index]}
         alt="bg"
@@ -28,7 +28,7 @@ export default function CardLandingPage({
       </div>
     </article>
   ) : (
-    <article className="z-50 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_aqua_marine h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
+    <article className="z-20 md:w-[31%] mb-6 md:mb-0 bg-blue_itm_aqua_marine h-[320px] rounded-lg flex items-center justify-center px-5 lg:px-10 relative">
       <Image
         src={images[index]}
         alt="bg"
