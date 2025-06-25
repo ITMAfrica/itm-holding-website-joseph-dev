@@ -339,7 +339,7 @@
               "bg": false
             },
             {
-              "number": "18",
+              "number": "20",
               "title": "Pays d'expertise",
               "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale.",
               "bg": true
@@ -371,7 +371,7 @@
         },
         "about": {
           "title": "NOTRE GROUPE",
-          "description": "Fondée en 2011 en République démocratique du Congo par M. Sylva Monga, ITM Holding a débuté sous le nom de « International Training & Motivation », en se concentrant sur la formation et la gestion du personnel. Au fur et à mesure de l'évolution du paysage commercial africain, ITM a élargi ses services et sa portée pour devenir un conglomérat panafricain diversifié. Aujourd'hui, ITM Holding exploite neuf sociétés dans 18 pays, employant plus de 15 000 personnes et investissant dans des secteurs tels que les ressources humaines, l'exploitation minière, les services financiers, la logistique, l'externalisation des processus métier (BPO), et plus.",
+          "description": "Fondée en 2011 en République démocratique du Congo par M. Sylva Monga, ITM Holding a débuté sous le nom de « International Training & Motivation », en se concentrant sur la formation et la gestion du personnel. Au fur et à mesure de l'évolution du paysage commercial africain, ITM a élargi ses services et sa portée pour devenir un conglomérat panafricain diversifié. Aujourd'hui, ITM Holding exploite neuf sociétés dans 20 pays, employant plus de 15 000 personnes et investissant dans des secteurs tels que les ressources humaines, l'exploitation minière, les services financiers, la logistique, l'externalisation des processus métier (BPO), et plus.",
           "items": [
             {
               "question": "Notre histoire",
@@ -379,7 +379,7 @@
             },
             {
               "question": "Ce qui nous différencie",
-              "response": "Présents dans 18 pays, nous avons une connaissance inégalée des marchés, des cultures et des réglementations locales, ce qui nous permet de proposer des solutions adaptées à chaque région."
+              "response": "Présents dans 20 pays, nous avons une connaissance inégalée des marchés, des cultures et des réglementations locales, ce qui nous permet de proposer des solutions adaptées à chaque région."
             },
             {
               "question": "Ce qui nous définit",
@@ -414,7 +414,7 @@
                 "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
               },
               "country": {
-                "number": "+18",
+                "number": "+20",
                 "title": "Pays d'expertise",
                 "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
               },

@@ -310,7 +310,7 @@
         "about": {
           "title": "WHO ARE WE ?",
           "subtitle": "ITM HR",
-          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 18 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
+          "paragraph": "ITM HR is a leading provider of Human Resource solutions, offering tailored services across 20 countries in Africa. We specialize in recruitment, payroll management, performance optimization, and employee training, helping businesses enhance their workforce and operational efficiency. As part of ITM Holding, we leverage the resources and expertise of a pan-African conglomerate to deliver compliant and effective solutions that support long-term business success. With a strong focus on operational excellence and employee development, ITM HR is your trusted partner for sustainable growth.",
           "btnMore": {
             "text": "Discover more",
             "link": "/en/about-us",
@@ -340,7 +340,7 @@
               "bg": false
             },
             {
-              "number": "18",
+              "number": "20",
               "title": "Countries of Expertise",
               "description": "With a strong presence across Africa, we offer deep local insights and a global perspective.",
               "bg": true
@@ -372,15 +372,15 @@
         },
         "about": {
           "title": "OUR GROUP",
-          "description": "Founded in 2011 in the Democratic Republic of the Congo by Mr Sylva Monga, ITM Holding began as “International Training & Motivation,” focused on training and staff management. As Africa’s business landscape evolved, so did ITM-expanding its services and reach to become a diversified pan-African conglomerate. Today, ITM Holding operates nine companies across 18 countries, employing over 15,000 people and investing in sectors including Human Resources, mining, financial services, logistics, BPO, and more.",
+          "description": "Founded in 2011 in the Democratic Republic of the Congo by Mr Sylva Monga, ITM Holding began as “International Training & Motivation,” focused on training and staff management. As Africa’s business landscape evolved, so did ITM-expanding its services and reach to become a diversified pan-African conglomerate. Today, ITM Holding operates nine companies across 20 countries, employing over 15,000 people and investing in sectors including Human Resources, mining, financial services, logistics, BPO, and more.",
           "items": [
             {
               "question": "Our history",
-              "response": "ITM, founded in DR Congo in 2011, started as a training and staff management company. Today, ITM Holding operates in 18 countries with over 15,000 employees across various industries."
+              "response": "ITM, founded in DR Congo in 2011, started as a training and staff management company. Today, ITM Holding operates in 20 countries with over 15,000 employees across various industries."
             },
             {
               "question": "What makes us different",
-              "response": "With operations in 18 countries, we have an unmatched understanding of local markets, cultures, and regulations, enabling us to deliver region-specific solutions that work."
+              "response": "With operations in 20 countries, we have an unmatched understanding of local markets, cultures, and regulations, enabling us to deliver region-specific solutions that work."
             },
             {
               "question": "What defines us",
@@ -417,7 +417,7 @@
                 "bg": false
               },
               "country": {
-                "number": "+18",
+                "number": "+20",
                 "title": "Countries of Expertise",
                 "description": "With a strong presence across Africa, we offer deep local insights and a global perspective.",
                 "bg": true
