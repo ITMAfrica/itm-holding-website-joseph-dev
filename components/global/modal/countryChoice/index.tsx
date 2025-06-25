@@ -1,5 +1,11 @@
 'use client';
-import { CODE, getCookie, setCookie } from '@/helpers';
+import {
+  CODE,
+  COUNTRY_API_URL,
+  entities_to_display,
+  getCookie,
+  setCookie,
+} from '@/helpers';
 import { entities } from '@/lib/data';
 import { useEffect, useState } from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
@@ -12,6 +18,7 @@ export default function ModalCountryChoice({ init = false }: any) {
   const lang: string = params.lang;
   const pathname = usePathname();
   const [modal, setModal] = useState(init);
+  const [currentLocation, setCurrentLocation] = useState('cd');
   const dictionary = getDictionary(lang);
   const data: any = dictionary.global.modal[CODE];
 
@@ -39,6 +46,17 @@ export default function ModalCountryChoice({ init = false }: any) {
       if (init) {
         openModal();
       }
+
+      fetch(COUNTRY_API_URL, { method: 'GET' })
+        .then(function (res) {
+          return res.json();
+        })
+        .then(function ({ country }) {
+          setCurrentLocation(country);
+        })
+        .catch(function (err) {
+          console.error('Error fetching user location:', err);
+        });
     },
     [init]
   );
@@ -63,23 +81,26 @@ export default function ModalCountryChoice({ init = false }: any) {
               {data?.title}
             </h1>
             <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">
-              {entities
-                ?.sort(function (a: any, b: any) {
-                  const first: string = a[lang];
-                  const last: string = b[lang];
-                  return first?.localeCompare(last, undefined, {
-                    sensitivity: 'base',
-                  });
-                })
-                .map(function (item: any, index: number) {
-                  return (
-                    <CardCountryChoice
-                      {...item}
-                      closeModal={closeModal}
-                      key={index}
-                    />
-                  );
-                })}
+              {
+                //Display all contries without Rwanda when your location is cd
+                entities_to_display(currentLocation, entities)
+                  .sort(function (a: any, b: any) {
+                    const first: string = a[lang];
+                    const last: string = b[lang];
+                    return first?.localeCompare(last, undefined, {
+                      sensitivity: 'base',
+                    });
+                  })
+                  .map(function (item: any, index: number) {
+                    return (
+                      <CardCountryChoice
+                        {...item}
+                        closeModal={closeModal}
+                        key={index}
+                      />
+                    );
+                  })
+              }
             </div>
           </div>
         </div>
