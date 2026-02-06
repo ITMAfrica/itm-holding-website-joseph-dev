@@ -907,7 +907,7 @@ export const entitiesInfos: any = {
   },
   ke: {
     address: '104 KOFISI DRIVE, Nairobi, Kenya',
-    phone: '+254 722 272 596',
+    phone: '+254 718 162 617',
     email: 'infokenya@itmafrica.com',
     social_medias: {
       facebook:

@@ -6,75 +6,98 @@ import ServicesPage from '@/components/pages/services';
 import TrainingPage from '@/components/pages/training';
 import { getDictionary } from '@/get-dictionary';
 import { getCountryCode } from '@/helpers';
+import { generateMetadata as generateMeta } from '@/lib/metadata';
 import { notFound } from 'next/navigation';
+
+// Map country codes to country names
+const COUNTRY_CODES = [
+  'cd',
+  'tz',
+  'tg',
+  'ao',
+  'bj',
+  'bu',
+  'cg',
+  'cm',
+  'de',
+  'bi',
+  'gb',
+  'ke',
+  'ng',
+  'ug',
+  'za',
+  'zm',
+  'rw',
+  'ci',
+  'sn',
+];
+
+const PAGE_PATHS: Record<string, string> = {
+  'about-us': 'about-us',
+  'a-propos-de-nous': 'a-propos-de-nous',
+  services: 'services',
+  training: 'training',
+  formations: 'formations',
+  news: 'news',
+  actualites: 'actualites',
+  'contact-us': 'contact-us',
+  'contactez-nous': 'contactez-nous',
+};
 
 export async function generateMetadata({ params }: any) {
   const lang = params.lang;
   const country = getCountryCode(params.country);
   const dictionary = getDictionary(lang);
-  const data: any = dictionary[country].pages;
-  const notFound: any = dictionary.globalContent.pages.notFound;
+  const notFoundData: any = dictionary.globalContent.pages.notFound;
 
-  switch (params.country) {
-    case 'cd':
-      return data.home.meta;
-    case 'tz':
-      return data.home.meta;
-    case 'tg':
-      return data.home.meta;
-    case 'ao':
-      return data.home.meta;
-    case 'bj':
-      return data.home.meta;
-    case 'bu':
-      return data.home.meta;
-    case 'cg':
-      return data.home.meta;
-    case 'cm':
-      return data.home.meta;
-    case 'de':
-      return data.home.meta;
-    case 'bi':
-      return data.home.meta;
-    case 'gb':
-      return data.home.meta;
-    case 'ke':
-      return data.home.meta;
-    case 'ng':
-      return data.home.meta;
-    case 'ug':
-      return data.home.meta;
-    case 'za':
-      return data.home.meta;
-    case 'zm':
-      return data.home.meta;
-    case 'rw':
-      return data.home.meta;
-    case 'ci':
-      return data.home.meta;
-    case 'sn':
-      return data.home.meta;
-    case 'about-us':
-      return data.about.meta;
-    case 'a-propos-de-nous':
-      return data.about.meta;
-    case 'services':
-      return data.services.meta;
-    case 'training':
-      return data.training.meta;
-    case 'formations':
-      return data.training.meta;
-    case 'news':
-      return data.news.meta;
-    case 'actualites':
-      return data.news.meta;
-    case 'contact-us':
-      return data.contact.meta;
-    case 'contactez-nous':
-      return data.contact.meta;
-    default:
-      return notFound.meta;
+  let metaData: any;
+  let pagePath = '';
+  let isCountryPage = COUNTRY_CODES.includes(params.country);
+
+  if (isCountryPage) {
+    const data: any = dictionary[country].pages;
+    metaData = data.home.meta;
+  } else {
+    // It's a page route
+    const data: any = dictionary[country].pages;
+    pagePath = PAGE_PATHS[params.country] || params.country;
+
+    switch (params.country) {
+      case 'about-us':
+      case 'a-propos-de-nous':
+        metaData = data.about.meta;
+        break;
+      case 'services':
+        metaData = data.services.meta;
+        break;
+      case 'training':
+      case 'formations':
+        metaData = data.training.meta;
+        break;
+      case 'news':
+      case 'actualites':
+        metaData = data.news.meta;
+        break;
+      case 'contact-us':
+      case 'contactez-nous':
+        metaData = data.contact.meta;
+        break;
+      default:
+        metaData = notFoundData.meta;
+    }
   }
+
+  return generateMeta({
+    title: metaData?.title || 'ITM Africa',
+    description:
+      metaData?.description || 'ITM HR - Strategic HR Solutions in Africa',
+    keywords: metaData?.keywords || [],
+    locale: lang,
+    country: isCountryPage ? params.country : undefined,
+    path: pagePath || undefined,
+    images: ['/assets/logo/logo.png'],
+    type: 'website',
+  });
 }
 
 export default function PageCountry({ params }: { params: any }) {

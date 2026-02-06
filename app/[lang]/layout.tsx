@@ -5,6 +5,10 @@ import localFont from 'next/font/local';
 import { Open_Sans } from 'next/font/google';
 import Footer from '@/components/global/footer';
 import { Analytics } from '@vercel/analytics/next';
+import { generateMetadata as generateSEOMetadata } from '@/lib/metadata';
+import { getDictionary } from '@/get-dictionary';
+import StructuredData from '@/components/global/structured-data';
+import { Metadata } from 'next';
 import '@/styles/global.css';
 
 const candara = localFont({
@@ -38,11 +42,26 @@ const openSans = Open_Sans({
   display: 'swap',
 });
 
-export const metadata = {
-  title: 'ITM Africa | Welcome to the ITM Africa web site',
-  description:
-    'ITM HR is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> {
+  const lang = (await params).lang;
+  const dictionary = getDictionary(lang);
+  const metaData = dictionary.globalContent.pages.hr.meta;
+
+  return generateSEOMetadata({
+    title: metaData.title || 'ITM Africa | Welcome to the ITM Africa web site',
+    description:
+      metaData.description ||
+      'ITM HR is your strategic partner in HR solutions in Africa.',
+    keywords: metaData.keywords || [],
+    locale: lang,
+    images: ['/assets/logo/logo.png'],
+    type: 'website',
+  });
+}
 
 export default async function Root({
   children,
@@ -51,9 +70,12 @@ export default async function Root({
   children: React.ReactNode;
   params: { lang: Locale };
 }) {
-  const lang = await params;
+  const lang = (await params).lang;
   return (
-    <html lang={lang.lang} className="scroll-smooth">
+    <html lang={lang} className="scroll-smooth">
+      <head>
+        <StructuredData locale={lang} />
+      </head>
       <body
         suppressHydrationWarning={true}
         className={`${openSans.variable} ${candara.className}`}
