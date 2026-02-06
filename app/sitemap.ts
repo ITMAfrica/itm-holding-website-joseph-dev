@@ -98,11 +98,13 @@ const COUNTRY_PRIORITY: Record<string, number> = {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
+  const now = new Date();
+  const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
   // Page d'accueil principale
   entries.push({
     url: BASE_URL,
-    lastModified: new Date(),
+    lastModified: now,
     changeFrequency: 'daily',
     priority: 1,
   });
@@ -115,7 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Page accueil du pays
       entries.push({
         url: `${BASE_URL}/${lang}/${country}`,
-        lastModified: new Date(),
+        lastModified: yesterday,
         changeFrequency: 'weekly',
         priority: countryBasePriority,
       });
@@ -129,7 +131,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         if (pagePath) {
           entries.push({
             url: `${BASE_URL}/${lang}/${country}/${pagePath}`,
-            lastModified: new Date(),
+            lastModified: yesterday,
             changeFrequency: pageConfig.changeFrequency as
               | 'daily'
               | 'weekly'
