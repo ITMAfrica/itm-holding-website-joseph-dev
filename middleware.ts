@@ -1,11 +1,11 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-import { i18n } from "./i18n-config";
+import { i18n } from './i18n-config';
 
-import { match as matchLocale } from "@formatjs/intl-localematcher";
-import Negotiator from "negotiator";
-import { CODE, TALENTPRO_HREF } from "./helpers";
+import { match as matchLocale } from '@formatjs/intl-localematcher';
+import Negotiator from 'negotiator';
+import { CODE, TALENTPRO_HREF } from './helpers';
 
 function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
@@ -28,31 +28,19 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
-  // // If you have one
-  // if (
-  //   [
-  //     '/manifest.json',
-  //     '/favicon.ico',
-  //     // Your other files in `public`
-  //   ].includes(pathname)
-  // )
-  //   return
-
-
-  const countryTag = request.cookies.get("country")
+  const countryTag = request.cookies.get('country');
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every(
     (locale) =>
       !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
   );
-  function getHref(lang: string = "en") {
-    const href: string = pathname
-    const CURRENT_CODE = request.cookies.get("country")
+  function getHref(lang: string = 'en') {
+    const href: string = pathname;
+    const CURRENT_CODE = request.cookies.get('country');
     const current = href.split('/')[3];
-    if ((CURRENT_CODE) && (CURRENT_CODE.value != CODE) && (current != undefined)) {
+    if (CURRENT_CODE && CURRENT_CODE.value != CODE && current != undefined) {
       return `/${lang}/${CURRENT_CODE}/${current}`;
-    } else if (CURRENT_CODE && (CURRENT_CODE.value != CODE)) {
+    } else if (CURRENT_CODE && CURRENT_CODE.value != CODE) {
       return `/${lang}/${CURRENT_CODE.value}`;
     } else {
       return `/${lang}`;
@@ -65,21 +53,15 @@ export function middleware(request: NextRequest) {
 
     // e.g. incoming request is /products
     // The new URL is now /en-US/products
-    return NextResponse.redirect(
-      new URL(
-        getHref(locale),
-        request.url,
-      ),
-    );
-  }
-  else if (pathnameIsMissingLocale) {
+    return NextResponse.redirect(new URL(getHref(locale), request.url));
+  } else if (pathnameIsMissingLocale) {
     const locale = getLocale(request);
 
     // e.g. incoming request is /products
     // The new URL is now /en-US/products
     return NextResponse.redirect(
       new URL(
-        `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+        `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
         request.url,
       ),
     );
@@ -88,5 +70,5 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 };
