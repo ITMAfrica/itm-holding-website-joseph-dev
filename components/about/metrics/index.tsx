@@ -1,9 +1,14 @@
 import { getDictionary } from '@/get-dictionary';
+import { getCountryCode } from '@/helpers';
 
 export default function AboutPageMetrics({ params }: { params: any }) {
   const lang = params.lang;
   const dictionary = getDictionary(lang);
-  const data = dictionary.globalContent.pages.about.metrics;
+  const code = params.country ? getCountryCode(params.country) : null;
+  const data =
+    code && dictionary[code]?.pages?.about?.metrics
+      ? dictionary[code].pages.about.metrics
+      : dictionary.globalContent.pages.about.metrics;
   return (
     <section className="h-fit bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
       <main className="flex flex-wrap items-center w-full lg:w-10/12 mx-auto lg:py-20 py-10">
