@@ -682,6 +682,45 @@
             "text": "Nous contacter",
             "link": "/fr/cd/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -979,6 +1018,45 @@
           "btnContact": {
             "text": "Nous contacter",
             "link": "/fr/de/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -1278,6 +1356,45 @@
             "text": "Nous contacter",
             "link": "/fr/bi/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -1575,6 +1692,45 @@
           "btnContact": {
             "text": "Nous contacter",
             "link": "/fr/cm/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -1874,6 +2030,45 @@
             "text": "Nous contacter",
             "link": "/fr/cg/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -2171,6 +2366,45 @@
           "btnContact": {
             "text": "Nous contacter",
             "link": "/fr/gb/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -2470,6 +2704,45 @@
             "text": "Nous contacter",
             "link": "/fr/tz/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+20",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+1000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+50",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -2767,6 +3040,45 @@
           "btnContact": {
             "text": "Nous contacter",
             "link": "/fr/tg/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -3066,6 +3378,45 @@
             "text": "Nous contacter",
             "link": "/fr/ug/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -3364,6 +3715,45 @@
             "text": "Nous contacter",
             "link": "/fr/zm/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -3661,6 +4051,45 @@
           "btnContact": {
             "text": "Contact us",
             "link": "/fr/rw/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -3964,6 +4393,45 @@
             "text": "Contactez-nous",
             "link": "/fr/ke/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -4265,6 +4733,45 @@
           "btnContact": {
             "text": "Contactez-nous",
             "link": "/fr/za/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -4568,6 +5075,45 @@
             "text": "Contactez-nous",
             "link": "/fr/ao/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -4870,6 +5416,45 @@
             "text": "Contactez-nous",
             "link": "/fr/ng/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -5171,6 +5756,45 @@
           "btnContact": {
             "text": "Contactez-nous",
             "link": "/fr/bj/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
@@ -5479,6 +6103,45 @@
             "text": "Contactez-nous",
             "link": "/fr/ci/contactez-nous"
           }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
         }
       },
       "services": {
@@ -5784,6 +6447,45 @@
           "btnContact": {
             "text": "Contactez-nous",
             "link": "/fr/sn/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
           }
         }
       },
