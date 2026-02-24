@@ -1,22 +1,15 @@
-import client1 from '@/public/pages/home/partners/client1.png';
-import client2 from '@/public/pages/home/partners/client2.png';
-import client3 from '@/public/pages/home/partners/client3.png';
-import client4 from '@/public/pages/home/partners/client4.png';
-import client5 from '@/public/pages/home/partners/client5.png';
-import client6 from '@/public/pages/home/partners/client6.png';
-import client7 from '@/public/pages/home/partners/client7.png';
-import client8 from '@/public/pages/home/partners/client8.png';
-import client9 from '@/public/pages/home/partners/client9.png';
-import client10 from '@/public/pages/home/partners/client10.png';
-import client11 from '@/public/pages/home/partners/client11.png';
-import client12 from '@/public/pages/home/partners/client12.png';
 import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
+import { getCountryCode } from '@/helpers';
+import { getPartnerLogosForCountry } from '@/lib/partners-logos';
 
 export default function HomePartners({ params }: { params: any }) {
   const lang = params.lang;
+  const countryCode = getCountryCode(params?.country);
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.home.partners;
+  const logos = getPartnerLogosForCountry(countryCode);
+
   return (
     <section className="flex items-center py-20">
       <div className="w-full">
@@ -29,48 +22,59 @@ export default function HomePartners({ params }: { params: any }) {
           </h3>
         </div>
         <div className="md:w-9/12 w-11/12 mx-auto md:mt-10 mt-4">
-          <ul className="flex md:justify-between justify-around items-center flex-wrap">
-            <li className="mb-4 md:mb-0">
-              <Image src={client1} alt="Client" width={100} height={100} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client2} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client3} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client4} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client5} alt="Client" width={130} height={130} />
-            </li>
-          </ul>
-          <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 lg:px-20">
-            <li className="mb-4 md:mb-0">
-              <Image src={client6} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client7} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client8} alt="Client" width={100} height={100} />
-            </li>
-          </ul>
-          <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 md:px-20">
-            <li className="mb-4 md:mb-0">
-              <Image src={client9} alt="Client" width={130} height={130} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client10} alt="Client" width={150} height={150} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client11} alt="Client" width={100} height={100} />
-            </li>
-            <li className="mb-4 md:mb-0">
-              <Image src={client12} alt="Client" width={100} height={100} />
-            </li>
-          </ul>
+          {logos.length === 12 ? (
+            <>
+              <ul className="flex md:justify-between justify-around items-center flex-wrap">
+                {logos.slice(0, 5).map((logo, index) => (
+                  <li key={index} className="mb-4 md:mb-0">
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt ?? 'Partner'}
+                      width={logo.width}
+                      height={logo.height}
+                    />
+                  </li>
+                ))}
+              </ul>
+              <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 lg:px-20">
+                {logos.slice(5, 8).map((logo, index) => (
+                  <li key={index} className="mb-4 md:mb-0">
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt ?? 'Partner'}
+                      width={logo.width}
+                      height={logo.height}
+                    />
+                  </li>
+                ))}
+              </ul>
+              <ul className="flex justify-evenly flex-wrap md:mt-14 mt-5 md:px-20">
+                {logos.slice(8, 12).map((logo, index) => (
+                  <li key={index} className="mb-4 md:mb-0">
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt ?? 'Partner'}
+                      width={logo.width}
+                      height={logo.height}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : (
+            <ul className="flex justify-evenly items-center flex-wrap gap-y-5 md:gap-y-14 lg:px-20">
+              {logos.map((logo, index) => (
+                <li key={index} className="mb-4 md:mb-0 flex items-center justify-center">
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt ?? 'Partner'}
+                    width={logo.width}
+                    height={logo.height}
+                  />
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </section>
