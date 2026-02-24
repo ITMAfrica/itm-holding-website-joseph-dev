@@ -58,8 +58,9 @@ import maintenance from '@/public/assets/entities/maintenance.jpg';
 import environment from '@/public/assets/entities/environment.jpg';
 import geo from '@/public/assets/entities/geo.jpg';
 import vendis from '@/public/assets/entities/vendis.jpg';
-import grazia from '@/public/grazia.jpg';
-import airtel from '@/public/airtel.webp';
+
+import eacop from '@/public/EACOP.jpeg';
+import cn from '@/public/cn.jpg';
 
 import logo_vendis from '@/public/assets/logo/entities/vendis.png';
 import logo_ibs from '@/public/assets/logo/entities/ibs.png';
@@ -791,32 +792,32 @@ export const langs = [
 
 export const testimonies = [
   {
-    poste: 'DG Grazia apartments Hotel',
-    name: 'Pascal',
+    poste: 'Supervisor, EACOP',
+    name: 'Rukia Ismail',
     description:
-      "ITM est la meilleure entreprise de formation à l'hôtellerie et en renforcement de capacité. Ils ont transformé notre personnel.",
-    image: grazia,
+      'It has been a great journey working with ITM Tanzania on their recruitment service, they are very professional and career-oriented.',
+    image: cn,
   },
   {
-    poste: 'Chief Business Officer Airtel.',
-    name: 'Amit Chawla',
+    poste: 'Biodiversity Coordinator, EACOP',
+    name: 'Jennifer Nyanda',
     description:
-      "Il s'agit d'une entreprise honnête et transparente qui jouit d'une excellente réputation.",
-    image: airtel,
+      'ITM Recruitment provided me with an opportunity to practice my knowledge in Biodiversity as much as I could and meet with various stakeholders with whom I exchanged knowledge.',
+    image: eacop,
   },
   {
-    poste: 'DG Grazia apartments Hotel',
-    name: 'Pascal',
+    poste: "Director, Paddy O'Dwyer",
+    name: "Paddy O'Dwyer",
     description:
-      "ITM est la meilleure entreprise de formation à l'hôtellerie et en renforcement de capacité. Ils ont transformé notre personnel.",
-    image: grazia,
+      'A truly professional organisation with a dedicated and inspiring leadership team. It has been a pleasure partnering with ITM Tanzania Limited.',
+    image: eacop,
   },
   {
-    poste: 'Chief Business Officer Airtel.',
-    name: 'Amit Chawla',
+    poste: "Director, Paddy O'Dwyer",
+    name: "Paddy O'Dwyer",
     description:
-      "Il s'agit d'une entreprise honnête et transparente qui jouit d'une excellente réputation.",
-    image: airtel,
+      'A truly professional organisation with a dedicated and inspiring leadership team. It has been a pleasure partnering with ITM Tanzania Limited.',
+    image: eacop,
   },
 ];
 
