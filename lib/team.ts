@@ -85,12 +85,6 @@ export const team_members: any = {
       image: doris,
     },
     {
-      name: 'Gladness SAULE',
-      position: 'HR and Training manager',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: gladness,
-    },
-    {
       name: 'Doreen PAUL',
       position: 'Marketing and communications Lead',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
@@ -116,7 +110,7 @@ export const team_members: any = {
     },
     {
       name: 'Grace BONIFACE',
-      position: 'Office Attendant',
+      position: 'Office Administrator',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: grace,
     },
