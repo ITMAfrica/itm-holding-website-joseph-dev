@@ -871,7 +871,7 @@ export const entitiesInfos: any = {
   },
   cg: {
     address:
-      '243, Boulevard Charles DE GAULLE, immeuble Tour MAYOMBE, centre-ville/ Pointe-Noire ',
+      '243, Boulevard Charles DE GAULLE, immeuble Tour MAYOMBE, centre-ville/ Pointe-Noire',
     phone: '+242 056 401 750',
     email: 'infocongobrazza@itmafrica.com',
     social_medias: {
@@ -927,7 +927,7 @@ export const entitiesInfos: any = {
     social_medias: {
       facebook: 'https://www.facebook.com/p/ITM-Tanzania-100085252992636/',
       linkedin:
-        'https://www.linkedin.com/company/itm-tanzania-ltd?originalSubdomain=tz  ',
+        'https://www.linkedin.com/company/itm-tanzania-ltd?originalSubdomain=tz',
       instagram: 'https://www.instagram.com/_itmtanzania/',
       twitter: ' https://x.com/itmtanzania?mx=2 ',
     },
