@@ -71,7 +71,6 @@ const nextConfig = {
   },
 
   // Performance optimizations
-  swcMinify: true,
   reactStrictMode: true,
   poweredByHeader: false,
 };

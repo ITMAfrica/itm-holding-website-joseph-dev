@@ -311,33 +311,64 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 180px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  background-color: #ffffff;
+  min-width: 220px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 8px 0;
+  z-index: 50;
+  transform: translateY(10px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 5px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #4a4a4a;
+  padding: 10px 20px;
+  margin: 2px 8px;
   text-decoration: none;
   display: block;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #f4f6fc;
+  color: #1238b9;
+  font-weight: 500;
+  transform: translateX(4px);
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+/* Home hero: Swiper must fill parent height so `next/image` fill works */
+.home-banner-swiper,
+.home-banner-swiper .swiper-wrapper {
+  height: 100%;
+}
+
+.home-banner-slide {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.home-banner-swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.45);
+  opacity: 1;
+}
+
+.home-banner-swiper .swiper-pagination-bullet-active {
+  background: #1238b9;
 }

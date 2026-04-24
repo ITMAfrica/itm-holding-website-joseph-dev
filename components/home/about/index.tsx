@@ -4,7 +4,7 @@ import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
 import AboutImagesDesign from './aboutImagesDesign';
 import { useState } from 'react';
-import { CODE, getCountryCode } from '@/helpers';
+import { CODE, getCompanyProfilePdfPath, getCountryCode } from '@/helpers';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
@@ -12,6 +12,8 @@ export default function HomeAbout({ params }: { params: any }) {
   const country: string = params.country;
   const code = getCountryCode(country);
   const data = dictionary?.[code]?.pages.home.about;
+  const companyProfile = dictionary?.global?.companyProfile;
+  const companyProfileHref = getCompanyProfilePdfPath(country);
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
     fr: 'Congo Kinshasa',
@@ -31,8 +33,18 @@ export default function HomeAbout({ params }: { params: any }) {
             <p className="mb-5 font-open text-lg text-black_itm">
               {data.paragraph}
             </p>
-            <div className="mx-auto  w-fit lg:w-full">
+            <div className="mx-auto w-fit lg:w-full flex flex-wrap gap-3 justify-center lg:justify-start items-center">
               <ButtonOulined {...data.btnMore} key={1} />
+              {companyProfile?.text && companyProfile?.title ? (
+                <a
+                  href={companyProfileHref}
+                  download
+                  title={companyProfile.title}
+                  className="block w-44 py-4 text-lg font-semibold text-center text-blue_itm_good hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_good hover:border-blue_itm_aqua_marine transition duration-800"
+                >
+                  {companyProfile.text}
+                </a>
+              ) : null}
             </div>
           </div>
         </div>

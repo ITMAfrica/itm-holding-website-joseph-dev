@@ -26,7 +26,7 @@ export default function CardEntity({
                 src={image}
                 fill
                 alt=""
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="fromToImage"
               />
             </div>
@@ -70,7 +70,7 @@ export default function CardEntity({
                 src={logo}
                 fill
                 alt=""
-                objectFit="contain"
+                style={{ objectFit: 'cover' }}
                 className="entityLogoAnimation"
               />
             </div>

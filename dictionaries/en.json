@@ -165,6 +165,10 @@
       "title": "Our team",
       "subtitle": "Meet our team"
     },
+    "companyProfile": {
+      "text": "Company profile",
+      "title": "Download the ITM company profile (PDF)"
+    },
     "footer": {
       "text": "Keep up to date with the latest features and versions by joining our newsletter.",
       "placeholder": "Your email address",
@@ -358,7 +362,8 @@
           "subtitle": "We are the choice of over 700 satisfied companies; join us and benefit from our expertise."
         },
         "testimonies": {
-          "title": "What our customers say about us"
+          "title": "What our customers say about us",
+          "subtitle": "Partners and professionals on what it is like to work with ITM across Africa."
         },
         "news": {
           "title": "OUR NEWS",
@@ -594,6 +599,12 @@
             "link": "/en/cd/about-us",
             "key": "about-us",
             "title": "Learn more about ITM DRC history"
+          },
+          "btnSecondary": {
+            "text": "Contact us",
+            "link": "/en/cd/contact-us",
+            "key": "contact",
+            "title": "Contact us"
           }
         },
         "meta": {

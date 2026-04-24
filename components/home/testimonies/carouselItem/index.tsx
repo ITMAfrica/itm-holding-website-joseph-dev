@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import { BiSolidQuoteAltLeft } from 'react-icons/bi';
-import { BiSolidQuoteAltRight } from 'react-icons/bi';
+import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from 'react-icons/bi';
 
 export default function TestimonyItem({
   item,
@@ -8,37 +7,58 @@ export default function TestimonyItem({
   activeSlide,
   setActiveSlide,
 }: any) {
+  const isActive = activeSlide === index;
   const centerClass =
-    'w-fit ease-linear h-fit relative z-20 scale-125 pt-[48px] flex items-center justify-center mx-3 my-24';
+    'w-full max-w-[340px] shrink-0 z-20 scale-105 md:scale-110 transition-transform duration-300 ease-out flex items-stretch justify-center mx-2 md:mx-4 my-8 md:my-16';
   const asideClass =
-    'w-fit h-[450.5px] z-10 ease-linear flex items-center justify-center pt-[12px] my-24 mx-5';
+    'w-full max-w-[300px] shrink-0 z-10 opacity-85 scale-95 transition-all duration-300 ease-out flex items-stretch justify-center mx-2 md:mx-3 my-10 md:my-20';
 
   return (
     <article
-      onClick={function () {
-        setActiveSlide(index);
+      onClick={() => setActiveSlide(index)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          setActiveSlide(index);
+        }
       }}
-      className={`${activeSlide == index ? centerClass : asideClass}`}
+      role="button"
+      tabIndex={0}
+      aria-current={isActive ? 'true' : undefined}
+      className={`cursor-pointer rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-blue_itm_secondary focus-visible:ring-offset-2 ${
+        isActive ? centerClass : asideClass
+      }`}
     >
-      <div className="lg:w-[325px] md:w-[300px] w-[200px] min-h-[325px] bg-white shadow-xl rounded-2xl border pt-0 p-3 relative">
-        <div className="-translate-y-1/2 flex justify-center">
-          <div className="w-24 h-24 p-2 relative shadow-lg overflow-hidden rounded-full border-4 border-white bg-gray-200">
-            <Image src={item?.image} fill alt="avatar" />
+      <div
+        className={`relative flex w-full flex-col rounded-2xl border border-gray-100 bg-white p-4 pt-0 shadow-lg md:p-5 md:pt-0 ${
+          isActive ? 'shadow-xl' : ''
+        }`}
+      >
+        <div className="-mt-12 flex justify-center md:-mt-14">
+          <div className="relative h-20 w-20 overflow-hidden rounded-full border-4 border-white bg-gray-100 shadow-lg md:h-24 md:w-24">
+            <Image
+              src={item?.image}
+              fill
+              alt={item?.name ? `Photo of ${item.name}` : 'Testimonial author'}
+              className="object-cover"
+            />
           </div>
         </div>
-        <span className="text-gray-300 text-2xl">
-          <BiSolidQuoteAltLeft />
-        </span>
-        <p className="py-4 text-center text-xs font-open">
+        <div className="mt-4 flex justify-start text-blue_itm_secondary/35">
+          <BiSolidQuoteAltLeft className="text-2xl md:text-3xl" aria-hidden />
+        </div>
+        <p className="min-h-[4.5rem] px-1 text-center font-open text-sm leading-relaxed text-black_itm md:min-h-[5.5rem] md:text-base">
           {item?.description}
         </p>
-        <span className="flex w-full justify-end text-gray-300 text-2xl">
-          <BiSolidQuoteAltRight />
-        </span>
-        <h3 className="text-center font-bold text-blue_itm_aqua_marine mt-2">
+        <div className="flex justify-end text-blue_itm_secondary/35">
+          <BiSolidQuoteAltRight className="text-2xl md:text-3xl" aria-hidden />
+        </div>
+        <h3 className="mt-1 text-center font-semibold text-blue_itm_aqua_marine md:text-lg">
           {item?.name}
         </h3>
-        <h6 className="text-center text-sm">{item?.poste}</h6>
+        <p className="text-center text-xs text-gray_itm md:text-sm">
+          {item?.poste}
+        </p>
       </div>
     </article>
   );

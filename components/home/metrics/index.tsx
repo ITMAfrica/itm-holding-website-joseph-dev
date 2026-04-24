@@ -19,7 +19,7 @@ export default function HomeMetrics({ params }: { params: any }) {
           </div>
           <div className="w-full flex justify-between flex-wrap">
             {data.metricsItems.map((item: any, index: number) => (
-              <HomeMetricsCard {...item} key={index} />
+              <HomeMetricsCard {...item} id={`counter-${index}`} key={index} />
             ))}
           </div>
         </div>

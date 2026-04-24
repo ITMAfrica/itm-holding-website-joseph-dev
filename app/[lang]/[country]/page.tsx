@@ -45,14 +45,15 @@ const PAGE_PATHS: Record<string, string> = {
 };
 
 export async function generateMetadata({ params }: any) {
-  const lang = params.lang;
-  const country = getCountryCode(params.country);
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang;
+  const country = getCountryCode(resolvedParams.country);
   const dictionary = getDictionary(lang);
   const notFoundData: any = dictionary.globalContent.pages.notFound;
 
   let metaData: any;
   let pagePath = '';
-  let isCountryPage = COUNTRY_CODES.includes(params.country);
+  let isCountryPage = COUNTRY_CODES.includes(resolvedParams.country);
 
   if (isCountryPage) {
     const data: any = dictionary[country].pages;
@@ -60,9 +61,9 @@ export async function generateMetadata({ params }: any) {
   } else {
     // It's a page route
     const data: any = dictionary[country].pages;
-    pagePath = PAGE_PATHS[params.country] || params.country;
+    pagePath = PAGE_PATHS[resolvedParams.country] || resolvedParams.country;
 
-    switch (params.country) {
+    switch (resolvedParams.country) {
       case 'about-us':
       case 'a-propos-de-nous':
         metaData = data.about.meta;
@@ -93,71 +94,72 @@ export async function generateMetadata({ params }: any) {
       metaData?.description || 'ITM HR - Strategic HR Solutions in Africa',
     keywords: metaData?.keywords || [],
     locale: lang,
-    country: isCountryPage ? params.country : undefined,
+    country: isCountryPage ? resolvedParams.country : undefined,
     path: pagePath || undefined,
     images: ['/assets/logo/logo.png'],
     type: 'website',
   });
 }
 
-export default function PageCountry({ params }: { params: any }) {
-  switch (params.country) {
+export default async function PageCountry({ params }: { params: any }) {
+  const resolvedParams = await params;
+  switch (resolvedParams.country) {
     case 'cd':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'tz':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'tg':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'ao':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'bj':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'bu':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'cg':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'cm':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'de':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'bi':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'gb':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'ke':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'ng':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'ug':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'za':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'zm':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'rw':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'ci':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'sn':
-      return <HomePage params={params} />;
+      return <HomePage params={resolvedParams} />;
     case 'about-us':
-      return <AboutPage params={params} />;
+      return <AboutPage params={resolvedParams} />;
     case 'a-propos-de-nous':
-      return <AboutPage params={params} />;
+      return <AboutPage params={resolvedParams} />;
     case 'services':
-      return <ServicesPage params={params} />;
+      return <ServicesPage params={resolvedParams} />;
     case 'training':
-      return <TrainingPage params={params} />;
+      return <TrainingPage params={resolvedParams} />;
     case 'formations':
-      return <TrainingPage params={params} />;
+      return <TrainingPage params={resolvedParams} />;
     case 'news':
-      return <NewsPage params={params} />;
+      return <NewsPage params={resolvedParams} />;
     case 'actualites':
-      return <NewsPage params={params} />;
+      return <NewsPage params={resolvedParams} />;
     case 'contact-us':
-      return <ContactPage params={params} />;
+      return <ContactPage params={resolvedParams} />;
     case 'contactez-nous':
-      return <ContactPage params={params} />;
+      return <ContactPage params={resolvedParams} />;
     default:
       notFound();
   }

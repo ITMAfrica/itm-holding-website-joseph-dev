@@ -3,7 +3,8 @@ import { getDictionary } from '@/get-dictionary';
 import { generateMetadata as generateMeta } from '@/lib/metadata';
 
 export async function generateMetadata({ params }: any) {
-  const lang = params.lang;
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang;
   const dictionary = getDictionary(lang);
   const data: any = dictionary.globalContent.pages.hr;
   const metaData = data.meta;
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: any) {
   });
 }
 
-export default function IndexPage({ params }: { params: any }) {
-  return <LandingPage params={params} />;
+export default async function IndexPage({ params }: { params: any }) {
+  const resolvedParams = await params;
+  return <LandingPage params={resolvedParams} />;
 }

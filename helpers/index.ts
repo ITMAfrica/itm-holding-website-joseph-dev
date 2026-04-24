@@ -220,3 +220,12 @@ export const CODE: string = 'cd';
 export const TALENTPRO_HREF: string = 'https://talentpro.itmafrica.com';
 export const KAZIPRO_HREF: string = 'https://www.kazipro.app/fr';
 export const COUNTRY_API_URL: string = 'https://api.country.is';
+
+/**
+ * Company profile download URL. Served by `app/api/company-profile/[code]/route.ts`
+ * so the response is always `application/pdf` (avoids HTML 404/SPA being saved as .pdf).
+ */
+export function getCompanyProfilePdfPath(urlCountry: string | undefined): string {
+  const code = (urlCountry || 'cd').toLowerCase();
+  return `/api/company-profile/${code}`;
+}

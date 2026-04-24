@@ -146,7 +146,7 @@ export default function Footer({ params }: { params: any }) {
                 <Link
                   href={socials_network_infos.facebook}
                   target="_blank"
-                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                  className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
                   <FaFacebookF />
                 </Link>
@@ -155,7 +155,7 @@ export default function Footer({ params }: { params: any }) {
                 <Link
                   href={socials_network_infos.twitter}
                   target="_blank"
-                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                  className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
                   <FaXTwitter />
                 </Link>
@@ -164,7 +164,7 @@ export default function Footer({ params }: { params: any }) {
                 <Link
                   href={socials_network_infos.linkedin}
                   target="_blank"
-                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                  className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
                   <FaLinkedinIn />
                 </Link>
@@ -173,7 +173,7 @@ export default function Footer({ params }: { params: any }) {
                 <Link
                   href={socials_network_infos.instagram}
                   target="_blank"
-                  className="block w-fit border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                  className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
                 >
                   <FaInstagram />
                 </Link>

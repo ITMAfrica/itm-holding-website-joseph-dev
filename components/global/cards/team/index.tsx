@@ -17,8 +17,7 @@ export default function CardTeam({
         src={image}
         fill
         alt="team"
-        objectFit="cover"
-        objectPosition="top"
+        style={{ objectFit: 'cover', objectPosition: 'top' }}
       />
       <div className="absolute p-5 h-[175px] left-0 bottom-0 right-0 bg-black/50">
         <h2 className="font-bold um text-white">{name}</h2>

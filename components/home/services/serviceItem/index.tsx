@@ -19,14 +19,15 @@ export default function HomeServiceCard({
   activeSlide: any;
 }) {
   return (
-    <article className="group border h-[500px] sm:mx-3 mx-1 md:w-[25.5vw] lg:w-[20.5vw] mb-8 transition ease-in-out duration-700">
+    <article className="group border h-[500px] sm:mx-3 mx-1 md:w-[25.5vw] lg:w-[20.5vw] mb-8 transition ease-in-out duration-700 rounded-lg overflow-hidden">
       <div className="flex items-end h-full w-full relative">
         <div className="absolute h-full w-full">
           <Image
             src={icon}
             alt="Image service"
-            className="h-full w-full"
-            objectFit="cover"
+            fill
+            sizes="(max-width: 449px) 100vw, (max-width: 767px) 50vw, (max-width: 1079px) 26vw, 21vw"
+            style={{ objectFit: 'cover' }}
           />
         </div>
         <div className="absolute z-20 bg-gradient-to-t from-black h-full w-full"></div>

@@ -1,7 +1,10 @@
+'use client';
+
 import SectionTitle from '@/components/global/section_title';
 import { getDictionary } from '@/get-dictionary';
 import img from '@/public/pages/main/main2.png';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export default function ProcessLandingPage({ params }: { params: any }) {
   const lang = params.lang;
@@ -11,7 +14,13 @@ export default function ProcessLandingPage({ params }: { params: any }) {
     <section className="md:flex justify-center w-full mx-auto py-14 ">
       <div className="w-10/12 mx-auto flex md:flex-nowrap flex-wrap items-center  justify-center lg:justify-between">
         <div className="md:flex items-center">
-          <div className="md:w-1/2 pt-10 md:pt-0 md:mr-14">
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="md:w-1/2 pt-10 md:pt-0 md:mr-14"
+          >
             <SectionTitle text="ITM HR" />
             <h1 className="text-blue_itm_good text-4xl font-bold mb-2">
               {data.subtitle}
@@ -38,9 +47,15 @@ export default function ProcessLandingPage({ params }: { params: any }) {
                 </ul>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="w-fit mx-auto md:w-3/5 lg:w-1/2">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="w-fit mx-auto md:w-3/5 lg:w-1/2"
+          >
             <Image
               src={img}
               alt="About image"
@@ -48,7 +63,7 @@ export default function ProcessLandingPage({ params }: { params: any }) {
               height={500}
               className="mx-auto"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

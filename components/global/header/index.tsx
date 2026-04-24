@@ -99,9 +99,17 @@ export default function HomeHeader({ params }: propsPage) {
         ) : (
           ''
         )}
-        <div className="w-fit flex">
+        <div className="w-fit flex items-center">
           <CardLang links={data?.links} langs={data?.langs} />
-          {root == undefined ? '' : <CardCountry />}
+          {root != undefined ? (
+            <>
+              <span
+                className="mx-2 h-4 w-px shrink-0 bg-gray_itm/35"
+                aria-hidden
+              />
+              <CardCountry />
+            </>
+          ) : null}
         </div>
         {openNavigation ? (
           <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">

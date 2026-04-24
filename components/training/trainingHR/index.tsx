@@ -12,8 +12,7 @@ export default function TrainingPageTrainingHR({ params }: { params: any }) {
               src={imageRight}
               fill
               alt=""
-              objectFit="cover"
-              objectPosition="top"
+              style={{ objectFit: 'cover', objectPosition: 'top' }}
             />
             <div className="w-full h-full shadow-2xl shadow-black/60 absolute top-[20%] left-[-60%]">
               <div className="w-full h-full  shadow-xl relative">
@@ -21,8 +20,7 @@ export default function TrainingPageTrainingHR({ params }: { params: any }) {
                   src={imageLeft}
                   fill
                   alt=""
-                  objectFit="cover"
-                  objectPosition="top"
+                  style={{ objectFit: 'cover', objectPosition: 'top' }}
                 />
               </div>
             </div>

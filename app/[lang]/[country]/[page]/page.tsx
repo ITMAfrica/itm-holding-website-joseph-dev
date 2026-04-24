@@ -8,13 +8,14 @@ import { getCountryCode } from '@/helpers';
 import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }: any) {
-  const lang = params.lang;
-  const country = getCountryCode(params.country);
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang;
+  const country = getCountryCode(resolvedParams.country);
   const dictionary = getDictionary(lang);
   const data: any = dictionary[country].pages;
   const notFound: any = dictionary.globalContent.pages.notFound;
 
-  switch (params.page) {
+  switch (resolvedParams.page) {
     case 'about-us':
       return data.about.meta;
     case 'a-propos-de-nous':
@@ -38,48 +39,49 @@ export async function generateMetadata({ params }: any) {
   }
 }
 
-export default function PageCountry({ params }: { params: any }) {
-  switch (params.country) {
+export default async function PageCountry({ params }: { params: any }) {
+  const resolvedParams = await params;
+  switch (resolvedParams.country) {
     case 'cd':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'tz':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'tg':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'ao':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'bj':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'bi':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'cg':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'cm':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'de':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'gb':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'ke':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'ng':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'ug':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'za':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'zm':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'rw':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'ci':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'sn':
-      return getComponent({ params });
+      return getComponent({ params: resolvedParams });
     case 'about-us':
-      return <AboutPage params={params} />;
+      return <AboutPage params={resolvedParams} />;
     case 'a-propos-de-nous':
-      return <AboutPage params={params} />;
+      return <AboutPage params={resolvedParams} />;
   }
 }
 function getComponent({ params }: any) {

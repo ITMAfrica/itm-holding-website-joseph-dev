@@ -47,10 +47,10 @@ export default function HomePageBanner({
         effect="fade"
         fadeEffect={{ crossFade: true }}
         pagination={{ clickable: true }}
-        className="h-full w-[95vw] my-auto"
+        className="home-banner-swiper h-full w-[95vw] my-auto"
       >
         {data.map((item: any, index: number) => (
-          <SwiperSlide className="py-0" key={index}>
+          <SwiperSlide className="home-banner-slide py-0" key={index}>
             <CarouselItem
               {...item}
               indexImage={index}

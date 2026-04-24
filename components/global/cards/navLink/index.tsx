@@ -61,7 +61,7 @@ export default function NavLinkCard({
     <Link
       href={href}
       target="_blank"
-      className={`${
+      className={`group ${
         pathname == getHref()
           ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
           : ''
@@ -69,7 +69,13 @@ export default function NavLinkCard({
     >
       <span className="flex items-center">
         {name}
-        <span className="ml-1 text-xs">
+        <span
+          className={`ml-1 text-xs ${
+            pathname == getHref()
+              ? 'text-blue_itm_good'
+              : 'text-gray_itm'
+          } group-hover:text-blue_itm_good`}
+        >
           <FaExternalLinkAlt />
         </span>
       </span>
@@ -80,7 +86,7 @@ export default function NavLinkCard({
         <span className="dropdown">
           <Link
             href={getHref()}
-            className={`${
+            className={`group ${
               pathname == getHref()
                 ? 'text-blue_itm_good bg-gray_itm_bg/40 font-bold'
                 : ''
@@ -90,7 +96,13 @@ export default function NavLinkCard({
               <div className="">
                 <span className="flex items-center">
                   <span className="flex items-center">{name}</span>
-                  <IoIosArrowDown className="ml-1" />
+                  <IoIosArrowDown
+                    className={`ml-1 ${
+                      pathname == getHref()
+                        ? 'text-blue_itm_good'
+                        : 'text-gray_itm'
+                    } group-hover:text-blue_itm_good`}
+                  />
                 </span>
               </div>
             ) : (
@@ -99,7 +111,7 @@ export default function NavLinkCard({
           </Link>
           <div className="dropdown-content">
             {submenus.map((item: any, index: number) => {
-              return <Link href={getHref() + item.link}>{item.name}</Link>;
+              return <Link key={index} href={getHref() + item.link}>{item.name}</Link>;
             })}
           </div>
         </span>

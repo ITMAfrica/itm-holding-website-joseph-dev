@@ -1,6 +1,9 @@
+'use client';
+
 import SectionTitle from '@/components/global/section_title';
 import { getDictionary } from '@/get-dictionary';
 import CardLandingPage from './card';
+import StaggeredFadeIn from '@/components/global/staggered_fade_in';
 
 export default function WhyUsLandingPageSection({ params }: { params: any }) {
   const lang = params.lang;
@@ -9,7 +12,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
 
   return (
     <section className="bg-white py-4">
-      <div>
+      <StaggeredFadeIn>
         <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-16">
           <div className="m-auto">
             <div className="md:flex justify-between md:mb-16 mb-10">
@@ -30,7 +33,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
             </div>
           </div>
         </div>
-      </div>
+      </StaggeredFadeIn>
     </section>
   );
 }

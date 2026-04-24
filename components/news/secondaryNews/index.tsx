@@ -84,12 +84,12 @@ export default function NewsPageSecondary({
             {data.map((item: any, index: number) => (
               <div className="w-[90vw]  h-[65vh] pt-5 relative">
                 <div className="absolute z-20 top-0 left-0 right-0 bottom-0 ">
-                  <Image src={bgHover} alt="" fill objectFit="cover" />
+                  <Image src={bgHover} alt="" fill style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="absolute rounded-sm overflow-hidden z-10 bg-green-500 top-3 left-3 text-base  px-4 py-2 text-white ">
                   review
                 </div>
-                <Image src={bg} alt="" fill objectFit="cover" />
+                <Image src={bg} alt="" fill style={{ objectFit: 'cover' }} />
               </div>
             ))}
           </Carousel>

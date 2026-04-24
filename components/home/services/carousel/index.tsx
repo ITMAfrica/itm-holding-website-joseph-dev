@@ -73,15 +73,20 @@ export default function HomeServicesCarousel({
   );
 }
 
+const slideNavBtnClass =
+  'inline-flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 bg-white text-black_itm transition-colors hover:border-gray-300 hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2';
+
 export function SlideNextButton() {
   const swiper = useSwiper();
 
   return (
     <button
+      type="button"
+      aria-label="Next slide"
       onClick={() => swiper.slideNext()}
-      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+      className={slideNavBtnClass}
     >
-      <MdOutlineKeyboardArrowRight />
+      <MdOutlineKeyboardArrowRight className="text-xl" aria-hidden />
     </button>
   );
 }
@@ -91,10 +96,12 @@ export function SlidePrevButton() {
 
   return (
     <button
+      type="button"
+      aria-label="Previous slide"
       onClick={() => swiper.slidePrev()}
-      className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300"
+      className={slideNavBtnClass}
     >
-      <MdOutlineKeyboardArrowLeft />
+      <MdOutlineKeyboardArrowLeft className="text-xl" aria-hidden />
     </button>
   );
 }

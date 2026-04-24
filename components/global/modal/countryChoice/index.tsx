@@ -76,31 +76,33 @@ export default function ModalCountryChoice({ init = false }: any) {
               <MdOutlineCancel size={24} />
             </div>
           </div>
-          <div className="bg-white rounded-xl text-black w-full p-2 py-5 max-h-[70vh] overflow-y-scroll filter-none scrollbar">
-            <h1 className="font-medium text-xl text-center w-full pb-10">
-              {data?.title}
-            </h1>
-            <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">
-              {
-                //Display all contries without Rwanda when your location is cd
-                entities_to_display(currentLocation, entities)
-                  .sort(function (a: any, b: any) {
-                    const first: string = a[lang];
-                    const last: string = b[lang];
-                    return first?.localeCompare(last, undefined, {
-                      sensitivity: 'base',
-                    });
-                  })
-                  .map(function (item: any, index: number) {
-                    return (
-                      <CardCountryChoice
-                        {...item}
-                        closeModal={closeModal}
-                        key={index}
-                      />
-                    );
-                  })
-              }
+          <div className="bg-white rounded-xl text-black w-full overflow-hidden filter-none">
+            <div className="max-h-[70vh] overflow-y-auto p-2 py-5 scrollbar">
+              <h1 className="font-medium text-xl text-center w-full pb-10">
+                {data?.title}
+              </h1>
+              <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">
+                {
+                  //Display all contries without Rwanda when your location is cd
+                  entities_to_display(currentLocation, entities)
+                    .sort(function (a: any, b: any) {
+                      const first: string = a[lang];
+                      const last: string = b[lang];
+                      return first?.localeCompare(last, undefined, {
+                        sensitivity: 'base',
+                      });
+                    })
+                    .map(function (item: any, index: number) {
+                      return (
+                        <CardCountryChoice
+                          {...item}
+                          closeModal={closeModal}
+                          key={index}
+                        />
+                      );
+                    })
+                }
+              </div>
             </div>
           </div>
         </div>

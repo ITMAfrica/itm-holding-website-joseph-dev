@@ -29,7 +29,8 @@ export default function ServicesPageServices({ params }: { params: any }) {
           alt=""
           src={servicesHome[lang][activeSlide]?.image}
           fill
-          objectFit="cover"
+          sizes="(min-width: 1024px) 85vw, 92vw"
+          style={{ objectFit: 'cover' }}
           className="hidden sm:block blur-0 lg:blur-sm"
         />
         {/* For mobile */}
@@ -37,7 +38,8 @@ export default function ServicesPageServices({ params }: { params: any }) {
           alt=""
           src={servicesHome[lang][activeSlide]?.icon}
           fill
-          objectFit="cover"
+          sizes="(min-width: 1024px) 85vw, 92vw"
+          style={{ objectFit: 'cover' }}
           className="inline sm:hidden lg:blur-sm"
         />
         <div className="absolute top-0 left-0 right-0 flex   bottom-0 bg-gradient-to-r from-transparent to-black/70">

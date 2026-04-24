@@ -164,6 +164,10 @@
       "title": "Notre Equipe",
       "subtitle": "Rencontrez notre équipe"
     },
+    "companyProfile": {
+      "text": "Profil d'entreprise",
+      "title": "Télécharger le profil d'entreprise ITM (PDF)"
+    },
     "footer": {
       "text": "Restez informé des dernières fonctionnalités et versions en rejoignant notre newsletter.",
       "placeholder": "Votre mail",
@@ -306,15 +310,21 @@
             }
           ]
         },
-        "about": {
+"about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM HR",
-          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des solutions conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
+          "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des soluciones conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
           "btnMore": {
             "text": "En savoir plus",
             "link": "/fr/a-propos-de-nous",
             "key": "a-propos-de-nous",
             "title": "Voir les détails sur ITM HR"
+          },
+          "btnSecondary": {
+            "text": "Contactez-nous",
+            "link": "/fr/contactez-nous",
+            "key": "contact",
+            "title": "Contactez-nous"
           }
         },
         "services": {
@@ -357,7 +367,8 @@
           "subtitle": "Nous sommes le choix de plus de 700 entreprises satisfaites, rejoignez-nous et bénéficiez de notre expertise."
         },
         "testimonies": {
-          "title": "Ce que nos clients disent de nous"
+          "title": "Ce que nos clients disent de nous",
+          "subtitle": "Des partenaires et professionnels qui collaborent avec ITM à travers l'Afrique."
         },
         "news": {
           "title": "NOS INFOS",
@@ -627,6 +638,12 @@
             "link": "/fr/cd/a-propos-de-nous",
             "key": "a-propos-de-nous",
             "title": "Voir les détails sur ITM RDC"
+          },
+          "btnSecondary": {
+            "text": "Contactez-nous",
+            "link": "/fr/cd/contactez-nous",
+            "key": "contact",
+            "title": "Contactez-nous"
           }
         }
       },

@@ -15,9 +15,9 @@ export default function NewsPageMain() {
                 </header>
                 <div className="w-full h-[50vh] relative">
                     <div className="absolute z-20 top-0 left-0 right-0 bottom-0 ">
-                        <Image src={bgHover} alt="" fill objectFit="cover" />
+                        <Image src={bgHover} alt="" fill style={{ objectFit: 'cover' }} />
                     </div>
-                    <Image src={bg} alt="" fill objectFit="cover" />
+                    <Image src={bg} alt="" fill style={{ objectFit: 'cover' }} />
                     <div className="absolute rounded-sm overflow-hidden bg-green-500 top-3 left-3 text-sm px-3 py-2 text-white ">
                         entreprise
                     </div>

@@ -63,16 +63,16 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
       <div className="flex relative justify-center items-center">
         <div
           onClick={toggleModal}
-          className="w-fit  hover:bg-gray_itm_bg/40 p-2  rounded-full cursor-pointer flex items-center "
+          className="flex justify-center items-center cursor-pointer hover:bg-gray_itm_bg/40 hover:p-1 hover:px-2 rounded-full"
         >
           <Image
             src={flag[lang]}
             height={12 * 0.2}
             width={16 * 0.2}
-            className="h-fit w-fit block mr-1 hover:cursor-pointer"
+            className="h-fit w-fit block mr-1 rounded-sm hover:cursor-pointer"
             alt="drapeau"
           />
-          <span className="text-sm align-middle mr-1 font-bold cursor-pointer">
+          <span className="text-sm align-middle mr-1 font-normal uppercase cursor-pointer">
             {lang}
           </span>
           <GoTriangleDown className="cursor-pointer" />
@@ -82,6 +82,7 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
             {langs.map(function (item: any) {
               return (
                 <Link
+                  key={item.key}
                   href={getHref(item.key)}
                   className={`w-full p-2 ${
                     item.key == lang && 'bg-gray_itm_bg/40'
@@ -92,7 +93,7 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
                     src={flag[item.key]}
                     height={12 * 0.2}
                     width={16 * 0.2}
-                    className="h-fit w-fit block mr-1"
+                    className="h-fit w-fit block mr-1 rounded-sm"
                     alt="drapeau"
                   />
                   {item.tag}

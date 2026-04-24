@@ -8,8 +8,8 @@ export default function CardNews({ full = false, index }: any) {
         return <article className="w-full h-fit group cursor-pointer flex items-start justify-start mb-5">
             <div className="w-[200px] rounded-md overflow-hidden h-[130px] relative">{
                 index % 2 == 0 ?
-                    <Image src={bg} alt="" fill objectFit="cover" /> :
-                    <Image src={bg2} alt="" fill objectFit="cover" />}
+                    <Image src={bg} alt="" fill style={{ objectFit: 'cover' }} /> :
+                    <Image src={bg2} alt="" fill style={{ objectFit: 'cover' }} />}
             </div>
             <div className="w-full h-full pl-3">
                 <div className="w-full flex items-center justify-between mb-2 font-bold">
@@ -31,8 +31,8 @@ export default function CardNews({ full = false, index }: any) {
         </div>
         <div className="w-[200px] h-[130px] relative  rounded-md overflow-hidden" >{
             index % 2 == 0 ?
-                <Image src={bg} alt="" fill objectFit="cover" /> :
-                <Image src={bg2} alt="" fill objectFit="cover" />}
+                <Image src={bg} alt="" fill style={{ objectFit: 'cover' }} /> :
+                <Image src={bg2} alt="" fill style={{ objectFit: 'cover' }} />}
         </div>
         <div className="w-fit h-full pl-3">
             <div className="w-full flex items-center justify-between mb-2 font-bold">

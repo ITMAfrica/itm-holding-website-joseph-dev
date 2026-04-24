@@ -812,13 +812,6 @@ export const testimonies = [
       'A truly professional organisation with a dedicated and inspiring leadership team. It has been a pleasure partnering with ITM Tanzania Limited.',
     image: eacop,
   },
-  {
-    poste: "Director, Paddy O'Dwyer",
-    name: "Paddy O'Dwyer",
-    description:
-      'A truly professional organisation with a dedicated and inspiring leadership team. It has been a pleasure partnering with ITM Tanzania Limited.',
-    image: eacop,
-  },
 ];
 
 export const entitiesInfos: any = {

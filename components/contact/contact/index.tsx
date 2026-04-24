@@ -61,7 +61,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
 
 export function ContactCard({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex items-center justify-center lg:w-[31%] md:w-[48%] w-full mb-6 lg:mb-0 border bg-blue_itm_primary/5 h-[300px]">
+    <div className="flex items-center justify-center lg:w-[31%] md:w-[48%] w-full mb-6 lg:mb-0 rounded-lg border bg-blue_itm_primary/5 h-[300px]">
       <div className="w-full h-fit p-8">{children}</div>
     </div>
   );

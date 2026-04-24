@@ -24,7 +24,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
           <h2 className="text-5xl font-bold text-blue_itm_primary pb-4">
             {data.title}
           </h2>
-          <p className="w-full font-open text-xl text-black_itm">
+          <p className="max-w-prose font-open text-xl text-black_itm">
             {data.description}
           </p>
           <div className="w-full">
@@ -35,14 +35,16 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
         </div>
         <div className="w-full md:w-6/12 mx-auto lg:pb-0 pb-10 h-full flex items-center justify-center relative">
           <div className="w-10/12 lg:w-[400px] h-[400px] sm:h-[500px] md:h-[400px] lg:h-[550px] shadow-2xl shadow-black/60 relative">
-            <Image
-              src={imageLeft}
-              fill
-              alt="left"
-              style={{ objectFit: 'cover' }}
-            />
+            <div className="absolute inset-0 rounded-lg overflow-hidden">
+              <Image
+                src={imageLeft}
+                fill
+                alt="left"
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
             <div className="w-full h-full shadow-2xl shadow-black/60 absolute top-[20%] left-[20%]">
-              <div className="w-full h-full  shadow-xl relative">
+              <div className="w-full h-full  shadow-xl relative rounded-lg overflow-hidden">
                 <Image
                   src={imageRight}
                   fill

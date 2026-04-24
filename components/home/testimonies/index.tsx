@@ -6,13 +6,16 @@ export default function HomeTestimonies({ params }: { params: any }) {
   const dictionary = getDictionary(lang);
   const data = dictionary.globalContent.pages.home.testimonies;
   return (
-    <section className="md:pt-20 bg-white md:pb-10 py-8">
-      <div>
-        <h2 className="lg:w-2/6 md:w-1/2 w-full mx-auto md:text-5xl text-4xl font-bold text-blue_itm_primary text-center">
+    <section className="overflow-x-hidden bg-white py-8 md:pb-14 md:pt-20">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6">
+        <h2 className="mx-auto max-w-3xl text-center text-4xl font-bold text-blue_itm_primary md:text-5xl">
           {data.title}
         </h2>
-        <div className="md:w-10/12 w-11/12 mx-auto">
-          <TestimoniesCarousel params={params} />
+        <p className="mx-auto mt-3 max-w-xl text-center text-sm text-gray_itm md:text-base">
+          {data.subtitle}
+        </p>
+        <div className="mx-auto mt-8 w-full max-w-6xl md:mt-12 md:w-11/12 lg:w-10/12">
+          <TestimoniesCarousel />
         </div>
       </div>
     </section>

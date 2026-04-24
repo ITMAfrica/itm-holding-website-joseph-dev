@@ -46,9 +46,10 @@ const openSans = Open_Sans({
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }): Promise<Metadata> {
-  const lang = (await params).lang;
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang;
   const dictionary = getDictionary(lang);
   const metaData = dictionary.globalContent.pages.hr.meta;
 
@@ -69,9 +70,10 @@ export default async function Root({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }) {
-  const lang = (await params).lang;
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang;
   return (
     <html lang={lang} className="scroll-smooth">
       <head>
@@ -99,11 +101,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KDH8FQNP');`}
         </Script>
-        <HomeHeader params={params} />
+        <HomeHeader params={resolvedParams} />
         <main className="w-full bg-gray_itm_bg/40 text-black_itm">
           {children}
         </main>
-        <Footer params={params} />
+        <Footer params={resolvedParams} />
         <GoogleAnalytics gaId="AW-16880582497" />
         {/* Google tag (gtag.js) - AW-17979050212 */}
         <Script
