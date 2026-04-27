@@ -8,10 +8,6 @@ export default function TestimonyItem({
   setActiveSlide,
 }: any) {
   const isActive = activeSlide === index;
-  const centerClass =
-    'w-full max-w-[340px] shrink-0 z-20 scale-105 md:scale-110 transition-transform duration-300 ease-out flex items-stretch justify-center mx-2 md:mx-4 my-8 md:my-16';
-  const asideClass =
-    'w-full max-w-[300px] shrink-0 z-10 opacity-85 scale-95 transition-all duration-300 ease-out flex items-stretch justify-center mx-2 md:mx-3 my-10 md:my-20';
 
   return (
     <article
@@ -25,13 +21,15 @@ export default function TestimonyItem({
       role="button"
       tabIndex={0}
       aria-current={isActive ? 'true' : undefined}
-      className={`cursor-pointer rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-blue_itm_secondary focus-visible:ring-offset-2 ${
-        isActive ? centerClass : asideClass
+      className={`cursor-pointer rounded-2xl outline-none transition-all duration-500 ease-out focus-visible:ring-2 focus-visible:ring-blue_itm_secondary focus-visible:ring-offset-2 ${
+        isActive
+          ? 'scale-105 md:scale-110 opacity-100'
+          : 'scale-95 opacity-75'
       }`}
     >
       <div
-        className={`relative flex w-full flex-col rounded-2xl border border-gray-100 bg-white p-4 pt-0 shadow-lg md:p-5 md:pt-0 ${
-          isActive ? 'shadow-xl' : ''
+        className={`flex w-full flex-col rounded-2xl border border-gray-100 bg-white p-4 pt-0 transition-shadow duration-500 ease-out md:p-5 md:pt-0 ${
+          isActive ? 'shadow-xl' : 'shadow-lg'
         }`}
       >
         <div className="-mt-12 flex justify-center md:-mt-14">

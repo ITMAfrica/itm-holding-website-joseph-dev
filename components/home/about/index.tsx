@@ -3,17 +3,26 @@ import { getDictionary } from '@/get-dictionary';
 import ButtonOulined from '@/components/global/buttons/btn_outlined';
 import SectionTitle from '@/components/global/section_title';
 import AboutImagesDesign from './aboutImagesDesign';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { CODE, getCompanyProfilePdfPath, getCountryCode } from '@/helpers';
+import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
+  const pathname = usePathname();
   const dictionary: any = getDictionary(lang);
   const country: string = params.country;
   const code = getCountryCode(country);
   const data = dictionary?.[code]?.pages.home.about;
   const companyProfile = dictionary?.global?.companyProfile;
-  const companyProfileHref = getCompanyProfilePdfPath(country);
+  const pathCountry = useMemo(() => {
+    const seg = pathname.split('/').filter(Boolean)[1]?.toLowerCase();
+    return seg && COUNTRY_SITE_CODES.has(seg) ? seg : undefined;
+  }, [pathname]);
+  const companyProfileHref = getCompanyProfilePdfPath(
+    pathCountry ?? country
+  );
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
     fr: 'Congo Kinshasa',

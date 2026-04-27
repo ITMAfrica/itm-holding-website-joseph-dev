@@ -372,3 +372,25 @@
 .home-banner-swiper .swiper-pagination-bullet-active {
   background: #1238b9;
 }
+
+/* Testimonies Carousel */
+.testimonies-swiper {
+  overflow: visible;
+  padding: 2rem 0;
+}
+
+.testimonies-swiper .swiper-slide {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: auto;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.testimonies-swiper .swiper-slide-active {
+  z-index: 20;
+}
+
+.testimonies-swiper .swiper-slide:not(.swiper-slide-active) {
+  z-index: 10;
+}

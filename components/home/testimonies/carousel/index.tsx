@@ -1,28 +1,35 @@
 'use client';
+
 import { testimonies } from '@/lib/data';
-import { useCallback, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md';
-import Carousel from 'react-simply-carousel';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, A11y } from 'swiper/modules';
+import type { Swiper as SwiperType } from 'swiper';
+
+import 'swiper/css';
+
 import TestimonyItem from '../carouselItem';
 
 const overlayNavBtn =
-  'pointer-events-auto absolute z-40 top-1/2 h-11 w-11 -translate-y-1/2 rounded-full border border-gray-200 bg-white text-black_itm shadow-md transition-colors hover:border-gray-300 hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 inline-flex items-center justify-center';
+  'pointer-events-auto z-40 h-11 w-11 rounded-full border border-gray-200 bg-white text-black_itm shadow-md transition-colors duration-200 hover:border-gray-300 hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 inline-flex items-center justify-center';
 
 export default function TestimoniesCarousel() {
   const [activeSlide, setActiveSlide] = useState(0);
+  const swiperRef = useRef<SwiperType | null>(null);
   const count = testimonies.length;
 
   const goPrev = useCallback(() => {
     if (count <= 1) return;
-    setActiveSlide((i) => (i - 1 + count) % count);
+    swiperRef.current?.slidePrev();
   }, [count]);
 
   const goNext = useCallback(() => {
     if (count <= 1) return;
-    setActiveSlide((i) => (i + 1) % count);
+    swiperRef.current?.slideNext();
   }, [count]);
 
   return (
@@ -34,7 +41,7 @@ export default function TestimoniesCarousel() {
               type="button"
               aria-label="Previous testimonial"
               onClick={goPrev}
-              className={`${overlayNavBtn} left-1 md:left-2`}
+              className={`${overlayNavBtn} absolute left-1 top-1/2 -translate-y-1/2 md:left-2`}
             >
               <MdOutlineKeyboardArrowLeft className="text-xl" aria-hidden />
             </button>
@@ -42,57 +49,46 @@ export default function TestimoniesCarousel() {
               type="button"
               aria-label="Next testimonial"
               onClick={goNext}
-              className={`${overlayNavBtn} right-1 md:right-2`}
+              className={`${overlayNavBtn} absolute right-1 top-1/2 -translate-y-1/2 md:right-2`}
             >
               <MdOutlineKeyboardArrowRight className="text-xl" aria-hidden />
             </button>
           </>
         ) : null}
 
-        <Carousel
-          activeSlideIndex={activeSlide}
-          infinite={false}
-          hideNavIfAllVisible={false}
-          disableNavIfAllVisible={false}
-          backwardBtnProps={{ show: false }}
-          forwardBtnProps={{ show: false }}
-          containerProps={{
-            className: '!p-0 md:!px-2',
-            style: {
-              flex: 1,
-              alignItems: 'center',
-              alignContent: 'center',
+        <Swiper
+          modules={[Navigation, A11y]}
+          onSwiper={(swiper) => {
+            swiperRef.current = swiper;
+          }}
+          onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
+          spaceBetween={16}
+          slidesPerView={1}
+          speed={500}
+          centeredSlides={true}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 24,
+            },
+            1150: {
+              slidesPerView: 3,
+              spaceBetween: 32,
             },
           }}
-          onRequestChange={(index) => setActiveSlide(index)}
-          easing="ease-out"
-          responsiveProps={[
-            {
-              itemsToShow: 2,
-              itemsToScroll: 1,
-              minWidth: 768,
-            },
-            {
-              itemsToShow: 3,
-              itemsToScroll: 1,
-              minWidth: 1150,
-            },
-          ]}
-          itemsToShow={1}
-          itemsToScroll={1}
-          speed={480}
-          centerMode
+          className="testimonies-swiper"
         >
           {testimonies.map((item: any, index: number) => (
-            <TestimonyItem
-              item={item}
-              setActiveSlide={setActiveSlide}
-              index={index}
-              activeSlide={activeSlide}
-              key={`${item.name}-${index}`}
-            />
+            <SwiperSlide key={`${item.name}-${index}`}>
+              <TestimonyItem
+                item={item}
+                setActiveSlide={setActiveSlide}
+                index={index}
+                activeSlide={activeSlide}
+              />
+            </SwiperSlide>
           ))}
-        </Carousel>
+        </Swiper>
       </div>
 
       {count > 1 ? (
@@ -108,7 +104,7 @@ export default function TestimoniesCarousel() {
               role="tab"
               aria-selected={activeSlide === index}
               aria-label={`Go to testimonial ${index + 1}`}
-              onClick={() => setActiveSlide(index)}
+              onClick={() => swiperRef.current?.slideTo(index)}
               className={`h-2 rounded-full transition-all duration-300 ${
                 activeSlide === index
                   ? 'w-8 bg-blue_itm_aqua_marine'

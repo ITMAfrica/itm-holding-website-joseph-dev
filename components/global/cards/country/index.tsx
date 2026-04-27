@@ -4,8 +4,9 @@ import { useParams, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { GoTriangleDown } from 'react-icons/go';
-import { CODE, getCookie } from '@/helpers';
+import { CODE, getCookie, setCookie } from '@/helpers';
 import { entities } from '@/lib/data';
+import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
 import ModalCountryChoice from '@/components/global/modal/countryChoice';
 
 export default function CardCountry({ header = false }: { header?: boolean }) {
@@ -20,6 +21,10 @@ export default function CardCountry({ header = false }: { header?: boolean }) {
   }
 
   useEffect(() => {
+    const seg = pathname.split('/').filter(Boolean)[1]?.toLowerCase();
+    if (seg && COUNTRY_SITE_CODES.has(seg)) {
+      setCookie('country', seg);
+    }
     SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
   }, [paramsHooks, pathname]);
 

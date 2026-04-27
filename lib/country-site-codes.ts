@@ -1,0 +1,22 @@
+/** Second URL segment for country home pages: `/[lang]/[country]` (see `app/[lang]/[country]/page.tsx`). */
+export const COUNTRY_SITE_CODES = new Set([
+  'cd',
+  'tz',
+  'tg',
+  'ao',
+  'bj',
+  'bu',
+  'cg',
+  'cm',
+  'de',
+  'bi',
+  'gb',
+  'ke',
+  'ng',
+  'ug',
+  'za',
+  'zm',
+  'rw',
+  'ci',
+  'sn',
+]);

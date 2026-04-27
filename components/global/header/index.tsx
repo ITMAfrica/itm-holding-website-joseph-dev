@@ -9,7 +9,8 @@ import CardLang from '@/components/global/cards/lang';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
-import { CODE, getCookie } from '@/helpers';
+import { CODE, getCookie, setCookie } from '@/helpers';
+import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
 import CardLogo from '@/components/global/cards/logo';
 import CardCountry from '../cards/country';
 import { usePathname } from 'next/navigation';
@@ -30,7 +31,8 @@ export default function HomeHeader({ params }: propsPage) {
   const data: any = dictionary?.global?.header[CURRENT_CODE]
     ? dictionary?.global?.header[CURRENT_CODE]
     : dictionary?.global?.header[CODE];
-  const root = usePathname().split('/')[2];
+  const pathname = usePathname();
+  const root = pathname.split('/')[2];
 
   const [openNavigation, setOpenNavigation] = useState(false);
   const [scrollToBottom, setScrollToBottom] = useState(0);
@@ -47,9 +49,13 @@ export default function HomeHeader({ params }: propsPage) {
   }
   useEffect(
     function () {
+      const seg = pathname.split('/').filter(Boolean)[1]?.toLowerCase();
+      if (seg && COUNTRY_SITE_CODES.has(seg)) {
+        setCookie('country', seg);
+      }
       SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
     },
-    [lang]
+    [lang, pathname]
   );
 
   //Header animations

@@ -1,39 +1,15 @@
 import { readFile } from 'fs/promises';
 import { NextRequest, NextResponse } from 'next/server';
 import path from 'path';
-
-/** URL segments that map to a country home (see app/[lang]/[country]/page.tsx) */
-const COUNTRY_URL_CODES = new Set([
-  'cd',
-  'tz',
-  'tg',
-  'ao',
-  'bj',
-  'bu',
-  'cg',
-  'cm',
-  'de',
-  'bi',
-  'gb',
-  'ke',
-  'ng',
-  'ug',
-  'za',
-  'zm',
-  'rw',
-  'ci',
-  'sn',
-]);
+import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
 
 export const runtime = 'nodejs';
 
-/** Nigeria uses its own profile; all other country sites use the shared HR company profile. */
+/** Nigeria uses ITM Services Ltd profile; all other country sites use the shared HR company profile. */
 const NG_PROFILE = path.join(
   process.cwd(),
-  'public',
-  'documents',
-  'company-profiles',
-  'ng.pdf'
+  'companyprofile',
+  'ITM SERVICES LTD COMPANY PROFILE 1.pdf'
 );
 
 const HR_PROFILE = path.join(
@@ -61,7 +37,7 @@ export async function GET(
     .toLowerCase()
     .replace(/\.pdf$/i, '');
 
-  if (!/^[a-z]{2}$/.test(code) || !COUNTRY_URL_CODES.has(code)) {
+  if (!/^[a-z]{2}$/.test(code) || !COUNTRY_SITE_CODES.has(code)) {
     return new NextResponse('Not found', { status: 404 });
   }
 
