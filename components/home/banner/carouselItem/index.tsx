@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import image1 from '@/public/pages/home/banner/banner1.png';
-import image3 from '@/public/pages/home/banner/banner3.png';
-import image4 from '@/public/pages/home/banner/banner4.png';
+import image1 from '@/public/pages/home/banner/banner1.webp';
+import image3 from '@/public/pages/home/banner/banner3.webp';
+import image4 from '@/public/pages/home/banner/banner4.webp';
 import ButtonBg from '@/components/global/buttons/btn_bg';
 import { CODE, getCookie } from '@/helpers';
 import { useParams, usePathname } from 'next/navigation';

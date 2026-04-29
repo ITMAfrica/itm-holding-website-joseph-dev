@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import image1 from '@/public/pages/contact/contact2.png';
-import image2 from '@/public/pages/contact/contact1.jpg';
-import image3 from '@/public/pages/contact/contact3.png';
-import image4 from '@/public/pages/contact/contact4.png';
+import image1 from '@/public/pages/contact/contact2.webp';
+import image2 from '@/public/pages/contact/contact1.webp';
+import image3 from '@/public/pages/contact/contact3.webp';
+import image4 from '@/public/pages/contact/contact4.webp';
 import ContactPageForm from '../form';
 import { getDictionary } from '@/get-dictionary';
 
@@ -16,7 +16,7 @@ export default function ContactPageQuestionsSection({
   const data = dictionary.globalContent.pages.contact.formSection.infos;
   return (
     <section className="bg-white pb-10">
-      <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.png')]"></div>
+      <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.webp')]"></div>
       <section className="md:flex justify-around lg:w-10/12 w-11/12 mx-auto -translate-y-72 text-white md:h-[400px] h-[650px]">
         <div className="md:w-1/2">
           <h2 className="sm:text-5xl text-3xl font-bold">{data.title}</h2>

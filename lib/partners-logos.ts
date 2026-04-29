@@ -7,34 +7,34 @@
 import type { StaticImageData } from 'next/image';
 
 // Logos par défaut (hérités de l'implémentation initiale)
-import client1 from '@/public/pages/home/partners/client1.png';
-import client2 from '@/public/pages/home/partners/client2.png';
-import client3 from '@/public/pages/home/partners/client3.png';
-import client4 from '@/public/pages/home/partners/client4.png';
-import client5 from '@/public/pages/home/partners/client5.png';
-import client6 from '@/public/pages/home/partners/client6.png';
-import client7 from '@/public/pages/home/partners/client7.png';
-import client8 from '@/public/pages/home/partners/client8.png';
-import client9 from '@/public/pages/home/partners/client9.png';
-import client10 from '@/public/pages/home/partners/client10.png';
-import client11 from '@/public/pages/home/partners/client11.png';
-import client12 from '@/public/pages/home/partners/client12.png';
+import client1 from '@/public/pages/home/partners/client1.webp';
+import client2 from '@/public/pages/home/partners/client2.webp';
+import client3 from '@/public/pages/home/partners/client3.webp';
+import client4 from '@/public/pages/home/partners/client4.webp';
+import client5 from '@/public/pages/home/partners/client5.webp';
+import client6 from '@/public/pages/home/partners/client6.webp';
+import client7 from '@/public/pages/home/partners/client7.webp';
+import client8 from '@/public/pages/home/partners/client8.webp';
+import client9 from '@/public/pages/home/partners/client9.webp';
+import client10 from '@/public/pages/home/partners/client10.webp';
+import client11 from '@/public/pages/home/partners/client11.webp';
+import client12 from '@/public/pages/home/partners/client12.webp';
 
 // Logos spécifiques Tanzanie
-import tzImg1 from '@/public/pages/home/partners/tz/img1.png';
-import tzImg2 from '@/public/pages/home/partners/tz/img2.png';
-import tzImg3 from '@/public/pages/home/partners/tz/img3.png';
-import tzImg4 from '@/public/pages/home/partners/tz/img4.png';
-import tzImg5 from '@/public/pages/home/partners/tz/img5.png';
-import tzImg6 from '@/public/pages/home/partners/tz/img6.png';
-import tzImg7 from '@/public/pages/home/partners/tz/img7.png';
-import tzImg8 from '@/public/pages/home/partners/tz/img8.png';
-import tzImg9 from '@/public/pages/home/partners/tz/img9.png';
-import tzImg10 from '@/public/pages/home/partners/tz/img10.png';
-import tzImg11 from '@/public/pages/home/partners/tz/img11.png';
-import tzImg12 from '@/public/pages/home/partners/tz/img12.png';
-import tzImg13 from '@/public/pages/home/partners/tz/img13.png';
-import tzImg14 from '@/public/pages/home/partners/tz/img14.png';
+import tzImg1 from '@/public/pages/home/partners/tz/img1.webp';
+import tzImg2 from '@/public/pages/home/partners/tz/img2.webp';
+import tzImg3 from '@/public/pages/home/partners/tz/img3.webp';
+import tzImg4 from '@/public/pages/home/partners/tz/img4.webp';
+import tzImg5 from '@/public/pages/home/partners/tz/img5.webp';
+import tzImg6 from '@/public/pages/home/partners/tz/img6.webp';
+import tzImg7 from '@/public/pages/home/partners/tz/img7.webp';
+import tzImg8 from '@/public/pages/home/partners/tz/img8.webp';
+import tzImg9 from '@/public/pages/home/partners/tz/img9.webp';
+import tzImg10 from '@/public/pages/home/partners/tz/img10.webp';
+import tzImg11 from '@/public/pages/home/partners/tz/img11.webp';
+import tzImg12 from '@/public/pages/home/partners/tz/img12.webp';
+import tzImg13 from '@/public/pages/home/partners/tz/img13.webp';
+import tzImg14 from '@/public/pages/home/partners/tz/img14.webp';
 
 export type PartnerLogo = {
   src: StaticImageData;

@@ -1,10 +1,10 @@
 'use client';
 
 import Image from 'next/image';
-import image1 from '@/public/pages/contact/image1.png';
-import image2 from '@/public/pages/contact/image2.png';
-import image3 from '@/public/pages/contact/image3.png';
-import image4 from '@/public/pages/contact/image4.png';
+import image1 from '@/public/pages/contact/image1.webp';
+import image2 from '@/public/pages/contact/image2.webp';
+import image3 from '@/public/pages/contact/image3.webp';
+import image4 from '@/public/pages/contact/image4.webp';
 import { getDictionary } from '@/get-dictionary';
 import { CODE, getCountryCode } from '@/helpers';
 

@@ -33,8 +33,8 @@ export default function TestimoniesCarousel() {
   }, [count]);
 
   return (
-    <div className="w-full max-w-full overflow-hidden">
-      <div className="relative w-full min-h-[280px] md:min-h-[380px] py-4 md:py-8">
+    <div className="w-full max-w-full overflow-x-clip">
+      <div className="relative w-full min-h-[320px] py-4 md:min-h-[420px] md:py-8">
         {count > 1 ? (
           <>
             <button
@@ -62,6 +62,7 @@ export default function TestimoniesCarousel() {
             swiperRef.current = swiper;
           }}
           onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
+          rewind
           spaceBetween={16}
           slidesPerView={1}
           speed={500}

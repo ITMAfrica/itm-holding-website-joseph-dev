@@ -3,7 +3,7 @@
 import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/public/logos/HR.png';
+import logo from '@/public/logos/HR.webp';
 import { CODE, getCountryCode, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
 import { useState } from 'react';
 import NavLinkFooter from './navLink';

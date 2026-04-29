@@ -13,7 +13,7 @@ export default function AboutPageHoldingSection({ params }: { params: any }) {
   const data = dictionary.globalContent.pages.about.about;
   return (
     <section
-      className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10"
+      className="about-page-bg-aside bg-white bg-left bg-no-repeat py-10 lg:py-20"
       id="holding"
     >
       <div className="w-11/12 lg:w-10/12 flex flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse h-full mx-auto md:pb-20">

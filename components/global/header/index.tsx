@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
 import { dictionary, propsPage } from '@/types';
-import logo from '@/public/logos/logo_rdc.png';
+import logo from '@/public/logos/logo_rdc.webp';
 import NavLinkCard from '@/components/global/cards/navLink';
 import CardLang from '@/components/global/cards/lang';
 import Link from 'next/link';

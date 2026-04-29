@@ -4,7 +4,7 @@ import image3 from '@/public/pages/training/training3.png';
 
 export default function TrainingPageAbout({ params }: { params: any }) {
   return (
-    <section className="bg-white  bg-[url('../public/pages/about/bg_aside.png')] bg-left bg-no-repeat lg:py-20 py-10">
+    <section className="about-page-bg-aside bg-white bg-left bg-no-repeat py-10 lg:py-20">
       <div className="w-10/12 mx-auto">
         <div className="w-3/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
