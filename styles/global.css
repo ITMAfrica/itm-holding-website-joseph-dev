@@ -373,10 +373,14 @@
   background: #1238b9;
 }
 
-/* Testimonies Carousel */
-.testimonies-swiper {
+/* Testimonies Carousel — avatars use negative margin; beat Swiper’s .swiper { overflow: hidden } */
+.swiper.testimonies-swiper {
   overflow: visible;
-  padding: 2rem 0;
+  padding: 4rem 0 2rem;
+}
+
+.swiper.testimonies-swiper .swiper-wrapper {
+  overflow: visible;
 }
 
 .testimonies-swiper .swiper-slide {
@@ -393,4 +397,13 @@
 
 .testimonies-swiper .swiper-slide:not(.swiper-slide-active) {
   z-index: 10;
+}
+
+/* About / training: public assets; plain CSS so bundlers do not resolve url() as modules. */
+.about-page-banner-bg {
+  background-image: url('/pages/about/banner.webp');
+}
+
+.about-page-bg-aside {
+  background-image: url('/pages/about/bg_aside.webp');
 }
